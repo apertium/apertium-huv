@@ -1,0 +1,31 @@
+Alphabet
+
+a b c d e f g h i j k l m n o p q r s t u v w x y z ü 
+
+%{i%}:0 %{i%}:i 
+%{ː%}:a %{ː%}:e %{ː%}:i %{ː%}:o %{ː%}:u %{ː%}:ü %{ː%}:h
+%{a%}:a %{a%}:e
+
+%>:%> 
+
+;
+
+
+Sets 
+
+Vow = a e i o u ü  ; 
+Cns = d f g h j k l m n p q r s v w x z ;
+
+Rules 
+
+"Palatalización algo"
+%{i%}:0 <=> _ %>: .#. ; 
+            _ %>: Vow:+ Cns+ Vow:+ Cns+ ;
+
+
+"Vocales largas"
+%{ː%}:Vx <=> Vx _ ;
+        where Vx in ( a e i o u ü ) ;
+
+!"Aspiración"
+!%{ː%}:h <=> Vow _ Cns* %>: \.#. ;

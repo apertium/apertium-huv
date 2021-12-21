@@ -1,0 +1,473 @@
+Multichar_Symbols
+
+%<v%>
+%<det%>
+%<n%>
+%<np%>
+%<prn%>
+%<adj%>
+%<qst%>
+%<num%>
+%<adv%>
+%<pr%>
+
+
+%<tv%>
+%<iv%>
+
+%<pres%>
+%<past%>
+%<sub%>
+
+%<itg%>
+
+%<sg1%>
+%<sg2%>
+%<sg3%>
+%<du%>
+%<pl1%>
+%<pl2%>
+%<pl3%>
+
+%<in%>
+%<ex%>
+
+@U.AGR.SG1@
+@U.AGR.SG2@
+@U.AGR.SG3@
+@U.AGR.DU@
+@U.AGR.PL1IN@
+@U.AGR.PL1EX@
+@U.AGR.PL2@
+@U.AGR.PL3@
+
+@D.AGR@
+
+@U.TAM.PRES@
+@U.TAM.PAST@
+@U.TAM.SUBJ@
+
+%{a%}
+%{i%}
+%{ː%}
+
+LEXICON Root
+
+Prefixes ;
+Determinantes ;
+Sustantivos ;
+Adjetivos ;
+Pronombres ;
+Propios ; 
+Adverbios ; 
+Numeros ; 
+Conjunciones ;
+Preposiciones ;
+Símbolos ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON K
+
+%+a%<qst%>:%>%{a%} # ;
+               # ;
+
+LEXICON Prefixes
+
+Accidentes ;
+Posesivos ;
+
+LEXICON Posesivos 
+
+@U.AGR.SG1@%<px1sg%>:@U.AGR.SG1@xe%> Sustantivos ;
+@U.AGR.SG2@%<px2sg%>:@U.AGR.SG2@mi%> Sustantivos ;
+@U.AGR.SG3@%<px3sg%>:@U.AGR.SG3@mi%> Sustantivos ;
+@U.AGR.SG3@%<px3sg%>:@U.AGR.SG3@a%> Sustantivos ;
+@U.AGR.DU@%<pxdu%>:@U.AGR.DU@o%> Sustantivos ;
+@U.AGR.PL1EX@%<px1pl%>%<ex%>:@U.AGR.PL1EX@xe%> Sustantivos ;
+@U.AGR.PL1IN@%<px1pl%>%<in%>:@U.AGR.PL1IN@o%> Sustantivos ;
+@U.AGR.PL2@%<px2pl%>:@U.AGR.PL2@i%> Sustantivos ;
+
+LEXICON Accidentes 
+
+@U.AGR.SG1@@U.TAM.PRES@%<sg1%>%<pres%>:@U.AGR.SG1@@U.TAM.PRES@sa%> Verbos ;
+@U.AGR.SG2@@U.TAM.PRES@%<sg2%>%<pres%>:@U.AGR.SG2@@U.TAM.PRES@i%> Verbos ;
+@U.AGR.SG3@@U.TAM.PRES@%<sg3%>%<pres%>:@U.AGR.SG3@@U.TAM.PRES@a%> Verbos ;
+@U.AGR.DU@@U.TAM.PRES@%<du%>%<pres%>:@U.AGR.DU@@U.TAM.PRES@a%> Verbos ;
+@U.AGR.PL1EX@@U.TAM.PRES@%<pl1%>%<ex%>%<pres%>:@U.AGR.PL1EX@@U.TAM.PRES@sa%> Verbos ;
+@U.AGR.PL1IN@@U.TAM.PRES@%<pl1%>%<in%>%<pres%>:@U.AGR.PL1IN@@U.TAM.PRES@a%> Verbos ;
+@U.AGR.PL2@@U.TAM.PRES@%<pl2%>%<pres%>:@U.AGR.PL2@@U.TAM.PRES@i%> Verbos ;
+@U.AGR.PL3@@U.TAM.PRES@%<pl3%>%<pres%>:@U.AGR.PL3@@U.TAM.PRES@a%> Verbos ;
+
+
+@U.AGR.SG1@@U.TAM.PAST@%<sg1%>%<past%>:@U.AGR.SG1@@U.TAM.PAST@ta%> Verbos ;
+@U.AGR.SG2@@U.TAM.PAST@%<sg2%>%<past%>:@U.AGR.SG2@@U.TAM.PAST@te%> Verbos ;
+@U.AGR.SG3@@U.TAM.PAST@%<sg3%>%<past%>:@U.AGR.SG3@@U.TAM.PAST@ta%> Verbos ;
+@U.AGR.DU@@U.TAM.PAST@%<du%>%<past%>:@U.AGR.DU@@U.TAM.PAST@ta%> Verbos ;
+@U.AGR.PL1EX@@U.TAM.PAST@%<sg2%>%<past%>:@U.AGR.PL1EX@@U.TAM.PAST@ta%> Verbos ;
+@U.AGR.PL1IN@@U.TAM.PAST@%<sg2%>%<past%>:@U.AGR.PL1IN@@U.TAM.PAST@ta%> Verbos ;
+@U.AGR.PL2@@U.TAM.PAST@%<sg2%>%<past%>:@U.AGR.PL2@@U.TAM.PAST@te%> Verbos ;
+@U.AGR.PL3@@U.TAM.PAST@%<sg3%>%<past%>:@U.AGR.PL3@@U.TAM.PAST@ta%> Verbos ;
+
+@U.AGR.SG1@@U.TAM.SUBJ@%<sg1%>%<sub%>:@U.AGR.SG1@@U.TAM.SUBJ@na%> Verbos ;
+@U.AGR.SG2@@U.TAM.SUBJ@%<sg2%>%<sub%>:@U.AGR.SG2@@U.TAM.SUBJ@me%> Verbos ;
+@U.AGR.SG3@@U.TAM.SUBJ@%<sg3%>%<sub%>:@U.AGR.SG3@@U.TAM.SUBJ@ma%> Verbos ;
+
+
+LEXICON V-SUF 
+
+@U.AGR.SG1@@U.TAM.PRES@:@U.AGR.SG1@@U.TAM.PRES@%> # ;
+@U.AGR.SG2@@U.TAM.PRES@:@U.AGR.SG2@@U.TAM.PRES@%> # ;
+@U.AGR.SG3@@U.TAM.PRES@:@U.AGR.SG3@@U.TAM.PRES@%> # ;
+@U.AGR.DU@@U.TAM.PRES@:@U.AGR.DU@@U.TAM.PRES@%>ar # ;
+@U.AGR.PL1EX@@U.TAM.PRES@:@U.AGR.PL1EX@@U.TAM.PRES@%>an # ;
+@U.AGR.PL1IN@@U.TAM.PRES@:@U.AGR.PL1IN@@U.TAM.PRES@%>aac # ;
+@U.AGR.PL2@@U.TAM.PRES@:@U.AGR.PL2@@U.TAM.PRES@%>an # ;
+@U.AGR.PL3@@U.TAM.PRES@:@U.AGR.PL3@@U.TAM.PRES@%>üw # ;
+
+@U.AGR.SG1@@U.TAM.PAST@:@U.AGR.SG1@@U.TAM.PAST@%>as # ;
+@U.AGR.SG2@@U.TAM.PAST@:@U.AGR.SG2@@U.TAM.PAST@%> # ;
+@U.AGR.SG3@@U.TAM.PAST@:@U.AGR.SG3@@U.TAM.PAST@%> # ;
+@U.AGR.DU@@U.TAM.PAST@:@U.AGR.DU@@U.TAM.PAST@%>ar # ;
+@U.AGR.PL1EX@@U.TAM.PAST@:@U.AGR.PL1EX@@U.TAM.PAST@%>asan # ;
+@U.AGR.PL1IN@@U.TAM.PAST@:@U.AGR.PL1IN@@U.TAM.PAST@%>aac # ;
+@U.AGR.PL2@@U.TAM.PAST@:@U.AGR.PL2@@U.TAM.PAST@%>an # ;
+@U.AGR.PL3@@U.TAM.PAST@:@U.AGR.PL3@@U.TAM.PAST@%>üw # ;
+
+@U.AGR.SG1@@U.TAM.SUBJ@:@U.AGR.SG1@@U.TAM.SUBJ@ # ;
+@U.AGR.SG2@@U.TAM.SUBJ@:@U.AGR.SG2@@U.TAM.SUBJ@ # ;
+@U.AGR.SG3@@U.TAM.SUBJ@:@U.AGR.SG3@@U.TAM.SUBJ@ # ;
+
+LEXICON V-TV
+
+%<v%>%<tv%>: V-SUF ;
+
+LEXICON V-IV
+
+%<v%>%<iv%>: V-SUF ;
+
+
+LEXICON POSS 
+
+@U.AGR.SG1@:@U.AGR.SG1@ # ; 
+@U.AGR.SG2@:@U.AGR.SG2@ # ; 
+@U.AGR.SG3@:@U.AGR.SG3@ # ; 
+@U.AGR.DU@:@U.AGR.DU@%>iür # ; 
+@U.AGR.PL1EX@:@U.AGR.PL1EX@%>iün # ; 
+@U.AGR.PL1IN@:@U.AGR.PL1IN@%>iüc # ; 
+@U.AGR.PL2@:@U.AGR.PL2@%>iün # ; 
+
+LEXICON N 
+
+@D.AGR@%<n%>:@D.AGR@ K ;
+%<n%>: POSS ;
+
+LEXICON NP-ANT-M 
+
+%<np%>%<ant%>%<m%>: # ;
+
+LEXICON A 
+
+%<adj%>: K ; 
+
+LEXICON DET 
+
+%<det%>: # ;
+
+LEXICON NUM 
+
+%<num%>: # ; 
+
+LEXICON ADV 
+
+%<adv%>: K ;
+
+LEXICON ADV-ITG
+
+%<adv%>%<itg%>: # ;
+
+
+LEXICON PRON-ITG 
+
+%<prn%>%<itg%>: # ;
+
+LEXICON CS
+
+%<cnjsub%>: # ;
+
+LEXICON CC 
+
+%<cnjcoo%>: # ; 
+
+LEXICON PREP 
+
+%<pr%>: # ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Conjunciones
+
+mbich:mbich CC ; ! "pero"
+pero:pero CC ; ! "pero"
+pero:pere CC ; ! "pero"
+y:y CC ; ! "y"
+
+kos:kos CS ; ! "porque"
+wüx:wüx CS ; ! "cuando"
+
+LEXICON Preposiciones 
+
+tiül:tiül PREP ; ! "en"
+
+! COMPROBAR
+at:at PREP ; ! "como" 
+
+hasta:hasta PREP ;  ! "hasta"
+
+tiül%<pr%>%+:ti%> Sustantivos ; 
+
+LEXICON Pronombres
+
+xike%<prn%>%<pers%>%<sg1%>:xike # ; 
+ike%<prn%>%<pers%>%<sg2%>:ike # ; 
+nej%<prn%>%<pers%>%<sg3%>:nej # ; 
+ikora%<prn%>%<pers%>%<du%>:ikora # ; 
+ikootsa%<prn%>%<pers%>%<pl1%>%<ex%>:xikona # ; 
+ikootsa%<prn%>%<pers%>%<pl1%>%<in%>:ikootsa # ; 
+ikona%<prn%>%<pers%>%<pl2%>:ikona # ; 
+
+nejiw%<prn%>%<pers%>%<pl3%>:nejiw # ; 
+
+! objeto o notónicos?
+xike%<prn%>%<pers%>%<sg1%>%<obj%>:xik # ; 
+ike%<prn%>%<pers%>%<sg2%>%<obj%>:ik # ; 
+ikor%<prn%>%<pers%>%<du%>%<obj%>:ikor # ; 
+ikoots%<prn%>%<pers%>%<pl1%>%<ex%>%<obj%>:xikon # ; 
+ikoots%<prn%>%<pers%>%<pl1%>%<in%>%<obj%>:ikoots # ; 
+ikon%<prn%>%<pers%>%<pl2%>%<obj%>:ikon # ; 
+
+
+jan:jan PRON-ITG ; ! "quién"
+kwane:kwane PRON-ITG ; ! "qué"
+
+LEXICON Determinantes
+
+aaga:aaga DET ; ! "este"
+
+
+LEXICON Numeros 
+
+nop:nop NUM ; ! "uno"
+noik:noik NUM ; ! "uno" ! COMPROBAR
+ijpüw:ijpüw NUM ; ! "dos"
+
+LEXICON Sustantivos 
+
+iüm:iüm N ; ! "puerta"
+nden:nden N ; ! "casa"
+niüng:niüng N ; ! "casa"
+niiüg:niiüg N ; ! "ojo"
+teat:teat N ; ! "padre"
+yow:yow N ; ! "agua"
+pil:pil N ; ! "pozo"
+kiek:kiek N ; ! "pájaro"
+küet:küet N ; ! "pescado"
+taag:taag N ; ! "piel"
+xor:xor N ; ! "olla"
+kambaj:kambaj N ; ! "pueblo"
+korrül:korrül N ; ! "corral"
+tomiün:tomiün N ; ! "dinero, moneda"
+pet:pet N ; ! "perro"
+mal:mal N ; ! "cabeza"
+najiüt:najiüt N ; ! "trabajo"
+iüt:iüt N ; ! "tierra"
+xiül:xiül N ; ! "árbol"
+monandeow:monandeow N ; ! "enfermedad"
+plas:plas N ; ! "mercado"
+kwal:kwal N ; ! "hijo"
+müm:müm N ; ! "madre, abuela"
+nüt:nüt N ; ! "nombre"
+larraar:larraar N ; ! "calor"
+nine:nine N ; ! "niño"
+ombas:ombas N ; ! "cuerpo"
+tiiüd:tiiüd N ; ! "camino"
+nimal:nimal N ; ! "animal"
+dios:dios N ; ! "Dios"
+lam:lam N ; ! "río"
+nendeajndeaj:nendeajndeaj N ; ! "basura"
+nipilan:nipilan N ; ! "gente"
+
+kawüy:kawüy N ; ! "caballo"
+monxey:monxey N ; ! "hombre"
+piedra:piedra N ; ! "piedra"
+iünd:iünd N ; ! "aire"
+sap:sap N ; ! "borrego, algodón"
+mats:mats N ; ! "cama"
+onij:onij N ; ! "carne"
+opang:opang N ; ! "cáscara"
+miüs:miüs N ; ! "gato"
+aop:aop N ; ! "hoja"
+omb:omb N ; ! "huevo"
+
+onik:onik N ; ! "voz"
+kiej:kiej N ; ! "sangre"
+ndooch:ndooch N ; ! "cicatriz"
+soen:soen N ; ! "canto"
+püüig:püüig N ; ! "rama"
+jael:jael N ; ! "tela"
+neat:neat N ; ! "año"
+kwüch:kwüch N ; ! "gemelos"
+sow:sow N ; ! "puerco"
+najlok:najlok N ; ! "grano"
+jüm:jüm N ; ! "lagarto"
+wear:wear N ; ! "pájaro"
+win:win N ; ! "tortuga"
+wiiüd:wiiüd N ; ! "arena"
+ndek:ndek N ; ! "mar"
+mbas:mbas N ; ! "lado"
+loy:loy N ; ! "mariano"
+naleaing:naleaing N ; ! "verdad"
+
+kwalaats:kwalaats N ; ! "familia"
+
+nerraar:nerraar N ; ! "calor"
+
+! -aran (?)
+
+oleaj:oleaj N ; ! "pierna" 
+
+! Siempre poseído?
+
+leaj:leaj N ; ! "pierna"  
+
+kalüy:kalüy N ; ! "norte"
+kawak:kawak N ; ! "norte"
+nonüt:nonüt N ; ! "oriente"
+noleat:noleat N ; ! "poniente"
+
+seman:seman N ; ! "semana"
+
+vuelta:vuelta N ; ! "vuelta"
+ángel:ángel N ; ! "ángel"
+
+LEXICON Propios 
+
+Jesús:Jesús NP-ANT-M ; ! "Jesús"
+Pedro:Pedro NP-ANT-M ; ! "Pedro"
+Juan:Juan NP-ANT-M ; ! "Juan"
+Mateo:Mateo NP-ANT-M ; ! "Mateo"
+Moisés:Moisés NP-ANT-M ; ! "Moisés"
+
+
+LEXICON Adjetivos 
+
+nine:nine A ; ! "chico, pequeño"
+naxip:naxip A ; ! "gordo"
+nadam:nadam A ; ! "grande"
+miünkiaj:miünkiaj A ; ! "lejos"
+najneaj:najneaj A ; ! "bueno"
+
+LEXICON Adverbios 
+
+ngiane:ngiane ADV-ITG ; ! "dónde"
+ngüt:ngüt ADV-ITG ; ! "cuándo"
+ngow:ngow ADV-ITG ; ! "cuándo"
+neol:neol ADV-ITG ; ! "por qué"
+
+
+
+ngo:ngo ADV ; ! "no"
+
+tim:tim ADV ; ! "ayer"
+nganüy:nganüy ADV ; ! "ahora"
+kondom:kondom ADV ; ! "después"
+tepood:tepood ADV ; ! "anoche"
+tilüy:tilüy ADV ; ! "antes"
+
+kamüm:kamüm ADV ; ! "entonces"
+
+ningüy:ningüy ADV ; ! "aquí
+
+aton:aton ADV ; ! "también"
+atan:atan ADV ; ! "también" 
+alinomb:alinomb ADV ; ! "otra vez"
+
+atnej:atnej ADV ; ! "así"
+atkiaj:atkiaj ADV ; ! "así"
+
+miün:miün ADV ; ! "solamente"
+
+kam:kam ADV ; ! ""
+kiaj:kiaj ADV ; ! "allí, entonces"
+kiüj:kiüj ADV ; ! ""
+
+kon:kon ADV ; ! "tal vez"
+
+pares:pares ADV ; ! "por eso"
+pues:pues ADV ; ! "pues"
+más:más ADV ; ! "más"
+
+LEXICON Verbos 
+
+
+rang:rang V-TV ; ! "hacer"
+kooch:ko%{ː%}ch%{i%} V-TV ; ! "sacar"
+wün:wün V-TV ; ! "sacar"
+lik:lik%{i%} V-TV ; ! "regañar"
+ndaab:ndaab V-TV ; ! "quemar"
+jaw:jaw V-TV ; ! "ver"
+ngiay:ngiay V-TV ; ! "saber"
+ndiüm:ndiüm V-TV ; ! "querer"
+saj:saj V-TV ; ! "decir"
+yak:yak V-TV ; ! "echar"
+xaing:xaing V-TV ; ! "levantar"
+xom:xom V-TV ; ! "encontrar"
+omb:omb V-TV ; ! "poner"
+piüng:piüng V-TV ; ! "decir"
+tepeay:tepeay V-TV ; ! "saludar"
+
+
+ndeak:ndeak V-TV ; ! "hablar" 
+tsamb:tsamb V-TV ; ! "soltar"
+
+tich:tich V-IV ; ! "llegar"
+kül:kül V-IV ; ! "quedar"
+mb:mb V-IV ; ! "ir"
+meay:meay V-IV ; ! "dormir"
+peay:peay V-IV ; ! "llegar"
+w:w V-IV ; ! "subir"
+jtsor:jtsor V-IV ; ! "regresar"
+jtsop:jtsop V-IV ; ! "llegar"
+ndilil:ndilil V-IV ; ! "regresar"
+
+LEXICON Símbolos
+
+.%<sent%>:. # ;
+..%<sent%>:.. # ;
+...%<sent%>:... # ;
+%;%<sent%>:%; # ;
+%:%<sent%>:%: # ;
+%!%<sent%>:%! # ;
+%¡%<sent%>:%¡ # ;
+%-%<guio%>:%- # ;
+%—%<guio%>:%— # ;
+%―%<guio%>:%― # ;
+%–%<guio%>:%– # ;
+,%<cm%>:, # ;
+%?%<sent%>:%? # ;
+%¿%<lquest%>:%¿ # ;
+%"%<sent%>:%" # ;
+%«%<lquot%>:%« # ;
+%»%<rquot%>:%» # ;
+%”%<rquot%>:%” # ;
+%“%<lquot%>:%“ # ;
+%(%<lpar%>:%( # ;
+（%<lpar%>:（ # ;
+%]%<rpar%>:%] # ;
+%[%<lpar%>:%[ # ;
+%)%<rpar%>:%) # ;
+）%<rpar%>:） # ;
+\%<sent%>:\ # ;
+/%<sent%>:/ # ;
+…%<sent%>:… # ;
+
