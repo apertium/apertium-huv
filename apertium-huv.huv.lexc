@@ -430,6 +430,7 @@ tepeay:tepeay V-TV ; ! "saludar"
 ndeak:ndeak V-TV ; ! "hablar" 
 tsamb:tsamb V-TV ; ! "soltar"
 
+ndeow:ndeow V-IV ; ! "morir"
 tich:tich V-IV ; ! "llegar"
 kül:kül V-IV ; ! "quedar"
 mb:mb V-IV ; ! "ir"
