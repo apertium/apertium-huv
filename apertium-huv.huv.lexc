@@ -180,6 +180,10 @@ LEXICON V-TV
 LEXICON V-IV
 
 %<v%>%<iv%>: V-SUF ;
+%<v%>%<iv%>%<caus%>:%>üüch V-SUF ;
+%<v%>%<iv%>%<caus%>:%>iich V-SUF ;
+%<v%>%<iv%>%<caus%>:%>eech V-SUF ;
+%<v%>%<iv%>%<caus%>:%>aach V-SUF ;
 
 
 LEXICON POSS 
@@ -304,6 +308,7 @@ kwane:kwane PRON-ITG ; ! "qué"
 LEXICON Determinantes
 
 aaga:aaga DET ; ! "este"
+a:a DET ; ! ""
 
 
 LEXICON Numeros 
@@ -320,6 +325,8 @@ nden:nden N1 ; ! "casa"
 niüng:niüng N1 ; ! "casa"
 niiüg:niiüg N1 ; ! "ojo"
 teat:teat N3 ; ! "padre"
+teaats:teaats N1 ; ! "sacerdote"
+naxey:naxey N1 ; ! "señor"
 yow:yow N1 ; ! "agua"
 pil:pil N1 ; ! "pozo"
 kiek:kiek N1 ; ! "pájaro"
@@ -360,6 +367,7 @@ opang:opang N1 ; ! "cáscara"
 miüs:miüs N1 ; ! "gato"
 aop:aop N1 ; ! "hoja"
 omb:omb N1 ; ! "huevo"
+üs:üs N1 ; ! "maíz"
 
 onik:onik N1 ; ! "voz"
 kiej:kiej N1 ; ! "sangre"
@@ -379,6 +387,7 @@ ndek:ndek N1 ; ! "mar"
 mbas:mbas N1 ; ! "lado"
 loy:loy N1 ; ! "mariano"
 naleaing:naleaing N1 ; ! "verdad"
+nangaj:nangaj N1 ; ! "bendición"
 
 kwalaats:kwalaats N1 ; ! "familia"
 
@@ -399,9 +408,13 @@ nonüt:nonüt N1 ; ! "oriente"
 noleat:noleat N1 ; ! "poniente"
 
 seman:seman N1 ; ! "semana"
+vecin:vecin N1 ; ! "vecino"
 
 vuelta:vuelta N1 ; ! "vuelta"
 ángel:ángel N1 ; ! "ángel"
+amigo:amigo N1 ; ! "amigo"
+cielo:cielo N1 ; ! "cielo"
+nación:nación N1 ; ! "nación"
 
 LEXICON Propios 
 
@@ -473,8 +486,9 @@ ngüt:ngüt ADV-ITG ; ! "cuándo"
 ngow:ngow ADV-ITG ; ! "cuándo"
 neol:neol ADV-ITG ; ! "por qué"
 
+kawüx:kawüx ADV ; ! "arriba"
 
-
+nde:nde ADV ; ! "no"
 ngo:ngo ADV ; ! "no"
 ngom:ngom ADV ; ! "no"
 
@@ -534,6 +548,7 @@ pants:pants V-TV ; ! "freir"
 ngal:ngal V-TV ; ! "comprar"
 pow:pow V-TV ; ! "hornear"
 nganyow:nganyow V-TV ; ! "tomar"
+tep:tep V-TV ; ! "subir"
 
 ndeak:ndeak V-TV ; ! "hablar" 
 tsamb:tsamb V-TV ; ! "soltar"
@@ -546,10 +561,13 @@ mb:mb V-IV ; ! "ir"
 meay:meay V-IV ; ! "dormir"
 peay:peay V-IV ; ! "llegar"
 w:w V-IV ; ! "subir"
-jtsor:jtsor V-IV ; ! "regresar"
-jtsop:jtsop V-IV ; ! "llegar"
 ndilil:ndilil V-IV ; ! "regresar"
 xeep:xeep V-IV ; ! "bañarse"
+tang:tang V-IV ; ! "crecer"
+
+jtsor:jtsor V-IV ; ! "regresar"
+jtsop:jtsop V-IV ; ! "llegar"
+jrrok:jrrok V-IV ; ! "nadar"
 
 LEXICON Símbolos
 
