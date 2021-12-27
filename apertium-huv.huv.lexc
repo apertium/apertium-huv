@@ -17,7 +17,10 @@ Multichar_Symbols
 
 %<pres%>
 %<past%>
-%<sub%>
+%<subj%>
+%<punt%>
+
+%<caus%>
 
 %<itg%>
 
@@ -84,11 +87,13 @@ Posesivos ;
 
 LEXICON Posesivos 
 
+! p.42
+
 @U.AGR.SG1@%<px1sg%>:@U.AGR.SG1@xe%> Sustantivos ;
 @U.AGR.SG2@%<px2sg%>:@U.AGR.SG2@mi%> Sustantivos ;
 @U.AGR.SG3@%<px3sg%>:@U.AGR.SG3@mi%> Sustantivos ;
-@U.AGR.SG3@%<px3sg%>:@U.AGR.SG3@a%> Sustantivos ;
-@U.AGR.SG3@%<px3sg%>:@U.AGR.SG3@o%> Sustantivos ;
+@U.AGR.SG2@%<ps2sg%>:@U.AGR.SG2@i%> Sustantivos ;
+@U.AGR.SG3@%<ps3sg%>:@U.AGR.SG3@o%> Sustantivos ;
 @U.AGR.PL1EX@%<px1pl%>%<ex%>:@U.AGR.PL1EX@xe%> Sustantivos ;
 @U.AGR.PL1IN@%<px1pl%>%<in%>:@U.AGR.PL1IN@o%> Sustantivos ;
 @U.AGR.PL2@%<px2pl%>:@U.AGR.PL2@i%> Sustantivos ;
@@ -101,6 +106,26 @@ LEXICON Accidentes
 @U.TAM.IRRE@%<irre%>:@U.TAM.IRRE@    AGR-IRRE ;
 @U.TAM.SUBJ@%<subj%>:@U.TAM.SUBJ@    AGR-SUBJ ;
 @U.TAM.PRES@%<pres%>:@U.TAM.PRES@    AGR-PRES ;
+
+LEXICON AGR-SG3-DU-PL13
+
+@U.AGR.SG3@%<sg3%>:@U.AGR.SG3@a%> Verbos ;
+@U.AGR.DU@%<du%>:@U.AGR.DU@a%> Verbos ;
+@U.AGR.PL1EX@%<pl1%>%<ex%>:@U.AGR.PL1EX@a%> Verbos ;
+@U.AGR.PL1IN@%<pl1%>%<in%>:@U.AGR.PL1IN@a%> Verbos ;
+@U.AGR.PL3@%<pl3%>:@U.AGR.PL3@a%> Verbos ;
+
+LEXICON AGR-2
+
+@U.AGR.SG2@%<sg2%>:@U.AGR.SG2@e%> Verbos ;
+@U.AGR.PL2@%<sg2%>:@U.AGR.PL2@e%> Verbos ;
+
+LEXICON AGR
+
+@U.AGR.SG1@%<sg1%>:@U.AGR.SG1@a%> Verbos ;
+
+                                  AGR-2 ;
+                                  AGR-SG3-DU-PL13 ;
 
 LEXICON AGR-IRRE
 
@@ -128,22 +153,15 @@ LEXICON AGR-PRES
 @U.AGR.PL2@%<pl2%>:@U.AGR.PL2@i%> Verbos ;
 @U.AGR.PL3@%<pl3%>:@U.AGR.PL3@a%> Verbos ;
 
-LEXICON AGR
-
-@U.AGR.SG1@%<sg1%>:@U.AGR.SG1@a%> Verbos ;
-@U.AGR.SG2@%<sg2%>:@U.AGR.SG2@e%> Verbos ;
-@U.AGR.SG3@%<sg3%>:@U.AGR.SG3@a%> Verbos ;
-@U.AGR.DU@%<du%>:@U.AGR.DU@a%> Verbos ;
-@U.AGR.PL1EX@%<pl1%>%<ex%>:@U.AGR.PL1EX@a%> Verbos ;
-@U.AGR.PL1IN@%<pl1%>%<in%>:@U.AGR.PL1IN@a%> Verbos ;
-@U.AGR.PL2@%<sg2%>:@U.AGR.PL2@e%> Verbos ;
-@U.AGR.PL3@%<sg3%>:@U.AGR.PL3@a%> Verbos ;
-
 LEXICON AGR-SUBJ
 
 @U.AGR.SG1@%<sg1%>:@U.AGR.SG1@na%> Verbos ;
 @U.AGR.SG2@%<sg2%>:@U.AGR.SG2@me%> Verbos ;
 @U.AGR.SG3@%<sg3%>:@U.AGR.SG3@ma%> Verbos ;
+
+!LEXICON PASS 
+!
+!:%>%{j%} TV ;
 
 LEXICON V-PERS
 
@@ -151,6 +169,7 @@ LEXICON V-PERS
 @U.AGR.SG3@:@U.AGR.SG3@%> # ;
 @U.AGR.DU@:@U.AGR.DU@%>ar # ;
 @U.AGR.PL1IN@:@U.AGR.PL1IN@%>%{ü%}%{ü%}ts # ;
+@U.AGR.PL1EX@:@U.AGR.PL1EX@%>an # ;
 @U.AGR.PL2@:@U.AGR.PL2@%>an # ;
 @U.AGR.PL3@:@U.AGR.PL3@%>%{I%}w # ;
 
@@ -195,6 +214,7 @@ LEXICON POSS
 @U.AGR.PL1EX@:@U.AGR.PL1EX@%>iün # ; 
 @U.AGR.PL1IN@:@U.AGR.PL1IN@%>iüts # ; 
 @U.AGR.PL2@:@U.AGR.PL2@%>iün # ; 
+!@U.AGR.PL3@:@U.AGR.PL3@%>iün # ; 
 
 LEXICON N1 
 
@@ -214,7 +234,9 @@ LEXICON N3
 @D.AGR@%<n%>%<pl%>:@D.AGR@%>iw K ;
 %<n%>%<pl%>:%>iw POSS ;
 
+LEXICON N4
 
+%<n%>: POSS ;
 
 LEXICON NP-ANT-M 
 
@@ -308,7 +330,9 @@ kwane:kwane PRON-ITG ; ! "qué"
 LEXICON Determinantes
 
 aaga:aaga DET ; ! "este"
-a:a DET ; ! ""
+aaga:a DET ; ! ""
+aaga:aag DET ; ! ""
+aaga:e DET ; ! ""
 
 
 LEXICON Numeros 
@@ -398,14 +422,22 @@ nerraar:nerraar N1 ; ! "calor"
 leaj:leaj N2 ; ! "pierna" 
 wix:wix N2 ; ! "mano" 
 
+mbeay:mbeay N1 ; ! "boca"
+
 ! Siempre poseído?
 
 leaj:leaj N1 ; ! "pierna"  
+
+chep:chep N4 ; ! "muela"
+meaats:meaats N4 ; ! "corazón"
+
 
 kalüy:kalüy N1 ; ! "norte"
 kawak:kawak N1 ; ! "norte"
 nonüt:nonüt N1 ; ! "oriente"
 noleat:noleat N1 ; ! "poniente"
+
+monson:monson N1 ; ! "música"
 
 seman:seman N1 ; ! "semana"
 vecin:vecin N1 ; ! "vecino"
@@ -415,6 +447,8 @@ vuelta:vuelta N1 ; ! "vuelta"
 amigo:amigo N1 ; ! "amigo"
 cielo:cielo N1 ; ! "cielo"
 nación:nación N1 ; ! "nación"
+templo:templo N1 ; ! "templo"
+maestro:maestro N1 ; ! "maestro"
 
 LEXICON Propios 
 
@@ -422,6 +456,7 @@ Teon:Teon NP-ANT-M ; ! "Antonio"
 
 
 Jesús:Jesús NP-ANT-M ; ! "Jesús"
+Cristo:Cristo NP-ANT-M ; ! "Cristo"
 Pedro:Pedro NP-ANT-M ; ! "Pedro"
 Juan:Juan NP-ANT-M ; ! "Juan"
 Mateo:Mateo NP-ANT-M ; ! "Mateo"
@@ -522,7 +557,12 @@ pares:pares ADV ; ! "por eso"
 pues:pues ADV ; ! "pues"
 más:más ADV ; ! "más"
 
-LEXICON Verbos 
+LEXICON Verbos
+
+TV ;
+IV ;
+
+LEXICON TV
 
 üüch:üüch V-TV ; ! "dar"
 
@@ -549,9 +589,20 @@ ngal:ngal V-TV ; ! "comprar"
 pow:pow V-TV ; ! "hornear"
 nganyow:nganyow V-TV ; ! "tomar"
 tep:tep V-TV ; ! "subir"
+nüüp:nüüp V-TV ; ! "comprar"
+jier:jier V-TV ; ! "hacer"
+
+yamb:yamb V-TV ; ! "buscar"
 
 ndeak:ndeak V-TV ; ! "hablar" 
 tsamb:tsamb V-TV ; ! "soltar"
+
+jmbaj:jmbaj V-TV ; ! "romper"
+
+ndiem:ndiem V-TV ; ! "querer"
+üüt:üüt V-TV ; ! "comer"
+
+LEXICON IV
 
 mong:mong V-IV ; ! "gatear"
 ndeow:ndeow V-IV ; ! "morir"
@@ -568,6 +619,11 @@ tang:tang V-IV ; ! "crecer"
 jtsor:jtsor V-IV ; ! "regresar"
 jtsop:jtsop V-IV ; ! "llegar"
 jrrok:jrrok V-IV ; ! "nadar"
+jküy:jküy V-IV ; ! "enojarse"
+jiün:jiün V-IV ; ! "bailar"
+jchiky:jchiky V-IV ; ! "saltar"
+
+chip:chip V-IV ; ! ""
 
 LEXICON Símbolos
 
