@@ -4,9 +4,13 @@ a b c d e f g h i j k l m n o p q r s t u v w x y z ü
 
 %{i%}:0 %{i%}:i 
 %{ː%}:a %{ː%}:e %{ː%}:i %{ː%}:o %{ː%}:u %{ː%}:ü %{ː%}:h
-%{a%}:a %{a%}:e
+%{A%}:a %{A%}:e
+%{a%}:a %{a%}:0
 %{ü%}:ü %{ü%}:a
 %{I%}:i %{I%}:ü
+%{j%}:j %{j%}:0
+%{P%}:0
+%{V%}:a %{V%}:e %{V%}:i %{V%}:o %{V%}:ü 
 
 %>:%> 
 
@@ -36,3 +40,9 @@ Rules
 Vx:0 <=> %>: _ %>: Vy Vy ; 
      where Vx in ( i a ) 
            Vy in ( a e i o u ü ) ;
+
+"Pérdida de {a} antes de -a"
+%{a%}:0 <=> _ %>: a ; 
+
+"Pasivo"
+%{j%}:j <=> _ %>: [ Cns | Vow ]+ %>: %{P%}: ; 

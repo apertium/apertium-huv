@@ -49,7 +49,7 @@ for f in testf:
 		g_res = gene.lookup(row[1])
 
 		if g_res == (): 
-			print('!\t%s\t%s\t%s' % (row[1], row[2], g_res))
+			print('\t!\t%s\t%s\t%s' % (row[1], row[2], g_res))
 			err_g += 1
 			total_g += 1
 			continue
@@ -57,10 +57,10 @@ for f in testf:
 
 		for g_res_i in g_res:
 			if clean(g_res_i[0]) == row[2]: 
-				print('✔\t%s\t%s' % (row[1], clean(g_res_i[0])))
+				print('\t✔\t%s\t%s' % (row[1], clean(g_res_i[0])))
 				corr_g += 1
 			else: 	
-				print('-\t%s\t%s\t*%s' % (row[1], row[2], clean(g_res_i[0])))
+				print('\t-\t%s\t%s\t*%s' % (row[1], row[2], clean(g_res_i[0])))
 				err_g += 1
 			
 			total_g += 1
@@ -82,15 +82,16 @@ for f in testf:
 			if row[1] == clean(r[0]): found = True
 		
 		if found: 
-			print('✔\t%s\t%s' % (row[2], row[1]))
+			print('\t✔\t%s\t%s' % (row[2], row[1]))
 			corr_a += 1
 		else: 	
-			print('-\t%s\t%s\t%s' % (row[2], row[1], a_res))
+			print('\t-\t%s\t%s\t%s' % (row[2], row[1], a_res))
 			err_a += 1
 		
 		total_a += 1
 	
 	print('')
+	print('-'*80)
 
 
 corr = corr_g + corr_a

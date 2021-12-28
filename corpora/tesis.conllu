@@ -1,0 +1,12 @@
+# sent_id = tesis:1.20.1a
+# text = Teajaiich e karro teat Samuel.
+# text[orig] = teajaiich e karro teat Samuel
+# text[spa] = El señor Samuel está manejando el carro.
+# labels = complete Pow:60b
+1	Teajaiich	jay	VERB	_	Aspect=Prog|Number=Sing|Person=3|VerbForm=Fin|Voice=Caus	0	root	_	Gloss=PROG-3-manejar-CAUS
+2	e	e	DET	_	_	_	3	det	Gloss=DET
+3	karro	karro	NOUN	_	_	_	1	obj	Gloss=carro
+4	teat	teat	NOUN	_	_	_	5	clf	Gloss=señor
+5	Samuel	Samuel	PROPN	_	_	_	1	nsubj	Gloss=Samuel
+6	.	.	PUNCT	_	_	_	1	punct	Gloss=.
+
