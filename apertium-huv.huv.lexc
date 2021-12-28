@@ -61,6 +61,7 @@ Multichar_Symbols
 %{I%} ! i ü
 %{j%} ! j 0
 %{P%} ! 0
+%{R%} ! ⎈ 0
 
 %{V%} ! a ü o i e
 
@@ -110,6 +111,7 @@ LEXICON Posesivos
 @U.AGR.PL1EX@%<px1pl%>%<ex%>:@U.AGR.PL1EX@xe%> Sustantivos ;
 @U.AGR.PL1IN@%<px1pl%>%<in%>:@U.AGR.PL1IN@o%> Sustantivos ;
 @U.AGR.PL2@%<px2pl%>:@U.AGR.PL2@i%> Sustantivos ;
+@U.AGR.PL3@%<px3pl%>:@U.AGR.PL3@mi%> Sustantivos ;
 
 LEXICON Accidentes 
 
@@ -260,7 +262,7 @@ LEXICON V-SUF
 LEXICON V-TV
 
 %<v%>%<tv%>: V-SUF ;
-!%<v%>%<tv%>%<pass%>:%>%{P%} # ;
+%<v%>%<tv%>%<pass%>:%>%{P%} # ;
 
 LEXICON V-IV
 
@@ -280,7 +282,7 @@ LEXICON POSS
 @U.AGR.PL1EX@:@U.AGR.PL1EX@%>iün # ; 
 @U.AGR.PL1IN@:@U.AGR.PL1IN@%>iüts # ; 
 @U.AGR.PL2@:@U.AGR.PL2@%>iün # ; 
-!@U.AGR.PL3@:@U.AGR.PL3@%>iün # ; 
+@U.AGR.PL3@:@U.AGR.PL3@%>üw # ; 
 
 LEXICON N1 
 
@@ -368,6 +370,9 @@ LEXICON ADV-ITG
 
 %<adv%>%<itg%>: # ;
 
+LEXICON PRON-REL
+
+%<prn%>%<rel%>: K ;
 
 LEXICON PRON-ITG 
 
@@ -401,6 +406,7 @@ y:y CC ; ! "y"
 kos:kos CS ; ! "porque"
 wüx:wüx CS ; ! "cuando"
 para:para CS ; ! "para"
+sitiül:sitiül CS ; ! "si"
 
 LEXICON Preposiciones 
 
@@ -420,33 +426,35 @@ tiül%<pr%>%+:ti%> Sustantivos ;
 
 LEXICON Pronombres
 
-xike%<prn%>%<pers%>%<sg1%>:xike # ; 
-ike%<prn%>%<pers%>%<sg2%>:ike # ; 
-nej%<prn%>%<pers%>%<sg3%>:nej # ; 
-ikora%<prn%>%<pers%>%<du%>:ikora # ; 
-ikootsa%<prn%>%<pers%>%<pl1%>%<ex%>:xikona # ; 
-ikootsa%<prn%>%<pers%>%<pl1%>%<in%>:ikootsa # ; 
-ikona%<prn%>%<pers%>%<pl2%>:ikona # ; 
+xike%<prn%>%<pers%>%<sg1%>%<emph%>:xike # ; 
+ike%<prn%>%<pers%>%<sg2%>%<emph%>:ike # ; 
+ikora%<prn%>%<pers%>%<du%>%<emph%>:ikora # ; 
+ikootsa%<prn%>%<pers%>%<pl1%>%<ex%>%<emph%>:xikona # ; 
+ikootsa%<prn%>%<pers%>%<pl1%>%<in%>%<emph%>:ikootsa # ; 
+ikona%<prn%>%<pers%>%<pl2%>%<emph%>:ikona # ; 
 
+xike%<prn%>%<pers%>%<sg1%>:xik # ; 
+ike%<prn%>%<pers%>%<sg2%>:ik # ; 
+ikor%<prn%>%<pers%>%<du%>:ikor # ; 
+ikoots%<prn%>%<pers%>%<pl1%>%<ex%>:xikon # ; 
+ikoots%<prn%>%<pers%>%<pl1%>%<in%>:ikoots # ; 
+ikon%<prn%>%<pers%>%<pl2%>:ikon # ; 
+
+nej%<prn%>%<pers%>%<sg3%>:nej # ; 
 nejiw%<prn%>%<pers%>%<pl3%>:nejiw # ; 
 
-! objeto o notónicos?
-xike%<prn%>%<pers%>%<sg1%>%<obj%>:xik # ; 
-ike%<prn%>%<pers%>%<sg2%>%<obj%>:ik # ; 
-ikor%<prn%>%<pers%>%<du%>%<obj%>:ikor # ; 
-ikoots%<prn%>%<pers%>%<pl1%>%<ex%>%<obj%>:xikon # ; 
-ikoots%<prn%>%<pers%>%<pl1%>%<in%>%<obj%>:ikoots # ; 
-ikon%<prn%>%<pers%>%<pl2%>%<obj%>:ikon # ; 
-
-
 jan:jan PRON-ITG ; ! "quién"
+jan:jane PRON-ITG ; ! "quién" ! +A
 kwane:kwane PRON-ITG ; ! "qué"
+
+leaw:leaw PRON-REL ; ! "lo que"
 
 LEXICON Determinantes
 
 aaga:aaga DET ; ! "este"
 aaga:a DET ; ! ""
 aaga:aag DET ; ! ""
+aaga:áag DET ; ! ""
 aaga:e DET ; ! ""
 
 
@@ -665,7 +673,8 @@ mbójan:mbójan N1 ; ! "sonido cuando se golpea una cosa hueca o cuando una cosa
 mbol:mbol N1 ; ! "miedo"
 meay:meay N1 ; ! "pampanilla, taparrabo"
 mikiamb:mikiamb N1 ; ! "su mano iziquierda"
-mil:mil N1 ; ! "lisa"
+mil¹:mil N1 ; ! "lisa"
+mil²:mil N1 ; ! "mil"
 mimüman:mimüman N1 ; ! "madre desposo, suegra dmujer"
 minaj:minaj N1 ; ! "animal más grande entre sus companeros, animal que"
 minatang:minatang N1 ; ! "su líder, su jefe"
@@ -1077,6 +1086,9 @@ al%<cop%>%<loc%>:al # ;
 al%<cop%>%<loc%>%+wüx%<pr%>:al%>wüx K ; 
 al%<cop%>%<loc%>%+tiül%<pr%>:al%>tiül K ; 
 
+chük%<evid%>:chük # ;
+che%<evid%>:che # ;
+
 LEXICON Verbos
 
 TV ;
@@ -1115,7 +1127,7 @@ jier:jier V-TV ; ! "hacer"
 yamb:yamb V-TV ; ! "buscar"
 
 ndeak:ndeak V-TV ; ! "hablar" 
-tsamb:tsamb V-TV ; ! "soltar"
+tsamb:ts%{R%}amb V-TV ; ! "soltar"
 
 jmbaj:jmbaj V-TV ; ! "romper"
 

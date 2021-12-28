@@ -2,6 +2,8 @@ Alphabet
 
 a b c d e f g h i j k l m n o p q r s t u v w x y z ü 
 
+⎈
+
 %{i%}:0 %{i%}:i 
 %{ː%}:a %{ː%}:e %{ː%}:i %{ː%}:o %{ː%}:u %{ː%}:ü %{ː%}:h
 %{A%}:a %{A%}:e
@@ -10,6 +12,7 @@ a b c d e f g h i j k l m n o p q r s t u v w x y z ü
 %{I%}:i %{I%}:ü
 %{j%}:j %{j%}:0
 %{P%}:0
+%{R%}:0 %{R%}:⎈
 %{V%}:a %{V%}:e %{V%}:i %{V%}:o %{V%}:ü 
 
 %>:%> 
@@ -20,7 +23,7 @@ a b c d e f g h i j k l m n o p q r s t u v w x y z ü
 Sets 
 
 Vow = a e i o u ü  ; 
-Cns = d f g h j k l m n p q r s v w x z ;
+Cns = b d f g h j k l m n p q r s t v w x z ;
 
 Rules 
 
@@ -45,4 +48,7 @@ Vx:0 <=> %>: _ %>: Vy Vy ;
 %{a%}:0 <=> _ %>: a ; 
 
 "Pasivo"
-%{j%}:j <=> _ %>: [ Cns | Vow ]+ %>: %{P%}: ; 
+%{R%}:⎈ <=> _ [ Cns | Vow ]+ %>: %{P%}:0 ; 
+
+
+! a > t s {R}:⎈ a m b > {P}:0
