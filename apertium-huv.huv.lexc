@@ -145,6 +145,7 @@ LEXICON AGR-PUNT
 @U.AGR.DU1@%<du1%>:@U.AGR.DU1@a%> Verbos ;
 @U.AGR.PL1IN@%<pl1%>%<in%>:@U.AGR.PL1IN@ma%> Verbos ;
 @U.AGR.PL3@%<pl3%>:@U.AGR.PL3@a%> Verbos ;
+@U.AGR.PL3@%<pl3%>:@U.AGR.PL3@ma%> Verbos ;
 
 LEXICON AGR-PROG
 
@@ -463,6 +464,8 @@ tiül:tiül PREP ; ! "en"
 ! COMPROBAR
 at:at PREP ; ! "como" 
 wüx:wüx PREP ; ! "sobre" 
+naag:naag PREP ; ! "con"
+nikan:nikan PREP ; ! "al lado de"
 
 hasta:hasta PREP ;  ! "hasta"
 por:por PREP ;  ! "por"
@@ -516,6 +519,9 @@ LEXICON Numeros
 no:no NUM-NO ; ! "uno"
 ij:ij NUM-IJ ; ! "dos"
 ar:ar NUM-AR ; ! "tres"
+
+nimiow:nimiow NUM ; ! "veinte"
+miow:miow NUM ; ! "veinte"
 
 LEXICON Sustantivos 
 
@@ -1107,7 +1113,13 @@ alinoik:alinoik A ; ! "otro"
 pálwüx:pálwüx A ; ! "otro, aparte"
 meáwan:meáwan A ; ! "todo"
 
+matnej:matnej A ; ! "igual, mismo"
+
+nembeat:nembeat A ; ! "caro"
+
 netam:netam A ; ! "necesario"
+
+nomb:nomb A ; ! "primero"
 
 LEXICON Stativos
 
@@ -1127,15 +1139,21 @@ neol:neol ADV-ITG ; ! "por qué"
 ngineay:ngineay ADV-ITG ; ! "cómo"
 
 aweaag:aweaag ADV ; ! "con él/ella" !!! FIXME: Mo SS aweaag [ a-w′a:g ] con él, con ella│with him, with her
+anaag:anaag ADV ; ! Mo SS anaag [ a-na:g ] con él, con ella│with him, with her
 
 ayaj:ayaj ADV ; ! "allá" !!! FIXME: Mo SS aag ayaj [ a:g a-yah ] ése│that one
 
 kawüx:kawüx ADV ; ! "arriba"
 
+
+tanaámb:tanaámb ADV ; ! "continuamente"
+
 nde:nde ADV ; ! "no"
 ngo:ngo ADV ; ! "no"
 ngom:ngom ADV ; ! "no"
 ngwüy:ngwüy ADV ; ! "no"
+
+nomb:nomb ADV ; ! "al principio"
 
 oxep:oxep ADV ; ! "mañana"
 tim:tim ADV ; ! "ayer"
@@ -1191,6 +1209,9 @@ al%<cop%>%<loc%>%+tiül%<pr%>%+:al%>te%> Posesivos ;
 
 chük%<evid%>:chük # ;
 che%<evid%>:che # ;
+
+nasoik%<part%>:nasoik # ; ! Mo SS nasoik part [ na-sok′ ] llamado; dicho, le fue dicho
+alndom%<prog%>:alndom # ; ! Mo SS alndom part cont [ al′-nd-o-m ] está terminado, después│to be "nished; later
 
 LEXICON Verbos
 
@@ -1250,7 +1271,7 @@ jamiün:jamiün V-TV ; ! "traer"
 
 
 char:char V-TV ; ! "lo encima"
-cheed:cheed V-TV ; ! "lo desata"
+cheed:che%{ː%}d V-TV ; ! "lo desata"
 chej:chej V-TV ; ! "lo pide regalado; lo prohija"
 chen:chen V-TV ; ! "lo enciende; lo prende; lo remoja "
 chey:chey V-TV ; ! "lo sorbe"
@@ -1520,6 +1541,7 @@ xix:xix V-IV ; ! "chi$a "
 xix:xix V-IV ; ! "en$aquece"
 xood:xood V-IV ; ! "posa"
 
+jkan:jkan V-IV ; ! "es de la misma edad"
 
 
 LEXICON Interyecciones
