@@ -34,10 +34,12 @@ Rules
 
 "Vocales largas"
 %{ː%}:Vx <=> Vx _ ;
+        except 
+		Vow _ Cns+ %>: \.#. ;
         where Vx in ( a e i o u ü ) ;
 
-!"Aspiración"
-!%{ː%}:h <=> Vow _ Cns* %>: \.#. ;
+"Aspiración"
+%{ː%}:j <=> Vow _ Cns+ %>: \.#. ;
 
 "Pérdida de vocal de prefijo antes de vocal larga"
 Vx:0 <=> %>: _ %>: Vy Vy ; 
