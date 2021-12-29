@@ -443,6 +443,7 @@ y:y CC ; ! "y"
 kos:kos CS ; ! "porque"
 wüx:wüx CS ; ! "cuando"
 para:para CS ; ! "para"
+masey:masey CS ; ! "aunque"
 sitiül:sitiül CS ; ! "si"
 
 LEXICON Preposiciones 
@@ -504,6 +505,7 @@ ar:ar NUM-AR ; ! "tres"
 LEXICON Sustantivos 
 
 kweaj:kweaj N1 ; ! "cosa"
+meajts:meajts N1 ; ! "???"
 
 iüm:iüm N1 ; ! "puerta"
 nden:nden N1 ; ! "casa"
@@ -601,6 +603,7 @@ noleat:noleat N1 ; ! "poniente"
 monson:monson N1 ; ! "música"
 
 seman:seman N1 ; ! "semana"
+vin:vin N1 ; ! "vino"
 vecin:vecin N1 ; ! "vecino"
 
 espíritu:espíritu N1 ; ! "espíritu"
@@ -610,8 +613,12 @@ nación:nación N5 ; ! "nación"
 vuelta:vuelta N5 ; ! "vuelta"
 amigo:amigo N5 ; ! "amigo"
 cielo:cielo N5 ; ! "cielo"
+vinagre:vinagre N5 ; ! "vinagre"
+esponja:esponja N5 ; ! "esponja"
 cuerpo:cuerpo N5 ; ! "cuerpo"
 cuerpo:kwerpo N5 ; ! "cuerpo"
+casa:casa N5 ; ! "casa"
+casa:kasa N5 ; ! "casa"
 templo:templo N5 ; ! "templo"
 maestro:maestro N5 ; ! "maestro"
 fariseo:fariseo N5 ; ! "fariseo"
@@ -1117,6 +1124,9 @@ nganüy:nganüy ADV ; ! "ahora"
 kondom:kondom ADV ; ! "después"
 tepood:tepood ADV ; ! "anoche"
 tilüy:tilüy ADV ; ! "antes"
+ndoj:ndoj ADV ; ! "después"
+
+aliün:aliün ADV ; ! "todavía"
 
 kamüm:kamüm ADV ; ! "entonces"
 
@@ -1127,6 +1137,7 @@ xowüy:xowüy ADV ; ! "muchísimo"
 
 aton:aton ADV ; ! "también"
 atan:atan ADV ; ! "también" 
+atan:átan ADV ; ! "también" 
 alinomb:alinomb ADV ; ! "otra vez"
 
 atnej:atnej ADV ; ! "así"
