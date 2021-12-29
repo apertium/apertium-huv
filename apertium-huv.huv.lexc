@@ -27,7 +27,7 @@ Multichar_Symbols
 %<sg1%>
 %<sg2%>
 %<sg3%>
-%<du%>
+%<du1%>
 %<pl1%>
 %<pl2%>
 %<pl3%>
@@ -38,7 +38,7 @@ Multichar_Symbols
 @U.AGR.SG1@
 @U.AGR.SG2@
 @U.AGR.SG3@
-@U.AGR.DU@
+@U.AGR.DU1@
 @U.AGR.PL1IN@
 @U.AGR.PL1EX@
 @U.AGR.PL2@
@@ -98,11 +98,13 @@ Estatus ;
 LEXICON Estatus
 
 %<stat%>:n%> AGR-STAT ;
+%<punt%>%<stat%>:l%> AGR-STAT ;
 
 LEXICON Posesivos 
 
 ! p.42
 
+@U.AGR.SG1@%<px1sg%>:@U.AGR.SG1@xi%> Sustantivos ;
 @U.AGR.SG1@%<px1sg%>:@U.AGR.SG1@xe%> Sustantivos ;
 @U.AGR.SG2@%<px2sg%>:@U.AGR.SG2@mi%> Sustantivos ;
 @U.AGR.SG3@%<px3sg%>:@U.AGR.SG3@mi%> Sustantivos ;
@@ -112,15 +114,18 @@ LEXICON Posesivos
 @U.AGR.PL1IN@%<px1pl%>%<in%>:@U.AGR.PL1IN@o%> Sustantivos ;
 @U.AGR.PL2@%<px2pl%>:@U.AGR.PL2@i%> Sustantivos ;
 @U.AGR.PL3@%<px3pl%>:@U.AGR.PL3@mi%> Sustantivos ;
+@U.AGR.PL3@%<px3pl%>:@U.AGR.PL3@o%> Sustantivos ;
 
 LEXICON Accidentes 
 
 @U.TAM.PUNT@%<punt%>:@U.TAM.PUNT@l%{a%}%> AGR-PUNT ;
-@U.TAM.PAST@%<past%>:@U.TAM.PAST@t%> AGR;
+@U.TAM.PAST@%<past%>:@U.TAM.PAST@t%> AGR-PAST ;
 @U.TAM.PROG@%<prog%>:@U.TAM.PROG@te%{a%}%> AGR-PROG ;
 @U.TAM.IRRE@%<irre%>:@U.TAM.IRRE@    AGR-IRRE ;
 @U.TAM.SUBJ@%<subj%>:@U.TAM.SUBJ@    AGR-SUBJ ;
 @U.TAM.PRES@%<pres%>:@U.TAM.PRES@    AGR-PRES ;
+
+%<rel%>:na%> Verbos ; 
 
 LEXICON AGR-PUNT
 
@@ -134,7 +139,8 @@ LEXICON AGR-PUNT
 @U.AGR.PL2@%<pl2%>:@U.AGR.PL2@er%> Verbos ;
 
 @U.AGR.SG3@%<sg3%>:@U.AGR.SG3@a%> Verbos ;
-@U.AGR.DU@%<du%>:@U.AGR.DU@ma%> Verbos ;
+@U.AGR.DU1@%<du1%>:@U.AGR.DU1@ma%> Verbos ;
+@U.AGR.DU1@%<du1%>:@U.AGR.DU1@a%> Verbos ;
 @U.AGR.PL1IN@%<pl1%>%<in%>:@U.AGR.PL1IN@ma%> Verbos ;
 @U.AGR.PL3@%<pl3%>:@U.AGR.PL3@a%> Verbos ;
 
@@ -150,7 +156,7 @@ LEXICON AGR-PROG
 @U.AGR.PL2@%<pl2%>:@U.AGR.PL2@i%> Verbos ;
 
 @U.AGR.SG3@%<sg3%>:@U.AGR.SG3@a%> Verbos ;
-@U.AGR.DU@%<du%>:@U.AGR.DU@a%> Verbos ;
+@U.AGR.DU1@%<du1%>:@U.AGR.DU1@a%> Verbos ;
 @U.AGR.PL1IN@%<pl1%>%<in%>:@U.AGR.PL1IN@a%> Verbos ;
 @U.AGR.PL3@%<pl3%>:@U.AGR.PL3@a%> Verbos ;
 
@@ -158,19 +164,19 @@ LEXICON AGR-PROG
 LEXICON AGR-STAT
 
 @U.AGR.SG3@%<sg3%>:@U.AGR.SG3@a%> Stativos ;
-@U.AGR.DU@%<du%>:@U.AGR.DU@a%> Stativos ;
+@U.AGR.DU1@%<du1%>:@U.AGR.DU1@a%> Stativos ;
 @U.AGR.PL1EX@%<pl1%>%<ex%>:@U.AGR.PL1EX@a%> Stativos ;
 @U.AGR.PL1IN@%<pl1%>%<in%>:@U.AGR.PL1IN@a%> Stativos ;
 @U.AGR.PL3@%<pl3%>:@U.AGR.PL3@a%> Stativos ;
 
-@U.AGR.SG2@%<sg2%>:@U.AGR.SG2@e%> Stativos ;
-@U.AGR.PL2@%<pl2%>:@U.AGR.PL2@e%> Stativos ;
+@U.AGR.SG2@%<sg2%>:@U.AGR.SG2@er%> Stativos ;
+@U.AGR.PL2@%<pl2%>:@U.AGR.PL2@er%> Stativos ;
 
 
 LEXICON AGR-SG3-DU-PL13
 
 @U.AGR.SG3@%<sg3%>:@U.AGR.SG3@a%> Verbos ;
-@U.AGR.DU@%<du%>:@U.AGR.DU@a%> Verbos ;
+@U.AGR.DU1@%<du1%>:@U.AGR.DU1@a%> Verbos ;
 @U.AGR.PL1EX@%<pl1%>%<ex%>:@U.AGR.PL1EX@a%> Verbos ;
 @U.AGR.PL1IN@%<pl1%>%<in%>:@U.AGR.PL1IN@a%> Verbos ;
 @U.AGR.PL3@%<pl3%>:@U.AGR.PL3@a%> Verbos ;
@@ -180,12 +186,6 @@ LEXICON AGR-2
 @U.AGR.SG2@%<sg2%>:@U.AGR.SG2@e%> Verbos ;
 @U.AGR.PL2@%<pl2%>:@U.AGR.PL2@e%> Verbos ;
 
-LEXICON AGR
-
-@U.AGR.SG1@%<sg1%>:@U.AGR.SG1@a%> Verbos ;
-
-                                  AGR-2 ;
-                                  AGR-SG3-DU-PL13 ;
 
 LEXICON AGR-IRRE
 
@@ -195,7 +195,7 @@ LEXICON AGR-IRRE
 @U.AGR.SG2@%<dep%>%<sg2%>:@U.AGR.SG2@ap%>m%>i%> Verbos ;
 @U.AGR.SG2@%<dep%>%<sg2%>:@U.AGR.SG2@ap%>m%>e%> Verbos ;
 @U.AGR.SG3@%<dep%>%<sg3%>:@U.AGR.SG3@ap%>m%>a%> Verbos ;
-@U.AGR.DU@%<dep%>%<du%>:@U.AGR.DU@a%> Verbos ;
+@U.AGR.DU1@%<dep%>%<du1%>:@U.AGR.DU1@a%> Verbos ;
 @U.AGR.PL1EX@%<dep%>%<pl1%>%<ex%>:@U.AGR.PL1EX@sa%>na%> Verbos ;
 @U.AGR.PL1IN@%<pl1%>%<in%>:@U.AGR.PL1IN@ap%>m%>a%> Verbos ;
 @U.AGR.PL2@%<dep%>%<pl2%>:@U.AGR.PL2@ap%>m%>i%> Verbos ;
@@ -207,11 +207,25 @@ LEXICON AGR-PRES
 @U.AGR.SG1@%<sg1%>:@U.AGR.SG1@sa%> Verbos ;
 @U.AGR.SG2@%<sg2%>:@U.AGR.SG2@i%> Verbos ;
 @U.AGR.SG3@%<sg3%>:@U.AGR.SG3@a%> Verbos ;
-@U.AGR.DU@%<du%>:@U.AGR.DU@a%> Verbos ;
+@U.AGR.DU1@%<du1%>:@U.AGR.DU1@a%> Verbos ;
 @U.AGR.PL1EX@%<pl1%>%<ex%>:@U.AGR.PL1EX@sa%> Verbos ;
 @U.AGR.PL1IN@%<pl1%>%<in%>:@U.AGR.PL1IN@a%> Verbos ;
 @U.AGR.PL2@%<pl2%>:@U.AGR.PL2@i%> Verbos ;
 @U.AGR.PL3@%<pl3%>:@U.AGR.PL3@a%> Verbos ;
+
+LEXICON AGR-PAST
+
+@U.AGR.SG1@%<sg1%>:@U.AGR.SG1@a%> Verbos ;
+@U.AGR.SG2@%<sg2%>:@U.AGR.SG2@i%> Verbos ;
+@U.AGR.SG2@%<sg2%>:@U.AGR.SG2@e%> Verbos ;
+@U.AGR.SG3@%<sg3%>:@U.AGR.SG3@a%> Verbos ;
+@U.AGR.DU1@%<du1%>:@U.AGR.DU1@a%> Verbos ;
+@U.AGR.PL1EX@%<pl1%>%<ex%>:@U.AGR.PL1EX@a%> Verbos ;
+@U.AGR.PL1IN@%<pl1%>%<in%>:@U.AGR.PL1IN@a%> Verbos ;
+@U.AGR.PL2@%<pl2%>:@U.AGR.PL2@i%> Verbos ;
+@U.AGR.PL2@%<pl2%>:@U.AGR.PL2@e%> Verbos ;
+@U.AGR.PL3@%<pl3%>:@U.AGR.PL3@a%> Verbos ;
+
 
 
 LEXICON AGR-SUBJ
@@ -229,7 +243,7 @@ LEXICON V-PERS
 
 @U.AGR.SG2@:@U.AGR.SG2@%> # ;
 @U.AGR.SG3@:@U.AGR.SG3@%> # ;
-@U.AGR.DU@:@U.AGR.DU@%>%{V%}r # ;
+@U.AGR.DU1@:@U.AGR.DU1@%>%{V%}r # ;
 @U.AGR.PL1IN@:@U.AGR.PL1IN@%>%{V%}%{V%}ts # ;
 @U.AGR.PL1EX@:@U.AGR.PL1EX@%>%{V%}n # ;
 @U.AGR.PL2@:@U.AGR.PL2@%>%{V%}n # ;
@@ -262,7 +276,7 @@ LEXICON V-SUF
 LEXICON V-TV
 
 %<v%>%<tv%>: V-SUF ;
-%<v%>%<tv%>%<pass%>:%>%{P%} # ;
+!%<v%>%<tv%>%<pass%>:%>%{P%} # ;
 
 LEXICON V-IV
 
@@ -278,11 +292,12 @@ LEXICON POSS
 @U.AGR.SG1@:@U.AGR.SG1@ # ; 
 @U.AGR.SG2@:@U.AGR.SG2@ # ; 
 @U.AGR.SG3@:@U.AGR.SG3@ # ; 
-@U.AGR.DU@:@U.AGR.DU@%>iür # ; 
+@U.AGR.DU1@:@U.AGR.DU1@%>iür # ; 
 @U.AGR.PL1EX@:@U.AGR.PL1EX@%>iün # ; 
 @U.AGR.PL1IN@:@U.AGR.PL1IN@%>iüts # ; 
 @U.AGR.PL2@:@U.AGR.PL2@%>iün # ; 
 @U.AGR.PL3@:@U.AGR.PL3@%>üw # ; 
+@U.AGR.PL3@:@U.AGR.PL3@%>iw # ; 
 
 LEXICON N1 
 
@@ -342,10 +357,10 @@ LEXICON A-STAT-PERS
 @U.AGR.SG1@:@U.AGR.SG1@%> # ;
 @U.AGR.SG2@:@U.AGR.SG2@%> # ;
 @U.AGR.SG3@:@U.AGR.SG3@%> # ;
-@U.AGR.DU@:@U.AGR.DU@%>ar # ;
+@U.AGR.DU1@:@U.AGR.DU1@%>ar # ;
 @U.AGR.PL1IN@:@U.AGR.PL1IN@%>%{ü%}%{ü%}ts # ;
 @U.AGR.PL1EX@:@U.AGR.PL1EX@%>an # ;
-@U.AGR.PL2@:@U.AGR.PL2@%>an # ;
+@U.AGR.PL2@:@U.AGR.PL2@%>iün # ;
 @U.AGR.PL3@:@U.AGR.PL3@%>%{I%}w # ;
 
 
@@ -357,6 +372,28 @@ LEXICON A
 LEXICON DET 
 
 %<det%>: # ;
+
+LEXICON NUM-NO
+
+%<num%>%<c1%>:%>yky # ;
+%<num%>%<c1%>:%>ik # ;
+%<num%>%<c1%>:%>yk # ;
+%<num%>%<c2%>:%>p # ;
+%<num%>%<c3%>:%>ts # ;
+
+LEXICON NUM-IJ
+
+%<num%>%<c1%>:%>ky%>aw # ;
+%<num%>%<c1%>:%>ki%>aw # ;
+%<num%>%<c2%>:%>p%>üw # ;
+%<num%>%<c3%>:%>ts%>üw # ;
+
+LEXICON NUM-AR
+
+%<num%>%<c1%>:ej # ;
+%<num%>%<c2%>:oj%>p%>üw # ;
+%<num%>%<c3%>:oj%>ts%>üw # ;
+
 
 LEXICON NUM 
 
@@ -428,14 +465,14 @@ LEXICON Pronombres
 
 xike%<prn%>%<pers%>%<sg1%>%<emph%>:xike # ; 
 ike%<prn%>%<pers%>%<sg2%>%<emph%>:ike # ; 
-ikora%<prn%>%<pers%>%<du%>%<emph%>:ikora # ; 
+ikora%<prn%>%<pers%>%<du1%>%<emph%>:ikora # ; 
 ikootsa%<prn%>%<pers%>%<pl1%>%<ex%>%<emph%>:xikona # ; 
 ikootsa%<prn%>%<pers%>%<pl1%>%<in%>%<emph%>:ikootsa # ; 
 ikona%<prn%>%<pers%>%<pl2%>%<emph%>:ikona # ; 
 
 xike%<prn%>%<pers%>%<sg1%>:xik # ; 
 ike%<prn%>%<pers%>%<sg2%>:ik # ; 
-ikor%<prn%>%<pers%>%<du%>:ikor # ; 
+ikor%<prn%>%<pers%>%<du1%>:ikor # ; 
 ikoots%<prn%>%<pers%>%<pl1%>%<ex%>:xikon # ; 
 ikoots%<prn%>%<pers%>%<pl1%>%<in%>:ikoots # ; 
 ikon%<prn%>%<pers%>%<pl2%>:ikon # ; 
@@ -460,12 +497,13 @@ aaga:e DET ; ! ""
 
 LEXICON Numeros 
 
-no:no%>p NUM ; ! "uno"
-no:no%>ik NUM ; ! "uno" ! COMPROBAR
-no:no%>yky NUM ; ! "uno" ! COMPROBAR
-ijpüw:ijpüw NUM ; ! "dos"
+no:no NUM-NO ; ! "uno"
+ij:ij NUM-IJ ; ! "dos"
+ar:ar NUM-AR ; ! "tres"
 
 LEXICON Sustantivos 
+
+kweaj:kweaj N1 ; ! "cosa"
 
 iüm:iüm N1 ; ! "puerta"
 nden:nden N1 ; ! "casa"
@@ -1032,10 +1070,30 @@ miünkiaj:miünkiaj A ; ! "lejos"
 najneaj:najneaj A ; ! "bueno"
 ndeanche:ndeanche A ; ! "pinche"
 
+maril:maril A ; ! "amarillo"
+tekech:tekech A ; ! "corto"
+tirip:tirip A ; ! "ancho de terrenos"
+oxtet:oxtet A ; ! "ancho de telas"
+jayats:jayats A ; ! "nuevo"
+rran:rran A ; ! "blanco"
+pyets:pyets A ; ! "amarillo"
+karakol:karakol A ; ! "morado"
+asul:asul A ; ! "azul"
+perex:perex A ; ! "tostado"
+
+alinop:alinop A ; ! "otro"
+alinoik:alinoik A ; ! "otro"
+meáwan:meáwan A ; ! "todo"
+
+netam:netam A ; ! "necesario"
+
 LEXICON Stativos
 
 xip:xip A-STAT ; ! "gordo"
 dam:dam A-STAT ; ! "grande"
+kants:kants A-STAT ; ! "rojo"
+waak:waak A-STAT ; ! "seco"
+pat:pat A-STAT ; ! "bravo"
 
 LEXICON Adverbios 
 
@@ -1043,6 +1101,9 @@ ngiane:ngiane ADV-ITG ; ! "dónde"
 ngüt:ngüt ADV-ITG ; ! "cuándo"
 ngow:ngow ADV-ITG ; ! "cuándo"
 neol:neol ADV-ITG ; ! "por qué"
+ngineay:ngineay ADV-ITG ; ! "cómo"
+
+ayaj:ayaj ADV ; ! "allá" !!! FIXME: Mo SS aag ayaj [ a:g a-yah ] ése│that one
 
 kawüx:kawüx ADV ; ! "arriba"
 
@@ -1061,6 +1122,9 @@ kamüm:kamüm ADV ; ! "entonces"
 
 ningüy:ningüy ADV ; ! "aquí
 
+xeyay:xeyay ADV ; ! "bastante"
+xowüy:xowüy ADV ; ! "muchísimo"
+
 aton:aton ADV ; ! "también"
 atan:atan ADV ; ! "también" 
 alinomb:alinomb ADV ; ! "otra vez"
@@ -1074,6 +1138,8 @@ kam:kam ADV ; ! ""
 kiaj:kiaj ADV ; ! "allí, entonces"
 kiüj:kiüj ADV ; ! ""
 
+tiüt:tiüt ADV ; ! "abajo"
+
 kon:kon ADV ; ! "tal vez"
 
 pares:pares ADV ; ! "por eso"
@@ -1085,6 +1151,8 @@ LEXICON Miscellanea
 al%<cop%>%<loc%>:al # ; 
 al%<cop%>%<loc%>%+wüx%<pr%>:al%>wüx K ; 
 al%<cop%>%<loc%>%+tiül%<pr%>:al%>tiül K ; 
+al%<cop%>%<loc%>%+kiaj%<adv%>:al%>kiaj K ; 
+al%<cop%>%<loc%>%+tiüt%<adv%>:al%>tiüt K ; 
 
 chük%<evid%>:chük # ;
 che%<evid%>:che # ;
@@ -1107,11 +1175,12 @@ jaw:jaw V-TV ; ! "ver"
 ngiay:ngiay V-TV ; ! "saber"
 ndiüm:ndiüm V-TV ; ! "querer"
 saj:saj V-TV ; ! "decir"
+piüng:piüng V-TV ; ! "decir"
+soyky:soyky V-TV ; ! "decir"
 yak:yak V-TV ; ! "echar"
 xaing:xaing V-TV ; ! "levantar"
 xom:xom V-TV ; ! "encontrar"
 omb:omb V-TV ; ! "poner"
-piüng:piüng V-TV ; ! "decir"
 tepeay:tepeay V-TV ; ! "saludar"
 kweat:kweat V-TV ; ! "dejar"
 sap:sap V-TV ; ! "agarrar"
@@ -1127,6 +1196,7 @@ jier:jier V-TV ; ! "hacer"
 yamb:yamb V-TV ; ! "buscar"
 
 ndeak:ndeak V-TV ; ! "hablar" 
+ndeak:ndyak V-TV ; ! "hablar" 
 tsamb:ts%{R%}amb V-TV ; ! "soltar"
 
 jmbaj:jmbaj V-TV ; ! "romper"

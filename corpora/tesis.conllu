@@ -10,3 +10,15 @@
 5	Samuel	Samuel	PROPN	_	_	_	1	nsubj	Gloss=Samuel
 6	.	.	PUNCT	_	_	_	1	punct	Gloss=.
 
+
+# sent_id = tesis:1.31.12
+# text = Tandeow aaga nine pet.
+# text[orig] = tandeow aaga napat pet
+# text[spa] = El perrito se murió.
+# labels = complete RC
+1	Tandeow	ndeow	VERB	_	Aspect=Perf|Number=Sing|Person=3|VerbForm=Fin	0	root	_	Gloss=COMPL-3-morir
+2	aaga	aaga	DET	_	_	4	det	_	Gloss=DET
+3	nine	nine	ADJ	_	_	4	amod	_	Gloss=pequeño
+4	pet	pet	NOUN	_	_	1	nsubj	_	Gloss=perro
+5	.	.	PUNCT	_	_	1	punct	_	Gloss=.
+

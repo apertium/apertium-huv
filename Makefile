@@ -6,6 +6,7 @@ all:
 	hfst-compose-intersect -1 huv.lexc.hfst -2 huv.twol.hfst | hfst-compose-intersect -1 - -2 huv.mor.twol.hfst | hfst-substitute -f '0:⎈' -T ra.hfst -i - -o huv.gen.hfst
 	hfst-invert huv.gen.hfst | hfst-fst2fst -w -o huv.automorf.hfst 
 	hfst-fst2fst -w -i huv.gen.hfst -o huv.autogen.hfst 
+	apertium-gen-modes modes.xml
 
 clean:
 	rm *.hfst
