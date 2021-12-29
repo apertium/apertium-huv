@@ -47,7 +47,7 @@ Vx:0 <=> %>: _ %>: Vy Vy ;
            Vy in ( a e i o u ü ) ;
 
 "Pérdida de {a} antes de -a"
-%{a%}:0 <=> _ %>: a ; 
+%{a%}:0 <=> _ %>: Vow ; 
 
 "Pasivo"
 %{R%}:⎈ <=> _ [ Cns | Vow ]+ %>: %{P%}:0 ; 
