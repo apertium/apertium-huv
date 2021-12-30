@@ -536,7 +536,6 @@ aaga:e DET ; ! ""
 
 ngün:ngün DET ; ! "cuál"
 
-alakas:alakas DET ; ! "algunos más"
 
 LEXICON Numeros 
 
@@ -1139,6 +1138,17 @@ alinop:alinop A ; ! "otro"
 alinoik:alinoik A ; ! "otro"
 pálwüx:pálwüx A ; ! "otro, aparte"
 meáwan:meáwan A ; ! "todo"
+pal:pal A ; ! "todo"
+alakas:alakas A ; ! "algunos más"
+akas:akas A ; ! "algunos"
+palǘyan:palǘyan A ; ! "puro"
+tigüy:tigüy A ; ! "poco"
+tegüy:tegüy A ; ! "poco"
+xeyay:xeyay A ; ! "mucho"
+xowüy:xowüy A ; ! "mucho"
+
+alngün:alngün A ; ! "algunos"
+merrey:merrey A ; ! "mero"
 
 matnej:matnej A ; ! "igual, mismo"
 
