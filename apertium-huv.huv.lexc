@@ -311,8 +311,8 @@ LEXICON POSS
 @U.AGR.PL1IN@:@U.AGR.PL1IN@%>iiüts K ; 
 @U.AGR.PL2@:@U.AGR.PL2@%>iün K ; 
 @U.AGR.PL2@:@U.AGR.PL2@%>an K ; 
-@U.AGR.PL3@:@U.AGR.PL3@%>üw K ; 
-@U.AGR.PL3@:@U.AGR.PL3@%>iw K ; 
+@U.AGR.PL3@:@U.AGR.PL3@%>%{V%}w K ; 
+@U.AGR.PL3@:@U.AGR.PL3@%>i%{V%}w K ; 
 
 LEXICON N1 
 
@@ -330,8 +330,10 @@ LEXICON N3
 
 @D.AGR@%<n%>:@D.AGR@ K ;
 %<n%>: POSS ;
-@D.AGR@%<n%>%<pl%>:@D.AGR@%>iw K ;
-%<n%>%<pl%>:%>iw POSS ;
+@D.AGR@%<n%>%<pl%>:@D.AGR@%>%{V%}w K ;
+@D.AGR@%<n%>%<pl%>:@D.AGR@%>i%{V%}w K ;
+%<n%>%<pl%>:%>%{V%}w POSS ;
+%<n%>%<pl%>:%>i%{V%}w POSS ;
 
 LEXICON N4
 
@@ -540,6 +542,7 @@ kwajantanej:kwajantanej PRON-IND ; ! "cualquier cosa"
 aljane:aljane PRON-IND ; ! "alguien"
 nikwajind:nikwajind PRON-IND ; ! "nada"
 nejingind:nejingind PRON-IND ; ! "ninguno, nadie"
+nejingind:nejinguind PRON-IND ; ! "ninguno, nadie"
 jangantanej:jangantanej PRON-IND ; ! "cualquiera, quienquiera"
 aleaik:aleaik PRON-IND ; ! "alguna cosa, algo"
 ngünantanej:ngünantanej PRON-IND ; ! "cualquier cosa"
@@ -596,7 +599,6 @@ iüm:iüm N1 ; ! "puerta"
 nden:nden N1 ; ! "casa"
 niüng:niüng N1 ; ! "casa"
 niiüg:niiüg N1 ; ! "ojo"
-teat:teat N3 ; ! "padre"
 teaats:tea%{ː%}ts N1 ; ! "sacerdote"
 naxey:naxey N1 ; ! "señor"
 yow:yow N1 ; ! "agua"
@@ -610,9 +612,6 @@ korrül:korrül N1 ; ! "corral"
 tomiün:tomiün N1 ; ! "dinero, moneda"
 pet:pet N1 ; ! "perro"
 mal:mal N1 ; ! "cabeza"
-najiüt:najiüt N1 ; ! "trabajo"
-%<sg%>najiüt%<n%>:ne%>najiüt # ; ! "autoridades"
-%<pl%>najiüt%<n%>:mo%>najiüt # ; ! "autoridades"
 iüt:iüt N1 ; ! "tierra"
 xiül:xiül N1 ; ! "árbol"
 monandeow:monandeow N1 ; ! "enfermedad"
@@ -772,7 +771,6 @@ kiripite:kiripite N1 ; ! "poquito"
 kit:kit N1 ; ! "gal ina"
 koet:koet N1 ; ! "cerco, muro"
 koex:koex N1 ; ! "inválido, cojo"
-koj:koj N1 ; ! "hermano o hermana mayor"
 kos:kos N1 ; ! "paludismo"
 kow:kow N1 ; ! "metate"
 kün:kün N1 ; ! "abeja"
@@ -866,7 +864,7 @@ natajtaj:natajtaj N1 ; ! "anciana, viejita"
 natsaramb:natsaramb N1 ; ! "comida, comestible"
 natsoj:natsoj N1 ; ! "peleador, jugador"
 natsünderan:natsünderan N1 ; ! "instrumental musical"
-naw:naw N1 ; ! "originario, es de"
+
 nawaag:nawa%{ː%}g N1 ; ! "seco"
 nawiig:nawi%{ː%}g N1 ; ! "papel; libro"
 naxiül:naxiül N1 ; ! "milpa, maíz"
@@ -1035,7 +1033,19 @@ xiüm:xiüm N1 ; ! "chapulín verde"
 xiüt:xiüt N1 ; ! "mecahilo, cordón; vena"
 xix:xix N1 ; ! "mosquito, mosco chico"
 
-chiig:chi%{ː%}g N1 ; ! "hermano menor"
+teat:teat N3 ; ! "padre"
+koj:koj N3 ; ! "hermano o hermana mayor"
+chiig:chi%{ː%}g N3 ; ! "hermano menor"
+
+najiüt:najiüt N1 ; ! "trabajo"
+%<sg%>najiüt%<n%>:ne%>najiüt # ; ! "autoridades"
+%<pl%>najiüt%<n%>:mo%>najiüt # ; ! "autoridades"
+naw:naw N1 ; ! "originario, es de"
+%<pl%>naw%<n%>:mo%>naw # ; ! "originarios de"
+%<sg%>natang%<n%>:na%>tang # ; 
+%<sg%>natangtang%<n%>:na%>tang%>tang # ; 
+%<pl%>natang%<n%>:mon%>tang # ; 
+%<pl%>natangtang%<n%>:mon%>tang%>tang # ; 
 
 LEXICON Propios 
 
@@ -1199,6 +1209,8 @@ netam:netam A ; ! "necesario"
 
 nomb:nomb A ; ! "primero"
 
+tanomb:tanomb A ; ! "antiguo"
+
 LEXICON Stativos
 
 xip:xip A-STAT ; ! "gordo"
@@ -1226,6 +1238,10 @@ kawüx:kawüx ADV ; ! "arriba"
 nóikian:nóikian ADV ; ! "juntamente"
 
 tanaámb:tanaámb ADV ; ! "continuamente"
+
+tanomb:tanomb ADV ; ! "antiguamente"
+
+nómban:nómban ADV ; ! "de una vez"
 
 nde:nde ADV ; ! "no"
 ngo:ngo ADV ; ! "no"
@@ -1299,8 +1315,11 @@ nasoik%<part%>:nasoik # ; ! Mo SS nasoik part [ na-sok′ ] llamado; dicho, le f
 alndom%<prog%>:alndom # ; ! Mo SS alndom part cont [ al′-nd-o-m ] está terminado, después│to be "nished; later
 ndot%<part%>:ndot # ; ! Mo SS ndot conj; part [ nd-o-t ] ¿ qué tal si ... ? si; pudo saber│what if, if; could (knew how to)
 nenüt%<part%>:nenüt # ; ! Mo SS nenüt part llamado, se llama│named, to have the name of
+ndom%<part%>:ndom # ; ! Mo SS ndom vr O [ nd-o-m ] se puede│to be able, it is possible
+ngo%<adv%>%+ndom%<part%>:ngo%>ndom # ;
 
 %<pres%>%<sg3%>saj%<v%>%<tv%>:aj # ;
+%<pres%>%<pl3%>saj%<v%>%<tv%>:ajüw # ;
 
 LEXICON Verbos
 
@@ -1523,6 +1542,8 @@ yaag:yaag V-TV ; ! "lo siente"
 yar:yar V-TV ; ! "lo agarrar; lo trae; se apropia"
 pak:pak V-TV ; ! "???"
 mong:mong V-TV ; ! "gatear"
+
+kiiüb:kiiüb V-TV ; ! "acompañar"
 
 LEXICON IV
 
