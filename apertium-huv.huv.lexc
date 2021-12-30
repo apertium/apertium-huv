@@ -130,6 +130,7 @@ LEXICON Accidentes
 @U.TAM.PRES@%<pres%>:@U.TAM.PRES@    AGR-PRES ;
 
 %<rel%>:na%> Verbos ; 
+%<subst%>%<sg%>:ne%> Verbos ; 
 %<subst%>%<pl%>:mo%{n%}%> Verbos ; 
 
 LEXICON AGR-PUNT
@@ -310,13 +311,13 @@ LEXICON N1
 
 @D.AGR@%<n%>:@D.AGR@ K ;
 %<n%>: POSS ;
-@U.AGR.SG3@%<alien%>:@U.AGR.SG3@%>aran # ;
+@U.AGR.SG3@%<n%>%<alien%>:@U.AGR.SG3@%>aran # ;
 
 LEXICON N2
 
 @D.AGR@%<n%>:@D.AGR@ K ;
 %<n%>: POSS ;
-@U.AGR.SG3@%<alien%>:@U.AGR.SG3@%>aran # ;
+@U.AGR.SG3@%<n%>%<alien%>:@U.AGR.SG3@%>aran # ;
 
 LEXICON N3
 
@@ -1227,6 +1228,11 @@ miün:miün ADV ; ! "solamente"
 kam:kam ADV ; ! ""
 kiaj:kiaj ADV ; ! "allí, entonces"
 kiüj:kiüj ADV ; ! ""
+
+! Mo SS aag agüy [ a:g a-gɨy ] ésto│this one
+aiün:aiün ADV ; ! ""
+agüy:agüy ADV ; ! ""
+ayaj:ayaj ADV ; ! ""
 
 tiüt:tiüt ADV ; ! "abajo"
 

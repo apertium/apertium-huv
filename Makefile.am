@@ -31,7 +31,7 @@ huv.automorf.hfst: huv.mor.hfst #huv.spellrelax.hfst
 	hfst-invert $< | hfst-invert | hfst-fst2fst -w -o $@
 
 huv.autogen.hfst: huv.gen.hfst
-	hfst-fst2fst -w $< -o $@
+	hfst-compose-intersect -1 $< -2 huv.mor.twol.hfst | hfst-fst2fst -w -o $@
 
 huv.autoseg.hfst: huv.seg.hfst 
 	hfst-fst2fst -w $< -o $@
@@ -55,11 +55,11 @@ huv.mor.twol.hfst: apertium-huv.huv.mor.twol
 huv.seg.hfst: huv.mor.hfst huv.gen.hfst
 	hfst-compose -F -1 huv.mor.hfst -2 huv.gen.hfst -o huv.seg.hfst 
 
-huv.phon.hfst: apertium-huv.huv.phon
-	hfst-regexp2fst -S apertium-huv.huv.phon | hfst-repeat -o huv.phon.hfst
+#huv.phon.hfst: apertium-huv.huv.phon
+#	hfst-regexp2fst -S apertium-huv.huv.phon | hfst-repeat -o huv.phon.hfst
 
-huv.autophon.hfst: huv.mor.hfst huv.phon.hfst
-	hfst-fst2fst -w huv.phon.hfst -o huv.autophon.hfst
+#huv.autophon.hfst: huv.mor.hfst huv.phon.hfst
+#	hfst-fst2fst -w huv.phon.hfst -o huv.autophon.hfst
 #	hfst-project -p upper huv.mor.hfst | hfst-compose -1 - -2 huv.phon.hfst | hfst-fst2fst -w -o huv.autophon.hfst
 
 #huv.spellrelax.hfst: apertium-huv.huv.spellrelax 

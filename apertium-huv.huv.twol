@@ -43,7 +43,7 @@ Rules
 %{ː%}:j <=> Vow _ Cns+ %>: \.#. ;
 
 "Pérdida de vocal de prefijo antes de vocal larga"
-Vx:0 <=> %>: _ %>: Vy Vy ; 
+Vx:0 <=> [ %>: | .#. ] Cns* _ %>: Vy Vy ; 
      where Vx in ( i a ) 
            Vy in ( a e i o u ü ) ;
 
@@ -64,3 +64,4 @@ Cx:Cy <=> Vow %{ː%}: _ %>: \.#. ;
 
 "Sequencia de nm se reduce en n"
 m:0 <=> %{n%}: %>: _ ;
+
