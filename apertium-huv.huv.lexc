@@ -255,6 +255,7 @@ LEXICON V-PERS
 @U.AGR.PL1EX@:@U.AGR.PL1EX@%>%{V%}n # ;
 @U.AGR.PL2@:@U.AGR.PL2@%>%{V%}n # ;
 @U.AGR.PL3@:@U.AGR.PL3@%>%{V%}w # ;
+@U.AGR.PL3@:@U.AGR.PL3@%>%{V%}j # ;
 
 @U.AGR.SG3@%<refl%>:@U.AGR.SG3@%>ay # ;
 @U.AGR.PL3@%<refl%>:@U.AGR.PL3@%>ay%>ej # ;
@@ -1258,6 +1259,8 @@ nasoik%<part%>:nasoik # ; ! Mo SS nasoik part [ na-sok′ ] llamado; dicho, le f
 alndom%<prog%>:alndom # ; ! Mo SS alndom part cont [ al′-nd-o-m ] está terminado, después│to be "nished; later
 ndot%<part%>:ndot # ; ! Mo SS ndot conj; part [ nd-o-t ] ¿ qué tal si ... ? si; pudo saber│what if, if; could (knew how to)
 
+%<pres%>%<sg3%>saj%<v%>%<tv%>:aj # ;
+
 LEXICON Verbos
 
 TV ;
@@ -1478,6 +1481,7 @@ xot:xot V-TV ; ! "lo esconde"
 yaag:yaag V-TV ; ! "lo siente"
 yar:yar V-TV ; ! "lo agarrar; lo trae; se apropia"
 pak:pak V-TV ; ! "???"
+mong:mong V-TV ; ! "gatear"
 
 LEXICON IV
 
