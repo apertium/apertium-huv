@@ -101,6 +101,7 @@ LEXICON Estatus
 
 %<stat%>:n%> AGR-STAT ;
 %<punt%>%<stat%>:l%> AGR-STAT ;
+%<past%>%<stat%>:t%> AGR-STAT ;
 
 LEXICON Posesivos 
 
@@ -812,7 +813,6 @@ minaw:minaw N1 ; ! "sobrante de; resto de"
 mindiw:mindiw N1 ; ! "sombra"
 mineataran:mineataran N1 ; ! "su edad"
 minench:minench N1 ; ! "su novio"
-mintajaran:mintajaran N1 ; ! "esposa, mujer"
 minüt:minüt N1 ; ! "nombre"
 minüteran:minüteran N1 ; ! "su nombre"
 minüx:minüx N1 ; ! "su novia; su hija"
@@ -1047,6 +1047,9 @@ naw:naw N1 ; ! "originario, es de"
 %<pl%>natang%<n%>:mon%>tang # ; 
 %<pl%>natangtang%<n%>:mon%>tang%>tang # ; 
 
+mintajaran:mintajaran N1 ; ! "esposa, mujer"
+%<pl%>ntaj%<n%>:mo%>ntaj # ; ! "mujeres"
+
 LEXICON Propios 
 
 Teon:Teon NP-ANT-M ; ! "Antonio"
@@ -1219,6 +1222,7 @@ kants:kants A-STAT ; ! "rojo"
 waak:waak A-STAT ; ! "seco"
 pat:pat A-STAT ; ! "bravo"
 pak:pak A-STAT ; ! "fuerte, duro"
+él:él A-STAT ; ! "difícil"
 
 LEXICON Adverbios 
 
@@ -1232,6 +1236,7 @@ aweaag:aweaag ADV ; ! "con él/ella" !!! FIXME: Mo SS aweaag [ a-w′a:g ] con �
 anaag:anaag ADV ; ! Mo SS anaag [ a-na:g ] con él, con ella│with him, with her
 
 ayaj:ayaj ADV ; ! "allá" !!! FIXME: Mo SS aag ayaj [ a:g a-yah ] ése│that one
+ningiün:ningiün ADV ; ! Mo SS ningiün adv [ n′iŋg-iən ] allá, allí (lejos)│over there (far)
 
 kawüx:kawüx ADV ; ! "arriba"
 
@@ -1546,6 +1551,7 @@ yar:yar V-TV ; ! "lo agarrar; lo trae; se apropia"
 pak:pak V-TV ; ! "???"
 mong:mong V-TV ; ! "gatear"
 
+kiiüb:kiü%{ː%}b V-TV ; ! "acompañar" !!! FIXME
 kiiüb:kiiüb V-TV ; ! "acompañar"
 
 LEXICON IV
@@ -1657,6 +1663,7 @@ xood:xo%{ː%}d V-IV ; ! "posa"
 
 jkan:jkan V-IV ; ! "es de la misma edad"
 
+üünd:üünd V-IV ; ! "es regalado"
 
 LEXICON Interyecciones
 

@@ -63,5 +63,6 @@ Cx:Cy <=> Vow %{ː%}: _ %>: \.#. ;
           matched ;
 
 "Sequencia de nm se reduce en n"
-m:0 <=> %{n%}: %>: _ ;
+Cx:0 <=> %{n%}: %>: _ ;
+      where Cx in ( m n ) ;
 
