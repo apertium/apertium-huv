@@ -26,9 +26,9 @@ TARGETS_INTERMEDIATE = $(LANG1).mor.hfst $(LANG1).seg.hfst $(LANG1).gen.hfst
 
 ###############################################################################
 
-#hfst-invert $< |  hfst-compose -F -1 - -2 huv.spellrelax.hfst  | hfst-invert | hfst-fst2fst -w -o $@
-huv.automorf.hfst: huv.mor.hfst #huv.spellrelax.hfst
-	hfst-invert $< | hfst-invert | hfst-fst2fst -w -o $@
+#hfst-invert $< | hfst-invert | hfst-fst2fst -w -o $@
+huv.automorf.hfst: huv.mor.hfst huv.spellrelax.hfst
+	hfst-invert $< |  hfst-compose -F -1 - -2 huv.spellrelax.hfst  | hfst-invert | hfst-fst2fst -w -o $@
 
 huv.autogen.hfst: huv.gen.hfst
 	hfst-compose-intersect -1 $< -2 huv.mor.twol.hfst | hfst-fst2fst -w -o $@
@@ -62,8 +62,8 @@ huv.seg.hfst: huv.mor.hfst huv.gen.hfst
 #	hfst-fst2fst -w huv.phon.hfst -o huv.autophon.hfst
 #	hfst-project -p upper huv.mor.hfst | hfst-compose -1 - -2 huv.phon.hfst | hfst-fst2fst -w -o huv.autophon.hfst
 
-#huv.spellrelax.hfst: apertium-huv.huv.spellrelax 
-#	hfst-regexp2fst -S -o $@ < $<
+huv.spellrelax.hfst: apertium-huv.huv.spellrelax 
+	hfst-regexp2fst -S -o $@ < $<
 
 huv.rlx.bin: apertium-huv.huv.rlx
 	cg-comp $< $@
@@ -71,9 +71,9 @@ huv.rlx.bin: apertium-huv.huv.rlx
 $(LANG1).autogen.att.gz: $(LANG1).gen.hfst
 	hfst-fst2txt $< | gzip -9 -c > $@
 
-#hfst-invert $< |  hfst-compose -F -1 - -2 huv.spellrelax.hfst  | hfst-invert | hfst-fst2txt | gzip -9 -c > $@
-$(LANG1).automorf.att.gz: $(LANG1).mor.hfst #huv.spellrelax.hfst
-	hfst-invert $< | hfst-invert | hfst-fst2txt | gzip -9 -c > $@
+#hfst-invert $< | hfst-invert | hfst-fst2txt | gzip -9 -c > $@
+$(LANG1).automorf.att.gz: $(LANG1).mor.hfst huv.spellrelax.hfst
+	hfst-invert $< |  hfst-compose -F -1 - -2 huv.spellrelax.hfst  | hfst-invert | hfst-fst2txt | gzip -9 -c > $@
 
 $(LANG1).autoseg.att.gz: $(LANG1).seg.hfst
 	hfst-fst2txt $< | gzip -9 -c > $@

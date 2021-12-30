@@ -552,6 +552,7 @@ ngünantanej:ngünantanej PRON-IND ; ! "cualquier cosa"
 LEXICON Determinantes
 
 aaga:aaga DET ; ! "este"
+aaga:aaaga DET ; ! "este"
 aaga:a DET ; ! ""
 aaga:aag DET ; ! ""
 aaga:áag DET ; ! ""
@@ -1214,6 +1215,8 @@ nomb:nomb A ; ! "primero"
 
 tanomb:tanomb A ; ! "antiguo"
 
+pobre:pobre A ; ! "pobre"
+
 LEXICON Stativos
 
 xip:xip A-STAT ; ! "gordo"
@@ -1265,6 +1268,7 @@ ndoj:ndoj ADV ; ! "después"
 
 aliün:aliün ADV ; ! "todavía"
 tengial:tengial ADV ; ! "está" ! auxiliar para presente progresivo
+tengial:tingial ADV ; ! "está" !!! FIXME ! Src/Edu
 
 nganaw:nganaw ADV ; ! "todavía"
 nganüy:nganüy ADV ; ! "ahorita"
@@ -1670,6 +1674,10 @@ LEXICON Interyecciones
 amén:amén INTJ ; ! "amén"
 ajaj:ajaj INTJ ; ! "sí"
 aja:aja INTJ ; ! "sí"
+aah:aah INTJ ; ! "aah"
+ah:ah INTJ ; ! "ah"
+ngwaj:ngwaj INTJ ; ! "¿verdad?"
+ngwa:ngwa INTJ ; ! "¿verdad?"
 
 LEXICON Símbolos
 
