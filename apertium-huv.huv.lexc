@@ -511,17 +511,17 @@ tiül%<pr%>%+:te%> Posesivos ;
 
 LEXICON Pronombres
 
-xike%<prn%>%<pers%>%<sg1%>%<emph%>:xike # ; 
-ike%<prn%>%<pers%>%<sg2%>%<emph%>:ike # ; 
-ikora%<prn%>%<pers%>%<du1%>%<emph%>:ikora # ; 
-ikootsa%<prn%>%<pers%>%<pl1%>%<ex%>%<emph%>:xikona # ; 
-ikootsa%<prn%>%<pers%>%<pl1%>%<in%>%<emph%>:ikootsa # ; 
-ikona%<prn%>%<pers%>%<pl2%>%<emph%>:ikona # ; 
+xik%<prn%>%<pers%>%<sg1%>%<emph%>:xike # ; 
+ik%<prn%>%<pers%>%<sg2%>%<emph%>:ike # ; 
+ikor%<prn%>%<pers%>%<du1%>%<emph%>:ikora # ; 
+xikon%<prn%>%<pers%>%<pl1%>%<ex%>%<emph%>:xikona # ; 
+ikoots%<prn%>%<pers%>%<pl1%>%<in%>%<emph%>:ikootsa # ; 
+ikon%<prn%>%<pers%>%<pl2%>%<emph%>:ikona # ; 
 
-xike%<prn%>%<pers%>%<sg1%>:xik # ; 
-ike%<prn%>%<pers%>%<sg2%>:ik # ; 
+xik%<prn%>%<pers%>%<sg1%>:xik # ; 
+ik%<prn%>%<pers%>%<sg2%>:ik # ; 
 ikor%<prn%>%<pers%>%<du1%>:ikor # ; 
-ikoots%<prn%>%<pers%>%<pl1%>%<ex%>:xikon # ; 
+xikon%<prn%>%<pers%>%<pl1%>%<ex%>:xikon # ; 
 ikoots%<prn%>%<pers%>%<pl1%>%<in%>:ikoots # ; 
 ikon%<prn%>%<pers%>%<pl2%>:ikon # ; 
 
