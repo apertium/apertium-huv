@@ -58,8 +58,8 @@ Vx:0 <=> [ %>: | .#. ] Cns* _ %>: Vy Vy ;
 
 "Una sonora se convierte en sorda"
 Cx:Cy <=> Vow %{ː%}: _ %>: \.#. ;
-          where Cx in ( b d )
-                Cy in ( p t ) 
+          where Cx in ( b d g )
+                Cy in ( p t k ) 
           matched ;
 
 "Sequencia de nm se reduce en n"

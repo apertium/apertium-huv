@@ -116,6 +116,7 @@ LEXICON Posesivos
 @U.AGR.PL1EX@%<px1pl%>%<ex%>:@U.AGR.PL1EX@xe%> Sustantivos ;
 @U.AGR.PL1EX@%<px1pl%>%<ex%>:@U.AGR.PL1EX@xi%> Sustantivos ;
 @U.AGR.PL1IN@%<px1pl%>%<in%>:@U.AGR.PL1IN@o%> Sustantivos ;
+@U.AGR.PL1IN@%<px1pl%>%<in%>:@U.AGR.PL1IN@mi%> Sustantivos ;
 @U.AGR.PL2@%<px2pl%>:@U.AGR.PL2@i%> Sustantivos ;
 @U.AGR.PL3@%<px3pl%>:@U.AGR.PL3@mi%> Sustantivos ;
 @U.AGR.PL3@%<px3pl%>:@U.AGR.PL3@o%> Sustantivos ;
@@ -203,6 +204,7 @@ LEXICON AGR-IRRE
 @U.AGR.SG2@%<dep%>%<sg2%>:@U.AGR.SG2@ap%>m%>e%> Verbos ;
 @U.AGR.SG3@%<dep%>%<sg3%>:@U.AGR.SG3@ap%>m%>a%> Verbos ;
 @U.AGR.DU1@%<dep%>%<du1%>:@U.AGR.DU1@a%> Verbos ;
+@U.AGR.DU1@%<dep%>%<du1%>:@U.AGR.DU1@ap%>m%>a%> Verbos ;
 @U.AGR.PL1EX@%<dep%>%<pl1%>%<ex%>:@U.AGR.PL1EX@sa%>na%> Verbos ;
 @U.AGR.PL1IN@%<pl1%>%<in%>:@U.AGR.PL1IN@ap%>m%>a%> Verbos ;
 @U.AGR.PL2@%<dep%>%<pl2%>:@U.AGR.PL2@ap%>m%>i%> Verbos ;
@@ -251,9 +253,12 @@ LEXICON V-PERS
 @U.AGR.SG2@:@U.AGR.SG2@%> # ;
 @U.AGR.SG3@:@U.AGR.SG3@%> # ;
 @U.AGR.DU1@:@U.AGR.DU1@%>%{V%}r # ;
+@U.AGR.DU1@:@U.AGR.DU1@%>i%{V%}r # ;
 @U.AGR.PL1IN@:@U.AGR.PL1IN@%>%{V%}%{V%}ts # ;
 @U.AGR.PL1EX@:@U.AGR.PL1EX@%>%{V%}n # ;
+@U.AGR.PL1EX@:@U.AGR.PL1EX@%>i%{V%}n # ;
 @U.AGR.PL2@:@U.AGR.PL2@%>%{V%}n # ;
+@U.AGR.PL2@:@U.AGR.PL2@%>i%{V%}n # ;
 @U.AGR.PL3@:@U.AGR.PL3@%>%{V%}w # ;
 @U.AGR.PL3@:@U.AGR.PL3@%>%{V%}j # ;
 
@@ -303,6 +308,7 @@ LEXICON POSS
 @U.AGR.DU1@:@U.AGR.DU1@%>iür K ; 
 @U.AGR.PL1EX@:@U.AGR.PL1EX@%>iün K ; 
 @U.AGR.PL1IN@:@U.AGR.PL1IN@%>iüts K ; 
+@U.AGR.PL1IN@:@U.AGR.PL1IN@%>iiüts K ; 
 @U.AGR.PL2@:@U.AGR.PL2@%>iün K ; 
 @U.AGR.PL2@:@U.AGR.PL2@%>an K ; 
 @U.AGR.PL3@:@U.AGR.PL3@%>üw K ; 
@@ -390,19 +396,29 @@ LEXICON NUM-NO
 %<num%>%<c1%>:%>yk # ;
 %<num%>%<c2%>:%>p # ;
 %<num%>%<c3%>:%>ts # ;
+%<num%>%<c4%>:%>mb # ;
 
 LEXICON NUM-IJ
 
-%<num%>%<c1%>:%>ky%>aw # ;
-%<num%>%<c1%>:%>ki%>aw # ;
-%<num%>%<c2%>:%>p%>üw # ;
-%<num%>%<c3%>:%>ts%>üw # ;
+%<num%>%<c1%>:j%>ky%>aw # ;
+%<num%>%<c1%>:j%>ki%>aw # ;
+%<num%>%<c2%>:j%>p%>üw # ;
+%<num%>%<c3%>:j%>ts%>üw # ;
+%<num%>%<c4%>:%>üm # ;
 
 LEXICON NUM-AR
 
 %<num%>%<c1%>:ej # ;
 %<num%>%<c2%>:oj%>p%>üw # ;
 %<num%>%<c3%>:oj%>ts%>üw # ;
+%<num%>%<c4%>:oo%>mb # ;
+
+LEXICON NUM-GAJPIK
+
+%<num%>%<c1%>:%>k # ;
+%<num%>%<c2%>:ü%>p # ;
+%<num%>%<c3%>:ü%>ts # ;
+
 
 
 LEXICON NUM 
@@ -521,6 +537,7 @@ ajküw:ajküw PRON-DEM ; ! "éste"
 
 kwajantanej:kwajantanej PRON-IND ; ! "cualquier cosa"
 
+aljane:aljane PRON-IND ; ! "alguien"
 nikwajind:nikwajind PRON-IND ; ! "nada"
 nejingind:nejingind PRON-IND ; ! "ninguno, nadie"
 jangantanej:jangantanej PRON-IND ; ! "cualquiera, quienquiera"
@@ -542,8 +559,27 @@ ngün:ngün DET ; ! "cuál"
 LEXICON Numeros 
 
 no:no NUM-NO ; ! "uno"
-ij:ij NUM-IJ ; ! "dos"
+ij:i NUM-IJ ; ! "dos"
 ar:ar NUM-AR ; ! "tres"
+
+pikiw:pikiw NUM ; ! "cuatro"
+akokiaw:akokiaw NUM ; ! "cinco"
+anaíw:anaíw NUM ; ! "seis"
+ayaíw:ayaíw NUM ; ! "siete"
+ojpeaküw:ojpeaküw NUM ; ! "ocho"
+ojkiyej:ojkiyej NUM ; ! "nueve"
+gajpowüw:gajpowüw NUM ; ! "diez"
+gajpowüw:gajpawüw NUM ; ! "diez"
+
+gajpanoik:gajpano NUM-NO ; ! "once"
+gajpik:gajpi NUM-GAJPIK ; ! "doce"
+gajpar:gajpar NUM ; ! "trece"
+gajpopeik:gajpopeik NUM ; ! "catorce"
+gajpokoik:gajpokoik NUM ; ! "quince"
+gajponüy:gajponüy NUM ; ! "dieciseis"
+gajpoyay:gajpoyay NUM ; ! "diecisiete"
+gajpopeak:gajpopeak NUM ; ! "dieciocho"
+gajpokiy:gajpokiy NUM ; ! "diecinueve"
 
 nimiow:nimiow NUM ; ! "veinte"
 miow:miow NUM ; ! "veinte"
@@ -561,13 +597,13 @@ nden:nden N1 ; ! "casa"
 niüng:niüng N1 ; ! "casa"
 niiüg:niiüg N1 ; ! "ojo"
 teat:teat N3 ; ! "padre"
-teaats:teaats N1 ; ! "sacerdote"
+teaats:tea%{ː%}ts N1 ; ! "sacerdote"
 naxey:naxey N1 ; ! "señor"
 yow:yow N1 ; ! "agua"
 pil:pil N1 ; ! "pozo"
 kiek:kiek N1 ; ! "pájaro"
 küet:küet N1 ; ! "pescado"
-taag:taag N1 ; ! "piel"
+taag:ta%{ː%}g N1 ; ! "piel"
 xor:xor N1 ; ! "olla"
 kambaj:kambaj N1 ; ! "pueblo"
 korrül:korrül N1 ; ! "corral"
@@ -575,6 +611,8 @@ tomiün:tomiün N1 ; ! "dinero, moneda"
 pet:pet N1 ; ! "perro"
 mal:mal N1 ; ! "cabeza"
 najiüt:najiüt N1 ; ! "trabajo"
+%<sg%>najiüt%<n%>:ne%>najiüt # ; ! "autoridades"
+%<pl%>najiüt%<n%>:mo%>najiüt # ; ! "autoridades"
 iüt:iüt N1 ; ! "tierra"
 xiül:xiül N1 ; ! "árbol"
 monandeow:monandeow N1 ; ! "enfermedad"
@@ -582,7 +620,7 @@ plas:plas N1 ; ! "mercado"
 kwal:kwal N1 ; ! "hijo"
 müm:müm N1 ; ! "madre, abuela"
 nüt:nüt N1 ; ! "nombre"
-larraar:larraar N1 ; ! "calor"
+larraar:larra%{ː%}r N1 ; ! "calor"
 nine:nine N1 ; ! "niño"
 ombas:ombas N1 ; ! "cuerpo"
 tiiüd:tiiüd N1 ; ! "camino"
@@ -625,9 +663,9 @@ loy:loy N1 ; ! "mariano"
 naleaing:naleaing N1 ; ! "verdad"
 nangaj:nangaj N1 ; ! "bendición"
 
-kwalaats:kwalaats N1 ; ! "familia"
+kwalaats:kwala%{ː%}ts N1 ; ! "familia"
 
-nerraar:nerraar N1 ; ! "calor"
+nerraar:nerra%{ː%}r N1 ; ! "calor"
 
 ! partes de cuerpo: con -aran (alienable)
 
@@ -693,12 +731,12 @@ ajtsaj:ajtsaj N1 ; ! "masa"
 ajüch:ajüch N1 ; ! "su deuda, su cuenta"
 ajüy:ajüy N1 ; ! "tejido; telar"
 akiiüb:akiiüb N1 ; ! "compañero"
-akwalaats:akwalaats N1 ; ! "sus parientes"
+akwalaats:akwala%{ː%}ts N1 ; ! "sus parientes"
 alkiriw:alkiriw N1 ; ! "por poco, otro poco"
 anch:anch N1 ; ! "$ojera, pereza"
 andeak:andeak N1 ; ! "habla, discurso, mensaje"
-andiig:andiig N1 ; ! "abalorio, collar"
-anendeoog:anendeoog N1 ; ! "eco"
+andiig:andi%{ː%}g N1 ; ! "abalorio, collar"
+anendeoog:anendeo%{ː%}g N1 ; ! "eco"
 anganeow:anganeow N1 ; ! "bebida, alimentos líquidos"
 angot:angot N1 ; ! "su baton"
 aniüng:aniüng N1 ; ! "casa, hogar"
@@ -725,10 +763,10 @@ jeng:jeng N1 ; ! "$echa, gancho para cortar palmas"
 jiw:jiw N1 ; ! "teta, seno, pecho"
 jow:jow N1 ; ! "hamaca"
 jüy:jüy N1 ; ! "consuegro, consuegra"
-kaaw:kaaw N1 ; ! "mes, luna"
+kaaw:ka%{ː%}w N1 ; ! "mes, luna"
 kambajiüt:kambajiüt N1 ; ! "gente"
 kang:kang N1 ; ! "vulva, testículo"
-kieed:kieed N1 ; ! "un tipo de camisa de lana hecha a mano"
+kieed:kie%{ː%}d N1 ; ! "un tipo de camisa de lana hecha a mano"
 kiniük:kiniük N1 ; ! "sal"
 kiripite:kiripite N1 ; ! "poquito"
 kit:kit N1 ; ! "gal ina"
@@ -782,7 +820,7 @@ minüteran:minüteran N1 ; ! "su nombre"
 minüx:minüx N1 ; ! "su novia; su hija"
 miokwats:miokwats N1 ; ! "suegro o suegra desposo; yerno"
 misoy:misoy N1 ; ! "hez, sedimiento, bagazo, desechos"
-miteaats:miteaats N1 ; ! "sacerdote, cura"
+miteaats:mitea%{ː%}ts N1 ; ! "sacerdote, cura"
 miteatiün:miteatiün N1 ; ! "suegro de mujer"
 miwiiüd:miwiiüd N1 ; ! "cirueagria, ciruelo de fruta agria, roja,"
 monajneaj:monajneaj N1 ; ! "buen carácter"
@@ -816,7 +854,7 @@ namümaran:namümaran N1 ; ! "madre"
 nandeow:nandeow N1 ; ! "muerto, cadáver"
 nanderak:nanderak N1 ; ! "dicho; palabra, plática"
 nangan:nangan N1 ; ! "dulce"
-nangoraad:nangoraad N1 ; ! "bastón que muestra autoridad"
+nangoraad:nangora%{ː%}d N1 ; ! "bastón que muestra autoridad"
 nangün:nangün N1 ; ! "borracho"
 nanojaran:nanojaran N1 ; ! "esposa, mujer"
 napeweran:napeweran N1 ; ! "nuera"
@@ -829,17 +867,17 @@ natsaramb:natsaramb N1 ; ! "comida, comestible"
 natsoj:natsoj N1 ; ! "peleador, jugador"
 natsünderan:natsünderan N1 ; ! "instrumental musical"
 naw:naw N1 ; ! "originario, es de"
-nawaag:nawaag N1 ; ! "seco"
-nawiig:nawiig N1 ; ! "papel; libro"
+nawaag:nawa%{ː%}g N1 ; ! "seco"
+nawiig:nawi%{ː%}g N1 ; ! "papel; libro"
 naxiül:naxiül N1 ; ! "milpa, maíz"
-naxoraad:naxoraad N1 ; ! "lo escondido"
+naxoraad:naxora%{ː%}d N1 ; ! "lo escondido"
 nchep:nchep N1 ; ! "chiquigüite"
 ncherrek:ncherrek N1 ; ! "brisa, viento dsur"
 nchiiüts:nchiiüts N1 ; ! "red"
 nchiül:nchiül N1 ; ! "langosta"
 ndar:ndar N1 ; ! "capa delgada de grasa o sangre sobre agua"
 ndeoj:ndeoj N1 ; ! "huérfano"
-ndeoog:ndeoog N1 ; ! "comején"
+ndeoog:ndeo%{ː%}g N1 ; ! "comején"
 ndeor:ndeor N1 ; ! "barro, lodo"
 ndet:ndet N1 ; ! "boca de oro"
 ndiük:ndiük N1 ; ! "aguja"
@@ -848,13 +886,13 @@ ndiw:ndiw N1 ; ! "pez cuatro ojos"
 ndójwüx:ndójwüx N1 ; ! "última vez, último día"
 ndok:ndok N1 ; ! "atarraya, red"
 ndorrop:ndorrop N1 ; ! "un hoyo algo profundo, barranco"
-neech:neech N1 ; ! "donador, que da"
-need:need N1 ; ! "ladrón"
+neech:ne%{ː%}ch N1 ; ! "donador, que da"
+need:ne%{ː%}d N1 ; ! "ladrón"
 nejaw:nejaw N1 ; ! "testigo"
 nejiür:nejiür N1 ; ! "guardia, velador, vigilante; rico"
 nejüchay:nejüchay N1 ; ! "deudor"
 nejüyich:nejüyich N1 ; ! "chofer, que conduce, piloto"
-nekiaach:nekiaach N1 ; ! "maestro, que enseña"
+nekiaach:nekia%{ː%}ch N1 ; ! "maestro, que enseña"
 nekixkix:nekixkix N1 ; ! "disentería"
 nekoex:nekoex N1 ; ! "zopo, inválido"
 nekoy:nekoy N1 ; ! "dolor, herida; tétanos"
@@ -869,8 +907,8 @@ nendüy:nendüy N1 ; ! "curandero, sabio"
 neneay:neneay N1 ; ! "dueño"
 nengalüy:nengalüy N1 ; ! "comprador"
 nenüjpeay:nenüjpeay N1 ; ! "comerciante, vendedor, allagente"
-nenüüb:nenüüb N1 ; ! "vendedor"
-nepaküüch:nepaküüch N1 ; ! "que lo despierta"
+nenüüb:nenü%{ː%}b N1 ; ! "vendedor"
+nepaküüch:nepakü%{ː%}ch N1 ; ! "que lo despierta"
 nepepep:nepepep N1 ; ! "brisa, aire fresco"
 nepiür:nepiür N1 ; ! "sembrador, agricultor"
 nerrombüy:nerrombüy N1 ; ! "glotón"
@@ -879,7 +917,7 @@ nesomb:nesomb N1 ; ! "ciego"
 nesomüy:nesomüy N1 ; ! "hechicero, brujo"
 nesüet:nesüet N1 ; ! "que adivina"
 net:net N1 ; ! "que come"
-netsaag:netsaag N1 ; ! "manojo; nudo"
+netsaag:netsa%{ː%}g N1 ; ! "manojo; nudo"
 netüneay:netüneay N1 ; ! "limosnero, mendigo"
 newinch:newinch N1 ; ! "que envuelve, envolvedero"
 newün:newün N1 ; ! "salvador"
@@ -887,7 +925,7 @@ ngan:ngan N1 ; ! "cántaro"
 ngex:ngex N1 ; ! "tórtogemidora"
 nichech:nichech N1 ; ! "su ofrenda; ofrenda"
 niiüg:niiüg N1 ; ! "ojo"
-nimeech:nimeech N1 ; ! "diablo, Satanás"
+nimeech:nime%{ː%}ch N1 ; ! "diablo, Satanás"
 nin:nin N1 ; ! "jején, moyote"
 nine:nine N1 ; ! "niño"
 nipeaxay:nipeaxay N1 ; ! "medidor, pesa, la"
@@ -904,9 +942,9 @@ nüt:nüt N1 ; ! "fecha, día"
 nüx:nüx N1 ; ! "muchacha"
 oik:oik N1 ; ! "nube, nubes"
 okas:okas N1 ; ! "estrella; las estrellas"
-olaag:olaag N1 ; ! "oído; oreja"
+olaag:ola%{ː%}g N1 ; ! "oído; oreja"
 olaagaran:olaagaran N1 ; ! "oído; oreja"
-olaats:olaats N1 ; ! "hueso"
+olaats:ola%{ː%}ts N1 ; ! "hueso"
 olam:olam N1 ; ! "caña de azúcar"
 oleaj:oleaj N1 ; ! "pata; huella; pisada"
 oleajaran:oleajaran N1 ; ! "pie, pierna, huella, pisada"
@@ -920,7 +958,7 @@ ombeat:ombeat N1 ; ! "precio"
 ombeay:ombeay N1 ; ! "boca"
 ombeayiiüts:ombeayiiüts N1 ; ! "nuestra idioma, o sea huave"
 ombiüm:ombiüm N1 ; ! "casa; nido"
-omeaats:omeaats N1 ; ! "interior"
+omeaats:omea%{ː%}ts N1 ; ! "interior"
 omeaatsaran:omeaatsaran N1 ; ! "corazón; vientre, las entrañas, abdomen, el"
 ondeats:ondeats N1 ; ! "pelo, cabo"
 ongwiiüts:ongwiiüts N1 ; ! "noche"
@@ -930,11 +968,11 @@ oniw:oniw N1 ; ! "lengua"
 op:op N1 ; ! "zacate; hoja; roble"
 opang:opang N1 ; ! "cáscara"
 os:os N1 ; ! "maíz"
-osaab:osaab N1 ; ! "semilla"
+osaab:osa%{ː%}b N1 ; ! "semilla"
 otüengeran:otüengeran N1 ; ! "abdomen, vientre, barriga"
 owixeran:owixeran N1 ; ! "brazo"
 oxet:oxet N1 ; ! "ancho"
-oxiich:oxiich N1 ; ! "raíz"
+oxiich:oxi%{ː%}ch N1 ; ! "raíz"
 oxing:oxing N1 ; ! "punta, &#34;lo"
 oxiüt:oxiüt N1 ; ! "tumba, sepulcro"
 palangan:palangan N1 ; ! "vasija, cazuela"
@@ -942,8 +980,7 @@ pang:pang N1 ; ! "jicalpextle"
 par:par N1 ; ! "raja dtalón por resequedad"
 peat:peat N1 ; ! "selva, monte"
 peats:peats N1 ; ! "tortilla"
-pemb:pemb N1 ; ! "calabaza"
-pemb:pemb N1 ; ! "bule"
+pemb:pemb N1 ; ! "calabaza, bule"
 pinawan:pinawan N1 ; ! "mitad, centro"
 poch:poch N1 ; ! "palabra, verbo, frase, mensaje"
 poj:poj N1 ; ! "tortugo rojo, sabanera, tortuga terrestre"
@@ -957,9 +994,9 @@ pow:pow N1 ; ! "horno"
 püjchiün:püjchiün N1 ; ! "llano, campo, extensión; aire libre"
 püy:püy N1 ; ! "chal, pañuelo, rebozo; toalla"
 ran:ran N1 ; ! "luz"
-reech:reech N1 ; ! "avaro, mezquino, tacaño"
+reech:re%{ː%}ch N1 ; ! "avaro, mezquino, tacaño"
 rünch:rünch N1 ; ! "rancho, rastrojo, corral"
-saab:saab N1 ; ! "los testículos"
+saab:sa%{ː%}b N1 ; ! "los testículos"
 sampüy:sampüy N1 ; ! "coyote"
 sats:sats N1 ; ! "espina"
 soex:soex N1 ; ! "hierba, pasto, zacate, forraje; leña"
@@ -993,11 +1030,12 @@ wün:wün N1 ; ! "pejesapo"
 wün:wün N1 ; ! "pez sapo, miracielo sapo"
 xan:xan N1 ; ! "señor, don"
 xar:xar N1 ; ! "jarra, jarro"
-xeech:xeech N1 ; ! "viejo, abuelo, anciano"
+xeech:xe%{ː%}ch N1 ; ! "viejo, abuelo, anciano"
 xiüm:xiüm N1 ; ! "chapulín verde"
 xiüt:xiüt N1 ; ! "mecahilo, cordón; vena"
 xix:xix N1 ; ! "mosquito, mosco chico"
 
+chiig:chi%{ː%}g N1 ; ! "hermano menor"
 
 LEXICON Propios 
 
@@ -1185,6 +1223,7 @@ ayaj:ayaj ADV ; ! "allá" !!! FIXME: Mo SS aag ayaj [ a:g a-yah ] ése│that on
 
 kawüx:kawüx ADV ; ! "arriba"
 
+nóikian:nóikian ADV ; ! "juntamente"
 
 tanaámb:tanaámb ADV ; ! "continuamente"
 
@@ -1255,9 +1294,11 @@ al%<cop%>%<loc%>%+tiül%<pr%>%+:al%>te%> Posesivos ;
 chük%<evid%>:chük # ;
 che%<evid%>:che # ;
 
+! Son partículas o participios?
 nasoik%<part%>:nasoik # ; ! Mo SS nasoik part [ na-sok′ ] llamado; dicho, le fue dicho
 alndom%<prog%>:alndom # ; ! Mo SS alndom part cont [ al′-nd-o-m ] está terminado, después│to be "nished; later
 ndot%<part%>:ndot # ; ! Mo SS ndot conj; part [ nd-o-t ] ¿ qué tal si ... ? si; pudo saber│what if, if; could (knew how to)
+nenüt%<part%>:nenüt # ; ! Mo SS nenüt part llamado, se llama│named, to have the name of
 
 %<pres%>%<sg3%>saj%<v%>%<tv%>:aj # ;
 
