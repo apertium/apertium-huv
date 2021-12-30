@@ -63,6 +63,8 @@ Multichar_Symbols
 %{P%} ! 0
 %{R%} ! ⎈ 0
 
+%{n%} ! n
+
 %{V%} ! a ü o i e
 
 LEXICON Root
@@ -106,10 +108,11 @@ LEXICON Posesivos
 
 @U.AGR.SG1@%<px1sg%>:@U.AGR.SG1@xi%> Sustantivos ;
 @U.AGR.SG1@%<px1sg%>:@U.AGR.SG1@xe%> Sustantivos ;
+@U.AGR.SG1@%<px1sg%>:@U.AGR.SG1@sa%> Sustantivos ;
 @U.AGR.SG2@%<px2sg%>:@U.AGR.SG2@mi%> Sustantivos ;
 @U.AGR.SG3@%<px3sg%>:@U.AGR.SG3@mi%> Sustantivos ;
-@U.AGR.SG2@%<ps2sg%>:@U.AGR.SG2@i%> Sustantivos ;
-@U.AGR.SG3@%<ps3sg%>:@U.AGR.SG3@o%> Sustantivos ;
+@U.AGR.SG2@%<px2sg%>:@U.AGR.SG2@i%> Sustantivos ;
+@U.AGR.SG3@%<px3sg%>:@U.AGR.SG3@o%> Sustantivos ;
 @U.AGR.PL1EX@%<px1pl%>%<ex%>:@U.AGR.PL1EX@xe%> Sustantivos ;
 @U.AGR.PL1EX@%<px1pl%>%<ex%>:@U.AGR.PL1EX@xi%> Sustantivos ;
 @U.AGR.PL1IN@%<px1pl%>%<in%>:@U.AGR.PL1IN@o%> Sustantivos ;
@@ -127,7 +130,7 @@ LEXICON Accidentes
 @U.TAM.PRES@%<pres%>:@U.TAM.PRES@    AGR-PRES ;
 
 %<rel%>:na%> Verbos ; 
-%<subst%>%<pl%>:mon%> Verbos ; 
+%<subst%>%<pl%>:mo%{n%}%> Verbos ; 
 
 LEXICON AGR-PUNT
 
@@ -412,6 +415,14 @@ LEXICON ADV-ITG
 
 %<adv%>%<itg%>: # ;
 
+LEXICON PRON-POS
+
+%<prn%>%<pos%>: POSS ;
+
+LEXICON PRON-IND
+
+%<prn%>%<ind%>: K ;
+
 LEXICON PRON-DEM
 
 %<prn%>%<dem%>: K ;
@@ -456,6 +467,7 @@ para:para CS ; ! "para"
 masey:masey CS ; ! "aunque"
 sitiül:sitiül CS ; ! "si"
 tengwüy:tengwüy CS ; ! "si no"
+ndot:ndot CS ; ! "si"
 
 LEXICON Preposiciones 
 
@@ -498,11 +510,21 @@ nejiw%<prn%>%<pers%>%<pl3%>:nejiw # ;
 jan:jan PRON-ITG ; ! "quién"
 jan:jane PRON-ITG ; ! "quién" ! +A
 kwane:kwane PRON-ITG ; ! "qué"
+kwa:kwa PRON-ITG ; ! "qué"
 
 leaw:leaw PRON-REL ; ! "lo que"
 
 áagan:áagan PRON-DEM ; ! "éste"
 ajküw:ajküw PRON-DEM ; ! "éste"
+
+kwajantanej:kwajantanej PRON-IND ; ! "cualquier cosa"
+
+nikwajind:nikwajind PRON-IND ; ! "nada"
+nejingind:nejingind PRON-IND ; ! "ninguno, nadie"
+jangantanej:jangantanej PRON-IND ; ! "cualquiera, quienquiera"
+aleaik:aleaik PRON-IND ; ! "alguna cosa, algo"
+ngünantanej:ngünantanej PRON-IND ; ! "cualquier cosa"
+
 
 LEXICON Determinantes
 
@@ -511,6 +533,8 @@ aaga:a DET ; ! ""
 aaga:aag DET ; ! ""
 aaga:áag DET ; ! ""
 aaga:e DET ; ! ""
+
+ngün:ngün DET ; ! "cuál"
 
 alakas:alakas DET ; ! "algunos más"
 
@@ -525,7 +549,10 @@ miow:miow NUM ; ! "veinte"
 
 LEXICON Sustantivos 
 
-kweaj:kweaj N1 ; ! "cosa"
+aneay:neay PRON-POS ; ! "suyo"
+okweaj:kweaj PRON-POS ; ! "suyo"
+
+!kweaj:kweaj N1 ; ! "cosa"
 !meajts:meajts N1 ; ! "???"
 
 iüm:iüm N1 ; ! "puerta"
@@ -1212,6 +1239,7 @@ che%<evid%>:che # ;
 
 nasoik%<part%>:nasoik # ; ! Mo SS nasoik part [ na-sok′ ] llamado; dicho, le fue dicho
 alndom%<prog%>:alndom # ; ! Mo SS alndom part cont [ al′-nd-o-m ] está terminado, después│to be "nished; later
+ndot%<part%>:ndot # ; ! Mo SS ndot conj; part [ nd-o-t ] ¿ qué tal si ... ? si; pudo saber│what if, if; could (knew how to)
 
 LEXICON Verbos
 
@@ -1226,7 +1254,7 @@ rang:rang V-TV ; ! "hacer"
 kooch:ko%{ː%}ch%{i%} V-TV ; ! "sacar"
 wün:wün V-TV ; ! "sacar"
 lik:lik%{i%} V-TV ; ! "regañar"
-ndaab:ndaab V-TV ; ! "quemar"
+ndaab:nda%{ː%}b V-TV ; ! "quemar"
 jaw:jaw V-TV ; ! "ver"
 ngiay:ngiay V-TV ; ! "saber"
 ndiüm:ndiüm V-TV ; ! "querer"
@@ -1246,7 +1274,7 @@ ngal:ngal V-TV ; ! "comprar"
 pow:pow V-TV ; ! "hornear"
 nganyow:nganyow V-TV ; ! "tomar"
 tep:tep V-TV ; ! "subir"
-nüüp:nüüp V-TV ; ! "comprar"
+nüüp:nü%{ː%}p V-TV ; ! "comprar"
 jier:jier V-TV ; ! "hacer"
 
 yamb:yamb V-TV ; ! "buscar"
@@ -1258,7 +1286,7 @@ tsamb:ts%{R%}amb V-TV ; ! "soltar"
 jmbaj:jmbaj V-TV ; ! "romper"
 
 ndiem:ndiem V-TV ; ! "querer"
-üüt:üüt V-TV ; ! "comer"
+üüt:ü%{ː%}t V-TV ; ! "comer"
 
 kül:kül V-TV ; ! "esperar"
 mongoch:mongoch V-TV ; ! "traducir, trasladar"
@@ -1296,7 +1324,7 @@ kancham:kancham V-TV ; ! "lo remienda"
 kanchich:kanchich V-TV ; ! "lo junta"
 kiaach:kiaach V-TV ; ! "lo enseña"
 kiand:kiand V-TV ; ! "lo cubre"
-kiiw:kiiw V-TV ; ! "lo parte o quiebra en dos pedazos"
+kiiw:ki%{ː%}w V-TV ; ! "lo parte o quiebra en dos pedazos"
 kind:kind V-TV ; ! "lo enfría"
 kolot:kolot V-TV ; ! "lo despedaza; lo taja; lo troza "
 kwarreech:kwarreech V-TV ; ! "lo hace correr"
@@ -1313,7 +1341,7 @@ liünd:liünd V-TV ; ! "lo aprieta"
 lokooch:lokooch V-TV ; ! "lo enloquece"
 lomb:lomb V-TV ; ! "lo alaba"
 lomboch:lomboch V-TV ; ! "lo para"
-lood:lood V-TV ; ! "lo rompe; lo agujerea"
+lood:lo%{ː%}d V-TV ; ! "lo rompe; lo agujerea"
 lop:lop V-TV ; ! "lo remoja"
 lox:lox V-TV ; ! "lo tira"
 lüeliich:lüeliich V-TV ; ! "lo hace volar"
@@ -1328,7 +1356,7 @@ mbolooch:mbolooch V-TV ; ! "lo espanta"
 melich:melich V-TV ; ! "lo mete"
 miüküch:miüküch V-TV ; ! "lo baja"
 montsots:montsots V-TV ; ! "cierra "
-moog:moog V-TV ; ! "lo pone boca abajo"
+moog:mo%{ː%}g V-TV ; ! "lo pone boca abajo"
 naw:naw V-TV ; ! "le sobra"
 naw:naw V-TV ; ! "le sobra; lo ahorra"
 nchiül:nchiül V-TV ; ! "lo machuca"
@@ -1344,16 +1372,16 @@ ndik:ndik V-TV ; ! "lo extiende"
 ndondoch:ndondoch V-TV ; ! "lo termina"
 ndooig:ndooig V-TV ; ! "lo rompe; lo corta; lo cruza"
 ndrooch:ndrooch V-TV ; ! "lo gasta"
-ndüüb:ndüüb V-TV ; ! "lo sigue"
+ndüüb:ndü%{ː%}b V-TV ; ! "lo sigue"
 ndüy:ndüy V-TV ; ! "está acostumbrado; lo cura"
 neam:neam V-TV ; ! "lo a&#34;rma"
-need:need V-TV ; ! "lo roba"
+need:ne%{ː%}d V-TV ; ! "lo roba"
 neok:neok V-TV ; ! "tiene vergüenza de ver"
 netet:netet V-TV ; ! "lo jala"
 ngoch:ngoch V-TV ; ! "lo encuentra"
 ngüy:ngüy V-TV ; ! "lo paga"
 not:not V-TV ; ! "lo jala; lo absorbe; lo capta; gana premio"
-nüüb:nüüb V-TV ; ! "lo vende"
+nüüb:nü%{ː%}b V-TV ; ! "lo vende"
 oel:oel V-TV ; ! "lo amarra"
 ol:ol V-TV ; ! "lo mezcla"
 onts:onts V-TV ; ! "lo excreta"
@@ -1364,7 +1392,7 @@ peax:peax V-TV ; ! "lo mide"
 pech:pech V-TV ; ! "lo anuda "
 pech:pech V-TV ; ! "lo pone "
 peech:peech V-TV ; ! "lo tapa"
-peed:peed V-TV ; ! "lo corta "
+peed:pe%{ː%}d V-TV ; ! "lo corta "
 peik:peik V-TV ; ! "lo abraza"
 pej:pej V-TV ; ! "lo lava un poco"
 piow:piow V-TV ; ! "lo saca "
@@ -1374,9 +1402,9 @@ pots:pots V-TV ; ! "lo carga "
 püch:püch V-TV ; ! "lo echa "
 rend:rend V-TV ; ! "lo cuelga "
 ripip:ripip V-TV ; ! "lo esparce"
-rreeg:rreeg V-TV ; ! "lo toca"
+rreeg:rre%{ː%}g V-TV ; ! "lo toca"
 rriiüd:rriiüd V-TV ; ! "lo escoge"
-rroob:rroob V-TV ; ! "lo escarba"
+rroob:rro%{ː%}b V-TV ; ! "lo escarba"
 samb:samb V-TV ; ! "lo toca"
 sarriich:sarriich V-TV ; ! "lo dispersa"
 sojnong:sojnong V-TV ; ! "lo concentra"
@@ -1400,10 +1428,10 @@ teow:teow V-TV ; ! "lo cuenta"
 teow:teow V-TV ; ! "lo riega"
 tepich:tepich V-TV ; ! "lo sube"
 textexíichan:textexíichan V-TV ; ! "lo pudre"
-tiib:tiib V-TV ; ! "lo señala"
+tiib:ti%{ː%}b V-TV ; ! "lo señala"
 til:til V-TV ; ! "lo apuñala"
 tong:tong V-TV ; ! "lo vacía"
-tool:tool V-TV ; ! "le pone boca arriba"
+tool:to%{ː%}l V-TV ; ! "le pone boca arriba"
 tox:tox V-TV ; ! "lo raspar"
 tsaag:tsaag V-TV ; ! "lo amarra"
 tsambiich:tsambiich V-TV ; ! "lo suelta"
@@ -1416,7 +1444,7 @@ tüch:tüch V-TV ; ! "lo alcanza"
 tün:tün V-TV ; ! "lo pide"
 üet:üet V-TV ; ! "lo come"
 wichwich:wichwich V-TV ; ! "lo mece; lo menea"
-wiig:wiig V-TV ; ! "lo desgrana "
+wiig:wi%{ː%}g V-TV ; ! "lo desgrana "
 wikiach:wikiach V-TV ; ! "da a luz"
 winch:winch V-TV ; ! "lo enrolla; lo enreda"
 wind:wind V-TV ; ! "lo estira"
@@ -1445,7 +1473,7 @@ meay:meay V-IV ; ! "dormir"
 peay:peay V-IV ; ! "llegar"
 w:w V-IV ; ! "subir"
 ndilil:ndilil V-IV ; ! "regresar"
-xeep:xeep V-IV ; ! "bañarse"
+xeep:xe%{ː%}p V-IV ; ! "bañarse"
 tang:tang V-IV ; ! "crecer"
 
 jtsor:jtsor V-IV ; ! "regresar"
@@ -1494,7 +1522,7 @@ jünch:jünch V-IV ; ! "gotea"
 jüyjüy:jüyjüy V-IV ; ! "pasea"
 jwik:jwik V-IV ; ! "late"
 kants:kants V-IV ; ! "rojea"
-kieel:kieel V-IV ; ! "se hinca"
+kieel:kie%{ː%}l V-IV ; ! "se hinca"
 kiy:kiy V-IV ; ! "demora"
 kwal:kwal V-IV ; ! "concibe"
 kwiür:kwiür V-IV ; ! "corre"
@@ -1522,7 +1550,7 @@ poniich:poniich V-IV ; ! "anubla"
 rraj:rraj V-IV ; ! "alumbra"
 somb:somb V-IV ; ! "se cubre"
 süet:süet V-IV ; ! "predice"
-süüd:süüd V-IV ; ! "se arrima"
+süüd:sü%{ː%}d V-IV ; ! "se arrima"
 tam:tam V-IV ; ! "sirve"
 taxey:taxey V-IV ; ! "envejece"
 terriür:terriür V-IV ; ! "retruena"
@@ -1532,14 +1560,14 @@ tsoj:tsoj V-IV ; ! "chancea; pelea"
 üet:üet V-IV ; ! "come "
 üm:üm V-IV ; ! "pesa"
 waag:waag V-IV ; ! "se seca"
-xeeb:xeeb V-IV ; ! "se baña"
+xeeb:xe%{ː%}b V-IV ; ! "se baña"
 xemem:xemem V-IV ; ! "anochece "
 xeyay:xeyay V-IV ; ! "se aumenta"
 xing:xing V-IV ; ! "da pena"
 xip:xip V-IV ; ! "ponerse gordo; fermenta "
 xix:xix V-IV ; ! "chi$a "
 xix:xix V-IV ; ! "en$aquece"
-xood:xood V-IV ; ! "posa"
+xood:xo%{ː%}d V-IV ; ! "posa"
 
 jkan:jkan V-IV ; ! "es de la misma edad"
 

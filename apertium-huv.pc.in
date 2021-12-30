@@ -1,0 +1,7 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+srcdir=@datarootdir@/apertium/apertium-huv
+
+Name: apertium-huv
+Description: Finite-state morphological transducer and constraint grammar for Ombeayiüts
+Version: @VERSION@

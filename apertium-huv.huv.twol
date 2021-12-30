@@ -11,6 +11,7 @@ a b c d e f g h i j k l m n o p q r s t u v w x y z ü
 %{ü%}:ü %{ü%}:a
 %{I%}:i %{I%}:ü
 %{j%}:j %{j%}:0
+%{n%}:n
 %{P%}:0
 %{R%}:0 %{R%}:⎈
 %{V%}:a %{V%}:e %{V%}:i %{V%}:o %{V%}:ü 
@@ -54,3 +55,12 @@ Vx:0 <=> %>: _ %>: Vy Vy ;
 
 
 ! a > t s {R}:⎈ a m b > {P}:0
+
+"Una sonora se convierte en sorda"
+Cx:Cy <=> Vow %{ː%}: _ %>: \.#. ;
+          where Cx in ( b d )
+                Cy in ( p t ) 
+          matched ;
+
+"Sequencia de nm se reduce en n"
+m:0 <=> %{n%}: %>: _ ;
