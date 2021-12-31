@@ -528,6 +528,18 @@ ikon%<prn%>%<pers%>%<pl2%>:ikon # ;
 nej%<prn%>%<pers%>%<sg3%>:nej # ; 
 nejiw%<prn%>%<pers%>%<pl3%>:nejiw # ; 
 
+xik%<prn%>%<pers%>%<sg1%>%<refl%>:xikiay # ; 
+ik%<prn%>%<pers%>%<sg2%>%<refl%>:ikiay # ; 
+ikor%<prn%>%<pers%>%<du1%>%<refl%>:ikoyor # ; 
+xikon%<prn%>%<pers%>%<pl1%>%<ex%>%<refl%>:xikoyon # ; 
+ikoots%<prn%>%<pers%>%<pl1%>%<in%>%<refl%>:ikoyoots # ; 
+ikon%<prn%>%<pers%>%<pl2%>%<refl%>:ikoyon # ; 
+
+nej%<prn%>%<pers%>%<sg3%>:nejay # ; 
+nejiw%<prn%>%<pers%>%<pl3%>:nejeyej # ; 
+
+
+
 jan:jan PRON-ITG ; ! "quién"
 jan:jane PRON-ITG ; ! "quién" ! +A
 kwane:kwane PRON-ITG ; ! "qué"
@@ -1051,6 +1063,8 @@ naw:naw N1 ; ! "originario, es de"
 mintajaran:mintajaran N1 ; ! "esposa, mujer"
 %<pl%>ntaj%<n%>:mo%>ntaj # ; ! "mujeres"
 
+owil:owil N1 ; ! "tronco" !!! FIXME
+
 LEXICON Propios 
 
 Teon:Teon NP-ANT-M ; ! "Antonio"
@@ -1557,6 +1571,8 @@ mong:mong V-TV ; ! "gatear"
 
 kiiüb:kiü%{ː%}b V-TV ; ! "acompañar" !!! FIXME
 kiiüb:kiiüb V-TV ; ! "acompañar"
+
+yaag:ya{ː%}g V-TV ; ! "sentir"
 
 LEXICON IV
 
