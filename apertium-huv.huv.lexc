@@ -707,6 +707,10 @@ vecin:vecin N1 ; ! "vecino"
 
 espíritu:espíritu N1 ; ! "espíritu"
 
+karro:karro N5 ; ! "carro"
+estufa:estufa N5 ; ! "estufa"
+kafe:kafe N5 ; ! "café"
+
 ángel:ángel N6 ; ! "ángel"
 nación:nación N5 ; ! "nación"
 vuelta:vuelta N5 ; ! "vuelta"
@@ -1070,6 +1074,7 @@ LEXICON Propios
 Teon:Teon NP-ANT-M ; ! "Antonio"
 
 
+Samuel:Samuel NP-ANT-M ; ! "Samuel"
 Jesús:Jesús NP-ANT-M ; ! "Jesús"
 Cristo:Cristo NP-ANT-M ; ! "Cristo"
 Pedro:Pedro NP-ANT-M ; ! "Pedro"
