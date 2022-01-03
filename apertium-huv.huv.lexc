@@ -265,6 +265,8 @@ LEXICON V-PERS
 
 @U.AGR.SG3@%<refl%>:@U.AGR.SG3@%>ay # ;
 @U.AGR.PL3@%<refl%>:@U.AGR.PL3@%>ay%>ej # ;
+@U.AGR.SG3@%<refl%>:@U.AGR.SG3@%>ey # ;
+@U.AGR.PL3@%<refl%>:@U.AGR.PL3@%>ey%>ej # ;
 
 LEXICON V-SUF 
 
@@ -321,6 +323,7 @@ LEXICON N1
 @D.AGR@%<n%>:@D.AGR@ K ;
 %<n%>: POSS ;
 @U.AGR.SG3@%<n%>%<alien%>:@U.AGR.SG3@%>aran # ;
+@U.AGR.SG3@%<n%>%<alien%>:@U.AGR.SG3@%>eran # ;
 
 LEXICON N2
 
@@ -490,6 +493,7 @@ masey:masey CS ; ! "aunque"
 sitiül:sitiül CS ; ! "si"
 tengwüy:tengwüy CS ; ! "si no"
 ndot:ndot CS ; ! "si"
+jondot:jondot CS ; ! "si"
 
 LEXICON Preposiciones 
 
@@ -606,6 +610,7 @@ LEXICON Sustantivos
 
 aneay:neay PRON-POS ; ! "suyo"
 okweaj:kweaj PRON-POS ; ! "suyo"
+okweaj:kwiaj PRON-POS ; ! "suyo"
 
 !kweaj:kweaj N1 ; ! "cosa"
 !meajts:meajts N1 ; ! "???"
@@ -1275,6 +1280,37 @@ xide:xide N1 ; ! "el tipo, el amigo (sin respeto)"
 xiig:xi%{ː%}g N1 ; ! "el cigarro"
 
 
+bíümb:bíümb N1 ; ! "fuego"
+chép:chép N1 ; ! "muela"
+chíl:chíl N1 ; ! "mojarra negra"
+chil:chil N1 ; ! "varios peces: pez mariposa, ángel de Cortés, jaqueta azul de colores,"
+jarünch:jarünch N1 ; ! "el hilo grueso que se usa para hacer atarrayas y manteles"
+káw:káw N1 ; ! "guacamayo"
+kiej:kiej N1 ; ! "sangre"
+kiéj:kiéj N1 ; ! "sangre"
+kwal:kwal N1 ; ! "hijo"
+kwál:kwál N1 ; ! "hijo"
+lal:lal N1 ; ! "una lisa recién nacida (pez)"
+lan:lan N1 ; ! "rompevientos, protección dviento"
+lóp:lóp N1 ; ! "hambre"
+mbeax:mbeax N1 ; ! "la uña"
+nal:nal N1 ; ! "el tepeguaje (árbol: Leucaena pulverulenta)"
+nchéy:nchéy N1 ; ! "lagartija escamoso costeño"
+nejimb:nejimb N1 ; ! "el que barre"
+nǘt:nǘt N1 ; ! "día"
+nüt:nüt N1 ; ! "fecha, día"
+onij:onij N1 ; ! "carne"
+oníj:oníj N1 ; ! "carne"
+pil:pil N1 ; ! "pozo"
+sáts:sáts N1 ; ! "espina"
+tar:tar N1 ; ! "el enmascarado"
+tsak:tsak N1 ; ! "guanacaste"
+tsák:tsák N1 ; ! "muslo"
+tǘch:tǘch N1 ; ! "jicaco"
+xax:xax N1 ; ! "la jícara"
+xil:xil N1 ; ! "yuca (Manihot sp.)"
+
+
 
 LEXICON Propios 
 
@@ -1828,6 +1864,7 @@ mong:mong V-TV ; ! "gatear"
 
 kiiüb:kiü%{ː%}b V-TV ; ! "acompañar" !!! FIXME
 kiiüb:kiiüb V-TV ; ! "acompañar"
+kiiüb:kiüb V-TV ; ! "acompañar"
 
 yaag:ya{ː%}g V-TV ; ! "sentir"
 
