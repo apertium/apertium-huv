@@ -80,6 +80,7 @@ Numeros ;
 Conjunciones ;
 Preposiciones ;
 Interyecciones ;
+Posicionales ;
 Símbolos ;
 Miscellanea ;
 Digits ;
@@ -96,12 +97,18 @@ LEXICON Prefixes
 Accidentes ;
 Posesivos ;
 Estatus ;
+Negación ;
+
+LEXICON Negación
+
+ngo%<adv%>%+:ngo%> Accidentes ;
 
 LEXICON Estatus
 
 %<stat%>:n%> AGR-STAT ;
 %<punt%>%<stat%>:l%> AGR-STAT ;
 %<past%>%<stat%>:t%> AGR-STAT ;
+%<subj%>%<stat%>:m%> AGR-STAT ;
 
 LEXICON Posesivos 
 
@@ -114,6 +121,7 @@ LEXICON Posesivos
 @U.AGR.SG3@%<px3sg%>:@U.AGR.SG3@mi%> Sustantivos ;
 @U.AGR.SG2@%<px2sg%>:@U.AGR.SG2@i%> Sustantivos ;
 @U.AGR.SG3@%<px3sg%>:@U.AGR.SG3@o%> Sustantivos ;
+@U.AGR.DU1@%<px1du%>:@U.AGR.DU1@o%> Sustantivos ;
 @U.AGR.PL1EX@%<px1pl%>%<ex%>:@U.AGR.PL1EX@xe%> Sustantivos ;
 @U.AGR.PL1EX@%<px1pl%>%<ex%>:@U.AGR.PL1EX@xi%> Sustantivos ;
 @U.AGR.PL1IN@%<px1pl%>%<in%>:@U.AGR.PL1IN@o%> Sustantivos ;
@@ -263,6 +271,11 @@ LEXICON V-PERS
 @U.AGR.PL3@:@U.AGR.PL3@%>%{V%}w # ;
 @U.AGR.PL3@:@U.AGR.PL3@%>%{V%}j # ;
 
+@U.AGR.SG3@%<ind%>:@U.AGR.SG3@%>aran # ;
+@U.AGR.SG3@%<ind%>:@U.AGR.SG3@%>eran # ;
+
+@U.AGR.SG3@%<refl%>:@U.AGR.SG3@%>üy # ;
+@U.AGR.PL3@%<refl%>:@U.AGR.PL3@%>üy%>ej # ;
 @U.AGR.SG3@%<refl%>:@U.AGR.SG3@%>ay # ;
 @U.AGR.PL3@%<refl%>:@U.AGR.PL3@%>ay%>ej # ;
 @U.AGR.SG3@%<refl%>:@U.AGR.SG3@%>ey # ;
@@ -302,6 +315,9 @@ LEXICON V-IV
 %<v%>%<iv%>%<caus%>:%>eech V-SUF ;
 %<v%>%<iv%>%<caus%>:%>aach V-SUF ;
 
+LEXICON V-POS 
+
+%<v%>%<iv%>: # ;
 
 LEXICON POSS 
 
@@ -309,6 +325,8 @@ LEXICON POSS
 @U.AGR.SG2@:@U.AGR.SG2@ K ; 
 @U.AGR.SG3@:@U.AGR.SG3@ K ; 
 @U.AGR.DU1@:@U.AGR.DU1@%>iür K ; 
+@U.AGR.DU1@:@U.AGR.DU1@%>aar K ; 
+@U.AGR.DU1@:@U.AGR.DU1@%>ar K ; 
 @U.AGR.PL1EX@:@U.AGR.PL1EX@%>iün K ; 
 @U.AGR.PL1IN@:@U.AGR.PL1IN@%>iüts K ; 
 @U.AGR.PL1IN@:@U.AGR.PL1IN@%>iiüts K ; 
@@ -324,12 +342,14 @@ LEXICON N1
 %<n%>: POSS ;
 @U.AGR.SG3@%<n%>%<alien%>:@U.AGR.SG3@%>aran # ;
 @U.AGR.SG3@%<n%>%<alien%>:@U.AGR.SG3@%>eran # ;
+@U.AGR.SG3@%<n%>%<alien%>:@U.AGR.SG3@%>arán # ;
 
 LEXICON N2
 
 @D.AGR@%<n%>:@D.AGR@ K ;
 %<n%>: POSS ;
 @U.AGR.SG3@%<n%>%<alien%>:@U.AGR.SG3@%>aran # ;
+@U.AGR.SG3@%<n%>%<alien%>:@U.AGR.SG3@%>arán # ;
 
 LEXICON N3
 
@@ -343,6 +363,8 @@ LEXICON N3
 LEXICON N4
 
 %<n%>: POSS ;
+@U.AGR.SG3@%<n%>%<alien%>:@U.AGR.SG3@%>aran # ;
+@U.AGR.SG3@%<n%>%<alien%>:@U.AGR.SG3@%>arán # ;
 
 LEXICON N5
 
@@ -359,17 +381,17 @@ LEXICON N6
 
 LEXICON NP-TOP
 
-%<np%>%<top%>: # ;
+%<np%>%<top%>: K ;
 
 
 LEXICON NP-ANT-F
 
-%<np%>%<ant%>%<f%>: # ;
+%<np%>%<ant%>%<f%>: K ;
 
 
 LEXICON NP-ANT-M 
 
-%<np%>%<ant%>%<m%>: # ;
+%<np%>%<ant%>%<m%>: K ;
 
 LEXICON A-STAT
 
@@ -400,6 +422,7 @@ LEXICON NUM-NO
 
 %<num%>%<c1%>:%>yky # ;
 %<num%>%<c1%>:%>ik # ;
+%<num%>%<c1%>:%>iky # ;
 %<num%>%<c1%>:%>yk # ;
 %<num%>%<c2%>:%>p # ;
 %<num%>%<c3%>:%>ts # ;
@@ -483,11 +506,14 @@ LEXICON Conjunciones
 mbich:mbich CC ; ! "pero"
 pero:pero CC ; ! "pero"
 pero:pere CC ; ! "pero"
+pero:pe CC ; ! "pero"
 y:y CC ; ! "y"
+ni:ni CC ; ! "ni"
 
 
 kos:kos CS ; ! "porque"
 wüx:wüx CS ; ! "cuando"
+wüx:wux CS ; ! "cuando"
 para:para CS ; ! "para"
 masey:masey CS ; ! "aunque"
 sitiül:sitiül CS ; ! "si"
@@ -498,16 +524,20 @@ jondot:jondot CS ; ! "si"
 LEXICON Preposiciones 
 
 tiül:tiül PREP ; ! "en"
+tiül:te PREP ; ! "en"
+tiül:ti PREP ; ! "en"
 
 ! COMPROBAR
 at:at PREP ; ! "como" 
 wüx:wüx PREP ; ! "sobre" 
+wüx:wux PREP ; ! "sobre" 
 naag:naag PREP ; ! "con"
 nikan:nikan PREP ; ! "al lado de"
 
 hasta:hasta PREP ;  ! "hasta"
 por:por PREP ;  ! "por"
 para:para PREP ;  ! "para"
+de:de PREP ;  ! "de"
 
 ! Contracciones
 
@@ -519,6 +549,7 @@ LEXICON Pronombres
 xik%<prn%>%<pers%>%<sg1%>%<emph%>:xike # ; 
 ik%<prn%>%<pers%>%<sg2%>%<emph%>:ike # ; 
 ikor%<prn%>%<pers%>%<du1%>%<emph%>:ikora # ; 
+ikor%<prn%>%<pers%>%<du1%>%<emph%>:ikore # ; 
 xikon%<prn%>%<pers%>%<pl1%>%<ex%>%<emph%>:xikona # ; 
 ikoots%<prn%>%<pers%>%<pl1%>%<in%>%<emph%>:ikootsa # ; 
 ikon%<prn%>%<pers%>%<pl2%>%<emph%>:ikona # ; 
@@ -625,6 +656,7 @@ yow:yow N1 ; ! "agua"
 pil:pil N1 ; ! "pozo"
 kiek:kiek N1 ; ! "pájaro"
 küet:küet N1 ; ! "pescado"
+küet:küt N1 ; ! "pescado"
 taag:ta%{ː%}g N1 ; ! "piel"
 xor:xor N1 ; ! "olla"
 kambaj:kambaj N1 ; ! "pueblo"
@@ -699,6 +731,11 @@ leaj:leaj N1 ; ! "pierna"
 
 chep:chep N4 ; ! "muela"
 meaats:mea%{ː%}ts N4 ; ! "corazón"
+pal:pal N1 ; ! FIXME "???" ~ opal imbeay - tus labios
+
+omeaats:omea%{ː%}ts N1 ; ! "interior"
+omeaatsaran:omeaatsaran N1 ; ! "corazón; vientre, las entrañas, abdomen, el"
+omeaatsaran:omeaatsarán N1 ; ! "corazón; vientre, las entrañas, abdomen, el"
 
 kalüy:kalüy N1 ; ! "norte"
 kawak:kawak N1 ; ! "norte"
@@ -709,6 +746,7 @@ monson:monson N1 ; ! "música"
 
 seman:seman N1 ; ! "semana"
 vin:vin N1 ; ! "vino"
+tas:tas N1 ; ! "taza"
 vecin:vecin N1 ; ! "vecino"
 
 espíritu:espíritu N1 ; ! "espíritu"
@@ -719,7 +757,10 @@ kafe:kafe N5 ; ! "café"
 
 ángel:ángel N6 ; ! "ángel"
 nación:nación N5 ; ! "nación"
+comida:comida N5 ; ! "comida"
+besito:besito N5 ; ! "besito"
 vuelta:vuelta N5 ; ! "vuelta"
+vuelta:buelta N5 ; ! "vuelta"
 amigo:amigo N5 ; ! "amigo"
 cielo:cielo N5 ; ! "cielo"
 vinagre:vinagre N5 ; ! "vinagre"
@@ -1028,6 +1069,7 @@ najkiol:najkiol N1 ; ! "ocote"
 najlip:najlip N1 ; ! "relámpago"
 najndot:najndot N1 ; ! "polvo"
 najtaj:najtaj N1 ; ! "hembra; mujer, señora"
+najtaj:nantaj N1 ; ! "hembra; mujer, señora"
 najüy:najüy N1 ; ! "que vive, que queda; caminante, uno que va"
 nakwalaran:nakwalaran N1 ; ! "hijo"
 nalil:nalil N1 ; ! "sudor; salpullido"
@@ -1110,7 +1152,6 @@ nichech:nichech N1 ; ! "su ofrenda; ofrenda"
 niiüg:niiüg N1 ; ! "ojo"
 nimeech:nime%{ː%}ch N1 ; ! "diablo, Satanás"
 nin:nin N1 ; ! "jején, moyote"
-nine:nine N1 ; ! "niño"
 nipeaxay:nipeaxay N1 ; ! "medidor, pesa, la"
 nipüch:nipüch N1 ; ! "pala"
 nisoet:nisoet N1 ; ! "delito, pecado"
@@ -1141,8 +1182,6 @@ ombeat:ombeat N1 ; ! "precio"
 ombeay:ombeay N1 ; ! "boca"
 ombeayiiüts:ombeayiiüts N1 ; ! "nuestra idioma, o sea huave"
 ombiüm:ombiüm N1 ; ! "casa; nido"
-omeaats:omea%{ː%}ts N1 ; ! "interior"
-omeaatsaran:omeaatsaran N1 ; ! "corazón; vientre, las entrañas, abdomen, el"
 ondeats:ondeats N1 ; ! "pelo, cabo"
 ongwiiüts:ongwiiüts N1 ; ! "noche"
 oniiüg:oniiüg N1 ; ! "ojo"
@@ -1181,6 +1220,7 @@ reech:re%{ː%}ch N1 ; ! "avaro, mezquino, tacaño"
 rünch:rünch N1 ; ! "rancho, rastrojo, corral"
 saab:sa%{ː%}b N1 ; ! "los testículos"
 sampüy:sampüy N1 ; ! "coyote"
+wüey:wüey N1 ; ! "coyote"
 sats:sats N1 ; ! "espina"
 soex:soex N1 ; ! "hierba, pasto, zacate, forraje; leña"
 sokol:sokol N1 ; ! "rincón"
@@ -1221,6 +1261,9 @@ xix:xix N1 ; ! "mosquito, mosco chico"
 teat:teat N3 ; ! "padre"
 koj:koj N3 ; ! "hermano o hermana mayor"
 chiig:chi%{ː%}g N3 ; ! "hermano menor"
+chiig:xi%{ː%}g N3 ; ! "hermano menor"
+chiig:chiik N1 ; ! "hermano menor" !!! FIXME: tesis-2010-7b "xichiik"
+chiig:xiik N1 ; ! "hermano menor" !!! FIXME: tesis-2010-3b "xixiik"
 
 najiüt:najiüt N1 ; ! "trabajo"
 %<sg%>najiüt%<n%>:ne%>najiüt # ; ! "autoridades"
@@ -1310,7 +1353,17 @@ tǘch:tǘch N1 ; ! "jicaco"
 xax:xax N1 ; ! "la jícara"
 xil:xil N1 ; ! "yuca (Manihot sp.)"
 
+pasol:pasol N1 ; ! "cal"
+küünch:küünch N1 ; ! "jaiba"
+üüt:üüt N1 ; ! "comida"
 
+kamix:kamix N1 ; ! "camisa"
+tixem:tixem N1 ; ! "camarrón"
+jal:jal N1 ; ! "falda"
+chinchmalinch:chinchmalinch N1 ; ! "chinchorro"
+najngow:najngow N1 ; ! "caldo"
+plas:plas N1 ; ! "plaza"
+moch:moch N1 ; ! "miedo"
 
 LEXICON Propios 
 
@@ -1399,6 +1452,8 @@ Pafos:Pafos NP-TOP ; ! "Pafos"
 España:España NP-TOP ; ! "España"
 Esmirna:Esmirna NP-TOP ; ! "Esmirna"
 
+Mari:Mari NP-ANT-F ; ! "Mari"
+Karmelita:Karmelita NP-ANT-F ; ! "Karmelita"
 María:María NP-ANT-F ; ! "María"
 Marta:Marta NP-ANT-F ; ! "Marta"
 Magdalena:Magdalena NP-ANT-F ; ! "Magdalena"
@@ -1438,6 +1493,7 @@ Kesarea:Kesarea NP-TOP ; ! "Kesarea"
 LEXICON Adjetivos 
 
 nine:nine A ; ! "chico, pequeño"
+nimixnine:nimixnine A ; ! "pequenito"
 miünkiaj:miünkiaj A ; ! "lejos"
 najneaj:najneaj A ; ! "bueno"
 ndeanche:ndeanche A ; ! "pinche"
@@ -1448,6 +1504,7 @@ tirip:tirip A ; ! "ancho de terrenos"
 oxtet:oxtet A ; ! "ancho de telas"
 jayats:jayats A ; ! "nuevo"
 rran:rran A ; ! "blanco"
+rran:raan A ; ! "blanco"
 pyets:pyets A ; ! "amarillo"
 karakol:karakol A ; ! "morado"
 asul:asul A ; ! "azul"
@@ -1458,13 +1515,19 @@ alinoik:alinoik A ; ! "otro"
 pálwüx:pálwüx A ; ! "otro, aparte"
 palpálwüx:palpálwüx A ; ! ""
 meáwan:meáwan A ; ! "todo"
+meáwan:meawün A ; ! "todo"
+intere:mintere A ; ! "todo"
+intere:intere A ; ! "todo"
 pal:pal A ; ! "todo"
 alakas:alakas A ; ! "algunos más"
 akas:akas A ; ! "algunos"
 palǘyan:palǘyan A ; ! "puro"
+palüy:palüy A ; ! "puro"
 tigüy:tigüy A ; ! "poco"
 tegüy:tegüy A ; ! "poco"
 xeyay:xeyay A ; ! "mucho"
+xeyay:xiyay A ; ! "mucho"
+xeyay:xiay A ; ! "mucho"
 xowüy:xowüy A ; ! "mucho"
 
 alngün:alngün A ; ! "algunos"
@@ -1491,6 +1554,8 @@ waak:waak A-STAT ; ! "seco"
 pat:pat A-STAT ; ! "bravo"
 pak:pak A-STAT ; ! "fuerte, duro"
 él:él A-STAT ; ! "difícil"
+poob:poob A-STAT ; ! "débil"
+leaing:leaing A-STAT ; ! "derecho"
 
 LEXICON Adverbios 
 
@@ -1543,12 +1608,14 @@ kamüm:kamüm ADV ; ! "entonces"
 ningüy:ningüy ADV ; ! "aquí
 
 xeyay:xeyay ADV ; ! "bastante"
+xeyay:xiyay ADV ; ! "bastante"
 xowüy:xowüy ADV ; ! "muchísimo"
 
 aton:aton ADV ; ! "también"
 atan:atan ADV ; ! "también" 
 atan:átan ADV ; ! "también" 
 alinomb:alinomb ADV ; ! "otra vez"
+alinomb:alinom ADV ; ! "otra vez"
 
 atnej:atnej ADV ; ! "así"
 atkiaj:atkiaj ADV ; ! "así"
@@ -1557,7 +1624,11 @@ miün:miün ADV ; ! "solamente"
 
 kam:kam ADV ; ! ""
 kiaj:kiaj ADV ; ! "allí, entonces"
+kiaj:kyaj ADV ; ! "allí, entonces"
 kiüj:kiüj ADV ; ! ""
+kiüj:kyüj ADV ; ! ""
+kiün:kiün ADV ; ! ""
+kiün:kyün ADV ; ! ""
 
 ! Mo SS aag agüy [ a:g a-gɨy ] ésto│this one
 aiün:aiün ADV ; ! ""
@@ -1565,6 +1636,7 @@ agüy:agüy ADV ; ! ""
 ayaj:ayaj ADV ; ! ""
 
 tiüt:tiüt ADV ; ! "abajo"
+tiüt:tíüt ADV ; ! "en el suelo"
 
 kon:kon ADV ; ! "tal vez"
 
@@ -1634,11 +1706,21 @@ nenüt%<part%>:nenüt # ; ! Mo SS nenüt part llamado, se llama│named, to have
 ndom%<part%>:ndom # ; ! Mo SS ndom vr O [ nd-o-m ] se puede│to be able, it is possible
 ngo%<adv%>%+ndom%<part%>:ngo%>ndom # ;
 
+este%<part%>:este # ;
+
 %<pres%>%<sg3%>saj%<v%>%<tv%>:aj # ;
 %<pres%>%<pl3%>saj%<v%>%<tv%>:ajüw # ;
 
 la%<punt%>%+ndoj%<adv%>:la%>ndoj # ;
 la%<punt%>%+ngo%<adv%>:la%>ngo # ;
+
+! Posesivos sueltos
+xi%<pos%>:xi # ;
+xe%<pos%>:xe # ;
+mi%<pos%>:mi # ;
+
+! Otras contracciones
+tiül%<pr%>%+plas%<n%>:te%>nplas # ;
 
 LEXICON Verbos
 
@@ -1650,6 +1732,7 @@ LEXICON TV
 üüch:üüch V-TV ; ! "dar"
 
 rang:rang V-TV ; ! "hacer"
+rangüch:rangüch V-TV ; ! "hacer" !!! FIXME
 kooch:ko%{ː%}ch%{i%} V-TV ; ! "sacar"
 wün:wün V-TV ; ! "sacar"
 lik:lik%{i%} V-TV ; ! "regañar"
@@ -1662,6 +1745,7 @@ piüng:piüng V-TV ; ! "decir"
 soyky:soyky V-TV ; ! "decir"
 yak:yak V-TV ; ! "echar"
 xaing:xaing V-TV ; ! "levantar"
+xaing:xayng V-TV ; ! "levantar"
 xom:xom V-TV ; ! "encontrar"
 omb:omb V-TV ; ! "poner"
 tepeay:tepeay V-TV ; ! "saludar"
@@ -1677,6 +1761,7 @@ nüüp:nü%{ː%}p V-TV ; ! "comprar"
 jier:jier V-TV ; ! "hacer"
 
 yamb:yamb V-TV ; ! "buscar"
+yamb:yam V-TV ; ! "buscar"
 
 ndeak:ndeak V-TV ; ! "hablar" 
 ndeak:ndyak V-TV ; ! "hablar" 
@@ -1780,6 +1865,7 @@ netet:netet V-TV ; ! "lo jala"
 ngoch:ngoch V-TV ; ! "lo encuentra"
 ngüy:ngüy V-TV ; ! "lo paga"
 not:not V-TV ; ! "lo jala; lo absorbe; lo capta; gana premio"
+notot:not%>ot V-TV ; ! "llevar"
 nüüb:nü%{ː%}b V-TV ; ! "lo vende"
 oel:oel V-TV ; ! "lo amarra"
 ol:ol V-TV ; ! "lo mezcla"
@@ -1924,6 +2010,11 @@ xeng:xeng V-TV ; ! "lo hierve, lo cuece (en agua)"
 xim:xim V-TV ; ! "lo huele"
 
 
+ngox:ngox V-TV ; ! "morder"
+xel:xel V-TV ; ! "meter"
+xelxel:xel%>xel V-TV ; ! "meter"
+mok:mok V-TV ; ! "arrastrar"
+mokmok:mok%>mok V-TV ; ! "arrastrar"
 
 LEXICON IV
 
@@ -1957,6 +2048,7 @@ dam:dam V-IV ; ! "crece"
 damdam:damdam V-IV ; ! "son grandes"
 iüm:iüm V-IV ; ! "gime"
 iün:iün V-IV ; ! "viene"
+imiün:imiün V-IV ; ! "viene"
 jal:jal V-IV ; ! "es hondo"
 jchik:jchik V-IV ; ! "brinca"
 jiünts:jiünts V-IV ; ! "llora; chirría"
@@ -2032,9 +2124,22 @@ xix:xix V-IV ; ! "chi$a "
 xix:xix V-IV ; ! "en$aquece"
 xood:xo%{ː%}d V-IV ; ! "posa"
 
+xaing:xaing V-IV ; ! "levantarse"
+xaing:xayng V-IV ; ! "levantarse"
+
 jkan:jkan V-IV ; ! "es de la misma edad"
 
 üünd:üünd V-IV ; ! "es regalado"
+
+ngan:ngan V-IV ; ! ""
+
+LEXICON Posicionales
+
+lemb:lembem V-POS ; ! "parado"
+chet:chetem V-POS ; ! "sentado"
+py:pyüm V-POS ; ! "acostado"
+rrond:rrondom V-POS ; ! "colgado"
+wants:wantsam  V-POS ; ! "volteado"
 
 LEXICON Interyecciones
 
@@ -2045,6 +2150,8 @@ aah:aah INTJ ; ! "aah"
 ah:ah INTJ ; ! "ah"
 ngwaj:ngwaj INTJ ; ! "¿verdad?"
 ngwa:ngwa INTJ ; ! "¿verdad?"
+nwa:nwa INTJ ; ! "¿verdad?"
+wül:wül INTJ ; ! "¿dónde está?"
 
 LEXICON Símbolos
 
