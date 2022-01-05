@@ -53,6 +53,9 @@ Multichar_Symbols
 @U.TAM.PUNT@
 @U.TAM.PROG@
 
+@U.NUM.SG@
+@U.NUM.PL@
+
 %{a%} ! a 0
 %{A%} ! a e 
 %{i%} ! i 0
@@ -140,8 +143,8 @@ LEXICON Accidentes
 @U.TAM.PRES@%<pres%>:@U.TAM.PRES@    AGR-PRES ;
 
 %<rel%>:na%> Verbos ; 
-%<subst%>%<sg%>:ne%> Verbos ; 
-%<subst%>%<pl%>:mo%{n%}%> Verbos ; 
+@U.NUM.SG@%<subst%>%<sg%>:@U.NUM.SG@ne%> Verbos ; 
+@U.NUM.PL@%<subst%>%<pl%>:@U.NUM.PL@mo%{n%}%> Verbos ; 
 
 LEXICON AGR-PUNT
 
@@ -275,10 +278,10 @@ LEXICON V-PERS
 @U.AGR.SG3@%<ind%>:@U.AGR.SG3@%>eran # ;
 
 @U.AGR.SG3@%<refl%>:@U.AGR.SG3@%>üy # ;
-@U.AGR.PL3@%<refl%>:@U.AGR.PL3@%>üy%>ej # ;
 @U.AGR.SG3@%<refl%>:@U.AGR.SG3@%>ay # ;
-@U.AGR.PL3@%<refl%>:@U.AGR.PL3@%>ay%>ej # ;
 @U.AGR.SG3@%<refl%>:@U.AGR.SG3@%>ey # ;
+@U.AGR.PL3@%<refl%>:@U.AGR.PL3@%>üy%>ej # ;
+@U.AGR.PL3@%<refl%>:@U.AGR.PL3@%>ay%>ej # ;
 @U.AGR.PL3@%<refl%>:@U.AGR.PL3@%>ey%>ej # ;
 
 LEXICON V-SUF 
@@ -301,6 +304,9 @@ LEXICON V-SUF
 @U.AGR.SG1@@U.TAM.IRRE@:@U.AGR.SG1@@U.TAM.IRRE@ # ;
 
 @U.AGR.SG1@@U.TAM.PROG@:@U.AGR.SG1@@U.TAM.PROG@%> # ;
+
+@U.NBR.SG@:@U.NBR.SG@ # ;
+@U.NBR.PL@:@U.NBR.PL@ # ;
 
 LEXICON V-TV
 
@@ -1831,7 +1837,6 @@ lox:lox V-TV ; ! "lo tira"
 lüeliich:lüeliich V-TV ; ! "lo hace volar"
 lüp:lüp V-TV ; ! "lo lame"
 mal:mal V-TV ; ! "lo carga en la espalda "
-mbaag:mbaag V-TV ; ! "lo reparte"
 mbel:mbel V-TV ; ! "lo enciende"
 mbich:mbich V-TV ; ! "lo termina"
 mbitik:mbitik V-TV ; ! "lo carga en el hombro"
@@ -1943,7 +1948,6 @@ xejneng:xejneng V-TV ; ! "lo amontona"
 xek:xek V-TV ; ! "lo entremete"
 xol:xol V-TV ; ! "lo molesta"
 xot:xot V-TV ; ! "lo esconde"
-yaag:yaag V-TV ; ! "lo siente"
 yar:yar V-TV ; ! "lo agarrar; lo trae; se apropia"
 pak:pak V-TV ; ! "???"
 mong:mong V-TV ; ! "gatear"
@@ -1952,6 +1956,7 @@ kiiüb:kiü%{ː%}b V-TV ; ! "acompañar" !!! FIXME
 kiiüb:kiiüb V-TV ; ! "acompañar"
 kiiüb:kiüb V-TV ; ! "acompañar"
 
+!yaag:yaag V-TV ; ! "lo siente"
 yaag:ya{ː%}g V-TV ; ! "sentir"
 
 áj:áj V-TV ; ! "lo calienta (calor extremo del fuego que hace derretir la cera, la grasa,"
@@ -1975,6 +1980,7 @@ leangiich:leangi%{ː%}ch V-TV ; ! "lo endereza"
 limb:limb V-TV ; ! "lo tira (intencionalmente)"
 linch:linch V-TV ; ! "lo pone en línea, lo alinea"
 loing:loing V-TV ; ! "lo enrolla (de la mano al codo)"
+!mbaag:mbaag V-TV ; ! "lo reparte"
 mbaag:mba%{ː%}g V-TV ; ! "lo reparte, lo divide"
 mbaiich:mbai%{ː%}ch V-TV ; ! "lo espanta, lo asusta; se pone nervioso"
 mbet:mbet V-TV ; ! "lo costura, lo cose; lo ensarta, lo mete"
