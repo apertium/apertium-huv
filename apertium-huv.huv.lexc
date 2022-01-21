@@ -35,6 +35,54 @@ Multichar_Symbols
 %<in%>
 %<ex%>
 
+%<alien%>
+%<ant%>
+%<c1%>
+%<c2%>
+%<c3%>
+%<c4%>
+%<cm%>
+%<cnjcoo%>
+%<cnjsub%>
+%<cop%>
+%<dem%>
+%<dep%>
+%<emph%>
+%<evid%>
+%<f%>
+%<guio%>
+%<ij%>
+%<ind%>
+%<irre%>
+%<loc%>
+%<lpar%>
+%<lquest%>
+%<lquot%>
+%<m%>
+%<part%>
+%<pass%>
+%<pers%>
+%<pl%>
+%<pos%>
+%<prog%>
+%<px1du%>
+%<px1pl%>
+%<px1sg%>
+%<px2pl%>
+%<px2sg%>
+%<px3pl%>
+%<px3sg%>
+%<refl%>
+%<rel%>
+%<rpar%>
+%<rquot%>
+%<sent%>
+%<sg%>
+%<stat%>
+%<subst%>
+%<top%>
+
+
 @U.AGR.SG1@
 @U.AGR.SG2@
 @U.AGR.SG3@
@@ -117,21 +165,42 @@ LEXICON Posesivos
 
 ! p.42
 
-@U.AGR.SG1@%<px1sg%>:@U.AGR.SG1@xi%> Sustantivos ;
-@U.AGR.SG1@%<px1sg%>:@U.AGR.SG1@xe%> Sustantivos ;
-@U.AGR.SG1@%<px1sg%>:@U.AGR.SG1@sa%> Sustantivos ;
-@U.AGR.SG2@%<px2sg%>:@U.AGR.SG2@mi%> Sustantivos ;
-@U.AGR.SG3@%<px3sg%>:@U.AGR.SG3@mi%> Sustantivos ;
-@U.AGR.SG2@%<px2sg%>:@U.AGR.SG2@i%> Sustantivos ;
-@U.AGR.SG3@%<px3sg%>:@U.AGR.SG3@o%> Sustantivos ;
-@U.AGR.DU1@%<px1du%>:@U.AGR.DU1@o%> Sustantivos ;
+@U.AGR.SG1@%<px1sg%>:@U.AGR.SG1@sa%> Sustantivos ; ! a-  [sa-]
+@U.AGR.SG1@%<px1sg%>:@U.AGR.SG1@xi%> Sustantivos ; ! i-  [xi-]
+@U.AGR.SG1@%<px1sg%>:@U.AGR.SG1@xi%> Sustantivos ; ! o-  [xi-]
+@U.AGR.SG1@%<px1sg%>:@U.AGR.SG1@xe%> Sustantivos ; ! mi- [xe-, xa-]
+
+@U.AGR.SG2@%<px2sg%>:@U.AGR.SG2@i%> Sustantivos ;  ! a- [i-]
+@U.AGR.SG2@%<px2sg%>:@U.AGR.SG2@er%> Sustantivos ; ! i- [er-]
+@U.AGR.SG2@%<px2sg%>:@U.AGR.SG2@i%> Sustantivos ;  ! o- [i-]
+@U.AGR.SG2@%<px2sg%>:@U.AGR.SG2@mi%> Sustantivos ; ! mi- [mi-]
+
+@U.AGR.DU1@%<px1du%>:@U.AGR.DU1@a%> Sustantivos ;  ! a- [a-]
+@U.AGR.DU1@%<px1du%>:@U.AGR.DU1@i%> Sustantivos ;  ! i- [i-]
+@U.AGR.DU1@%<px1du%>:@U.AGR.DU1@o%> Sustantivos ;  ! o- [o-]
+@U.AGR.DU1@%<px1du%>:@U.AGR.DU1@mi%> Sustantivos ; ! mi- [mi-]
+
+@U.AGR.SG3@%<px3sg%>:@U.AGR.SG3@a%> Sustantivos ;  ! a- [a-]
+@U.AGR.SG3@%<px3sg%>:@U.AGR.SG3@i%> Sustantivos ;  ! i- [i-]
+@U.AGR.SG3@%<px3sg%>:@U.AGR.SG3@o%> Sustantivos ;  ! o- [o-]
+@U.AGR.SG3@%<px3sg%>:@U.AGR.SG3@mi%> Sustantivos ; ! mi- [mi-]
+
 @U.AGR.PL1EX@%<px1pl%>%<ex%>:@U.AGR.PL1EX@xe%> Sustantivos ;
 @U.AGR.PL1EX@%<px1pl%>%<ex%>:@U.AGR.PL1EX@xi%> Sustantivos ;
 @U.AGR.PL1IN@%<px1pl%>%<in%>:@U.AGR.PL1IN@o%> Sustantivos ;
 @U.AGR.PL1IN@%<px1pl%>%<in%>:@U.AGR.PL1IN@mi%> Sustantivos ;
-@U.AGR.PL2@%<px2pl%>:@U.AGR.PL2@i%> Sustantivos ;
-@U.AGR.PL3@%<px3pl%>:@U.AGR.PL3@mi%> Sustantivos ;
-@U.AGR.PL3@%<px3pl%>:@U.AGR.PL3@o%> Sustantivos ;
+
+@U.AGR.PL2@%<px2pl%>:@U.AGR.PL2@i%> Sustantivos ;  ! a- [i-]
+@U.AGR.PL2@%<px2pl%>:@U.AGR.PL2@er%> Sustantivos ; ! i- [er-]
+@U.AGR.PL2@%<px2pl%>:@U.AGR.PL2@i%> Sustantivos ;  ! o- [i-]
+@U.AGR.PL2@%<px2pl%>:@U.AGR.PL2@mi%> Sustantivos ; ! mi- [mi-]
+
+@U.AGR.PL3@%<px3pl%>:@U.AGR.PL3@a%> Sustantivos ;  ! a- [a-]
+@U.AGR.PL3@%<px3pl%>:@U.AGR.PL3@i%> Sustantivos ;  ! i- [i-]
+@U.AGR.PL3@%<px3pl%>:@U.AGR.PL3@o%> Sustantivos ;  ! o- [o-]
+@U.AGR.PL3@%<px3pl%>:@U.AGR.PL3@mi%> Sustantivos ; ! mi- [mi-]
+
+
 
 LEXICON Accidentes 
 
@@ -342,6 +411,10 @@ LEXICON POSS
 @U.AGR.PL3@:@U.AGR.PL3@%>%{V%}w K ; 
 @U.AGR.PL3@:@U.AGR.PL3@%>i%{V%}w K ; 
 
+LEXICON N-mi-A
+
+N1 ; 
+
 LEXICON N1 
 
 @D.AGR@%<n%>:@D.AGR@ K ;
@@ -549,6 +622,7 @@ de:de PREP ;  ! "de"
 
 tiül%<pr%>%+:ti%> Sustantivos ; 
 tiül%<pr%>%+:te%> Posesivos ; 
+tiül%<pr%>%+:ti%> Posesivos ; 
 
 LEXICON Pronombres
 
@@ -674,7 +748,6 @@ iüt:iüt N1 ; ! "tierra"
 xiül:xiül N1 ; ! "árbol"
 monandeow:monandeow N1 ; ! "enfermedad"
 plas:plas N1 ; ! "mercado"
-kwal:kwal N1 ; ! "hijo"
 müm:müm N1 ; ! "madre, abuela"
 nüt:nüt N1 ; ! "nombre"
 larraar:larra%{ː%}r N1 ; ! "calor"
@@ -691,7 +764,6 @@ kawüy:kawüy N1 ; ! "caballo"
 monxey:monxey N1 ; ! "hombre"
 piedra:piedra N1 ; ! "piedra"
 iünd:iünd N1 ; ! "aire"
-sap:sap N1 ; ! "borrego, algodón"
 mats:mats N1 ; ! "cama"
 onij:onij N1 ; ! "carne"
 opang:opang N1 ; ! "cáscara"
@@ -699,6 +771,10 @@ miüs:miüs N1 ; ! "gato"
 aop:aop N1 ; ! "hoja"
 omb:omb N1 ; ! "huevo"
 üs:üs N1 ; ! "maíz"
+
+sap:sap N-mi-A ; ! "borrego, algodón"
+kwal:kwal N-mi-A ; ! "hijo"
+kwál:kwál N-mi-A ; ! "hijo"
 
 onik:onik N1 ; ! "voz"
 kiej:kiej N1 ; ! "sangre"
@@ -1337,8 +1413,6 @@ jarünch:jarünch N1 ; ! "el hilo grueso que se usa para hacer atarrayas y mante
 káw:káw N1 ; ! "guacamayo"
 kiej:kiej N1 ; ! "sangre"
 kiéj:kiéj N1 ; ! "sangre"
-kwal:kwal N1 ; ! "hijo"
-kwál:kwál N1 ; ! "hijo"
 lal:lal N1 ; ! "una lisa recién nacida (pez)"
 lan:lan N1 ; ! "rompevientos, protección dviento"
 lóp:lóp N1 ; ! "hambre"
@@ -1554,6 +1628,7 @@ pobre:pobre A ; ! "pobre"
 LEXICON Stativos
 
 xip:xip A-STAT ; ! "gordo"
+xep:xep A-STAT ; ! "gordo"
 dam:dam A-STAT ; ! "grande"
 kants:kants A-STAT ; ! "rojo"
 waak:waak A-STAT ; ! "seco"
@@ -1749,7 +1824,7 @@ ndiüm:ndiüm V-TV ; ! "querer"
 saj:saj V-TV ; ! "decir"
 piüng:piüng V-TV ; ! "decir"
 soyky:soyky V-TV ; ! "decir"
-yak:yak V-TV ; ! "echar"
+yak:yak V-TV ; ! "echar, eligir, dejar, poner, colocar, producir"
 xaing:xaing V-TV ; ! "levantar"
 xaing:xayng V-TV ; ! "levantar"
 xom:xom V-TV ; ! "encontrar"
@@ -2015,12 +2090,15 @@ tsotoch:tsotoch V-TV ; ! "lo siente"
 xeng:xeng V-TV ; ! "lo hierve, lo cuece (en agua)"
 xim:xim V-TV ; ! "lo huele"
 
+paj:paj V-TV ; ! "invitar, invocar"
 
 ngox:ngox V-TV ; ! "morder"
 xel:xel V-TV ; ! "meter"
 xelxel:xel%>xel V-TV ; ! "meter"
 mok:mok V-TV ; ! "arrastrar"
 mokmok:mok%>mok V-TV ; ! "arrastrar"
+
+kwerr:kwerr V-TV ; ! "conducir, manejar"
 
 LEXICON IV
 
@@ -2146,6 +2224,7 @@ chet:chetem V-POS ; ! "sentado"
 py:pyüm V-POS ; ! "acostado"
 rrond:rrondom V-POS ; ! "colgado"
 wants:wantsam  V-POS ; ! "volteado"
+wity:wity V-POS ; ! "levantarse"
 
 LEXICON Interyecciones
 
@@ -2192,6 +2271,6 @@ LEXICON Símbolos
 
 LEXICON Digits
 
-<[ %0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 ]+> NUM ;
-<[ %0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 ]+ [ %, | %. ] [ %0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 ]+> NUM ;
+<[ %0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 ]> NUM ;
+<[ %0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 ] [ %, | %. ] [ %0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 ]> NUM ;
 
