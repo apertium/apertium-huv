@@ -347,6 +347,22 @@
 1	Satangan	tang	VERB	_	Clusivity=Ex|Number=Plur|Person=1|Subcat=Intr|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = tesis:2:44:2
+# text = Sayamban küünch.
+# text[spa] = Buscamos jaibas.
+# labels = complete
+1	Sayamban	yamb	VERB	_	Clusivity=Ex|Number=Plur|Person=1|Subcat=Tran|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	küünch	küünch	NOUN	_	_	1	obj	_	_
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:2:45:3
+# text = Tambiy xik
+# text[spa] = Él me pegó.
+# labels = complete
+1	Tambiy	mbiy	VERB	_	Number=Sing|Person=3|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
+2	xik	xik	PRON	_	Number=Sing|Person=1|PronType=Prs	1	obj	_	_
+3	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = tesis:2:45:4
 # text = Tambiy ik.
 # text[spa] = 
@@ -354,4 +370,131 @@
 1	Tambiy	mbiy	VERB	_	Number=Sing|Person=3|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
 2	ik	ik	PRON	_	Number=Sing|Person=2|PronType=Prs	1	obj	_	_
 3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:2:45:5
+# text = Tambiy nej.
+# text[spa] = Le pegó.
+# labels = incomplete
+1	Tambiy	mbiy	VERB	_	Number=Sing|Person=3|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
+2	nej	nej	PRON	_	Number=Sing|Person=3|PronType=Prs	1	obj	_	_
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:2:45:6a
+# text = Ixeep.
+# text[spa] = Te bañas.
+# labels = complete
+1	Ixeep	xeep	VERB	_	Number=Sing|Person=2|Subcat=Intr|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:2:46:6b
+# text = Tikweat xi nawiik.
+# text[spa] = Dejaste mi libro.
+# labels = complete
+1	Tikweat	kweat	VERB	_	Number=Sing|Person=2|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
+2	xi	xi	_	_	Possessive=Yes	3	goeswith	_	_
+3	nawiik	nawiig	NOUN	_	_	1	obj	_	_
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:2:46:7
+# text = Nej müm najtaj lamb ¿nwa?.
+# text[spa] = Ella, la señora, ya se va, ¿verdad?
+# labels = complete
+1	Nej	nej	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	müm	müm	NOUN	_	_	3	clf	_	_
+3	najtaj	najtaj	NOUN	_	_	1	appos	_	_
+4	lamb	mb	VERB	_	Aspect=Punt|Number=Sing|Person=3|Subcat=Intr|Tense=Past|VerbForm=Fin	0	root	_	_
+5	¿	¿	PUNCT	_	_	6	punct	_	_
+6	nwa	nwa	INTJ	_	_	4	discourse	_	_
+7	?	?	PUNCT	_	_	6	punct	_	_
+8	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = tesis:2:47:8a
+# text = Ikore landyakar.
+# text[spa] = Nosotros (dos) ya hablamos.
+# labels = complete
+1	Ikore	ikor	PART	_	Number=Dual|Person=1|PronType=Prs	2	nsubj	_	_
+2	landyakar	ndeak	VERB	_	Aspect=Punt|Number=Dual|Person=1|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = tesis:2:47:8b
+# text = Ike timbiy ikor.
+# text[spa] = Tú nos pegaste a nosostros dos.
+# labels = complete
+1	Ike	ik	PART	_	Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
+2	timbiy	mbiy	VERB	_	Number=Sing|Person=2|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
+3	ikor	ikor	PRON	_	Number=Dual|Person=1|PronType=Prs	2	obj	_	_
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = tesis:2:48:9a
+# text = Nej pues tangün noiky buelta.
+# text[spa] = Él se emborrachó otra vez.
+# labels = complete
+1	Nej	nej	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	pues	pues	ADV	_	_	3	discourse	_	_
+3	tangün	ngün	VERB	_	Number=Sing|Person=3|Subcat=Intr|Tense=Past|VerbForm=Fin	0	root	_	_
+4	noiky	no	NUM	_	NumType=Clf	5	nummod	_	_
+5	buelta	vuelta	NOUN	_	_	3	obl	_	_
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = tesis:2:48:9c
+# text = Majaw nej.
+# text[spa] = Lo vió.
+# labels = complete
+1	Majaw	jaw	VERB	_	Mood=Sub|Number=Sing|Person=3|Subcat=Tran	0	root	_	_
+2	nej	nej	PRON	_	Number=Sing|Person=3|PronType=Prs	1	obj	_	_
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:2:50:10a
+# text = Teon tarang noyk nawiig.
+# text[spa] = Antonio hizo una carta.
+# labels = complete
+1	Teon	Teon	PROPN	_	Gender=Masc	2	nsubj	_	_
+2	tarang	rang	VERB	_	Number=Sing|Person=3|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
+3	noyk	no	NUM	_	NumType=Clf	4	nummod	_	_
+4	nawiig	nawiig	NOUN	_	_	2	obj	_	_
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = tesis:2:50:10b
+# text = Nejiw tambiyaw xik.
+# text[spa] = Ellos me golpearon.
+# labels = complete
+1	Nejiw	nejiw	PRON	_	Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	tambiyaw	mbiy	VERB	_	Number=Plur|Person=3|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
+3	xik	xik	PRON	_	Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = tesis:2:50:10c
+# text = Nejiw tambiyaw xikon.
+# text[spa] = Ellos nos golpean.
+# labels = complete
+1	Nejiw	nejiw	PRON	_	Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	tambiyaw	mbiy	VERB	_	Number=Plur|Person=3|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
+3	xikon	xikon	PRON	_	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	2	obj	_	_
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = tesis:2:51:11a
+# text = Xike tanambiyaw.
+# text[spa] = Yo los golpeé a ellos.
+# labels = complete
+1	Xike	xik	PART	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	tanambiyaw	mbiy	VERB	_	Number=Sing|Number[obj]=Plur|Person=1|Person[obj]=3|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = tesis:2:51:11b
+# text = Tanajawüw a pet.
+# text[spa] = Vi a los perros.
+# labels = complete
+1	Tanajawüw	jaw	VERB	_	Number=Sing|Number[obj]=Plur|Person=3|Person[obj]=3|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
+2	a	aaga	DET	_	_	3	det	_	_
+3	pet	pet	NOUN	_	_	1	obj	_	_
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:2:52:12a
+# text = Xikona tanambiyan nej.
+# text[spa] = Nosotros lo golpeamos.
+# labels = complete
+1	Xikona	xikon	PART	_	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	tanambiyan	mbiy	VERB	_	Clusivity=Ex|Number=Plur|Person=1|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
+3	nej	nej	PRON	_	Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	.	.	PUNCT	_	_	2	punct	_	_
 

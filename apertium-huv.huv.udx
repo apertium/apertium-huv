@@ -17,6 +17,7 @@
 1	_	_	pl1|ex	_	_	_	Number=Plur|Person=1|Clusivity=Ex	_
 1	_	_	pl2	_	_	_	Number=Plur|Person=2	_
 1	_	_	pl3	_	_	_	Number=Plur|Person=3	_
+1	_	_	o_pl3	_	_	_	Number[obj]=Plur|Person[obj]=3	_
 1	_	_	pos	_	_	_	Possessive=Yes	_
 1	_	_	pres	_	_	_	Tense=Pres|VerbForm=Fin	_
 1	_	_	prog	_	_	_	Aspect=Prog|VerbForm=Fin	_

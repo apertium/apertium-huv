@@ -443,10 +443,12 @@
 ^./.$
 
 # sent_id = tesis:2:45:3
-# text = Tambiy xik
+# text = Tambiy xik.
 # text[spa] = 
 # labels = incomplete
-^45/*45$
+^Tambiy/T>a>mbiy$
+^xik/xik$
+^./.$
 
 # sent_id = tesis:2:45:4
 # text = Tambiy ik.
@@ -477,7 +479,7 @@
 # labels = incomplete
 ^Tikweat/kweat$
 ^xi/xi$
-^nawiik/*nawiik$
+^nawiik/nawiik$
 ^./.$
 
 # sent_id = tesis:2:46:7
@@ -505,8 +507,8 @@
 # text = Ike timbiy ikor.
 # text[spa] = 
 # labels = incomplete
-^Ike/ik+a/ik$
-^timbiy/mbiy$
+^Ike/Ik>e$
+^timbiy/t>i>mbiy$
 ^ikor/ikor$
 ^./.$
 
@@ -545,9 +547,9 @@
 # text[spa] = 
 # labels = incomplete
 ^Teon/Teon$
-^tarang/rang$
-^noyk/no$
-^nawiig/nawiig/wiig$
+^tarang/t>a>rang$
+^noyk/noyk$
+^nawiig/nawiig$
 ^./.$
 
 # sent_id = tesis:2:50:10b
@@ -555,7 +557,7 @@
 # text[spa] = 
 # labels = incomplete
 ^Nejiw/nejiw$
-^tambiyaw/mbiy$
+^tambiyaw/t>a>mbiy>aw$
 ^xik/xik$
 ^./.$
 
