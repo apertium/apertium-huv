@@ -52,6 +52,17 @@
 8	küünch	küünch	NOUN	_	_	3	obl	_	_
 9	.	.	PUNCT	_	_	3	punct	_	_
 
+# sent_id = tesis:1:21:2c
+# text = Y aaga ayaj atangüüch xikon.
+# text[spa] = y esto nos hizo crecer
+# labels = complete check-demonstrative
+1	Y	y	CCONJ	_	_	4	cc	_	_
+2	aaga	aaga	DET	_	_	3	det	_	_
+3	ayaj	ayaj	PRON	_	PronType=Dem	4	nsubj	_	_
+4	atangüüch	tang	VERB	_	Number=Sing|Person=3|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Caus	0	root	_	_
+5	xikon	xikon	PRON	_	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	4	obj	_	_
+6	.	.	PUNCT	_	_	4	punct	_	_
+
 # sent_id = tesis:1:21:2d
 # text = Ayaj anüüp ximüm.
 # text[spa] = Eso vende mi mamá.
@@ -60,6 +71,28 @@
 2	anüüp	nüüp	VERB	_	Number=Sing|Person=3|Subcat=Tran|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	ximüm	müm	NOUN	_	Number[psor]=Sing|Person[psor]=1	2	nsubj	_	_
 4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = tesis:1:26:6a
+# text = Tasaj che mikwal nej aaga nüx.
+# text[spa] = Dicen que dijo a su hija, la muchacha.
+# labels = complete check-object
+1	Tasaj	saj	VERB	_	Number=Sing|Person=3|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
+2	che	che	PART	_	Evident=Nfh	1	discourse	_	_
+3	mikwal	kwal	NOUN	_	Number[psor]=Sing|Person[psor]=3	1	obj	_	_
+4	nej	nej	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nmod	_	_
+5	aaga	aaga	DET	_	_	6	det	_	_
+6	nüx	nüx	NOUN	_	_	3	appos	_	_
+7	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:1:26:6b
+# text = Lanayamban aaga nine küünch.
+# text[spa] = Ya buscamos unas jaibitas.
+# labels = complete
+1	Lanayamban	yamb	VERB	_	Aspect=Punt|Clusivity=Ex|Number=Plur|Person=1|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
+2	aaga	aaga	DET	_	_	4	det	_	_
+3	nine	nine	ADJ	_	_	4	amod	_	_
+4	küünch	küünch	NOUN	_	_	1	obj	_	_
+5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = tesis:1:26:6c
 # text = Tandeow nop pet.
@@ -127,6 +160,15 @@
 4	pet	pet	NOUN	_	_	2	obj	_	_
 5	.	.	PUNCT	_	_	2	punct	_	_
 
+# sent_id = tesis:1:27:9a
+# text = ¿Aaga ma?
+# text[spa] = ¿Esa mamá?
+# labels = complete
+1	¿	¿	PUNCT	_	_	3	punct	_	_
+2	Aaga	aaga	DET	_	_	3	det	_	_
+3	ma	ma	NOUN	_	_	0	root	_	_
+4	?	?	PUNCT	_	_	3	punct	_	_
+
 # sent_id = tesis:1:27:9b
 # text = Ngana ikona indieman mitiün aaga pues.
 # text[spa] = Ahora ustedes quieren comer esa pues.
@@ -139,6 +181,41 @@
 6	pues	pues	ADV	_	_	3	discourse	_	_
 7	.	.	PUNCT	_	_	3	punct	_	_
 
+# sent_id = tesis:1:27:10a
+# text = Üütiw teat mol agüy intere aaga peats kam.
+# text[spa] = Los extranjeros comen toda esta tortilla.
+# labels = complete check-demonstratives
+1	Üütiw	üüt	VERB	_	Number=Plur|Person=3|Subcat=Tran|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	teat	teat	NOUN	_	_	3	clf	_	_
+3	mol	mol	NOUN	_	_	1	nsubj	_	_
+4	agüy	agüy	ADV	_	_	7	advmod	_	_
+5	intere	intere	ADJ	_	_	7	amod	_	_
+6	aaga	aaga	DET	_	_	7	det	_	_
+7	peats	peats	NOUN	_	_	1	obj	_	_
+8	kam	kam	ADV	_	_	7	advmod	_	_
+9	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:1:27:10b
+# text = Sanaxelxel ajküw nimixnine küt küy.
+# text[spa] = Voy a meter estos pescaditos (en una vara).
+# labels = complete
+1	Sanaxelxel	xelxel	VERB	_	Mood=Irr|Number=Sing|Person=1|Subcat=Tran	0	root	_	_
+2	ajküw	aaga	DET	_	Number=Plur	4	det	_	_
+3	nimixnine	nimixnine	ADJ	_	_	4	amod	_	_
+4	küt	küet	NOUN	_	_	1	obj	_	_
+5	küy	küy	ADV	_	_	4	advmod	_	_
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:1:28:11b
+# text = Teandeow aaga sow kiün.
+# text[spa] = Aquel puerco se está muriendo.
+# labels = complete
+1	Teandeow	ndeow	VERB	_	Aspect=Prog|Number=Sing|Person=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
+2	aaga	aaga	DET	_	_	3	det	_	_
+3	sow	sow	NOUN	_	_	1	nsubj	_	_
+4	kiün	kiün	ADV	_	_	3	advmod	_	_
+5	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = tesis:1:31:12
 # text = Tandeow aaga nine pet.
 # text[orig] = Tandeow aaga napat pet.
@@ -149,4 +226,17 @@
 3	nine	nine	ADJ	_	_	4	amod	_	_
 4	pet	pet	NOUN	_	_	1	nsubj	_	_
 5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:1:32:14a
+# text = Mikamix a naxey kyaj raan wüx angal.
+# text[spa] = Su camisa de este señor está blanca cuando la compró.
+# labels = complete
+1	Mikamix	kamix	NOUN	_	Number[psor]=Sing|Person[psor]=3	5	nsubj	_	_
+2	a	aaga	DET	_	_	3	det	_	_
+3	naxey	naxey	NOUN	_	_	1	nmod	_	_
+4	kyaj	kiaj	ADV	_	_	3	advmod	_	_
+5	raan	rran	ADJ	_	_	0	root	_	_
+6	wüx	wüx	SCONJ	_	_	7	mark	_	_
+7	angal	ngal	VERB	_	Number=Sing|Person=3|Subcat=Tran|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+8	.	.	PUNCT	_	_	5	punct	_	_
 

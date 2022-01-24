@@ -278,66 +278,77 @@
 
 # sent_id = tesis:1:27:10a
 # text = Üütiw teat mol agüy intere aaga peats kam.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Los extranjeros comen toda esta tortilla.
+# labels = complete check-demonstratives
 "<Üütiw>"
-	"üüt" n
-	"üüt" n px3pl
+	"üüt" v tv pres pl3 @root #1->0
 "<teat>"
-	"teat" n
+	"teat" n @clf #2->3
 "<mol>"
-	"mol" n
+	"mol" n @nsubj #3->1
 "<agüy>"
-	"agüy" adv
+	"agüy" adv @advmod #4->7
 "<intere>"
-	"intere" adj
+	"intere" adj @amod #5->7
 "<aaga>"
-	"aaga" det @det
+	"aaga" det @det #6->7
 "<peats>"
-	"peats" n
+	"peats" n @obj #7->1
 "<kam>"
-	"kam" adv
+	"kam" adv @advmod #8->7
 "<.>"
-	"." sent
+	"." sent @punct #9->1
 
 # sent_id = tesis:1:27:10b
 # text = Sanaxelxel ajküw nimixnine küt küy.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Voy a meter estos pescaditos (en una vara).
+# labels = complete
 "<Sanaxelxel>"
-	"xelxel" v tv irre dep sg1
+	"xelxel" v tv irre dep sg1 @root #1->0
 "<ajküw>"
-	"ajküw" prn dem
+	"aaga" det pl @det #2->4
 "<nimixnine>"
-	"nimixnine" adj
+	"nimixnine" adj @amod #3->4
 "<küt>"
-	"küet" n
+	"küet" n @obj #4->1
 "<küy>"
-	"küy" n
+	"küy" adv @advmod #5->4
 "<.>"
-	"." sent
+	"." sent @punct #6->1
 
 # sent_id = tesis:1:28:11a
 # text = Latsambaran xaweleat, aaga nüx kyaj
-# text[spa] = 
+# text[spa] = Ya mordieron a xaweleat, esa muchacha.
 # labels = incomplete
-"<11a>"
-	"*11a"
+"<Latsambaran>"
+	"tsamb" v tv ind punt sg3 @root
+"<xaweleat>"
+	"*xaweleat"
+"<,>"
+	"," cm @punct
+"<aaga>"
+	"aaga" det @det
+"<nüx>"
+	"nüx" n
+"<kyaj>"
+	"kiaj" adv @advmod
+"<.>"
+	"." sent @punct
 
 # sent_id = tesis:1:28:11b
 # text = Teandeow aaga sow kiün.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Aquel puerco se está muriendo.
+# labels = complete
 "<Teandeow>"
-	"ndeow" v iv prog sg3
+	"ndeow" v iv prog sg3 @root #1->0
 "<aaga>"
-	"aaga" det @det
+	"aaga" det @det #2->3
 "<sow>"
-	"sow" n
+	"sow" n @nsubj #3->1
 "<kiün>"
-	"kiün" adv
+	"kiün" adv @advmod #4->3
 "<.>"
-	"." sent
+	"." sent @punct #5->1
 
 # sent_id = tesis:1:31:12
 # text = Tandeow aaga nine pet.
@@ -357,26 +368,24 @@
 
 # sent_id = tesis:1:32:14a
 # text = Mikamix a naxey kyaj raan wüx angal.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Su camisa de este señor está blanca cuando la compró.
+# labels = complete
 "<Mikamix>"
-	"kamix" n px2sg
-	"kamix" n px3sg
+	"kamix" n px3sg @nsubj #1->5
 "<a>"
-	"aaga" det @det
+	"aaga" det @det #2->3
 "<naxey>"
-	"naxey" n
+	"naxey" n @nmod #3->1
 "<kyaj>"
-	"kiaj" adv
+	"kiaj" adv @advmod #4->3
 "<raan>"
-	"rran" adj
+	"rran" adj @root #5->0
 "<wüx>"
-	"wüx" cnjsub
-	"wüx" pr
+	"wüx" cnjsub @mark #6->7
 "<angal>"
-	"ngal" v tv pres sg3
+	"ngal" v tv pres sg3 @advcl #7->5
 "<.>"
-	"." sent
+	"." sent @punct #8->5
 
 # sent_id = tesis:1:32:14b
 # text = Aaga müx kyaj nakants, oxep aprran ombas nej.

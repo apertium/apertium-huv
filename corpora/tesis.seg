@@ -42,9 +42,9 @@
 # text = Xike kyaj sachipich aaga nchep de palüy küünch.
 # text[spa] = 
 # labels = incomplete
-^Xike/xik$
+^Xike/Xik>e$
 ^kyaj/kiaj$
-^sachipich/chipich$
+^sachipich/sa>chipich$
 ^aaga/aaga$
 ^nchep/nchep$
 ^de/de$
@@ -53,12 +53,13 @@
 ^./.$
 
 # sent_id = tesis:1:21:2c
-# text = Y aaga ayaj xikon.
+# text = Y aaga ayaj atangüüch xikon.
 # text[spa] = 
 # labels = incomplete
-^Y/y$
+^Y/Y$
 ^aaga/aaga$
 ^ayaj/ayaj$
+^atangüüch/a>tang>üüch$
 ^xikon/xikon$
 ^./.$
 
@@ -66,9 +67,9 @@
 # text = Ayaj anüüp ximüm.
 # text[spa] = 
 # labels = incomplete
-^Ayaj/ayaj$
-^anüüp/nüüp$
-^ximüm/müm$
+^Ayaj/Ayaj$
+^anüüp/a>nüüp$
+^ximüm/xi>müm$
 ^./.$
 
 # sent_id = tesis:1:26:6a
@@ -77,7 +78,7 @@
 # labels = incomplete
 ^Tasaj/saj$
 ^che/che$
-^mikwal/kwal/kwál$
+^mikwal/mi>kwal$
 ^nej/nej$
 ^aaga/aaga$
 ^nüx/nüx$
@@ -89,7 +90,7 @@
 # labels = incomplete
 ^Lanayamban/yamb$
 ^aaga/aaga$
-^nine/nine/nin+a$
+^nine/nine$
 ^küünch/küünch$
 ^./.$
 
@@ -142,39 +143,38 @@
 # text = Ajküw pet landeowüw.
 # text[spa] = 
 # labels = incomplete
-^Ajküw/ajküw$
+^Ajküw/Ajküw$
 ^pet/pet$
-^landeowüw/ndeow$
+^landeowüw/l>a>ndeow$
 ^./.$
 
 # sent_id = tesis:1:27:8b
 # text = Wüey tangox ajküw pet.
 # text[spa] = 
 # labels = incomplete
-^Wüey/wüey$
-^tangox/ngox$
+^Wüey/Wüey$
+^tangox/t>a>ngox$
 ^ajküw/ajküw$
 ^pet/pet$
 ^./.$
 
 # sent_id = tesis:1:27:9a
-# text = ¿Aaga ma?.
+# text = ¿Aaga ma?
 # text[spa] = 
 # labels = incomplete
 ^¿/¿$
-^Aaga/aaga$
+^Aaga/Aaga$
 ^ma/ma$
 ^?/?$
-^./.$
 
 # sent_id = tesis:1:27:9b
 # text = Ngana ikona indieman mitiün aaga pues.
 # text[spa] = 
 # labels = incomplete
-^Ngana/ngan+a$
+^Ngana/Ngana$
 ^ikona/ikon$
 ^indieman/ndiem$
-^mitiün/*mitiün$
+^mitiün/m>i>ti>ün$
 ^aaga/aaga$
 ^pues/pues$
 ^./.$
@@ -183,7 +183,7 @@
 # text = Üütiw teat mol agüy intere aaga peats kam.
 # text[spa] = 
 # labels = incomplete
-^Üütiw/üüt$
+^Üütiw/Üüt>iw$
 ^teat/teat$
 ^mol/mol$
 ^agüy/agüy$
@@ -208,7 +208,13 @@
 # text = Latsambaran xaweleat, aaga nüx kyaj
 # text[spa] = 
 # labels = incomplete
-^11a/*11a$
+^Latsambaran/L>a>tsamb>aran$
+^xaweleat/xaweleat$
+^,/,$
+^aaga/aaga$
+^nüx/nüx$
+^kyaj/kyaj$
+^./.$
 
 # sent_id = tesis:1:28:11b
 # text = Teandeow aaga sow kiün.
@@ -362,7 +368,7 @@
 # text[spa] = 
 # labels = incomplete
 ^Ladam/dam$
-^nine/nine/nin+a$
+^nine/nine$
 ^nüx/nüx$
 ^netriste/*netriste$
 ^./.$
@@ -1296,7 +1302,7 @@
 # text[spa] = 
 # labels = incomplete
 ^Teanarang/rang$
-^nine/nine/nin+a$
+^nine/nine$
 ^tirip/tirip$
 ^para/para/par+a$
 ^xexelen/*xexelen$
@@ -1343,7 +1349,7 @@
 # labels = incomplete
 ^Tanangalan/*Tanangalan$
 ^nop/no$
-^nine/nine/nin+a$
+^nine/nine$
 ^sow/sow$
 ^./.$
 
@@ -1389,7 +1395,7 @@
 ^Xike/xik$
 ^saxayng/xaing$
 ^a/aaga$
-^nine/nine/nin+a$
+^nine/nine$
 ^./.$
 
 # sent_id = tesis:4:86:2a
@@ -1845,7 +1851,7 @@
 # labels = incomplete
 ^Tanaxepiich/*Tanaxepiich$
 ^a/aaga$
-^nine/nine/nin+a$
+^nine/nine$
 ^sow/sow$
 ^./.$
 
