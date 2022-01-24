@@ -567,6 +567,44 @@
 5	nej	nej	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nmod	_	_
 6	.	.	PUNCT	_	_	2	punct	_	_
 
+# sent_id = tesis:2:55:18b
+# text = Teon tüüch nop nangan mikwal nej.
+# text[spa] = Antonio dio un dulce a su hijo.
+# labels = complete check-objects check-tense
+1	Teon	Teon	PROPN	_	Gender=Masc	2	nsubj	_	_
+2	tüüch	üüch	VERB	_	Number=Sing|Person=3|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
+3	nop	no	NUM	_	NumType=Clf	4	nummod	_	_
+4	nangan	nangan	NOUN	_	_	2	obj	_	_
+5	mikwal	kwal	NOUN	_	Number[psor]=Sing|Person[psor]=3	2	iobj	_	_
+6	nej	nej	PRON	_	Number=Sing|Person=3|PronType=Prs	5	nmod	_	_
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = tesis:2:55:18c
+# text = Teon tüüch xiay nangal mikwal nej.
+# text[spa] = Antonio dio muchos dulces a su hijo.
+# labels = complete
+1	Teon	Teon	PROPN	_	Gender=Masc	2	nsubj	_	_
+2	tüüch	üüch	VERB	_	Number=Sing|Person=3|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
+3	xiay	xeyay	ADJ	_	_	4	amod	_	_
+4	nangal	nangan	NOUN	_	_	2	obj	_	_
+5	mikwal	kwal	NOUN	_	Number[psor]=Sing|Person[psor]=3	2	iobj	_	_
+6	nej	nej	PRON	_	Number=Sing|Person=3|PronType=Prs	5	nmod	_	_
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = tesis:3:59:1a1
+# text = Amb.
+# text[spa] = Él va.
+# labels = complete
+1	Amb	mb	VERB	_	Number=Sing|Person=3|Subcat=Intr|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:3:59:1a2
+# text = Among.
+# text[spa] = Él gatea.
+# labels = complete
+1	Among	mong	VERB	_	Number=Sing|Person=3|Subcat=Intr|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = tesis:4:95:14b
 # text = Aaga pet teatsambüy.
 # text[spa] = 

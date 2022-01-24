@@ -1011,65 +1011,59 @@
 
 # sent_id = tesis:2:55:18b
 # text = Teon tüüch nop nangan mikwal nej.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Antonio dio un dulce a su hijo.
+# labels = complete check-objects check-tense
 "<Teon>"
-	"Teon" np ant m
+	"Teon" np ant m @nsubj #1->2
 "<tüüch>"
-	"üüch" v tv past sg3
+	"üüch" v tv past sg3 @root #2->0
 "<nop>"
-	"no" num c2
+	"no" num c2 @nummod #3->4
 "<nangan>"
-	"nangan" n
+	"nangan" n @obj #4->2
 "<mikwal>"
-	"kwal" n px3sg
+	"kwal" n px3sg @iobj #5->2
 "<nej>"
-	"nej" prn pers sg3
+	"nej" prn pers sg3 @nmod #6->5
 "<.>"
-	"." sent
+	"." sent @punct #7->2
 
 # sent_id = tesis:2:55:18c
 # text = Teon tüüch xiay nangal mikwal nej.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Antonio dio muchos dulces a su hijo.
+# labels = complete
 "<Teon>"
-	"Teon" np ant m
+	"Teon" np ant m @nsubj #1->2
 "<tüüch>"
-	"üüch" v tv past sg2
-	"üüch" v tv past sg3
+	"üüch" v tv past sg3 @root #2->0
 "<xiay>"
-	"xeyay" adj
+	"xeyay" adj @amod #3->4
 "<nangal>"
-	"ngal" v tv rel
-	"ngal" v tv subj sg1
+	"nangan" n @obj #4->2
 "<mikwal>"
-	"kwal" n px2sg
-	"kwál" n px2sg
-	"kwal" n px3sg
-	"kwál" n px3sg
+	"kwal" n px3sg @iobj #5->2
 "<nej>"
-	"nej" prn pers sg3
+	"nej" prn pers sg3 @nmod #6->5
 "<.>"
-	"." sent
+	"." sent @punct #7->2
 
 # sent_id = tesis:3:59:1a1
 # text = Amb.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Él va.
+# labels = complete
 "<Amb>"
-	"mb" v iv pres sg3
+	"mb" v iv pres sg3 @root #1->0
 "<.>"
-	"." sent
+	"." sent @punct #2->1
 
 # sent_id = tesis:3:59:1a2
 # text = Among.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Él gatea.
+# labels = complete
 "<Among>"
-	"mong" v iv pres sg3
-	"mong" v tv pres sg3
+	"mong" v iv pres sg3 @root #1->0
 "<.>"
-	"." sent
+	"." sent @punct #2->1
 
 # sent_id = tesis:3:59:1b1
 # text = Aj.
