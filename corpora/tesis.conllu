@@ -1,24 +1,111 @@
-# sent_id = tesis:1.20.1a
+# sent_id = tesis:1:20:1a
 # text = Teajaiich e karro teat Samuel.
-# text[orig] = teajaiich e karro teat Samuel
 # text[spa] = El señor Samuel está manejando el carro.
-# labels = complete Pow:60b
-1	Teajaiich	jay	VERB	_	Aspect=Prog|Number=Sing|Person=3|VerbForm=Fin|Voice=Caus	0	root	_	Gloss=PROG-3-manejar-CAUS
-2	e	e	DET	_	_	_	3	det	Gloss=DET
-3	karro	karro	NOUN	_	_	_	1	obj	Gloss=carro
-4	teat	teat	NOUN	_	_	_	5	clf	Gloss=señor
-5	Samuel	Samuel	PROPN	_	_	_	1	nsubj	Gloss=Samuel
-6	.	.	PUNCT	_	_	_	1	punct	Gloss=.
+# labels = complete
+1	Teajaiich	jay	VERB	_	Aspect=Prog|Number=Sing|Person=3|Subcat=Tran|VerbForm=Fin|Voice=Caus	0	root	_	_
+2	e	aaga	DET	_	_	3	det	_	_
+3	karro	karro	NOUN	_	_	1	obj	_	_
+4	teat	teat	NOUN	_	_	5	clf	_	_
+5	Samuel	Samuel	PROPN	_	Gender=Masc	1	nsubj	_	_
+6	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = tesis:1:20:1b
+# text = Tapeay noyky nüt müm najtaj.
+# text[spa] = Llegó un día la señora.
+# labels = complete
+1	Tapeay	peay	VERB	_	Number=Sing|Person=3|Subcat=Intr|Tense=Past|VerbForm=Fin	0	root	_	_
+2	noyky	no	NUM	_	NumType=Clf	3	nummod	_	_
+3	nüt	nüt	NOUN	_	_	1	obl	_	_
+4	müm	müm	NOUN	_	_	5	clf	_	_
+5	najtaj	najtaj	NOUN	_	_	1	nsubj	_	_
+6	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = tesis:1.31.12
+# sent_id = tesis:1:20:1c
+# text = Sanambiy Teon.
+# text[spa] = Golpearé a Antonio.
+# labels = complete
+1	Sanambiy	mbiy	VERB	_	Mood=Irr|Number=Sing|Person=1|Subcat=Tran	0	root	_	_
+2	Teon	Teon	PROPN	_	Gender=Masc	1	obj	_	_
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:1:21:2a
+# text = Sajier nop nine xinchep.
+# text[spa] = Tengo un pequeño canasto.
+# labels = complete
+1	Sajier	jier	VERB	_	Number=Sing|Person=1|Subcat=Tran|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	nop	no	NUM	_	NumType=Clf	4	nummod	_	_
+3	nine	nine	ADJ	_	_	4	amod	_	_
+4	xinchep	nchep	NOUN	_	Number[psor]=Sing|Person[psor]=1	1	obj	_	_
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:1:21:2b
+# text = Xike kyaj sachipich aaga nchep de palüy küünch.
+# text[spa] = Yo ahí lleno el canasto de pura jaiba.
+# labels = complete check-oblique
+1	Xike	xik	PART	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	kyaj	kiaj	ADV	_	_	3	advmod	_	_
+3	sachipich	chipich	VERB	_	Number=Sing|Person=1|Subcat=Tran|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	aaga	aaga	DET	_	_	5	det	_	_
+5	nchep	nchep	NOUN	_	_	3	obj	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	palüy	palüy	ADJ	_	_	8	amod	_	_
+8	küünch	küünch	NOUN	_	_	3	obl	_	_
+9	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = tesis:1:21:2d
+# text = Ayaj anüüp ximüm.
+# text[spa] = Eso vende mi mamá.
+# labels = complete
+1	Ayaj	ayaj	PRON	_	PronType=Dem	2	obj	_	_
+2	anüüp	nüüp	VERB	_	Number=Sing|Person=3|Subcat=Tran|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ximüm	müm	NOUN	_	Number[psor]=Sing|Person[psor]=1	2	nsubj	_	_
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = tesis:1:26:6c
+# text = Tandeow nop pet.
+# text[spa] = Un perro se murió.
+# labels = incomplete
+1	Tandeow	ndeow	VERB	_	Number=Sing|Person=3|Subcat=Intr|Tense=Past|VerbForm=Fin	0	root	_	_
+2	nop	no	NUM	_	NumType=Clf	3	nummod	_	_
+3	pet	pet	NOUN	_	_	1	nsubj	_	_
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:1:26:7a
+# text = Y wüx makül te pasol a üs...
+# text[spa] = Y cuando se queda en la cal el maíz...
+# labels = complete sentence-fragment
+1	Y	y	CCONJ	_	_	2	cc	_	_
+2	wüx	wüx	SCONJ	_	_	3	mark	_	_
+3	makül	kül	VERB	_	Mood=Sub|Number=Sing|Person=3|Subcat=Intr	0	root	_	_
+4	te	tiül	ADP	_	_	5	case	_	_
+5	pasol	pasol	NOUN	_	_	3	obl	_	_
+6	a	aaga	DET	_	_	7	det	_	_
+7	üs	üs	NOUN	_	_	3	nsubj	_	_
+8	...	...	PUNCT	_	_	3	punct	_	_
+
+# sent_id = tesis:1:26:7b
+# text = Ni aag nine xichiik ngonayam üüt nej.
+# text[spa] = Ni a mi hermanito le busqué su comida.
+# labels = incomplete
+1	Ni	ni	CCONJ	_	_	4	cc	_	_
+2	aag	aaga	DET	_	_	4	det	_	_
+3	nine	nine	ADJ	_	_	4	amod	_	_
+4	xichiik	chiig	NOUN	_	Number[psor]=Sing|Person[psor]=1	6	obl	_	_
+5-6	ngonayam	_	_	_	_	_	_	_	_
+5	ngo	ngo	ADV	_	_	6	advmod	_	_
+6	nayam	yamb	VERB	_	Mood=Sub|Number=Sing|Person=1|Subcat=Tran	0	root	_	_
+7	üüt	üüt	NOUN	_	Number[psor]=Sing|Person[psor]=3	6	obj	_	_
+8	nej	nej	PRON	_	Number=Sing|Person=3|PronType=Prs	7	nmod	_	_
+9	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = tesis:1:31:12
 # text = Tandeow aaga nine pet.
-# text[orig] = tandeow aaga napat pet
+# text[orig] = Tandeow aaga napat pet.
 # text[spa] = El perrito se murió.
-# labels = complete RC
-1	Tandeow	ndeow	VERB	_	Aspect=Perf|Number=Sing|Person=3|VerbForm=Fin	0	root	_	Gloss=COMPL-3-morir
-2	aaga	aaga	DET	_	_	4	det	_	Gloss=DET
-3	nine	nine	ADJ	_	_	4	amod	_	Gloss=pequeño
-4	pet	pet	NOUN	_	_	1	nsubj	_	Gloss=perro
-5	.	.	PUNCT	_	_	1	punct	_	Gloss=.
+# labels = complete
+1	Tandeow	ndeow	VERB	_	Number=Sing|Person=3|Subcat=Intr|Tense=Past|VerbForm=Fin	0	root	_	_
+2	aaga	aaga	DET	_	_	3	det	_	_
+3	nine	nine	ADJ	_	_	4	amod	_	_
+4	pet	pet	NOUN	_	_	1	nsubj	_	_
+5	.	.	PUNCT	_	_	1	punct	_	_
 

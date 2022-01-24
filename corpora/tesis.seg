@@ -1,0 +1,2065 @@
+# sent_id = tesis:1:20:1a
+# text = Teajaiich e karro teat Samuel.
+# text[spa] = 
+# labels = incomplete
+^Teajaiich/Tea>ja>iich$
+^e/e$
+^karro/karro$
+^teat/teat$
+^Samuel/Samuel$
+^./.$
+
+# sent_id = tesis:1:20:1b
+# text = Tapeay noyky nüt müm najtaj.
+# text[spa] = 
+# labels = incomplete
+^Tapeay/T>a>peay$
+^noyky/no$
+^nüt/nüt$
+^müm/müm$
+^najtaj/najtaj$
+^./.$
+
+# sent_id = tesis:1:20:1c
+# text = Sanambiy Teon.
+# text[spa] = 
+# labels = incomplete
+^Sanambiy/Sa>na>mbiy$
+^Teon/Teon$
+^./.$
+
+# sent_id = tesis:1:21:2a
+# text = Sajier nop nine xinchep.
+# text[spa] = 
+# labels = incomplete
+^Sajier/Sa>jier$
+^nop/no$
+^nine/nine$
+^xinchep/xi>nchep$
+^./.$
+
+# sent_id = tesis:1:21:2b
+# text = Xike kyaj sachipich aaga nchep de palüy küünch.
+# text[spa] = 
+# labels = incomplete
+^Xike/xik$
+^kyaj/kiaj$
+^sachipich/chipich$
+^aaga/aaga$
+^nchep/nchep$
+^de/de$
+^palüy/palüy$
+^küünch/küünch$
+^./.$
+
+# sent_id = tesis:1:21:2c
+# text = Y aaga ayaj xikon.
+# text[spa] = 
+# labels = incomplete
+^Y/y$
+^aaga/aaga$
+^ayaj/ayaj$
+^xikon/xikon$
+^./.$
+
+# sent_id = tesis:1:21:2d
+# text = Ayaj anüüp ximüm.
+# text[spa] = 
+# labels = incomplete
+^Ayaj/ayaj$
+^anüüp/nüüp$
+^ximüm/müm$
+^./.$
+
+# sent_id = tesis:1:26:6a
+# text = Tasaj che mikwal nej aaga nüx.
+# text[spa] = 
+# labels = incomplete
+^Tasaj/saj$
+^che/che$
+^mikwal/kwal/kwál$
+^nej/nej$
+^aaga/aaga$
+^nüx/nüx$
+^./.$
+
+# sent_id = tesis:1:26:6b
+# text = Lanayamban aaga nine küünch.
+# text[spa] = 
+# labels = incomplete
+^Lanayamban/yamb$
+^aaga/aaga$
+^nine/nine/nin+a$
+^küünch/küünch$
+^./.$
+
+# sent_id = tesis:1:26:6c
+# text = Tandeow nop pet.
+# text[spa] = 
+# labels = incomplete
+^Tandeow/ndeow$
+^nop/no$
+^pet/pet$
+^./.$
+
+# sent_id = tesis:1:26:7a
+# text = Y wüx makül te pasol a üs...
+# text[spa] = 
+# labels = incomplete
+^Y/Y$
+^wüx/wüx$
+^makül/ma>kül$
+^te/te$
+^pasol/pasol$
+^a/a$
+^üs/üs$
+^.../...$
+
+# sent_id = tesis:1:26:7b
+# text = Ni aag nine xichiik ngonayam üüt nej.
+# text[spa] = 
+# labels = incomplete
+^Ni/Ni$
+^aag/aag$
+^nine/nine$
+^xichiik/xi>chiik$
+^ngonayam/ngo>nayam$
+^üüt/üüt$
+^nej/nej$
+^./.$
+
+# sent_id = tesis:1:26:7c
+# text = Ngana majün e üs.
+# text[spa] = 
+# labels = incomplete
+^Ngana/ngan+a$
+^majün/jün$
+^e/aaga$
+^üs/üs$
+^./.$
+
+# sent_id = tesis:1:27:8a
+# text = Ajküw pet landeowüw.
+# text[spa] = 
+# labels = incomplete
+^Ajküw/ajküw$
+^pet/pet$
+^landeowüw/ndeow$
+^./.$
+
+# sent_id = tesis:1:27:8b
+# text = Wüey tangox ajküw pet.
+# text[spa] = 
+# labels = incomplete
+^Wüey/wüey$
+^tangox/ngox$
+^ajküw/ajküw$
+^pet/pet$
+^./.$
+
+# sent_id = tesis:1:27:9a
+# text = ¿Aaga ma?.
+# text[spa] = 
+# labels = incomplete
+^¿/¿$
+^Aaga/aaga$
+^ma/ma$
+^?/?$
+^./.$
+
+# sent_id = tesis:1:27:9b
+# text = Ngana ikona indieman mitiün aaga pues.
+# text[spa] = 
+# labels = incomplete
+^Ngana/ngan+a$
+^ikona/ikon$
+^indieman/ndiem$
+^mitiün/*mitiün$
+^aaga/aaga$
+^pues/pues$
+^./.$
+
+# sent_id = tesis:1:27:10a
+# text = Üütiw teat mol agüy intere aaga peats kam.
+# text[spa] = 
+# labels = incomplete
+^Üütiw/üüt$
+^teat/teat$
+^mol/mol$
+^agüy/agüy$
+^intere/intere$
+^aaga/aaga$
+^peats/peats$
+^kam/kam$
+^./.$
+
+# sent_id = tesis:1:27:10b
+# text = Sanaxelxel ajküw nimixnine küt küy.
+# text[spa] = 
+# labels = incomplete
+^Sanaxelxel/xelxel$
+^ajküw/ajküw$
+^nimixnine/nimixnine$
+^küt/küet$
+^küy/küy$
+^./.$
+
+# sent_id = tesis:1:28:11a
+# text = Latsambaran xaweleat, aaga nüx kyaj
+# text[spa] = 
+# labels = incomplete
+^11a/*11a$
+
+# sent_id = tesis:1:28:11b
+# text = Teandeow aaga sow kiün.
+# text[spa] = 
+# labels = incomplete
+^Teandeow/ndeow$
+^aaga/aaga$
+^sow/sow$
+^kiün/kiün$
+^./.$
+
+# sent_id = tesis:1:31:12
+# text = Tandeow aaga napat pet.
+# text[spa] = 
+# labels = incomplete
+^Tandeow/ndeow$
+^aaga/aaga$
+^napat/pat$
+^pet/pet$
+^./.$
+
+# sent_id = tesis:1:32:14a
+# text = Mikamix a naxey kyaj raan wüx angal.
+# text[spa] = 
+# labels = incomplete
+^Mikamix/kamix$
+^a/aaga$
+^naxey/naxey$
+^kyaj/kiaj$
+^raan/rran$
+^wüx/wüx$
+^angal/ngal$
+^./.$
+
+# sent_id = tesis:1:32:14b
+# text = Aaga müx kyaj nakants, oxep aprran ombas nej.
+# text[spa] = 
+# labels = incomplete
+^Aaga/aaga$
+^müx/müx$
+^kyaj/kiaj$
+^nakants/kants$
+^,/,$
+^oxep/oxep$
+^aprran/*aprran$
+^ombas/ombas/mbas$
+^nej/nej$
+^./.$
+
+# sent_id = tesis:1:33:15a
+# text = Sanaxelxel tepow para marang perex peats.
+# text[spa] = 
+# labels = incomplete
+^Sanaxelxel/xelxel$
+^tepow/pow$
+^para/para/par+a$
+^marang/rang$
+^perex/perex$
+^peats/peats$
+^./.$
+
+# sent_id = tesis:1:33:15b
+# text = Peats kos sanayak te pow ndoj apmeperex.
+# text[spa] = 
+# labels = incomplete
+^Peats/peats$
+^kos/kos$
+^sanayak/yak$
+^te/tiül$
+^pow/pow$
+^ndoj/ndoj$
+^apmeperex/*apmeperex$
+^./.$
+
+# sent_id = tesis:1:34:16a
+# text = Sambiy aaga naxip sap.
+# text[spa] = 
+# labels = incomplete
+^Sambiy/mbiy$
+^aaga/aaga$
+^naxip/xip$
+^sap/sap$
+^./.$
+
+# sent_id = tesis:1:34:16b
+# text = Aaga nakants jal saneay.
+# text[spa] = 
+# labels = incomplete
+^Aaga/aaga$
+^nakants/kants$
+^jal/jal$
+^saneay/aneay$
+^./.$
+
+# sent_id = tesis:1:34:17a
+# text = Mari tangal nawaak tixem.
+# text[spa] = 
+# labels = incomplete
+^Mari/Mari$
+^tangal/ngal$
+^nawaak/waak$
+^tixem/tixem$
+^./.$
+
+# sent_id = tesis:1:34:17b
+# text = Miyow xikafe teat Samuel al tiül jayats xiestufa.
+# text[spa] = 
+# labels = incomplete
+^Miyow/yow$
+^xikafe/kafe$
+^teat/teat$
+^Samuel/Samuel$
+^al/al/l$
+^tiül/tiül$
+^jayats/jayats$
+^xiestufa/estufa$
+^./.$
+
+# sent_id = tesis:1:36:19a
+# text = Ike nerdam
+# text[spa] = 
+# labels = incomplete
+^19a/*19a$
+
+# sent_id = tesis:1:36:19b
+# text = Nej nadam.
+# text[spa] = 
+# labels = incomplete
+^Nej/nej$
+^nadam/dam$
+^./.$
+
+# sent_id = tesis:1:36:19c
+# text = Ikona nerdamiün.
+# text[spa] = 
+# labels = incomplete
+^Ikona/ikon$
+^nerdamiün/dam$
+^./.$
+
+# sent_id = tesis:1:36:19d
+# text = Nejiw nadamüw.
+# text[spa] = 
+# labels = incomplete
+^Nejiw/nejiw$
+^nadamüw/dam$
+^./.$
+
+# sent_id = tesis:1:36:20
+# text = Ladam nine nüx netriste.
+# text[spa] = 
+# labels = incomplete
+^Ladam/dam$
+^nine/nine/nin+a$
+^nüx/nüx$
+^netriste/*netriste$
+^./.$
+
+# sent_id = tesis:1:38:22a
+# text = Tandeow aaga pet.
+# text[spa] = 
+# labels = incomplete
+^Tandeow/ndeow$
+^aaga/aaga$
+^pet/pet$
+^./.$
+
+# sent_id = tesis:1:38:22b
+# text = Tandeow aaga lapat pet.
+# text[spa] = 
+# labels = incomplete
+^Tandeow/ndeow$
+^aaga/aaga$
+^lapat/pat$
+^pet/pet$
+^./.$
+
+# sent_id = tesis:1:39:24a
+# text = Lanandok wüx nasoyky chinchmalinch.
+# text[spa] = 
+# labels = incomplete
+^Lanandok/*Lanandok$
+^wüx/wüx$
+^nasoyky/soyky$
+^chinchmalinch/chinchmalinch$
+^./.$
+
+# sent_id = tesis:1:39:24b
+# text = Tandeow aaga teat naxey namb tilüy mbarraw.
+# text[spa] = 
+# labels = incomplete
+^Tandeow/ndeow$
+^aaga/aaga$
+^teat/teat$
+^naxey/naxey$
+^namb/mb$
+^tilüy/tilüy$
+^mbarraw/*mbarraw$
+^./.$
+
+# sent_id = tesis:1:41:25b
+# text = Teameyng tíüt mikwal xikoj.
+# text[spa] = 
+# labels = incomplete
+^Teameyng/*Teameyng$
+^tíüt/tiüt$
+^mikwal/kwal/kwál$
+^xikoj/koj$
+^./.$
+
+# sent_id = tesis:2:44:1
+# text = Satangan.
+# text[spa] = 
+# labels = incomplete
+^Satangan/tang$
+^./.$
+
+# sent_id = tesis:2:44:2
+# text = Sayamban küünch.
+# text[spa] = 
+# labels = incomplete
+^Sayamban/yamb$
+^küünch/küünch$
+^./.$
+
+# sent_id = tesis:2:45:3
+# text = Tambiy xik
+# text[spa] = 
+# labels = incomplete
+^45/*45$
+
+# sent_id = tesis:2:45:4
+# text = Tambiy ik.
+# text[spa] = 
+# labels = incomplete
+^Tambiy/mbiy$
+^ik/ik$
+^./.$
+
+# sent_id = tesis:2:45:5
+# text = Tambiy nej.
+# text[spa] = 
+# labels = incomplete
+^Tambiy/mbiy$
+^nej/nej$
+^./.$
+
+# sent_id = tesis:2:45:6a
+# text = Ixeep.
+# text[spa] = 
+# labels = incomplete
+^Ixeep/xeep$
+^./.$
+
+# sent_id = tesis:2:46:6b
+# text = Tikweat xi nawiik.
+# text[spa] = 
+# labels = incomplete
+^Tikweat/kweat$
+^xi/xi$
+^nawiik/*nawiik$
+^./.$
+
+# sent_id = tesis:2:46:7
+# text = Nej müm najtaj lamb ¿nwa?.
+# text[spa] = 
+# labels = incomplete
+^Nej/nej$
+^müm/müm$
+^najtaj/najtaj$
+^lamb/mb$
+^¿/¿$
+^nwa/nwa$
+^?/?$
+^./.$
+
+# sent_id = tesis:2:47:8a
+# text = Ikore landyakar.
+# text[spa] = 
+# labels = incomplete
+^Ikore/ikor$
+^landyakar/ndeak$
+^./.$
+
+# sent_id = tesis:2:47:8b
+# text = Ike timbiy ikor.
+# text[spa] = 
+# labels = incomplete
+^Ike/ik+a/ik$
+^timbiy/mbiy$
+^ikor/ikor$
+^./.$
+
+# sent_id = tesis:2:48:9a
+# text = Nej pues tangün noiky buelta.
+# text[spa] = 
+# labels = incomplete
+^Nej/nej$
+^pues/pues$
+^tangün/ngün$
+^noiky/no$
+^buelta/vuelta$
+^./.$
+
+# sent_id = tesis:2:48:9b
+# text = Masey, nej ajiür müx.
+# text[spa] = 
+# labels = incomplete
+^Masey/masey$
+^,/,$
+^nej/nej$
+^ajiür/jiür$
+^müx/müx$
+^./.$
+
+# sent_id = tesis:2:48:9c
+# text = Majaw nej.
+# text[spa] = 
+# labels = incomplete
+^Majaw/jaw$
+^nej/nej$
+^./.$
+
+# sent_id = tesis:2:50:10a
+# text = Teon tarang noyk nawiig.
+# text[spa] = 
+# labels = incomplete
+^Teon/Teon$
+^tarang/rang$
+^noyk/no$
+^nawiig/nawiig/wiig$
+^./.$
+
+# sent_id = tesis:2:50:10b
+# text = Nejiw tambiyaw xik.
+# text[spa] = 
+# labels = incomplete
+^Nejiw/nejiw$
+^tambiyaw/mbiy$
+^xik/xik$
+^./.$
+
+# sent_id = tesis:2:50:10c
+# text = Nejiw tambiyaw xikon.
+# text[spa] = 
+# labels = incomplete
+^Nejiw/nejiw$
+^tambiyaw/mbiy$
+^xikon/xikon$
+^./.$
+
+# sent_id = tesis:2:51:11a
+# text = Xike tanambiyaw.
+# text[spa] = 
+# labels = incomplete
+^Xike/xik$
+^tanambiyaw/*tanambiyaw$
+^./.$
+
+# sent_id = tesis:2:51:11b
+# text = Tanajawüw a pet.
+# text[spa] = 
+# labels = incomplete
+^Tanajawüw/*Tanajawüw$
+^a/aaga$
+^pet/pet$
+^./.$
+
+# sent_id = tesis:2:52:12a
+# text = Xikona tanambiyan nej.
+# text[spa] = 
+# labels = incomplete
+^Xikona/xikon$
+^tanambiyan/*tanambiyan$
+^nej/nej$
+^./.$
+
+# sent_id = tesis:2:52:12b
+# text = Nej tambiy xikon.
+# text[spa] = 
+# labels = incomplete
+^Nej/nej$
+^tambiy/mbiy$
+^xikon/xikon$
+^./.$
+
+# sent_id = tesis:2:52:13
+# text = Sambiy nej.
+# text[spa] = 
+# labels = incomplete
+^Sambiy/mbiy$
+^nej/nej$
+^./.$
+
+# sent_id = tesis:2:53:14
+# text = Müüch xik nangaj.
+# text[spa] = 
+# labels = incomplete
+^Müüch/üüch$
+^xik/xik$
+^nangaj/nangaj$
+^./.$
+
+# sent_id = tesis:2:54:15
+# text = Süüchiw nejiw nop xiyow.
+# text[spa] = 
+# labels = incomplete
+^Süüchiw/*Süüchiw$
+^nejiw/nejiw$
+^nop/no$
+^xiyow/yow$
+^./.$
+
+# sent_id = tesis:2:54:16
+# text = Süüch nejiw nop xiyow.
+# text[spa] = 
+# labels = incomplete
+^Süüch/üüch$
+^nejiw/nejiw$
+^nop/no$
+^xiyow/yow$
+^./.$
+
+# sent_id = tesis:2:54:17
+# text = Lucha üüch xik mi kwal nej.
+# text[spa] = 
+# labels = incomplete
+^Lucha/*Lucha$
+^üüch/üüch$
+^xik/xik$
+^mi/mi$
+^kwal/kwal/kwál$
+^nej/nej$
+^./.$
+
+# sent_id = tesis:2:55:18a
+# text = Teon tüüch nangan mikwal nej.
+# text[spa] = 
+# labels = incomplete
+^Teon/Teon$
+^tüüch/üüch$
+^nangan/nangan/ngan$
+^mikwal/kwal/kwál$
+^nej/nej$
+^./.$
+
+# sent_id = tesis:2:55:18b
+# text = Teon tüüch nop nangan mikwal nej.
+# text[spa] = 
+# labels = incomplete
+^Teon/Teon$
+^tüüch/üüch$
+^nop/no$
+^nangan/nangan/ngan$
+^mikwal/kwal/kwál$
+^nej/nej$
+^./.$
+
+# sent_id = tesis:2:55:18c
+# text = Teon tüüch xiay nangal mikwal nej.
+# text[spa] = 
+# labels = incomplete
+^Teon/Teon$
+^tüüch/üüch$
+^xiay/xeyay$
+^nangal/ngal$
+^mikwal/kwal/kwál$
+^nej/nej$
+^./.$
+
+# sent_id = tesis:3:59:1a1
+# text = Amb.
+# text[spa] = 
+# labels = incomplete
+^Amb/mb$
+^./.$
+
+# sent_id = tesis:3:59:1a2
+# text = Among.
+# text[spa] = 
+# labels = incomplete
+^Among/mong$
+^./.$
+
+# sent_id = tesis:3:59:1b1
+# text = Aj.
+# text[spa] = 
+# labels = incomplete
+^Aj/saj$
+^./.$
+
+# sent_id = tesis:3:59:1b2
+# text = Ambiy.
+# text[spa] = 
+# labels = incomplete
+^Ambiy/mbiy$
+^./.$
+
+# sent_id = tesis:3:59:2
+# text = Axom.
+# text[spa] = 
+# labels = incomplete
+^Axom/xom$
+^./.$
+
+# sent_id = tesis:3:60:3a
+# text = Awüw
+# text[spa] = 
+# labels = incomplete
+^3a/*3a$
+
+# sent_id = tesis:3:60:3b
+# text = Lasamb.
+# text[spa] = 
+# labels = incomplete
+^Lasamb/samb$
+^./.$
+
+# sent_id = tesis:3:60:4a
+# text = Aáj.
+# text[spa] = 
+# labels = incomplete
+^Aáj/áj$
+^./.$
+
+# sent_id = tesis:3:60:4b
+# text = Al wüx mes a tas.
+# text[spa] = 
+# labels = incomplete
+^Al/al/l$
+^wüx/wüx$
+^mes/mes$
+^a/aaga$
+^tas/tas$
+^./.$
+
+# sent_id = tesis:3:61:5a
+# text = Lajlüy kyaj comida.
+# text[spa] = 
+# labels = incomplete
+^Lajlüy/jlüy$
+^kyaj/kiaj$
+^comida/comida$
+^./.$
+
+# sent_id = tesis:3:61:5b
+# text = Ajngot.
+# text[spa] = 
+# labels = incomplete
+^Ajngot/jngot$
+^./.$
+
+# sent_id = tesis:3:61:6
+# text = Amokmoküy ti üt.
+# text[spa] = 
+# labels = incomplete
+^Amokmoküy/mokmok$
+^ti/tiül$
+^üt/*üt$
+^./.$
+
+# sent_id = tesis:3:62:7
+# text = Anotot tiüt.
+# text[spa] = 
+# labels = incomplete
+^Anotot/notot$
+^tiüt/tiüt$
+^./.$
+
+# sent_id = tesis:3:62:8a
+# text = Axeep.
+# text[spa] = 
+# labels = incomplete
+^Axeep/xeep$
+^./.$
+
+# sent_id = tesis:3:62:8b
+# text = Teanaxejmbeach.
+# text[spa] = 
+# labels = incomplete
+^Teanaxejmbeach/xejmbeach$
+^./.$
+
+# sent_id = tesis:3:64:9
+# text = Aw che müm nantaj.
+# text[spa] = 
+# labels = incomplete
+^Aw/w$
+^che/che$
+^müm/müm$
+^nantaj/najtaj$
+^./.$
+
+# sent_id = tesis:3:65:10a
+# text = Tapeay noyky nüt müm nantaj.
+# text[spa] = 
+# labels = incomplete
+^Tapeay/peay$
+^noyky/no$
+^nüt/nüt/nǘt$
+^müm/müm$
+^nantaj/najtaj$
+^./.$
+
+# sent_id = tesis:3:65:10b
+# text = Teatsoj kyaj.
+# text[spa] = 
+# labels = incomplete
+^Teatsoj/tsoj$
+^kyaj/kiaj$
+^./.$
+
+# sent_id = tesis:3:65:10c
+# text = Lajlüy najngow.
+# text[spa] = 
+# labels = incomplete
+^Lajlüy/jlüy$
+^najngow/najngow$
+^./.$
+
+# sent_id = tesis:3:65:10d
+# text = Este apmamb che tenplas alinom nwa.
+# text[spa] = 
+# labels = incomplete
+^Este/este$
+^apmamb/mb$
+^che/che$
+^tenplas/tiül+plas$
+^alinom/alinomb$
+^nwa/nwa$
+^./.$
+
+# sent_id = tesis:3:65:10e
+# text = Nej nadam.
+# text[spa] = 
+# labels = incomplete
+^Nej/nej$
+^nadam/dam$
+^./.$
+
+# sent_id = tesis:3:65:10f
+# text = Pe tasaj mikwal nej natangüy nüx este marang che najngow.
+# text[spa] = 
+# labels = incomplete
+^Pe/pero$
+^tasaj/saj$
+^mikwal/kwal/kwál$
+^nej/nej$
+^natangüy/tang$
+^nüx/nüx$
+^este/este$
+^marang/rang$
+^che/che$
+^najngow/najngow$
+^./.$
+
+# sent_id = tesis:3:66:11
+# text = Aaga pet al chetem tiüt.
+# text[spa] = 
+# labels = incomplete
+^Aaga/aaga$
+^pet/pet$
+^al/al/l$
+^chetem/chet$
+^tiüt/tiüt$
+^./.$
+
+# sent_id = tesis:3:67:12a
+# text = Apwantsam
+# text[spa] = 
+# labels = incomplete
+^12a/*12a$
+
+# sent_id = tesis:3:67:12b
+# text = Teawantsaw.
+# text[spa] = 
+# labels = incomplete
+^Teawantsaw/*Teawantsaw$
+^./.$
+
+# sent_id = tesis:3:67:12c
+# text = Wantsat a karro.
+# text[spa] = 
+# labels = incomplete
+^Wantsat/*Wantsat$
+^a/aaga$
+^karro/karro$
+^./.$
+
+# sent_id = tesis:3:68:15
+# text = Ngineay tasaparan mi koj nej nwa.
+# text[spa] = 
+# labels = incomplete
+^Ngineay/ngineay$
+^tasaparan/sap$
+^mi/mi$
+^koj/koj$
+^nej/nej$
+^nwa/nwa$
+^./.$
+
+# sent_id = tesis:3:68:17a
+# text = Nimixkich teakwerrüw andüyiw kyaj.
+# text[spa] = 
+# labels = incomplete
+^Nimixkich/*Nimixkich$
+^teakwerrüw/kwerr$
+^andüyiw/ndüy$
+^kyaj/kiaj$
+^./.$
+
+# sent_id = tesis:3:68:17b
+# text = Andokoj.
+# text[spa] = 
+# labels = incomplete
+^Andokoj/ndok$
+^./.$
+
+# sent_id = tesis:3:69:18
+# text = Teatsojow mijpüw nimixkich.
+# text[spa] = 
+# labels = incomplete
+^Teatsojow/tsoj$
+^mijpüw/*mijpüw$
+^nimixkich/*nimixkich$
+^./.$
+
+# sent_id = tesis:3:69:19
+# text = Ngom axomüw.
+# text[spa] = 
+# labels = incomplete
+^Ngom/ngom$
+^axomüw/xom$
+^./.$
+
+# sent_id = tesis:3:69:20
+# text = Nejiw apmambiyeranüw.
+# text[spa] = 
+# labels = incomplete
+^Nejiw/nejiw$
+^apmambiyeranüw/*apmambiyeranüw$
+^./.$
+
+# sent_id = tesis:3:69:21
+# text = Ngom ajierüw miteatiw nejiw.
+# text[spa] = 
+# labels = incomplete
+^Ngom/ngom$
+^ajierüw/jier$
+^miteatiw/teat$
+^nejiw/nejiw$
+^./.$
+
+# sent_id = tesis:3:70:22a
+# text = Awar
+# text[spa] = 
+# labels = incomplete
+^22a/*22a$
+
+# sent_id = tesis:3:70:22b
+# text = Tapantsiere.
+# text[spa] = 
+# labels = incomplete
+^Tapantsiere/*Tapantsiere$
+^./.$
+
+# sent_id = tesis:3:70:22c
+# text = Apmangalare.
+# text[spa] = 
+# labels = incomplete
+^Apmangalare/*Apmangalare$
+^./.$
+
+# sent_id = tesis:3:70:22d
+# text = Teapowiere.
+# text[spa] = 
+# labels = incomplete
+^Teapowiere/*Teapowiere$
+^./.$
+
+# sent_id = tesis:3:70:22e
+# text = Langalare.
+# text[spa] = 
+# labels = incomplete
+^Langalare/*Langalare$
+^./.$
+
+# sent_id = tesis:3:70:22f
+# text = Nadamar.
+# text[spa] = 
+# labels = incomplete
+^Nadamar/dam$
+^./.$
+
+# sent_id = tesis:3:70:22g
+# text = Ngochay oxep apmambar andokor.
+# text[spa] = 
+# labels = incomplete
+^Ngochay/*Ngochay$
+^oxep/oxep$
+^apmambar/mb$
+^andokor/ndok$
+^./.$
+
+# sent_id = tesis:3:71:23
+# text = Wantsator.
+# text[spa] = 
+# labels = incomplete
+^Wantsator/*Wantsator$
+^./.$
+
+# sent_id = tesis:3:72:24a
+# text = Teawantsamor.
+# text[spa] = 
+# labels = incomplete
+^Teawantsamor/*Teawantsamor$
+^./.$
+
+# sent_id = tesis:3:72:24b
+# text = Apwantsamor.
+# text[spa] = 
+# labels = incomplete
+^Apwantsamor/*Apwantsamor$
+^./.$
+
+# sent_id = tesis:3:72:25
+# text = Akoochayor.
+# text[spa] = 
+# labels = incomplete
+^Akoochayor/*Akoochayor$
+^./.$
+
+# sent_id = tesis:3:73:26
+# text = Awaats.
+# text[spa] = 
+# labels = incomplete
+^Awaats/w$
+^./.$
+
+# sent_id = tesis:3:74:28a
+# text = Awaats.
+# text[spa] = 
+# labels = incomplete
+^Awaats/w$
+^./.$
+
+# sent_id = tesis:3:74:28b
+# text = Tapantsüüts.
+# text[spa] = 
+# labels = incomplete
+^Tapantsüüts/pants$
+^./.$
+
+# sent_id = tesis:3:74:28c
+# text = Teapowüüts.
+# text[spa] = 
+# labels = incomplete
+^Teapowüüts/pow$
+^./.$
+
+# sent_id = tesis:3:74:28d
+# text = Langalaats.
+# text[spa] = 
+# labels = incomplete
+^Langalaats/*Langalaats$
+^./.$
+
+# sent_id = tesis:3:74:28e
+# text = Apmangalaats.
+# text[spa] = 
+# labels = incomplete
+^Apmangalaats/ngal$
+^./.$
+
+# sent_id = tesis:3:74:28f
+# text = Nadamaats.
+# text[spa] = 
+# labels = incomplete
+^Nadamaats/dam$
+^./.$
+
+# sent_id = tesis:3:74:28g
+# text = Teaümíüts majawaats.
+# text[spa] = 
+# labels = incomplete
+^Teaümíüts/*Teaümíüts$
+^majawaats/jaw$
+^./.$
+
+# sent_id = tesis:3:75:29
+# text = Inganyowan noyky tas chaw.
+# text[spa] = 
+# labels = incomplete
+^Inganyowan/nganyow$
+^noyky/no$
+^tas/tas$
+^chaw/chaw$
+^./.$
+
+# sent_id = tesis:3:76:30
+# text = Karryer ingal xikweaj te mplas.
+# text[spa] = 
+# labels = incomplete
+^Karryer/*Karryer$
+^ingal/ngal$
+^xikweaj/okweaj$
+^te/tiül$
+^mplas/*mplas$
+^./.$
+
+# sent_id = tesis:3:76:31
+# text = Cheter.
+# text[spa] = 
+# labels = incomplete
+^Cheter/*Cheter$
+^./.$
+
+# sent_id = tesis:3:76:32a
+# text = Ja nwa timbiy nganüy michiik ajow che.
+# text[spa] = 
+# labels = incomplete
+^Ja/*Ja$
+^nwa/nwa$
+^timbiy/mbiy$
+^nganüy/nganüy$
+^michiik/chiig$
+^ajow/jow$
+^che/che$
+^./.$
+
+# sent_id = tesis:3:77:32b
+# text = ¿Apmiüt peats a?.
+# text[spa] = 
+# labels = incomplete
+^¿/¿$
+^Apmiüt/*Apmiüt$
+^peats/peats$
+^a/aaga$
+^?/?$
+^./.$
+
+# sent_id = tesis:3:77:33
+# text = Indiem mirang para nakats peats pues nakats peats.
+# text[spa] = 
+# labels = incomplete
+^Indiem/ndiem$
+^mirang/*mirang$
+^para/para/par+a$
+^nakats/*nakats$
+^peats/peats$
+^pues/pues$
+^nakats/*nakats$
+^peats/peats$
+^./.$
+
+# sent_id = tesis:3:77:34a
+# text = Terndyak.
+# text[spa] = 
+# labels = incomplete
+^Terndyak/*Terndyak$
+^./.$
+
+# sent_id = tesis:3:77:34b
+# text = Lerndyak.
+# text[spa] = 
+# labels = incomplete
+^Lerndyak/ndeak$
+^./.$
+
+# sent_id = tesis:3:78:35
+# text = Ike nerdam.
+# text[spa] = 
+# labels = incomplete
+^Ike/ik+a/ik$
+^nerdam/dam$
+^./.$
+
+# sent_id = tesis:3:78:36a
+# text = Nwa apinganyow noyky tas chaw.
+# text[spa] = 
+# labels = incomplete
+^Nwa/nwa$
+^apinganyow/*apinganyow$
+^noyky/no$
+^tas/tas$
+^chaw/chaw$
+^./.$
+
+# sent_id = tesis:3:78:36b
+# text = Ikona lermbiyon.
+# text[spa] = 
+# labels = incomplete
+^Ikona/ikon$
+^lermbiyon/mbiy$
+^./.$
+
+# sent_id = tesis:3:79:36c
+# text = ¿Indieman miütün peats a?.
+# text[spa] = 
+# labels = incomplete
+^¿/¿$
+^Indieman/ndiem$
+^miütün/*miütün$
+^peats/peats$
+^a/aaga$
+^?/?$
+^./.$
+
+# sent_id = tesis:3:79:36d
+# text = Ikona nerdamiün.
+# text[spa] = 
+# labels = incomplete
+^Ikona/ikon$
+^nerdamiün/dam$
+^./.$
+
+# sent_id = tesis:3:79:37a
+# text = Sayaak atne mbayan tiül ndeanche karro kyaj.
+# text[spa] = 
+# labels = incomplete
+^Sayaak/*Sayaak$
+^atne/*atne$
+^mbayan/*mbayan$
+^tiül/tiül$
+^ndeanche/ndeanche$
+^karro/karro$
+^kyaj/kiaj$
+^./.$
+
+# sent_id = tesis:3:79:37b
+# text = Teasaleam peats.
+# text[spa] = 
+# labels = incomplete
+^Teasaleam/*Teasaleam$
+^peats/peats$
+^./.$
+
+# sent_id = tesis:3:79:37c
+# text = Wüx lasapeayün tikambaj.
+# text[spa] = 
+# labels = incomplete
+^Wüx/wüx$
+^lasapeayün/peay$
+^tikambaj/tiül+kambaj$
+^./.$
+
+# sent_id = tesis:3:79:37d
+# text = Sanandeow sanataxey.
+# text[spa] = 
+# labels = incomplete
+^Sanandeow/ndeow/nandeow$
+^sanataxey/taxey$
+^./.$
+
+# sent_id = tesis:3:81:38a
+# text = Xinangalan pow pa che ximüm.
+# text[spa] = 
+# labels = incomplete
+^Xinangalan/*Xinangalan$
+^pow/pow$
+^pa/*pa$
+^che/che$
+^ximüm/müm$
+^./.$
+
+# sent_id = tesis:3:81:38b
+# text = Pues kyaj xenütyün.
+# text[spa] = 
+# labels = incomplete
+^Pues/pues$
+^kyaj/kiaj$
+^xenütyün/*xenütyün$
+^./.$
+
+# sent_id = tesis:3:81:38c
+# text = Ximiünan kyaj.
+# text[spa] = 
+# labels = incomplete
+^Ximiünan/*Ximiünan$
+^kyaj/kiaj$
+^./.$
+
+# sent_id = tesis:3:81:38d
+# text = Teanarang nine tirip para xexelen.
+# text[spa] = 
+# labels = incomplete
+^Teanarang/rang$
+^nine/nine/nin+a$
+^tirip/tirip$
+^para/para/par+a$
+^xexelen/*xexelen$
+^./.$
+
+# sent_id = tesis:3:82:40b
+# text = Pues kyaj tanawan kyaj nakieb xikompadre Samuel.
+# text[spa] = 
+# labels = incomplete
+^Pues/pues$
+^kyaj/kiaj$
+^tanawan/naw$
+^kyaj/kiaj$
+^nakieb/*nakieb$
+^xikompadre/*xikompadre$
+^Samuel/Samuel$
+^./.$
+
+# sent_id = tesis:4:83:41a
+# text = Lanandok wüx nasoyky chinchmalinch.
+# text[spa] = 
+# labels = incomplete
+^Lanandok/*Lanandok$
+^wüx/wüx$
+^nasoyky/soyky$
+^chinchmalinch/chinchmalinch$
+^./.$
+
+# sent_id = tesis:4:83:41b
+# text = Pues ngana joyaj lanayak te pow.
+# text[spa] = 
+# labels = incomplete
+^Pues/pues$
+^ngana/ngan+a$
+^joyaj/joyaj$
+^lanayak/*lanayak$
+^te/tiül$
+^pow/pow$
+^./.$
+
+# sent_id = tesis:4:83:42a
+# text = Tanangalan nop nine sow.
+# text[spa] = 
+# labels = incomplete
+^Tanangalan/*Tanangalan$
+^nop/no$
+^nine/nine/nin+a$
+^sow/sow$
+^./.$
+
+# sent_id = tesis:4:83:42b
+# text = Wityetos.
+# text[spa] = 
+# labels = incomplete
+^Wityetos/*Wityetos$
+^./.$
+
+# sent_id = tesis:4:84:42c
+# text = Tim tambasan juchitan nakyep xikompadre Samuel.
+# text[spa] = 
+# labels = incomplete
+^Tim/tim$
+^tambasan/mb$
+^juchitan/*juchitan$
+^nakyep/*nakyep$
+^xikompadre/*xikompadre$
+^Samuel/Samuel$
+^./.$
+
+# sent_id = tesis:4:84:43
+# text = Xikona wityejason.
+# text[spa] = 
+# labels = incomplete
+^Xikona/xikon$
+^wityejason/*wityejason$
+^./.$
+
+# sent_id = tesis:4:86:1a
+# text = Xike saxayng.
+# text[spa] = 
+# labels = incomplete
+^Xike/xik$
+^saxayng/xaing$
+^./.$
+
+# sent_id = tesis:4:86:1b
+# text = Xike saxayng a nine.
+# text[spa] = 
+# labels = incomplete
+^Xike/xik$
+^saxayng/xaing$
+^a/aaga$
+^nine/nine/nin+a$
+^./.$
+
+# sent_id = tesis:4:86:2a
+# text = Aaga pet atsamb a miüs.
+# text[spa] = 
+# labels = incomplete
+^Aaga/aaga$
+^pet/pet$
+^atsamb/tsamb$
+^a/aaga$
+^miüs/miüs/üs$
+^./.$
+
+# sent_id = tesis:4:86:2b
+# text = Teatsaramb a miüs.
+# text[spa] = 
+# labels = incomplete
+^Teatsaramb/*Teatsaramb$
+^a/aaga$
+^miüs/miüs/üs$
+^./.$
+
+# sent_id = tesis:4:86:2c
+# text = Aaga pet teatsambüy.
+# text[spa] = 
+# labels = incomplete
+^Aaga/aaga$
+^pet/pet$
+^teatsambüy/tsamb$
+^./.$
+
+# sent_id = tesis:4:87:3a
+# text = Lasatang xike.
+# text[spa] = 
+# labels = incomplete
+^Lasatang/*Lasatang$
+^xike/xik$
+^./.$
+
+# sent_id = tesis:4:87:3b
+# text = Xike satangüüch xixiik.
+# text[spa] = 
+# labels = incomplete
+^Xike/xik$
+^satangüüch/tang$
+^xixiik/chiig$
+^./.$
+
+# sent_id = tesis:4:88:4a
+# text = Teon tambiy xikwal.
+# text[spa] = 
+# labels = incomplete
+^Teon/Teon$
+^tambiy/mbiy$
+^xikwal/kwal/kwál$
+^./.$
+
+# sent_id = tesis:4:88:4b
+# text = Tajmbiy xikwal.
+# text[spa] = 
+# labels = incomplete
+^Tajmbiy/*Tajmbiy$
+^xikwal/kwal/kwál$
+^./.$
+
+# sent_id = tesis:4:89:5a
+# text = Aaga pet atsamb a miüs.
+# text[spa] = 
+# labels = incomplete
+^Aaga/aaga$
+^pet/pet$
+^atsamb/tsamb$
+^a/aaga$
+^miüs/miüs/üs$
+^./.$
+
+# sent_id = tesis:4:89:5b
+# text = Tatsaramb a miüs.
+# text[spa] = 
+# labels = incomplete
+^Tatsaramb/*Tatsaramb$
+^a/aaga$
+^miüs/miüs/üs$
+^./.$
+
+# sent_id = tesis:4:90:6a
+# text = Teon tambiy xikwal.
+# text[spa] = 
+# labels = incomplete
+^Teon/Teon$
+^tambiy/mbiy$
+^xikwal/kwal/kwál$
+^./.$
+
+# sent_id = tesis:4:90:6b
+# text = Tajmbiy xikwal ambiy nej Teon.
+# text[spa] = 
+# labels = incomplete
+^Tajmbiy/*Tajmbiy$
+^xikwal/kwal/kwál$
+^ambiy/mbiy$
+^nej/nej$
+^Teon/Teon$
+^./.$
+
+# sent_id = tesis:4:91:7a
+# text = Teon takül xik ti kambaj
+# text[spa] = 
+# labels = incomplete
+^7a/*7a$
+
+# sent_id = tesis:4:91:7b
+# text = Teasajkal ti kambaj.
+# text[spa] = 
+# labels = incomplete
+^Teasajkal/*Teasajkal$
+^ti/tiül$
+^kambaj/kambaj$
+^./.$
+
+# sent_id = tesis:4:91:7c
+# text = Aloxiw ik te tiüt.
+# text[spa] = 
+# labels = incomplete
+^Aloxiw/lox$
+^ik/ik$
+^te/tiül$
+^tiüt/tiüt$
+^./.$
+
+# sent_id = tesis:4:91:7d
+# text = Tijlos te tiüt.
+# text[spa] = 
+# labels = incomplete
+^Tijlos/*Tijlos$
+^te/tiül$
+^tiüt/tiüt$
+^./.$
+
+# sent_id = tesis:4:92:8a
+# text = Aaga pet teatsamb a miüs.
+# text[spa] = 
+# labels = incomplete
+^Aaga/aaga$
+^pet/pet$
+^teatsamb/tsamb$
+^a/aaga$
+^miüs/miüs/üs$
+^./.$
+
+# sent_id = tesis:4:92:8b
+# text = Teatsaramb a miüs.
+# text[spa] = 
+# labels = incomplete
+^Teatsaramb/*Teatsaramb$
+^a/aaga$
+^miüs/miüs/üs$
+^./.$
+
+# sent_id = tesis:4:92:8c
+# text = Teatsambaran a miüs.
+# text[spa] = 
+# labels = incomplete
+^Teatsambaran/tsamb$
+^a/aaga$
+^miüs/miüs/üs$
+^./.$
+
+# sent_id = tesis:4:92:9
+# text = Tatsambaranüw akas pet.
+# text[spa] = 
+# labels = incomplete
+^Tatsambaranüw/*Tatsambaranüw$
+^akas/akas$
+^pet/pet$
+^./.$
+
+# sent_id = tesis:4:93:10a
+# text = Teasamelicheran ti pow.
+# text[spa] = 
+# labels = incomplete
+^Teasamelicheran/*Teasamelicheran$
+^ti/tiül$
+^pow/pow$
+^./.$
+
+# sent_id = tesis:4:93:10b
+# text = Teasameay.
+# text[spa] = 
+# labels = incomplete
+^Teasameay/meay$
+^./.$
+
+# sent_id = tesis:4:93:10c
+# text = Teasaleam peats.
+# text[spa] = 
+# labels = incomplete
+^Teasaleam/*Teasaleam$
+^peats/peats$
+^./.$
+
+# sent_id = tesis:4:93:11
+# text = Teajmel ti pow a peats.
+# text[spa] = 
+# labels = incomplete
+^Teajmel/jmel$
+^ti/tiül$
+^pow/pow$
+^a/aaga$
+^peats/peats$
+^./.$
+
+# sent_id = tesis:4:93:12a
+# text = Tangalaran nop sap.
+# text[spa] = 
+# labels = incomplete
+^Tangalaran/ngal$
+^nop/no$
+^sap/sap$
+^./.$
+
+# sent_id = tesis:4:94:12b
+# text = Tambiyeranüw xikwal.
+# text[spa] = 
+# labels = incomplete
+^Tambiyeranüw/*Tambiyeranüw$
+^xikwal/kwal/kwál$
+^./.$
+
+# sent_id = tesis:4:95:14a
+# text = Aaga pet atsamb a miüs.
+# text[spa] = 
+# labels = incomplete
+^Aaga/aaga$
+^pet/pet$
+^atsamb/tsamb$
+^a/aaga$
+^miüs/miüs/üs$
+^./.$
+
+# sent_id = tesis:4:95:14b
+# text = Aaga pet teatsambüy.
+# text[spa] = 
+# labels = incomplete
+^Aaga/aaga$
+^pet/pet$
+^teatsambüy/tsamb$
+^./.$
+
+# sent_id = tesis:4:96:15a
+# text = Xike sajaw ik.
+# text[spa] = 
+# labels = incomplete
+^Xike/xik$
+^sajaw/jaw$
+^ik/ik$
+^./.$
+
+# sent_id = tesis:4:96:15b
+# text = Teasajawüy.
+# text[spa] = 
+# labels = incomplete
+^Teasajawüy/*Teasajawüy$
+^./.$
+
+# sent_id = tesis:4:96:16a
+# text = Ike ijaw xik.
+# text[spa] = 
+# labels = incomplete
+^Ike/ik+a/ik$
+^ijaw/jaw$
+^xik/xik$
+^./.$
+
+# sent_id = tesis:4:96:16b
+# text = Lamijawüy.
+# text[spa] = 
+# labels = incomplete
+^Lamijawüy/*Lamijawüy$
+^./.$
+
+# sent_id = tesis:4:96:17a
+# text = Teon taxot xikamix.
+# text[spa] = 
+# labels = incomplete
+^Teon/Teon$
+^taxot/xot$
+^xikamix/kamix$
+^./.$
+
+# sent_id = tesis:4:96:17b
+# text = Laxotüy Karmelita.
+# text[spa] = 
+# labels = incomplete
+^Laxotüy/xot$
+^Karmelita/Karmelita$
+^./.$
+
+# sent_id = tesis:4:97:18a
+# text = Teasajansüy.
+# text[spa] = 
+# labels = incomplete
+^Teasajansüy/*Teasajansüy$
+^./.$
+
+# sent_id = tesis:4:97:18b
+# text = Teasajansayon.
+# text[spa] = 
+# labels = incomplete
+^Teasajansayon/*Teasajansayon$
+^./.$
+
+# sent_id = tesis:4:97:18c
+# text = Ike teaijansüy.
+# text[spa] = 
+# labels = incomplete
+^Ike/ik+a/ik$
+^teaijansüy/*teaijansüy$
+^./.$
+
+# sent_id = tesis:4:97:18d
+# text = Ikona teaijansayon.
+# text[spa] = 
+# labels = incomplete
+^Ikona/ikon$
+^teaijansayon/*teaijansayon$
+^./.$
+
+# sent_id = tesis:4:98:19a
+# text = Teajansüw karro.
+# text[spa] = 
+# labels = incomplete
+^Teajansüw/*Teajansüw$
+^karro/karro$
+^./.$
+
+# sent_id = tesis:4:98:19b
+# text = Teandokoj.
+# text[spa] = 
+# labels = incomplete
+^Teandokoj/ndok$
+^./.$
+
+# sent_id = tesis:4:98:20a
+# text = Teajansayej.
+# text[spa] = 
+# labels = incomplete
+^Teajansayej/*Teajansayej$
+^./.$
+
+# sent_id = tesis:4:100:21a
+# text = Monxey tambiy ikor.
+# text[spa] = 
+# labels = incomplete
+^Monxey/monxey$
+^tambiy/mbiy$
+^ikor/ikor$
+^./.$
+
+# sent_id = tesis:4:100:21b
+# text = Teon tambiyay.
+# text[spa] = 
+# labels = incomplete
+^Teon/Teon$
+^tambiyay/mbiy$
+^./.$
+
+# sent_id = tesis:4:100:21c
+# text = Tealeambayej.
+# text[spa] = 
+# labels = incomplete
+^Tealeambayej/leamb$
+^./.$
+
+# sent_id = tesis:4:101:22
+# text = Teamatsün akiep nej.
+# text[spa] = 
+# labels = incomplete
+^Teamatsün/*Teamatsün$
+^akiep/*akiep$
+^nej/nej$
+^./.$
+
+# sent_id = tesis:4:101:23
+# text = Teamapekiw.
+# text[spa] = 
+# labels = incomplete
+^Teamapekiw/*Teamapekiw$
+^./.$
+
+# sent_id = tesis:4:101:24
+# text = Teapekeyej.
+# text[spa] = 
+# labels = incomplete
+^Teapekeyej/*Teapekeyej$
+^./.$
+
+# sent_id = tesis:4:102:25
+# text = Akasüw nejiw laxomeyej.
+# text[spa] = 
+# labels = incomplete
+^Akasüw/*Akasüw$
+^nejiw/nejiw$
+^laxomeyej/xom$
+^./.$
+
+# sent_id = tesis:4:103:26
+# text = Tealeambayej.
+# text[spa] = 
+# labels = incomplete
+^Tealeambayej/leamb$
+^./.$
+
+# sent_id = tesis:4:104:27
+# text = Mijpüw monüüx lapekeyej ndoj lamapekiüw palwüx akieep.
+# text[spa] = 
+# labels = incomplete
+^Mijpüw/*Mijpüw$
+^monüüx/*monüüx$
+^lapekeyej/*lapekeyej$
+^ndoj/ndoj$
+^lamapekiüw/*lamapekiüw$
+^palwüx/pálwüx$
+^akieep/*akieep$
+^./.$
+
+# sent_id = tesis:4:105:28
+# text = Teawarrwarrayej omalüw nejiw.
+# text[spa] = 
+# labels = incomplete
+^Teawarrwarrayej/*Teawarrwarrayej$
+^omalüw/omal/mal$
+^nejiw/nejiw$
+^./.$
+
+# sent_id = tesis:4:105:29
+# text = Teaxolxolayej.
+# text[spa] = 
+# labels = incomplete
+^Teaxolxolayej/*Teaxolxolayej$
+^./.$
+
+# sent_id = tesis:4:107:30a
+# text = Naxip.
+# text[spa] = 
+# labels = incomplete
+^Naxip/xip$
+^./.$
+
+# sent_id = tesis:4:107:30b
+# text = Tanaxepiich a nine sow.
+# text[spa] = 
+# labels = incomplete
+^Tanaxepiich/*Tanaxepiich$
+^a/aaga$
+^nine/nine/nin+a$
+^sow/sow$
+^./.$
+
+# sent_id = tesis:4:107:31a
+# text = Takwyerr a nüx.
+# text[spa] = 
+# labels = incomplete
+^Takwyerr/*Takwyerr$
+^a/aaga$
+^nüx/nüx$
+^./.$
+
+# sent_id = tesis:4:107:31b
+# text = Takwyerreech.
+# text[spa] = 
+# labels = incomplete
+^Takwyerreech/*Takwyerreech$
+^./.$
+
+# sent_id = tesis:4:108:32a
+# text = Atangüw arojpwej.
+# text[spa] = 
+# labels = incomplete
+^Atangüw/tang$
+^arojpwej/*arojpwej$
+^./.$
+
+# sent_id = tesis:4:108:32b
+# text = Satangüüch.
+# text[spa] = 
+# labels = incomplete
+^Satangüüch/tang$
+^./.$
+
+# sent_id = tesis:4:108:33
+# text = Üüch noyky besito miteat tempots.
+# text[spa] = 
+# labels = incomplete
+^Üüch/üüch$
+^noyky/no$
+^besito/besito$
+^miteat/teat$
+^tempots/*tempots$
+^./.$
+
+# sent_id = tesis:4:109:34
+# text = Süüch üs müüt.
+# text[spa] = 
+# labels = incomplete
+^Süüch/üüch$
+^üs/üs$
+^müüt/üüt$
+^./.$
+
+# sent_id = tesis:4:109:35
+# text = Tüüch matsam küt mimüm nej.
+# text[spa] = 
+# labels = incomplete
+^Tüüch/üüch$
+^matsam/*matsam$
+^küt/küet$
+^mimüm/müm$
+^nej/nej$
+^./.$
+
+# sent_id = tesis:4:109:36
+# text = Tüüch xik natepich nej kawüx.
+# text[spa] = 
+# labels = incomplete
+^Tüüch/üüch$
+^xik/xik$
+^natepich/tepich$
+^nej/nej$
+^kawüx/kawüx$
+^./.$
+
+# sent_id = tesis:4:110:37
+# text = Juan tasaj xik najrrok.
+# text[spa] = 
+# labels = incomplete
+^Juan/Juan$
+^tasaj/saj$
+^xik/xik$
+^najrrok/jrrok$
+^./.$
+
+# sent_id = tesis:4:110:38
+# text = Isaj miteaats miün müüch xik nangaj.
+# text[spa] = 
+# labels = incomplete
+^Isaj/saj$
+^miteaats/miteaats/teaats$
+^miün/miün$
+^müüch/üüch$
+^xik/xik$
+^nangaj/nangaj$
+^./.$
+
+# sent_id = tesis:4:111:39
+# text = Aaga naxey kyaj tüüch xik najüy.
+# text[spa] = 
+# labels = incomplete
+^Aaga/aaga$
+^naxey/naxey$
+^kyaj/kiaj$
+^tüüch/üüch$
+^xik/xik$
+^najüy/najüy/jüy$
+^./.$
+
+# sent_id = tesis:4:111:40a
+# text = Sanajiün.
+# text[spa] = 
+# labels = incomplete
+^Sanajiün/jiün$
+^./.$
+
+# sent_id = tesis:4:112:40b
+# text = Tijchan xik najiün.
+# text[spa] = 
+# labels = incomplete
+^Tijchan/*Tijchan$
+^xik/xik$
+^najiün/naj/jiün$
+^./.$
+
+# sent_id = tesis:4:112:41
+# text = Tüjchiür majchikyaw.
+# text[spa] = 
+# labels = incomplete
+^Tüjchiür/*Tüjchiür$
+^majchikyaw/jchiky$
+^./.$
+
+# sent_id = tesis:4:112:42a
+# text = Tüjchyüs majküy.
+# text[spa] = 
+# labels = incomplete
+^Tüjchyüs/*Tüjchyüs$
+^majküy/jküy$
+^./.$
+
+# sent_id = tesis:4:112:42b
+# text = Tüüch xik najküy.
+# text[spa] = 
+# labels = incomplete
+^Tüüch/üüch$
+^xik/xik$
+^najküy/jküy$
+^./.$
+
+# sent_id = tesis:4:113:43
+# text = Tüüch xik najiün aaga monson kyaj.
+# text[spa] = 
+# labels = incomplete
+^Tüüch/üüch$
+^xik/xik$
+^najiün/naj/jiün$
+^aaga/aaga$
+^monson/monson$
+^kyaj/kiaj$
+^./.$
+
+# sent_id = tesis:4:113:44
+# text = Tüüch ikor majchikyar.
+# text[spa] = 
+# labels = incomplete
+^Tüüch/üüch$
+^ikor/ikor$
+^majchikyar/jchiky$
+^./.$
+
+# sent_id = tesis:4:114:45a
+# text = Tajmbajas a pow.
+# text[spa] = 
+# labels = incomplete
+^Tajmbajas/jmbaj$
+^a/aaga$
+^pow/pow$
+^./.$
+
+# sent_id = tesis:4:114:45b
+# text = Tüüch xik najmbaj a pow a Juan.
+# text[spa] = 
+# labels = incomplete
+^Tüüch/üüch$
+^xik/xik$
+^najmbaj/jmbaj$
+^a/aaga$
+^pow/pow$
+^a/aaga$
+^Juan/Juan$
+^./.$
+
+# sent_id = tesis:4:115:46
+# text = Tüjchyüs majmbaj a pow a Juan.
+# text[spa] = 
+# labels = incomplete
+^Tüjchyüs/*Tüjchyüs$
+^majmbaj/jmbaj$
+^a/aaga$
+^pow/pow$
+^a/aaga$
+^Juan/Juan$
+^./.$
+
+# sent_id = tesis:4:115:47
+# text = Sanajchyün ikon mijmbajan a pow.
+# text[spa] = 
+# labels = incomplete
+^Sanajchyün/*Sanajchyün$
+^ikon/ikon$
+^mijmbajan/*mijmbajan$
+^a/aaga$
+^pow/pow$
+^./.$
+
