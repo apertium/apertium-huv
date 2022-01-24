@@ -98,6 +98,47 @@
 8	nej	nej	PRON	_	Number=Sing|Person=3|PronType=Prs	7	nmod	_	_
 9	.	.	PUNCT	_	_	6	punct	_	_
 
+# sent_id = tesis:1:26:7c
+# text = Ngana majün e üs.
+# text[spa] = Ahora se coce el maíz.
+# labels = complete check-subjunctive
+1	Ngana	ngana	ADV	_	_	2	advmod	_	_
+2	majün	jün	VERB	_	Mood=Sub|Number=Sing|Person=3|Subcat=Intr	0	root	_	_
+3	e	aaga	DET	_	_	4	det	_	_
+4	üs	üs	NOUN	_	_	2	nsubj	_	_
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = tesis:1:27:8a
+# text = Ajküw pet landeowüw.
+# text[spa] = Los perros se murieron.
+# labels = complete
+1	Ajküw	aaga	DET	_	Number=Plur	2	det	_	_
+2	pet	pet	NOUN	_	_	3	nsubj	_	_
+3	landeowüw	ndeow	VERB	_	Aspect=Punt|Number=Plur|Person=3|Subcat=Intr|Tense=Past|VerbForm=Fin	0	root	_	_
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = tesis:1:27:8b
+# text = Wüey tangox ajküw pet.
+# text[spa] = El coyote mordió algunos perros.
+# labels = complete
+1	Wüey	wüey	NOUN	_	_	2	nsubj	_	_
+2	tangox	ngox	VERB	_	Number=Sing|Person=3|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
+3	ajküw	aaga	DET	_	Number=Plur	4	det	_	_
+4	pet	pet	NOUN	_	_	2	obj	_	_
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = tesis:1:27:9b
+# text = Ngana ikona indieman mitiün aaga pues.
+# text[spa] = Ahora ustedes quieren comer esa pues.
+# labels = complete
+1	Ngana	ngana	ADV	_	_	3	advmod	_	_
+2	ikona	ikon	PART	_	Number=Plur|Person=2|PronType=Prs	3	nsubj	_	_
+3	indieman	ndiem	VERB	_	Number=Plur|Person=2|Subcat=Tran|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	mitiün	ti	VERB	_	Mood=Sub|Number=Plur|Person=2|Subcat=Tran	3	xcomp	_	_
+5	aaga	aaga	PRON	_	PronType=Dem	4	obj	_	_
+6	pues	pues	ADV	_	_	3	discourse	_	_
+7	.	.	PUNCT	_	_	3	punct	_	_
+
 # sent_id = tesis:1:31:12
 # text = Tandeow aaga nine pet.
 # text[orig] = Tandeow aaga napat pet.
