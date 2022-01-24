@@ -423,7 +423,7 @@
 # labels = incomplete
 ^Teameyng/*Teameyng$
 ^tíüt/tiüt$
-^mikwal/kwal/kwál$
+^mikwal/kwal$
 ^xikoj/koj$
 ^./.$
 
@@ -566,7 +566,7 @@
 # text[spa] = 
 # labels = incomplete
 ^Nejiw/nejiw$
-^tambiyaw/mbiy$
+^tambiyaw/t>a>mbiy>aw$
 ^xikon/xikon$
 ^./.$
 
@@ -574,16 +574,16 @@
 # text = Xike tanambiyaw.
 # text[spa] = 
 # labels = incomplete
-^Xike/xik$
-^tanambiyaw/*tanambiyaw$
+^Xike/Xik>e$
+^tanambiyaw/ta>na>mbiy>aw$
 ^./.$
 
 # sent_id = tesis:2:51:11b
 # text = Tanajawüw a pet.
 # text[spa] = 
 # labels = incomplete
-^Tanajawüw/*Tanajawüw$
-^a/aaga$
+^Tanajawüw/Ta>na>jaw>üw$
+^a/a$
 ^pet/pet$
 ^./.$
 
@@ -591,8 +591,8 @@
 # text = Xikona tanambiyan nej.
 # text[spa] = 
 # labels = incomplete
-^Xikona/xikon$
-^tanambiyan/*tanambiyan$
+^Xikona/Xikon>a$
+^tanambiyan/ta>na>mbiy>an$
 ^nej/nej$
 ^./.$
 
@@ -601,7 +601,7 @@
 # text[spa] = 
 # labels = incomplete
 ^Nej/nej$
-^tambiy/mbiy$
+^tambiy/t>a>mbiy$
 ^xikon/xikon$
 ^./.$
 
@@ -609,7 +609,7 @@
 # text = Sambiy nej.
 # text[spa] = 
 # labels = incomplete
-^Sambiy/mbiy$
+^Sambiy/Sa>mbiy$
 ^nej/nej$
 ^./.$
 
@@ -617,7 +617,7 @@
 # text = Müüch xik nangaj.
 # text[spa] = 
 # labels = incomplete
-^Müüch/üüch$
+^Müüch/M>üüch$
 ^xik/xik$
 ^nangaj/nangaj$
 ^./.$
@@ -626,31 +626,31 @@
 # text = Süüchiw nejiw nop xiyow.
 # text[spa] = 
 # labels = incomplete
-^Süüchiw/*Süüchiw$
+^Süüchiw/S>üüch>iw$
 ^nejiw/nejiw$
-^nop/no$
-^xiyow/yow$
+^nop/no>p$
+^xiyow/xi>yow$
 ^./.$
 
 # sent_id = tesis:2:54:16
 # text = Süüch nejiw nop xiyow.
 # text[spa] = 
 # labels = incomplete
-^Süüch/üüch$
+^Süüch/S>üüch$
 ^nejiw/nejiw$
-^nop/no$
-^xiyow/yow$
+^nop/no>p$
+^xiyow/xi>yow$
 ^./.$
 
 # sent_id = tesis:2:54:17
 # text = Lucha üüch xik mi kwal nej.
 # text[spa] = 
 # labels = incomplete
-^Lucha/*Lucha$
+^Lucha/Lucha$
 ^üüch/üüch$
 ^xik/xik$
 ^mi/mi$
-^kwal/kwal/kwál$
+^kwal/kwal$
 ^nej/nej$
 ^./.$
 
@@ -660,8 +660,8 @@
 # labels = incomplete
 ^Teon/Teon$
 ^tüüch/üüch$
-^nangan/nangan/ngan$
-^mikwal/kwal/kwál$
+^nangan/nangan$
+^mikwal/mi>kwal$
 ^nej/nej$
 ^./.$
 
@@ -671,9 +671,9 @@
 # labels = incomplete
 ^Teon/Teon$
 ^tüüch/üüch$
-^nop/no$
-^nangan/nangan/ngan$
-^mikwal/kwal/kwál$
+^nop/no>p$
+^nangan/nangan$
+^mikwal/mi>kwal$
 ^nej/nej$
 ^./.$
 
@@ -683,9 +683,9 @@
 # labels = incomplete
 ^Teon/Teon$
 ^tüüch/üüch$
-^xiay/xeyay$
+^xiay/xiay$
 ^nangal/ngal$
-^mikwal/kwal/kwál$
+^mikwal/mi>kwal$
 ^nej/nej$
 ^./.$
 
@@ -865,7 +865,7 @@
 # labels = incomplete
 ^Pe/pero$
 ^tasaj/saj$
-^mikwal/kwal/kwál$
+^mikwal/kwal$
 ^nej/nej$
 ^natangüy/tang$
 ^nüx/nüx$
@@ -1454,7 +1454,7 @@
 # labels = incomplete
 ^Teon/Teon$
 ^tambiy/mbiy$
-^xikwal/kwal/kwál$
+^xikwal/kwal$
 ^./.$
 
 # sent_id = tesis:4:88:4b
@@ -1462,7 +1462,7 @@
 # text[spa] = 
 # labels = incomplete
 ^Tajmbiy/*Tajmbiy$
-^xikwal/kwal/kwál$
+^xikwal/kwal$
 ^./.$
 
 # sent_id = tesis:4:89:5a
@@ -1491,7 +1491,7 @@
 # labels = incomplete
 ^Teon/Teon$
 ^tambiy/mbiy$
-^xikwal/kwal/kwál$
+^xikwal/kwal$
 ^./.$
 
 # sent_id = tesis:4:90:6b
@@ -1499,7 +1499,7 @@
 # text[spa] = 
 # labels = incomplete
 ^Tajmbiy/*Tajmbiy$
-^xikwal/kwal/kwál$
+^xikwal/kwal$
 ^ambiy/mbiy$
 ^nej/nej$
 ^Teon/Teon$
@@ -1626,7 +1626,7 @@
 # text[spa] = 
 # labels = incomplete
 ^Tambiyeranüw/*Tambiyeranüw$
-^xikwal/kwal/kwál$
+^xikwal/xi>kwal$
 ^./.$
 
 # sent_id = tesis:4:95:14a

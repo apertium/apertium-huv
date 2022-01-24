@@ -908,114 +908,106 @@
 
 # sent_id = tesis:2:52:12b
 # text = Nej tambiy xikon.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Él nos golpeó.
+# labels = complete
 "<Nej>"
-	"nej" prn pers sg3
+	"nej" prn pers sg3 @nsubj #1->2
 "<tambiy>"
-	"mbiy" v tv past sg3
+	"mbiy" v tv past sg3 @root #2->0
 "<xikon>"
-	"xikon" prn pers pl1 ex
+	"xikon" prn pers pl1 ex @obj #3->2
 "<.>"
-	"." sent
+	"." sent @punct #4->2
 
 # sent_id = tesis:2:52:13
 # text = Sambiy nej.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Yo le pego. 
+# labels = complete
 "<Sambiy>"
-	"mbiy" v tv pres sg1
+	"mbiy" v tv pres sg1 @root #1->0
 "<nej>"
-	"nej" prn pers sg3
+	"nej" prn pers sg3 @obj #2->1
 "<.>"
-	"." sent
+	"." sent @punct #3->1
 
 # sent_id = tesis:2:53:14
 # text = Müüch xik nangaj.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Que me de la bendición.
+# labels = complete check-objects
 "<Müüch>"
-	"üüch" v tv subj sg3
+	"üüch" v tv subj sg3 @root #1->0
 "<xik>"
-	"xik" prn pers sg1
+	"xik" prn pers sg1 @obj #2->1
 "<nangaj>"
-	"nangaj" n
+	"nangaj" n @iobj #3->1
 "<.>"
-	"." sent
+	"." sent @punct #4->1
 
 # sent_id = tesis:2:54:15
 # text = Süüchiw nejiw nop xiyow.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Les doy su mezcal.
+# labels = complete check-objects
 "<Süüchiw>"
-	"*Süüchiw"
+	"üüch" v tv pres sg1 o_pl3 @root #1->0
 "<nejiw>"
-	"nejiw" prn pers pl3
+	"nejiw" prn pers pl3 @obj #2->1
 "<nop>"
-	"no" num c2
+	"no" num c2 @nummod #3->4
 "<xiyow>"
-	"yow" n px1sg
+	"yow" n px1sg @iobj #4->1
 "<.>"
-	"." sent
+	"." sent @punct #5->1
 
 # sent_id = tesis:2:54:16
 # text = Süüch nejiw nop xiyow.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Les doy un mezcal.
+# labels = complete check-objects
 "<Süüch>"
-	"üüch" v tv pres sg1
+	"üüch" v tv pres sg1 @root #1->0
 "<nejiw>"
-	"nejiw" prn pers pl3
+	"nejiw" prn pers pl3 @obj #2->1
 "<nop>"
-	"no" num c2
+	"no" num c2 @nummod #3->4
 "<xiyow>"
-	"yow" n px1sg
+	"yow" n px1sg @iobj #4->1
 "<.>"
-	"." sent
+	"." sent @punct #5->1
 
 # sent_id = tesis:2:54:17
 # text = Lucha üüch xik mi kwal nej.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Lucha me dio a sus hijos.
+# labels = complete check-objects
 "<Lucha>"
-	"*Lucha"
+	"Lucha" np ant @nsubj #1->2
 "<üüch>"
-	"üüch" v tv pres sg2
-	"üüch" v tv pres sg3
+	"üüch" v tv pres sg3 @root #2->0
 "<xik>"
-	"xik" prn pers sg1
+	"xik" prn pers sg1 @obj #3->2
 "<mi>"
-	"mi" pos
+	"mi" pos @goeswith #4->5
 "<kwal>"
-	"kwal" n
-	"kwál" n
+	"kwal" n @iobj #5->2
 "<nej>"
-	"nej" prn pers sg3
+	"nej" prn pers sg3 @nmod #6->5
 "<.>"
-	"." sent
+	"." sent @punct #7->2
 
 # sent_id = tesis:2:55:18a
 # text = Teon tüüch nangan mikwal nej.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Antonio dio dulces a su hijo.
+# labels = complete check-objects check-tense
 "<Teon>"
-	"Teon" np ant m
+	"Teon" np ant m @nsubj #1->2
 "<tüüch>"
-	"üüch" v tv past sg2
-	"üüch" v tv past sg3
+	"üüch" v tv past sg3 @root #2->0
 "<nangan>"
-	"nangan" n
-	"ngan" v iv rel
-	"ngan" v iv subj sg1
+	"nangan" n @obj #3->2
 "<mikwal>"
-	"kwal" n px2sg
-	"kwál" n px2sg
-	"kwal" n px3sg
-	"kwál" n px3sg
+	"kwal" n px3sg @iobj #4->2
 "<nej>"
-	"nej" prn pers sg3
+	"nej" prn pers sg3 @nmod #5->4
 "<.>"
-	"." sent
+	"." sent @punct #6->2
 
 # sent_id = tesis:2:55:18b
 # text = Teon tüüch nop nangan mikwal nej.
@@ -1024,19 +1016,13 @@
 "<Teon>"
 	"Teon" np ant m
 "<tüüch>"
-	"üüch" v tv past sg2
 	"üüch" v tv past sg3
 "<nop>"
 	"no" num c2
 "<nangan>"
 	"nangan" n
-	"ngan" v iv rel
-	"ngan" v iv subj sg1
 "<mikwal>"
-	"kwal" n px2sg
-	"kwál" n px2sg
 	"kwal" n px3sg
-	"kwál" n px3sg
 "<nej>"
 	"nej" prn pers sg3
 "<.>"
@@ -2498,13 +2484,13 @@
 # text[spa] = 
 # labels = incomplete
 "<Aaga>"
-	"aaga" det @det
+	"aaga" det @det #1->2
 "<pet>"
-	"pet" n
+	"pet" n @nsubj #2->3
 "<teatsambüy>"
-	"tsamb" v tv refl prog sg3
+	"tsamb" v tv refl prog sg3 @root #3->0
 "<.>"
-	"." sent
+	"." sent @punct #4->3
 
 # sent_id = tesis:4:96:15a
 # text = Xike sajaw ik.

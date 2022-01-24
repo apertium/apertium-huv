@@ -498,3 +498,81 @@
 3	nej	nej	PRON	_	Number=Sing|Person=3|PronType=Prs	2	obj	_	_
 4	.	.	PUNCT	_	_	2	punct	_	_
 
+# sent_id = tesis:2:52:12b
+# text = Nej tambiy xikon.
+# text[spa] = Él nos golpeó.
+# labels = complete
+1	Nej	nej	PRON	_	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	tambiy	mbiy	VERB	_	Number=Sing|Person=3|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
+3	xikon	xikon	PRON	_	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	2	obj	_	_
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = tesis:2:52:13
+# text = Sambiy nej.
+# text[spa] = Yo le pego. 
+# labels = complete
+1	Sambiy	mbiy	VERB	_	Number=Sing|Person=1|Subcat=Tran|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	nej	nej	PRON	_	Number=Sing|Person=3|PronType=Prs	1	obj	_	_
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:2:53:14
+# text = Müüch xik nangaj.
+# text[spa] = Que me de la bendición.
+# labels = complete check-objects
+1	Müüch	üüch	VERB	_	Mood=Sub|Number=Sing|Person=3|Subcat=Tran	0	root	_	_
+2	xik	xik	PRON	_	Number=Sing|Person=1|PronType=Prs	1	obj	_	_
+3	nangaj	nangaj	NOUN	_	_	1	iobj	_	_
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:2:54:15
+# text = Süüchiw nejiw nop xiyow.
+# text[spa] = Les doy su mezcal.
+# labels = complete check-objects
+1	Süüchiw	üüch	VERB	_	Number=Sing|Number[obj]=Plur|Person=1|Person[obj]=3|Subcat=Tran|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	nejiw	nejiw	PRON	_	Number=Plur|Person=3|PronType=Prs	1	obj	_	_
+3	nop	no	NUM	_	NumType=Clf	4	nummod	_	_
+4	xiyow	yow	NOUN	_	Number[psor]=Sing|Person[psor]=1	1	iobj	_	_
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:2:54:16
+# text = Süüch nejiw nop xiyow.
+# text[spa] = Les doy un mezcal.
+# labels = complete check-objects
+1	Süüch	üüch	VERB	_	Number=Sing|Person=1|Subcat=Tran|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	nejiw	nejiw	PRON	_	Number=Plur|Person=3|PronType=Prs	1	obj	_	_
+3	nop	no	NUM	_	NumType=Clf	4	nummod	_	_
+4	xiyow	yow	NOUN	_	Number[psor]=Sing|Person[psor]=1	1	iobj	_	_
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:2:54:17
+# text = Lucha üüch xik mi kwal nej.
+# text[spa] = Lucha me dio a sus hijos.
+# labels = complete check-objects
+1	Lucha	Lucha	PROPN	_	_	2	nsubj	_	_
+2	üüch	üüch	VERB	_	Number=Sing|Person=3|Subcat=Tran|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	xik	xik	PRON	_	Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+4	mi	mi	_	_	Possessive=Yes	5	goeswith	_	_
+5	kwal	kwal	NOUN	_	_	2	iobj	_	_
+6	nej	nej	PRON	_	Number=Sing|Person=3|PronType=Prs	5	nmod	_	_
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = tesis:2:55:18a
+# text = Teon tüüch nangan mikwal nej.
+# text[spa] = Antonio dio dulces a su hijo.
+# labels = complete check-objects check-tense
+1	Teon	Teon	PROPN	_	Gender=Masc	2	nsubj	_	_
+2	tüüch	üüch	VERB	_	Number=Sing|Person=3|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
+3	nangan	nangan	NOUN	_	_	2	obj	_	_
+4	mikwal	kwal	NOUN	_	Number[psor]=Sing|Person[psor]=3	2	iobj	_	_
+5	nej	nej	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nmod	_	_
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = tesis:4:95:14b
+# text = Aaga pet teatsambüy.
+# text[spa] = 
+# labels = incomplete
+1	Aaga	aaga	DET	_	_	2	det	_	_
+2	pet	pet	NOUN	_	_	3	nsubj	_	_
+3	teatsambüy	tsamb	VERB	_	Aspect=Prog|Number=Sing|Person=3|Reflexive=Yes|Subcat=Tran|VerbForm=Fin	0	root	_	_
+4	.	.	PUNCT	_	_	3	punct	_	_
+
