@@ -253,14 +253,14 @@
 # text = Aaga müx kyaj nakants, oxep aprran ombas nej.
 # text[spa] = 
 # labels = incomplete
-^Aaga/aaga$
+^Aaga/Aaga$
 ^müx/müx$
 ^kyaj/kiaj$
-^nakants/kants$
+^nakants/na>kants$
 ^,/,$
 ^oxep/oxep$
-^aprran/*aprran$
-^ombas/ombas/mbas$
+^aprran/ap>rran$
+^ombas/o>mbas$
 ^nej/nej$
 ^./.$
 
@@ -268,9 +268,9 @@
 # text = Sanaxelxel tepow para marang perex peats.
 # text[spa] = 
 # labels = incomplete
-^Sanaxelxel/xelxel$
-^tepow/pow$
-^para/para/par+a$
+^Sanaxelxel/Sa>na>xelxel$
+^tepow/te>pow$
+^para/para$
 ^marang/rang$
 ^perex/perex$
 ^peats/peats$
@@ -334,10 +334,12 @@
 ^./.$
 
 # sent_id = tesis:1:36:19a
-# text = Ike nerdam
+# text = Ike nerdam.
 # text[spa] = 
 # labels = incomplete
-^19a/*19a$
+^Ike/Ik>e$
+^nerdam/n>er>dam$
+^./.$
 
 # sent_id = tesis:1:36:19b
 # text = Nej nadam.

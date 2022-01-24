@@ -389,57 +389,52 @@
 
 # sent_id = tesis:1:32:14b
 # text = Aaga müx kyaj nakants, oxep aprran ombas nej.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Este cayuco es rojo, mañana será blanco.
+# labels = complete
 "<Aaga>"
-	"aaga" det @det
+	"aaga" det @det #1->2
 "<müx>"
-	"müx" n
+	"müx" n @nsubj #2->4
 "<kyaj>"
-	"kiaj" adv
+	"kiaj" adv @advmod #3->2
 "<nakants>"
-	"kants" v iv rel
-	"kants" adj stat sg3
-	"kants" v iv subj sg1
+	"kants" adj stat sg3 @root #4->0
 "<,>"
-	"," cm
+	"," cm @punct #5->7
 "<oxep>"
-	"oxep" adv
+	"oxep" adv @advmod #6->7
 "<aprran>"
-	"*aprran"
+	"raan" adj stat irre sg3 @parataxis #7->4
 "<ombas>"
-	"ombas" n
-	"mbas" n px3sg
+	"mbas" n px3sg @nsubj #8->7
 "<nej>"
-	"nej" prn pers sg3
+	"nej" prn pers sg3 @nmod #9->8
 "<.>"
-	"." sent
+	"." sent @punct #10->4
 
 # sent_id = tesis:1:33:15a
 # text = Sanaxelxel tepow para marang perex peats.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Las voy a meter el horno para hacer tortillas crujientes.
+# labels = complete
 "<Sanaxelxel>"
-	"xelxel" v tv irre dep sg1
+	"xelxel" v tv irre dep sg1 @root #1->0
 "<tepow>"
-	"pow" v tv past sg2
+	"tiül" pr @case #2->3
+		"pow" n @obl #3->1
 "<para>"
-	"para" cnjsub
-	"para" pr
-	"a" qst
-		"par" n
+	"para" cnjsub @mark #4->5
 "<marang>"
-	"rang" v tv subj sg3
+	"rang" v tv subj sg3 @advcl #5->1
 "<perex>"
-	"perex" adj
+	"perex" adj @amod #6->7
 "<peats>"
-	"peats" n
+	"peats" n @obj #7->5
 "<.>"
-	"." sent
+	"." sent @punct #8->1
 
 # sent_id = tesis:1:33:15b
-# text = Peats kos sanayak te pow ndoj apmeperex.
-# text[spa] = 
+# text = Kos sanayak te pow ndoj apmeperex.
+# text[spa] = Porque voy a ponerla en el horno después se va a dorar.
 # labels = incomplete
 "<Peats>"
 	"peats" n
@@ -461,168 +456,158 @@
 
 # sent_id = tesis:1:34:16a
 # text = Sambiy aaga naxip sap.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Le pegué al borrego gordo.
+# labels = complete check-stative
 "<Sambiy>"
-	"mbiy" v tv pres sg1
+	"mbiy" v tv pres sg1 @root #1->0
 "<aaga>"
-	"aaga" det @det
+	"aaga" det @det #2->3
 "<naxip>"
-	"xip" v iv rel
-	"xip" adj stat sg3
-	"xip" v iv subj sg1
+	"xip" adj stat sg3 @acl #3->4
 "<sap>"
-	"sap" n
+	"sap" n @obj #4->1
 "<.>"
-	"." sent
+	"." sent @punct #5->1
 
 # sent_id = tesis:1:34:16b
 # text = Aaga nakants jal saneay.
-# text[spa] = 
+# text[spa] = Esta falda roja es mía.
 # labels = incomplete
 "<Aaga>"
-	"aaga" det @det
+	"aaga" det @det #1->2
 "<nakants>"
-	"kants" v iv rel
-	"kants" adj stat sg3
-	"kants" v iv subj sg1
+	"kants" adj stat sg3 @acl #2->
 "<jal>"
-	"jal" n
+	"jal" n @nsubj #3->
 "<saneay>"
-	"aneay" prn pos px1sg
+	"aneay" prn pos px1sg @root #4->
 "<.>"
-	"." sent
+	"." sent @punct #5->
 
 # sent_id = tesis:1:34:17a
 # text = Mari tangal nawaak tixem.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Mari compró camarón seco.
+# labels = complete
 "<Mari>"
-	"Mari" np ant f
+	"Mari" np ant f @nsubj #1->2
 "<tangal>"
-	"ngal" v tv past sg3
+	"ngal" v tv past sg3 @root #2->0
 "<nawaak>"
-	"waak" adj stat sg3
+	"waak" adj stat sg3 @acl #3->4
 "<tixem>"
-	"tixem" n
+	"tixem" n @obj #4->2
 "<.>"
-	"." sent
+	"." sent @punct #5->2
 
 # sent_id = tesis:1:34:17b
 # text = Miyow xikafe teat Samuel al tiül jayats xiestufa.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = El agua para café señor Samuel está adentro mi nueva estufa.
+# labels = incomplete check-copula
 "<Miyow>"
-	"yow" n px2sg
-	"yow" n px3sg
+	"yow" n px3sg @nsubj #1->
 "<xikafe>"
-	"kafe" n px1sg
+	"kafe" n px3sg @nmod #2->1
 "<teat>"
-	"teat" n
+	"teat" n @clf #3->4
 "<Samuel>"
-	"Samuel" np ant m
+	"Samuel" np ant m @nmod #4->2
 "<al>"
-	"al" cop loc
-	"l" v iv pres sg3
+	"al" cop loc @cop #5->
 "<tiül>"
-	"tiül" pr
+	"tiül" pr @case #6->8
 "<jayats>"
-	"jayats" adj
+	"jayats" adj @amod #7->8
 "<xiestufa>"
-	"estufa" n px1sg
+	"estufa" n px1sg @root #8->
 "<.>"
-	"." sent
+	"." sent @punct #9->
 
 # sent_id = tesis:1:36:19a
 # text = Ike nerdam
-# text[spa] = 
-# labels = incomplete
-"<19a>"
-	"*19a"
+# text[spa] = Tú estás grande.
+# labels = complete
+"<Ike>"
+	"ik" prn pers sg2 emph @nsubj #1->2
+"<nerdam>"
+	"dam" adj stat sg2 @root #2->0
+"<.>"
+	"." sent @punct #3->2
 
 # sent_id = tesis:1:36:19b
 # text = Nej nadam.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Él está grande.
+# labels = complete
 "<Nej>"
-	"nej" prn pers sg3
+	"nej" prn pers sg3 @nsubj #1->2
 "<nadam>"
-	"dam" v iv rel
-	"dam" adj stat sg3
-	"dam" v iv subj sg1
+	"dam" adj stat sg3 @root #2->0
 "<.>"
-	"." sent
+	"." sent @punct #3->2
 
 # sent_id = tesis:1:36:19c
 # text = Ikona nerdamiün.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Ustedes están grandes.
+# labels = complete
 "<Ikona>"
-	"ikon" prn pers pl2 emph
+	"ikon" prn pers pl2 emph @nsubj #1->2
 "<nerdamiün>"
-	"dam" adj stat pl2
+	"dam" adj stat pl2 @root #2->0
 "<.>"
-	"." sent
+	"." sent @punct #3->2
 
 # sent_id = tesis:1:36:19d
 # text = Nejiw nadamüw.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Ellos están grandes.
+# labels = complete
 "<Nejiw>"
-	"nejiw" prn pers pl3
+	"nejiw" prn pers pl3 @nsubj #1->2
 "<nadamüw>"
-	"dam" v iv rel
-	"dam" adj stat pl3
+	"dam" adj stat pl3 @root #2->0
 "<.>"
-	"." sent
+	"." sent @punct #3->2
 
 # sent_id = tesis:1:36:20
 # text = Ladam nine nüx netriste.
-# text[spa] = 
+# text[spa] = Ya creció la hembrita que está triste.
 # labels = incomplete
 "<Ladam>"
-	"dam" v iv punt sg3
-	"dam" adj punt stat sg3
+	"dam" adj punt stat sg3 @root
 "<nine>"
-	"nine" adj
-	"nine" n
-	"a" qst
-		"nin" n
+	"nine" adj @amod
 "<nüx>"
-	"nüx" n
+	"nüx" n @nsubj
 "<netriste>"
-	"*netriste"
+	"triste" adj rel @acl
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:1:38:22a
 # text = Tandeow aaga pet.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = El perro se murió.
+# labels = complete
 "<Tandeow>"
-	"ndeow" v iv past sg3
+	"ndeow" v iv past sg3 @root #1->0
 "<aaga>"
-	"aaga" det @det
+	"aaga" det @det #2->3
 "<pet>"
-	"pet" n
+	"pet" n @nsubj #3->1
 "<.>"
-	"." sent
+	"." sent @punct #4->1
 
 # sent_id = tesis:1:38:22b
 # text = Tandeow aaga lapat pet.
-# text[spa] = 
+# text[spa] = El perro que ya estaba bravo se murió.
 # labels = incomplete
 "<Tandeow>"
-	"ndeow" v iv past sg3
+	"ndeow" v iv past sg3 @root #1->0
 "<aaga>"
-	"aaga" det @det
+	"aaga" det @det #2->4
 "<lapat>"
-	"pat" v iv punt sg3
-	"pat" adj punt stat sg3
+	"pat" adj stat punt sg3 @acl #3->4
 "<pet>"
-	"pet" n
+	"pet" n @nsubj #4->1
 "<.>"
-	"." sent
+	"." sent @punct #5->1
 
 # sent_id = tesis:1:39:24a
 # text = Lanandok wüx nasoyky chinchmalinch.

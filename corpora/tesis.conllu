@@ -240,3 +240,103 @@
 7	angal	ngal	VERB	_	Number=Sing|Person=3|Subcat=Tran|Tense=Pres|VerbForm=Fin	5	advcl	_	_
 8	.	.	PUNCT	_	_	5	punct	_	_
 
+# sent_id = tesis:1:32:14b
+# text = Aaga müx kyaj nakants, oxep aprran ombas nej.
+# text[spa] = Este cayuco es rojo, mañana será blanco.
+# labels = complete
+1	Aaga	aaga	DET	_	_	2	det	_	_
+2	müx	müx	NOUN	_	_	4	nsubj	_	_
+3	kyaj	kiaj	ADV	_	_	2	advmod	_	_
+4	nakants	kants	ADJ	_	Number=Sing|Person=3	0	root	_	_
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	oxep	oxep	ADV	_	_	7	advmod	_	_
+7	aprran	raan	ADJ	_	Mood=Irr|Number=Sing|Person=3	4	parataxis	_	_
+8	ombas	mbas	NOUN	_	Number[psor]=Sing|Person[psor]=3	7	nsubj	_	_
+9	nej	nej	PRON	_	Number=Sing|Person=3|PronType=Prs	8	nmod	_	_
+10	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = tesis:1:33:15a
+# text = Sanaxelxel tepow para marang perex peats.
+# text[spa] = Las voy a meter el horno para hacer tortillas crujientes.
+# labels = complete
+1	Sanaxelxel	xelxel	VERB	_	Mood=Irr|Number=Sing|Person=1|Subcat=Tran	0	root	_	_
+2-3	tepow	_	_	_	_	_	_	_	_
+2	te	tiül	ADP	_	_	3	case	_	_
+3	pow	pow	NOUN	_	_	1	obl	_	_
+4	para	para	SCONJ	_	_	5	mark	_	_
+5	marang	rang	VERB	_	Mood=Sub|Number=Sing|Person=3|Subcat=Tran	1	advcl	_	_
+6	perex	perex	ADJ	_	_	7	amod	_	_
+7	peats	peats	NOUN	_	_	5	obj	_	_
+8	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:1:34:16a
+# text = Sambiy aaga naxip sap.
+# text[spa] = Le pegué al borrego gordo.
+# labels = complete check-stative
+1	Sambiy	mbiy	VERB	_	Number=Sing|Person=1|Subcat=Tran|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	aaga	aaga	DET	_	_	3	det	_	_
+3	naxip	xip	ADJ	_	Number=Sing|Person=3	4	acl	_	_
+4	sap	sap	NOUN	_	_	1	obj	_	_
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:1:34:17a
+# text = Mari tangal nawaak tixem.
+# text[spa] = Mari compró camarón seco.
+# labels = complete
+1	Mari	Mari	PROPN	_	Gender=Fem	2	nsubj	_	_
+2	tangal	ngal	VERB	_	Number=Sing|Person=3|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
+3	nawaak	waak	ADJ	_	Number=Sing|Person=3	4	acl	_	_
+4	tixem	tixem	NOUN	_	_	2	obj	_	_
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = tesis:1:36:19a
+# text = Ike nerdam
+# text[spa] = Tú estás grande.
+# labels = complete
+1	Ike	ik	PART	_	Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
+2	nerdam	dam	ADJ	_	Number=Sing|Person=2	0	root	_	_
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = tesis:1:36:19b
+# text = Nej nadam.
+# text[spa] = Él está grande.
+# labels = complete
+1	Nej	nej	PRON	_	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	nadam	dam	ADJ	_	Number=Sing|Person=3	0	root	_	_
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = tesis:1:36:19c
+# text = Ikona nerdamiün.
+# text[spa] = Ustedes están grandes.
+# labels = complete
+1	Ikona	ikon	PART	_	Number=Plur|Person=2|PronType=Prs	2	nsubj	_	_
+2	nerdamiün	dam	ADJ	_	Number=Plur|Person=2	0	root	_	_
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = tesis:1:36:19d
+# text = Nejiw nadamüw.
+# text[spa] = Ellos están grandes.
+# labels = complete
+1	Nejiw	nejiw	PRON	_	Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	nadamüw	dam	ADJ	_	Number=Plur|Person=3	0	root	_	_
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = tesis:1:38:22a
+# text = Tandeow aaga pet.
+# text[spa] = El perro se murió.
+# labels = complete
+1	Tandeow	ndeow	VERB	_	Number=Sing|Person=3|Subcat=Intr|Tense=Past|VerbForm=Fin	0	root	_	_
+2	aaga	aaga	DET	_	_	3	det	_	_
+3	pet	pet	NOUN	_	_	1	nsubj	_	_
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:1:38:22b
+# text = Tandeow aaga lapat pet.
+# text[spa] = El perro que ya estaba bravo se murió.
+# labels = incomplete
+1	Tandeow	ndeow	VERB	_	Number=Sing|Person=3|Subcat=Intr|Tense=Past|VerbForm=Fin	0	root	_	_
+2	aaga	aaga	DET	_	_	4	det	_	_
+3	lapat	pat	ADJ	_	Aspect=Punt|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	acl	_	_
+4	pet	pet	NOUN	_	_	1	nsubj	_	_
+5	.	.	PUNCT	_	_	1	punct	_	_
+
