@@ -241,7 +241,7 @@
 # text[spa] = 
 # labels = incomplete
 ^Mikamix/kamix$
-^a/aaga$
+^a/a$
 ^naxey/naxey$
 ^kyaj/kiaj$
 ^raan/rran$
@@ -905,7 +905,7 @@
 # text[spa] = 
 # labels = incomplete
 ^Wantsat/*Wantsat$
-^a/aaga$
+^a/a$
 ^karro/karro$
 ^./.$
 
@@ -1157,7 +1157,7 @@
 ^¿/¿$
 ^Apmiüt/*Apmiüt$
 ^peats/peats$
-^a/aaga$
+^a/a$
 ^?/?$
 ^./.$
 
@@ -1167,7 +1167,7 @@
 # labels = incomplete
 ^Indiem/ndiem$
 ^mirang/*mirang$
-^para/para/par+a$
+^para/para$
 ^nakats/*nakats$
 ^peats/peats$
 ^pues/pues$
@@ -1224,7 +1224,7 @@
 ^Indieman/ndiem$
 ^miütün/*miütün$
 ^peats/peats$
-^a/aaga$
+^a/a$
 ^?/?$
 ^./.$
 
@@ -1303,14 +1303,16 @@
 ^./.$
 
 # sent_id = tesis:3:81:38d
-# text = Teanarang nine tirip para xexelen.
+# text = Teanarang nine tirip para xexelen te pow.
 # text[spa] = 
 # labels = incomplete
-^Teanarang/rang$
+^Teanarang/Tea>na>rang$
 ^nine/nine$
 ^tirip/tirip$
-^para/para/par+a$
-^xexelen/*xexelen$
+^para/para$
+^xexelen/xe>xel>en$
+^te/te$
+^pow/pow$
 ^./.$
 
 # sent_id = tesis:3:82:40b
@@ -1399,7 +1401,7 @@
 # labels = incomplete
 ^Xike/xik$
 ^saxayng/xaing$
-^a/aaga$
+^a/a$
 ^nine/nine$
 ^./.$
 
@@ -1410,8 +1412,8 @@
 ^Aaga/aaga$
 ^pet/pet$
 ^atsamb/tsamb$
-^a/aaga$
-^miüs/miüs/üs$
+^a/a$
+^miüs/miüs$
 ^./.$
 
 # sent_id = tesis:4:86:2b
@@ -1419,8 +1421,8 @@
 # text[spa] = 
 # labels = incomplete
 ^Teatsaramb/*Teatsaramb$
-^a/aaga$
-^miüs/miüs/üs$
+^a/a$
+^miüs/miüs$
 ^./.$
 
 # sent_id = tesis:4:86:2c
@@ -1473,8 +1475,8 @@
 ^Aaga/aaga$
 ^pet/pet$
 ^atsamb/tsamb$
-^a/aaga$
-^miüs/miüs/üs$
+^a/a$
+^miüs/miüs$
 ^./.$
 
 # sent_id = tesis:4:89:5b
@@ -1482,8 +1484,8 @@
 # text[spa] = 
 # labels = incomplete
 ^Tatsaramb/*Tatsaramb$
-^a/aaga$
-^miüs/miüs/üs$
+^a/a$
+^miüs/miüs$
 ^./.$
 
 # sent_id = tesis:4:90:6a
@@ -1547,8 +1549,8 @@
 ^Aaga/aaga$
 ^pet/pet$
 ^teatsamb/tsamb$
-^a/aaga$
-^miüs/miüs/üs$
+^a/a$
+^miüs/miüs$
 ^./.$
 
 # sent_id = tesis:4:92:8b
@@ -1556,8 +1558,8 @@
 # text[spa] = 
 # labels = incomplete
 ^Teatsaramb/*Teatsaramb$
-^a/aaga$
-^miüs/miüs/üs$
+^a/a$
+^miüs/miüs$
 ^./.$
 
 # sent_id = tesis:4:92:8c
@@ -1565,8 +1567,8 @@
 # text[spa] = 
 # labels = incomplete
 ^Teatsambaran/tsamb$
-^a/aaga$
-^miüs/miüs/üs$
+^a/a$
+^miüs/miüs$
 ^./.$
 
 # sent_id = tesis:4:92:9
@@ -1609,7 +1611,7 @@
 ^Teajmel/jmel$
 ^ti/tiül$
 ^pow/pow$
-^a/aaga$
+^a/a$
 ^peats/peats$
 ^./.$
 
@@ -1637,8 +1639,8 @@
 ^Aaga/aaga$
 ^pet/pet$
 ^atsamb/tsamb$
-^a/aaga$
-^miüs/miüs/üs$
+^a/a$
+^miüs/miüs$
 ^./.$
 
 # sent_id = tesis:4:95:14b
@@ -1855,7 +1857,7 @@
 # text[spa] = 
 # labels = incomplete
 ^Tanaxepiich/*Tanaxepiich$
-^a/aaga$
+^a/a$
 ^nine/nine$
 ^sow/sow$
 ^./.$
@@ -1865,7 +1867,7 @@
 # text[spa] = 
 # labels = incomplete
 ^Takwyerr/*Takwyerr$
-^a/aaga$
+^a/a$
 ^nüx/nüx$
 ^./.$
 
@@ -2034,7 +2036,7 @@
 # text[spa] = 
 # labels = incomplete
 ^Tajmbajas/jmbaj$
-^a/aaga$
+^a/a$
 ^pow/pow$
 ^./.$
 
@@ -2045,9 +2047,9 @@
 ^Tüüch/üüch$
 ^xik/xik$
 ^najmbaj/jmbaj$
-^a/aaga$
+^a/a$
 ^pow/pow$
-^a/aaga$
+^a/a$
 ^Juan/Juan$
 ^./.$
 
@@ -2057,9 +2059,9 @@
 # labels = incomplete
 ^Tüjchyüs/*Tüjchyüs$
 ^majmbaj/jmbaj$
-^a/aaga$
+^a/a$
 ^pow/pow$
-^a/aaga$
+^a/a$
 ^Juan/Juan$
 ^./.$
 
@@ -2070,7 +2072,7 @@
 ^Sanajchyün/*Sanajchyün$
 ^ikon/ikon$
 ^mijmbajan/*mijmbajan$
-^a/aaga$
+^a/a$
 ^pow/pow$
 ^./.$
 

@@ -908,6 +908,19 @@
 2	sanataxey	taxey	VERB	_	Mood=Irr|Number=Sing|Person=1|Subcat=Intr	1	advcl	_	_
 3	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = tesis:3:81:38d
+# text = Teanarang nine tirip para xexelen te pow.
+# text[spa] = Estoy haciendo planitas para que metamos al horno.
+# labels = complete
+1	Teanarang	rang	VERB	_	Aspect=Prog|Number=Sing|Person=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
+2	nine	nine	ADJ	_	_	3	amod	_	_
+3	tirip	tirip	NOUN	_	_	1	obj	_	_
+4	para	para	SCONJ	_	_	5	mark	_	_
+5	xexelen	xel	VERB	_	Clusivity=Ex|Number=Plur|Person=1|Subcat=Tran|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+6	te	tiül	ADP	_	_	7	case	_	_
+7	pow	pow	NOUN	_	_	5	obl	_	_
+8	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = tesis:4:86:1a
 # text = Xike saxayng.
 # text[spa] = Me levanto.
@@ -926,6 +939,17 @@
 4	nine	nine	NOUN	_	_	2	obj	_	_
 5	.	.	PUNCT	_	_	2	punct	_	_
 
+# sent_id = tesis:4:86:2a
+# text = Aaga pet atsamb a miüs.
+# text[spa] = El perro muerde al gato.
+# labels = complete
+1	Aaga	aaga	DET	_	_	2	det	_	_
+2	pet	pet	NOUN	_	_	3	nsubj	_	_
+3	atsamb	tsamb	VERB	_	Number=Sing|Person=3|Subcat=Tran|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	aaga	DET	_	_	5	det	_	_
+5	miüs	miüs	NOUN	_	_	3	obj	_	_
+6	.	.	PUNCT	_	_	3	punct	_	_
+
 # sent_id = tesis:4:86:2c
 # text = Aaga pet teatsambüy.
 # text[spa] = El perro se muerde.
@@ -935,6 +959,149 @@
 3	teatsambüy	tsamb	VERB	_	Aspect=Prog|Number=Sing|Person=3|Reflexive=Yes|Subcat=Tran|VerbForm=Fin	0	root	_	_
 4	.	.	PUNCT	_	_	3	punct	_	_
 
+# sent_id = tesis:4:87:3b
+# text = Xike satangüüch xixiik.
+# text[spa] = Hago que crezca mi hermanito.
+# labels = complete
+1	Xike	xik	PART	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	satangüüch	tang	VERB	_	Number=Sing|Person=1|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Caus	0	root	_	_
+3	xixiik	chiig	NOUN	_	Number[psor]=Sing|Person[psor]=1	2	obj	_	_
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = tesis:4:88:4a
+# text = Teon tambiy xikwal.
+# text[spa] = Antonio le pegó a mi hijo.
+# labels = complete
+1	Teon	Teon	PROPN	_	Gender=Masc	2	nsubj	_	_
+2	tambiy	mbiy	VERB	_	Number=Sing|Person=3|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
+3	xikwal	kwal	NOUN	_	Number[psor]=Sing|Person[psor]=1	2	obj	_	_
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = tesis:4:88:4b
+# text = Tajmbiy xikwal.
+# text[spa] = Mi hijo fue golpeado.
+# labels = complete
+1	Tajmbiy	mbiy	VERB	_	Number=Sing|Person=3|Subcat=Tran|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+2	xikwal	kwal	NOUN	_	Number[psor]=Sing|Person[psor]=1	1	nsubj	_	_
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:4:89:5a
+# text = Aaga pet atsamb a miüs.
+# text[spa] = El perro muerde al gato.
+# labels = complete
+1	Aaga	aaga	DET	_	_	2	det	_	_
+2	pet	pet	NOUN	_	_	3	nsubj	_	_
+3	atsamb	tsamb	VERB	_	Number=Sing|Person=3|Subcat=Tran|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	aaga	DET	_	_	5	det	_	_
+5	miüs	miüs	NOUN	_	_	3	obj	_	_
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = tesis:4:89:5b
+# text = Tatsaramb a miüs.
+# text[spa] = El gato fue mordido.
+# labels = incomplete
+1	Tatsaramb	tsamb	VERB	_	Number=Sing|Person=3|Subcat=Tran|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+2	a	aaga	DET	_	_	3	det	_	_
+3	miüs	miüs	NOUN	_	_	1	nsubj	_	_
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:4:90:6a
+# text = Teon tambiy xikwal.
+# text[spa] = Antonio le pegó a mi hijo.
+# labels = complete
+1	Teon	Teon	PROPN	_	Gender=Masc	2	nsubj	_	_
+2	tambiy	mbiy	VERB	_	Number=Sing|Person=3|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
+3	xikwal	kwal	NOUN	_	Number[psor]=Sing|Person[psor]=1	2	obj	_	_
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = tesis:4:90:6b
+# text = Tajmbiy xikwal ambiy nej Teon.
+# text[spa] = Mi hijo fue golpeado, lo golpeó Antonio.
+# labels = incomplete
+1	Tajmbiy	mbiy	VERB	_	Number=Sing|Person=3|Subcat=Tran|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+2	xikwal	kwal	NOUN	_	Number[psor]=Sing|Person[psor]=1	1	nsubj	_	_
+3	ambiy	mbiy	VERB	_	Number=Sing|Person=3|Subcat=Tran|Tense=Pres|VerbForm=Fin	1	conj	_	_
+4	nej	nej	PRON	_	Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	Teon	Teon	PROPN	_	Gender=Masc	3	nsubj	_	_
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:4:91:7c
+# text = Aloxiw ik te tiüt.
+# text[spa] = Te tiraron por el camino.
+# labels = complete
+1	Aloxiw	lox	VERB	_	Number=Plur|Person=3|Subcat=Tran|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	ik	ik	PRON	_	Number=Sing|Person=2|PronType=Prs	1	obj	_	_
+3	te	tiül	ADP	_	_	4	case	_	_
+4	tiüt	tiüt	ADV	_	_	1	obl	_	_
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:4:92:8a
+# text = Aaga pet teatsamb a miüs.
+# text[spa] = El perro está mordiendo al gato.
+# labels = complete
+1	Aaga	aaga	DET	_	_	2	det	_	_
+2	pet	pet	NOUN	_	_	3	nsubj	_	_
+3	teatsamb	tsamb	VERB	_	Aspect=Prog|Number=Sing|Person=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
+4	a	aaga	DET	_	_	5	det	_	_
+5	miüs	miüs	NOUN	_	_	3	obj	_	_
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = tesis:4:92:8b
+# text = Teatsaramb a miüs.
+# text[spa] = El gato está siendo mordido.
+# labels = incomplete
+1	Teatsaramb	tsamb	VERB	_	Aspect=Prog|Number=Sing|Person=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	0	root	_	_
+2	a	aaga	DET	_	_	3	det	_	_
+3	miüs	miüs	NOUN	_	_	1	nsubj	_	_
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:4:92:8c
+# text = Teatsambaran a miüs.
+# text[spa] = El gato está siendo mordido (por algo).
+# labels = complete
+1	Teatsambaran	tsamb	VERB	_	Aspect=Prog|Definite=Ind|Number=Sing|Person=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
+2	a	aaga	DET	_	_	3	det	_	_
+3	miüs	miüs	NOUN	_	_	1	nsubj	_	_
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:4:93:10b
+# text = Teasameay.
+# text[spa] = Estoy durmiendo.
+# labels = complete
+1	Teasameay	meay	VERB	_	Aspect=Prog|Number=Sing|Person=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:4:93:11
+# text = Teajmel ti pow a peats.
+# text[spa] = Las tortillas están siendo metidas en el horno.
+# labels = complete
+1	Teajmel	mel	VERB	_	Aspect=Prog|Number=Sing|Person=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	0	root	_	_
+2	ti	tiül	ADP	_	_	3	case	_	_
+3	pow	pow	NOUN	_	_	1	obl	_	_
+4	a	aaga	DET	_	_	5	det	_	_
+5	peats	peats	NOUN	_	_	1	nsubj	_	_
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:4:93:12a
+# text = Tangalaran nop sap.
+# text[spa] = Alguien compró un borrego.
+# labels = complete
+1	Tangalaran	ngal	VERB	_	Definite=Ind|Number=Sing|Person=3|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
+2	nop	no	NUM	_	NumType=Clf	3	nummod	_	_
+3	sap	sap	NOUN	_	_	1	obj	_	_
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:4:95:14a
+# text = Aaga pet atsamb a miüs.
+# text[spa] = El perro muerde al gato.
+# labels = complete
+1	Aaga	aaga	DET	_	_	2	det	_	_
+2	pet	pet	NOUN	_	_	3	nsubj	_	_
+3	atsamb	tsamb	VERB	_	Number=Sing|Person=3|Subcat=Tran|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	aaga	DET	_	_	5	det	_	_
+5	miüs	miüs	NOUN	_	_	3	obj	_	_
+6	.	.	PUNCT	_	_	3	punct	_	_
+
 # sent_id = tesis:4:95:14b
 # text = Aaga pet teatsambüy.
 # text[spa] = 
@@ -943,4 +1110,102 @@
 2	pet	pet	NOUN	_	_	3	nsubj	_	_
 3	teatsambüy	tsamb	VERB	_	Aspect=Prog|Number=Sing|Person=3|Reflexive=Yes|Subcat=Tran|VerbForm=Fin	0	root	_	_
 4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = tesis:4:96:15a
+# text = Xike sajaw ik.
+# text[spa] = Yo te veo a ti.
+# labels = incomplete
+1	Xike	xik	PART	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	sajaw	jaw	VERB	_	Number=Sing|Person=1|Subcat=Tran|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ik	ik	PRON	_	Number=Sing|Person=2|PronType=Prs	2	obj	_	_
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = tesis:4:96:16a
+# text = Ike ijaw xik.
+# text[spa] = Tú me estás viendo.
+# labels = complete
+1	Ike	ik	PART	_	Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
+2	ijaw	jaw	VERB	_	Number=Sing|Person=2|Subcat=Tran|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	xik	xik	PRON	_	Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = tesis:4:96:17a
+# text = Teon taxot xikamix.
+# text[spa] = Antonio escondió mi camisa.
+# labels = incomplete
+1	Teon	Teon	PROPN	_	Gender=Masc	2	nsubj	_	_
+2	taxot	xot	VERB	_	Number=Sing|Person=3|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
+3	xikamix	kamix	NOUN	_	Number[psor]=Sing|Person[psor]=1	2	obj	_	_
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = tesis:4:96:17b
+# text = Laxotüy Karmelita.
+# text[spa] = Ya se escondió Carmelita.
+# labels = complete
+1	Laxotüy	xot	VERB	_	Aspect=Punt|Number=Sing|Person=3|Reflexive=Yes|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
+2	Karmelita	Karmelita	PROPN	_	Gender=Fem	1	nsubj	_	_
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:4:98:19b
+# text = Teandokoj.
+# text[spa] = Están pescando.
+# labels = complete
+1	Teandokoj	ndok	VERB	_	Aspect=Prog|Number=Plur|Person=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:4:100:21a
+# text = Monxey tambiy ikor.
+# text[spa] = Los señores nos pegaron (nosostros dos).
+# labels = complete
+1	Monxey	monxey	NOUN	_	_	2	nsubj	_	_
+2	tambiy	mbiy	VERB	_	Number=Sing|Person=3|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
+3	ikor	ikor	PRON	_	Number=Dual|Person=1|PronType=Prs	2	obj	_	_
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = tesis:4:100:21b
+# text = Teon tambiyay.
+# text[spa] = Antonio se suicidó.
+# labels = complete
+1	Teon	Teon	PROPN	_	Gender=Masc	2	nsubj	_	_
+2	tambiyay	mbiy	VERB	_	Number=Sing|Person=3|Reflexive=Yes|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = tesis:4:100:21c
+# text = Tealeambayej.
+# text[spa] = Se están cacheteando.
+# labels = complete
+1	Tealeambayej	leamb	VERB	_	Aspect=Prog|Number=Plur|Person=3|Reflexive=Yes|Subcat=Intr|VerbForm=Fin	0	root	_	_
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:4:103:26
+# text = Tealeambayej.
+# text[spa] = Se están cacheteando.
+# labels = complete
+1	Tealeambayej	leamb	VERB	_	Aspect=Prog|Number=Plur|Person=3|Reflexive=Yes|Subcat=Intr|VerbForm=Fin	0	root	_	_
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:4:107:30a
+# text = Naxip.
+# text[spa] = Él está gordo.
+# labels = complete
+1	Naxip	xip	ADJ	_	Number=Sing|Person=3	0	root	_	_
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:4:108:32b
+# text = Satangüüch.
+# text[spa] = Hago que crezca (mi hermano).
+# labels = complete
+1	Satangüüch	tang	VERB	_	Number=Sing|Person=1|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Caus	0	root	_	_
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:4:109:36
+# text = Tüüch xik natepich nej kawüx.
+# text[spa] = Me hizo subirlo.
+# labels = complete check-arguments
+1	Tüüch	üüch	VERB	_	Number=Sing|Person=3|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
+2	xik	xik	PRON	_	Number=Sing|Person=1|PronType=Prs	1	obj	_	_
+3	natepich	tepich	VERB	_	Mood=Sub|Number=Sing|Person=1|Subcat=Tran	1	xcomp	_	_
+4	nej	nej	PRON	_	Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	kawüx	kawüx	ADV	_	_	3	advmod	_	_
+6	.	.	PUNCT	_	_	1	punct	_	_
 
