@@ -631,7 +631,7 @@
 # text[spa] = 
 # labels = incomplete
 "<Tandeow>"
-	"ndeow" v iv past sg3
+	"ndeow" v iv past sg3 @root
 "<aaga>"
 	"aaga" det @det
 "<teat>"
@@ -657,10 +657,7 @@
 "<tíüt>"
 	"tiüt" adv
 "<mikwal>"
-	"kwal" n px2sg
-	"kwál" n px2sg
 	"kwal" n px3sg
-	"kwál" n px3sg
 "<xikoj>"
 	"koj" n px1sg
 "<.>"
@@ -668,12 +665,12 @@
 
 # sent_id = tesis:2:44:1
 # text = Satangan.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Crecimos.
+# labels = complete
 "<Satangan>"
-	"tang" v iv pres pl1 ex
+	"tang" v iv pres pl1 ex @root #1->0
 "<.>"
-	"." sent
+	"." sent @punct #2->1
 
 # sent_id = tesis:2:44:2
 # text = Sayamban küünch.
@@ -696,14 +693,13 @@
 # sent_id = tesis:2:45:4
 # text = Tambiy ik.
 # text[spa] = 
-# labels = incomplete
+# labels = complete
 "<Tambiy>"
-	"mbiy" v tv past sg3
+	"mbiy" v tv past sg3 @root #1->0
 "<ik>"
-	"ik" n
-	"ik" prn pers sg2
+	"ik" prn pers sg2 @obj #2->1
 "<.>"
-	"." sent
+	"." sent @punct #3->1
 
 # sent_id = tesis:2:45:5
 # text = Tambiy nej.
