@@ -728,30 +728,31 @@
 # text = Awüw
 # text[spa] = 
 # labels = incomplete
-^3a/*3a$
+^Awüw/A>w>üw$
+^./.$
 
 # sent_id = tesis:3:60:3b
 # text = Lasamb.
 # text[spa] = 
 # labels = incomplete
-^Lasamb/samb$
+^Lasamb/La>sa>mb$
 ^./.$
 
 # sent_id = tesis:3:60:4a
 # text = Aáj.
 # text[spa] = 
 # labels = incomplete
-^Aáj/áj$
+^Aáj/A>áj$
 ^./.$
 
 # sent_id = tesis:3:60:4b
 # text = Al wüx mes a tas.
 # text[spa] = 
 # labels = incomplete
-^Al/al/l$
+^Al/al$
 ^wüx/wüx$
 ^mes/mes$
-^a/aaga$
+^a/a$
 ^tas/tas$
 ^./.$
 
@@ -776,8 +777,8 @@
 # text[spa] = 
 # labels = incomplete
 ^Amokmoküy/mokmok$
-^ti/tiül$
-^üt/*üt$
+^ti/ti$
+^üt/üt$
 ^./.$
 
 # sent_id = tesis:3:62:7
@@ -818,7 +819,7 @@
 # labels = incomplete
 ^Tapeay/peay$
 ^noyky/no$
-^nüt/nüt/nǘt$
+^nüt/nüt$
 ^müm/müm$
 ^nantaj/najtaj$
 ^./.$
@@ -846,7 +847,7 @@
 ^Este/este$
 ^apmamb/mb$
 ^che/che$
-^tenplas/tiül+plas$
+^tenplas/te>nplas$
 ^alinom/alinomb$
 ^nwa/nwa$
 ^./.$
@@ -1192,7 +1193,7 @@
 # text = Ike nerdam.
 # text[spa] = 
 # labels = incomplete
-^Ike/ik+a/ik$
+^Ike/Ik>e$
 ^nerdam/dam$
 ^./.$
 
@@ -1260,17 +1261,17 @@
 # text = Wüx lasapeayün tikambaj.
 # text[spa] = 
 # labels = incomplete
-^Wüx/wüx$
-^lasapeayün/peay$
-^tikambaj/tiül+kambaj$
+^Wüx/Wüx$
+^lasapeayün/la>sa>peay>ün$
+^tikambaj/ti>kambaj$
 ^./.$
 
 # sent_id = tesis:3:79:37d
 # text = Sanandeow sanataxey.
 # text[spa] = 
 # labels = incomplete
-^Sanandeow/ndeow/nandeow$
-^sanataxey/taxey$
+^Sanandeow/Sa>na>ndeow$
+^sanataxey/sa>na>taxey$
 ^./.$
 
 # sent_id = tesis:3:81:38a
@@ -1669,7 +1670,7 @@
 # text = Ike ijaw xik.
 # text[spa] = 
 # labels = incomplete
-^Ike/ik+a/ik$
+^Ike/Ik>e$
 ^ijaw/jaw$
 ^xik/xik$
 ^./.$
@@ -1716,7 +1717,7 @@
 # text = Ike teaijansüy.
 # text[spa] = 
 # labels = incomplete
-^Ike/ik+a/ik$
+^Ike/Ik>e$
 ^teaijansüy/*teaijansüy$
 ^./.$
 

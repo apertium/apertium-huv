@@ -452,7 +452,7 @@
 "<apmeperex>"
 	"*apmeperex"
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:1:34:16a
 # text = Sambiy aaga naxip sap.
@@ -624,7 +624,7 @@
 "<chinchmalinch>"
 	"chinchmalinch" n
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:1:39:24b
 # text = Tandeow aaga teat naxey namb tilüy mbarraw.
@@ -646,7 +646,7 @@
 "<mbarraw>"
 	"*mbarraw"
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:1:41:25b
 # text = Teameyng tíüt mikwal xikoj.
@@ -661,7 +661,7 @@
 "<xikoj>"
 	"koj" n px1sg
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:2:44:1
 # text = Satangan.
@@ -807,7 +807,7 @@
 "<Masey>"
 	"masey" cnjsub
 "<,>"
-	"," cm
+	"," cm @punct
 "<nej>"
 	"nej" prn pers sg3
 "<ajiür>"
@@ -815,7 +815,7 @@
 "<müx>"
 	"müx" n
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:2:48:9c
 # text = Majaw nej.
@@ -1067,65 +1067,65 @@
 
 # sent_id = tesis:3:59:1b1
 # text = Aj.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Él lo dice.
+# labels = complete
 "<Aj>"
-	"saj" v tv pres sg3
+	"saj" v tv pres sg3 @root #1->0
 "<.>"
-	"." sent
+	"." sent @punct #2->1
 
 # sent_id = tesis:3:59:1b2
 # text = Ambiy.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Él lo mata.
+# labels = complete
 "<Ambiy>"
-	"mbiy" v tv pres sg3
+	"mbiy" v tv pres sg3 @root #1->0
 "<.>"
-	"." sent
+	"." sent @punct #2->1
 
 # sent_id = tesis:3:59:2
 # text = Axom.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Él encuentra.
+# labels = complete
 "<Axom>"
-	"xom" v tv pres sg3
+	"xom" v tv pres sg3 @root #1->0
 "<.>"
-	"." sent
+	"." sent @punct #2->1
 
 # sent_id = tesis:3:60:3a
-# text = Awüw
-# text[spa] = 
-# labels = incomplete
-"<3a>"
-	"*3a"
+# text = Awüw.
+# text[spa] = Ellos salen.
+# labels = complete
+"<Awüw>"
+	"w" v iv pres pl3 @root #1->0
+"<.>"
+	"." sent @punct #2->1
 
 # sent_id = tesis:3:60:3b
 # text = Lasamb.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Ya me voy.
+# labels = complete
 "<Lasamb>"
-	"samb" v tv punt sg3
+	"samb" v tv punt sg3 @root #1->0
 "<.>"
-	"." sent
+	"." sent @punct #2->1
 
 # sent_id = tesis:3:60:4a
 # text = Aáj.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Él calienta.
+# labels = complete
 "<Aáj>"
-	"áj" v tv pres sg3
+	"áj" v tv pres sg3 @root #1->0
 "<.>"
-	"." sent
+	"." sent @punct #2->1
 
 # sent_id = tesis:3:60:4b
 # text = Al wüx mes a tas.
 # text[spa] = 
-# labels = incomplete
+# labels = incomplete copula
 "<Al>"
 	"al" cop loc
-	"l" v iv pres sg3
 "<wüx>"
-	"wüx" cnjsub
 	"wüx" pr
 "<mes>"
 	"mes" n
@@ -1134,193 +1134,187 @@
 "<tas>"
 	"tas" n
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:3:61:5a
 # text = Lajlüy kyaj comida.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Ya hay comida.
+# labels = complete existential
 "<Lajlüy>"
-	"jlüy" v iv punt sg3
+	"jlüy" v iv punt sg3 @root #1->0
 "<kyaj>"
-	"kiaj" adv
+	"kiaj" adv @advmod #2->1
 "<comida>"
-	"comida" n
+	"comida" n @nsubj #3->1
 "<.>"
-	"." sent
+	"." sent @punct #4->1
 
 # sent_id = tesis:3:61:5b
 # text = Ajngot.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Él llega.
+# labels = complete
 "<Ajngot>"
-	"jngot" v iv pres sg3
+	"jngot" v iv pres sg3 @root #1->0
 "<.>"
-	"." sent
+	"." sent @punct #2->1
 
 # sent_id = tesis:3:61:6
 # text = Amokmoküy ti üt.
-# text[spa] = 
+# text[spa] = Él se arrastra y se arrastra en el suelo.
 # labels = incomplete
 "<Amokmoküy>"
-	"mokmok" v tv refl pres sg3
+	"mokmok" v tv refl pres sg3 @root #1->0
 "<ti>"
-	"tiül" pr
+	"tiül" pr @case #2->3
 "<üt>"
-	"*üt"
+	"üt" n @obj #3->1
 "<.>"
-	"." sent
+	"." sent @punct #4->1
 
 # sent_id = tesis:3:62:7
 # text = Anotot tiüt.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Lo va jalando por el suelo.
+# labels = complete
 "<Anotot>"
-	"notot" v tv pres sg3
+	"notot" v tv pres sg3 @root #1->0
 "<tiüt>"
-	"tiüt" adv
+	"tiüt" adv @advmod #2->1
 "<.>"
-	"." sent
+	"." sent @punct #3->1
 
 # sent_id = tesis:3:62:8a
 # text = Axeep.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Se baña.
+# labels = complete
 "<Axeep>"
-	"xeep" v iv pres sg3
+	"xeep" v iv pres sg3 @root #1->0
 "<.>"
-	"." sent
+	"." sent @punct #2->1
 
 # sent_id = tesis:3:62:8b
 # text = Teanaxejmbeach.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Lo estoy bañando.
+# labels = complete
 "<Teanaxejmbeach>"
-	"xejmbeach" v tv prog sg1
+	"xejmbeach" v tv prog sg1 @root #1->0
 "<.>"
-	"." sent
+	"." sent @punct #2->1
 
 # sent_id = tesis:3:64:9
 # text = Aw che müm nantaj.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Dice la señora.
+# labels = complete
 "<Aw>"
-	"w" v iv pres sg3
+	"w" v iv pres sg3 @root #1->0
 "<che>"
-	"che" evid
+	"che" evid @discourse #2->1
 "<müm>"
-	"müm" n
+	"müm" n @clf #3->4
 "<nantaj>"
-	"najtaj" n
+	"najtaj" n @nsubj #4->1
 "<.>"
-	"." sent
+	"." sent @punct #5->1
 
 # sent_id = tesis:3:65:10a
 # text = Tapeay noyky nüt müm nantaj.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Llegó un día la señora.
+# labels = complete
 "<Tapeay>"
-	"peay" v iv past sg3
+	"peay" v iv past sg3 @root #1->0
 "<noyky>"
-	"no" num c1
+	"no" num c1 @nummod #2->3
 "<nüt>"
-	"nüt" n
-	"nǘt" n
+	"nüt" n @obl #3->1
 "<müm>"
-	"müm" n
+	"müm" n @clf #4->5
 "<nantaj>"
-	"najtaj" n
+	"najtaj" n @nsubj #5->1
 "<.>"
-	"." sent
+	"." sent @punct #6->1
 
 # sent_id = tesis:3:65:10b
 # text = Teatsoj kyaj.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Ahí está jugando.
+# labels = complete
 "<Teatsoj>"
-	"tsoj" v iv prog sg3
+	"tsoj" v iv prog sg3 @root #1->0
 "<kyaj>"
-	"kiaj" adv
+	"kiaj" adv @advmod #2->1
 "<.>"
-	"." sent
+	"." sent @punct #3->1
 
 # sent_id = tesis:3:65:10c
 # text = Lajlüy najngow.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Ya hay caldo.
+# labels = complete existential
 "<Lajlüy>"
-	"jlüy" v iv punt sg3
+	"jlüy" v iv punt sg3 @root #1->0
 "<najngow>"
-	"najngow" n
+	"najngow" n @nsubj #2->1
 "<.>"
-	"." sent
+	"." sent @punct #3->1
 
 # sent_id = tesis:3:65:10d
 # text = Este apmamb che tenplas alinom nwa.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Va a ir otra vez al mercado, ¿verdad?
+# labels = complete
 "<Este>"
-	"este" part
+	"este" part @discourse #1->2
 "<apmamb>"
-	"mb" v iv irre dep sg3
+	"mb" v iv irre dep sg3 @root #2->0
 "<che>"
-	"che" evid
+	"che" evid @discourse #3->2
 "<tenplas>"
-	"plas" n
-		"tiül" pr
+	"tiül" pr @case #4->5
+		"plas" n @obl #5->2
 "<alinom>"
-	"alinomb" adv
+	"alinomb" adv @advmod #6->2
 "<nwa>"
-	"nwa" ij
+	"nwa" ij @discourse #7->2
 "<.>"
-	"." sent
+	"." sent @punct #8->2
 
 # sent_id = tesis:3:65:10e
 # text = Nej nadam.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Él está grande.
+# labels = complete
 "<Nej>"
-	"nej" prn pers sg3
+	"nej" prn pers sg3 @nsubj #1->2
 "<nadam>"
-	"dam" v iv rel
-	"dam" adj stat sg3
-	"dam" v iv subj sg1
+	"dam" adj stat sg3 @root #2->0
 "<.>"
-	"." sent
+	"." sent @punct #3->2
 
 # sent_id = tesis:3:65:10f
 # text = Pe tasaj mikwal nej natangüy nüx este marang che najngow.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Pero le dijo a su hija la mayor.
+# labels = complete check-objects
 "<Pe>"
-	"pero" cnjcoo
+	"pero" cnjcoo @cc #1->2
 "<tasaj>"
-	"saj" v tv past sg3
+	"saj" v tv past sg3 @root #2->0
 "<mikwal>"
-	"kwal" n px2sg
-	"kwál" n px2sg
-	"kwal" n px3sg
-	"kwál" n px3sg
+	"kwal" n px3sg @iobj #3->2
 "<nej>"
-	"nej" prn pers sg3
+	"nej" prn pers sg3 @nmod #4->3
 "<natangüy>"
-	"tang" v iv refl rel
+	"tang" v iv refl rel @acl #5->6
 "<nüx>"
-	"nüx" n
+	"nüx" n @appos #6->3
 "<este>"
-	"este" part
+	"este" part @discourse #7->8
 "<marang>"
-	"rang" v tv subj sg3
+	"rang" v tv subj sg3 @ccomp #8->2
 "<che>"
-	"che" evid
+	"che" evid @discourse #9->8
 "<najngow>"
-	"najngow" n
+	"najngow" n @obj #10->8
 "<.>"
-	"." sent
+	"." sent @punct #11->2
 
 # sent_id = tesis:3:66:11
 # text = Aaga pet al chetem tiüt.
-# text[spa] = 
+# text[spa] = Ese perro está sentado.
 # labels = incomplete
 "<Aaga>"
 	"aaga" det @det
@@ -1328,13 +1322,12 @@
 	"pet" n
 "<al>"
 	"al" cop loc
-	"l" v iv pres sg3
 "<chetem>"
-	"chet" v iv
+	"chet" v iv 
 "<tiüt>"
 	"tiüt" adv
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:3:67:12a
 # text = Apwantsam
@@ -1350,7 +1343,7 @@
 "<Teawantsaw>"
 	"*Teawantsaw"
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:3:67:12c
 # text = Wantsat a karro.
@@ -1363,26 +1356,26 @@
 "<karro>"
 	"karro" n
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:3:68:15
 # text = Ngineay tasaparan mi koj nej nwa.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Alguien agarró a su hermano ahora.
+# labels = complete
 "<Ngineay>"
-	"ngineay" adv itg
+	"ngineay" adv @advmod #1->2
 "<tasaparan>"
-	"sap" v tv ind past sg3
+	"sap" v tv ind past sg3 @root #2->0
 "<mi>"
-	"mi" pos
+	"mi" pos @goeswith #3->4
 "<koj>"
-	"koj" n
+	"koj" n @obj #4->2
 "<nej>"
-	"nej" prn pers sg3
+	"nej" prn pers sg3 @nmod #5->4
 "<nwa>"
-	"nwa" ij
+	"nwa" ij @discourse #6->2
 "<.>"
-	"." sent
+	"." sent @punct #7->2
 
 # sent_id = tesis:3:68:17a
 # text = Nimixkich teakwerrüw andüyiw kyaj.
@@ -1397,16 +1390,16 @@
 "<kyaj>"
 	"kiaj" adv
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:3:68:17b
 # text = Andokoj.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Ellos pescan.
+# labels = complete
 "<Andokoj>"
-	"ndok" v tv pres pl3
+	"ndok" v tv pres pl3 @root #1->0
 "<.>"
-	"." sent
+	"." sent @punct #2->1
 
 # sent_id = tesis:3:69:18
 # text = Teatsojow mijpüw nimixkich.
@@ -1419,46 +1412,44 @@
 "<nimixkich>"
 	"*nimixkich"
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:3:69:19
 # text = Ngom axomüw.
-# text[spa] = 
+# text[spa] = No la encuentran.
 # labels = incomplete
 "<Ngom>"
-	"ngom" adv
+	"ngom" adv @advmod #1->2
 "<axomüw>"
-	"xom" v tv pres pl3
+	"xom" v tv pres pl3 @root #2->0
 "<.>"
-	"." sent
+	"." sent @punct #3->2
 
 # sent_id = tesis:3:69:20
 # text = Nejiw apmambiyeranüw.
-# text[spa] = 
+# text[spa] = Les van a pegar.
 # labels = incomplete
 "<Nejiw>"
 	"nejiw" prn pers pl3
 "<apmambiyeranüw>"
 	"*apmambiyeranüw"
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:3:69:21
 # text = Ngom ajierüw miteatiw nejiw.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = No tienen papás.
+# labels = complete
 "<Ngom>"
-	"ngom" adv
+	"ngom" adv @advmod #1->2
 "<ajierüw>"
-	"jier" v tv pres pl3
+	"jier" v tv pres pl3 @root #2->0
 "<miteatiw>"
-	"teat" n pl px2sg
-	"teat" n px3pl
-	"teat" n pl px3sg
+	"teat" n px3pl @obj #3->2
 "<nejiw>"
-	"nejiw" prn pers pl3
+	"nejiw" prn pers pl3 @nmod #4->3
 "<.>"
-	"." sent
+	"." sent @punct #5->2
 
 # sent_id = tesis:3:70:22a
 # text = Awar
@@ -1474,7 +1465,7 @@
 "<Tapantsiere>"
 	"*Tapantsiere"
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:3:70:22c
 # text = Apmangalare.
@@ -1483,7 +1474,7 @@
 "<Apmangalare>"
 	"*Apmangalare"
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:3:70:22d
 # text = Teapowiere.
@@ -1492,7 +1483,7 @@
 "<Teapowiere>"
 	"*Teapowiere"
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:3:70:22e
 # text = Langalare.
@@ -1501,7 +1492,7 @@
 "<Langalare>"
 	"*Langalare"
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:3:70:22f
 # text = Nadamar.
@@ -1511,23 +1502,23 @@
 	"dam" v iv rel
 	"dam" adj stat du1
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:3:70:22g
 # text = Ngochay oxep apmambar andokor.
-# text[spa] = 
+# text[spa] = Mañana iremos a pescar puntualmente.
 # labels = incomplete
 "<Ngochay>"
-	"*Ngochay"
+	"ngochay" adv @advmod
 "<oxep>"
-	"oxep" adv
+	"oxep" adv @advmod
 "<apmambar>"
-	"mb" v iv irre dep du1
+	"mb" v iv irre dep du1 @root
 "<andokor>"
 	"ndok" v tv irre dep du1
 	"ndok" v tv pres du1
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:3:71:23
 # text = Wantsator.
@@ -1536,7 +1527,7 @@
 "<Wantsator>"
 	"*Wantsator"
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:3:72:24a
 # text = Teawantsamor.
@@ -1545,7 +1536,7 @@
 "<Teawantsamor>"
 	"*Teawantsamor"
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:3:72:24b
 # text = Apwantsamor.
@@ -1554,7 +1545,7 @@
 "<Apwantsamor>"
 	"*Apwantsamor"
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:3:72:25
 # text = Akoochayor.
@@ -1563,71 +1554,70 @@
 "<Akoochayor>"
 	"*Akoochayor"
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:3:73:26
 # text = Awaats.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Salimos (todos).
+# labels = complete
 "<Awaats>"
-	"w" v iv pres pl1 in
+	"w" v iv pres pl1 in @root #1->0
 "<.>"
-	"." sent
+	"." sent @punct #2->1
 
 # sent_id = tesis:3:74:28a
 # text = Awaats.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Salimos (todos). 
+# labels = complete
 "<Awaats>"
-	"w" v iv pres pl1 in
+	"w" v iv pres pl1 in @root #1->0
 "<.>"
-	"." sent
+	"." sent @punct #2->1
 
 # sent_id = tesis:3:74:28b
 # text = Tapantsüüts.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Nosostros (todos) freímos.
+# labels = complete
 "<Tapantsüüts>"
-	"pants" v tv past pl1 in
+	"pants" v tv past pl1 in @root #1->0
 "<.>"
-	"." sent
+	"." sent @punct #2->1
 
 # sent_id = tesis:3:74:28c
 # text = Teapowüüts.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Nosostros (todos) estamos horneando.
+# labels = complete
 "<Teapowüüts>"
-	"pow" v tv prog pl1 in
+	"pow" v tv prog pl1 in @root #1->0
 "<.>"
-	"." sent
+	"." sent @punct #2->1
 
 # sent_id = tesis:3:74:28d
 # text = Langalaats.
-# text[spa] = 
+# text[spa] = Nosostros (todos) ya compramos.
 # labels = incomplete
 "<Langalaats>"
 	"*Langalaats"
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:3:74:28e
 # text = Apmangalaats.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Nosostros (todos) vamos a comprar.
+# labels = complete
 "<Apmangalaats>"
-	"ngal" v tv irre pl1 in
+	"ngal" v tv irre pl1 in @root #1->0
 "<.>"
-	"." sent
+	"." sent @punct #2->1
 
 # sent_id = tesis:3:74:28f
 # text = Nadamaats.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Nosostros (todos) estamos grandes.
+# labels = complete
 "<Nadamaats>"
-	"dam" v iv rel
-	"dam" adj stat pl1 in
+	"dam" adj stat pl1 in @root #1->0
 "<.>"
-	"." sent
+	"." sent @punct #2->1
 
 # sent_id = tesis:3:74:28g
 # text = Teaümíüts majawaats.
@@ -1638,22 +1628,22 @@
 "<majawaats>"
 	"jaw" v tv subj pl1 in
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:3:75:29
 # text = Inganyowan noyky tas chaw.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = ¡Tomen una taza de atole!
+# labels = complete check-compound
 "<Inganyowan>"
-	"nganyow" v tv pres pl2
+	"nganyow" v tv pres pl2 @root #1->0
 "<noyky>"
-	"no" num c1
+	"no" num c1 @nummod #2->3
 "<tas>"
-	"tas" n
+	"tas" n @obj #3->1
 "<chaw>"
-	"chaw" n
+	"chaw" n @nmod #4->3
 "<.>"
-	"." sent
+	"." sent @punct #5->1
 
 # sent_id = tesis:3:76:30
 # text = Karryer ingal xikweaj te mplas.
@@ -1670,7 +1660,7 @@
 "<mplas>"
 	"*mplas"
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:3:76:31
 # text = Cheter.
@@ -1679,30 +1669,29 @@
 "<Cheter>"
 	"*Cheter"
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:3:76:32a
 # text = Ja nwa timbiy nganüy michiik ajow che.
 # text[spa] = 
 # labels = incomplete
 "<Ja>"
-	"*Ja"
+	"Ja" ij @discourse
 "<nwa>"
-	"nwa" ij
+	"nwa" ij @discourse
 "<timbiy>"
-	"mbiy" v tv past sg2
+	"mbiy" v tv past sg2 @root
 "<nganüy>"
-	"nganüy" adv
+	"nganüy" adv @advmod
 "<michiik>"
 	"chiig" n px2sg
-	"chiig" n px3sg
 "<ajow>"
 	"jow" v tv pres sg3
 	"jow" n px3sg
 "<che>"
 	"che" evid
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:3:77:32b
 # text = ¿Apmiüt peats a?.
@@ -1717,9 +1706,9 @@
 "<a>"
 	"aaga" det @det
 "<?>"
-	"?" sent
+	"?" sent @punct
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:3:77:33
 # text = Indiem mirang para nakats peats pues nakats peats.
@@ -1745,7 +1734,7 @@
 "<peats>"
 	"peats" n
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:3:77:34a
 # text = Terndyak.
@@ -1754,29 +1743,27 @@
 "<Terndyak>"
 	"*Terndyak"
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:3:77:34b
 # text = Lerndyak.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Ya hablaste.
+# labels = complete
 "<Lerndyak>"
-	"ndeak" v tv punt sg2
+	"ndeak" v tv punt sg2 @root #1->0
 "<.>"
-	"." sent
+	"." sent @punct #2->1
 
 # sent_id = tesis:3:78:35
 # text = Ike nerdam.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Tú eres grande.
+# labels = complete
 "<Ike>"
-	"a" qst
-		"ik" n
-	"ik" prn pers sg2 emph
+	"ik" prn pers sg2 emph @nsubj #1->2
 "<nerdam>"
-	"dam" adj stat sg2
+	"dam" adj stat sg2 @root #2->0
 "<.>"
-	"." sent
+	"." sent @punct #3->2
 
 # sent_id = tesis:3:78:36a
 # text = Nwa apinganyow noyky tas chaw.
@@ -1793,18 +1780,18 @@
 "<chaw>"
 	"chaw" n
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:3:78:36b
 # text = Ikona lermbiyon.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Ustedes ya se golpearon.
+# labels = complete
 "<Ikona>"
-	"ikon" prn pers pl2 emph
+	"ikon" prn pers pl2 emph @nsubj #1->2
 "<lermbiyon>"
-	"mbiy" v tv punt pl2
+	"mbiy" v tv punt pl2 @root #2->0
 "<.>"
-	"." sent
+	"." sent @punct #3->2
 
 # sent_id = tesis:3:79:36c
 # text = ¿Indieman miütün peats a?.
@@ -1819,22 +1806,22 @@
 "<peats>"
 	"peats" n
 "<a>"
-	"aaga" det @det
+	"a" qst
 "<?>"
-	"?" sent
+	"?" sent @punct
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:3:79:36d
 # text = Ikona nerdamiün.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Ustedes están grandes.
+# labels = complete
 "<Ikona>"
-	"ikon" prn pers pl2 emph
+	"ikon" prn pers pl2 emph @nsubj #1->2
 "<nerdamiün>"
-	"dam" adj stat pl2
+	"dam" adj stat pl2 @root #2->0
 "<.>"
-	"." sent
+	"." sent @punct #3->2
 
 # sent_id = tesis:3:79:37a
 # text = Sayaak atne mbayan tiül ndeanche karro kyaj.
@@ -1855,7 +1842,7 @@
 "<kyaj>"
 	"kiaj" adv
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:3:79:37b
 # text = Teasaleam peats.
@@ -1866,34 +1853,32 @@
 "<peats>"
 	"peats" n
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:3:79:37c
 # text = Wüx lasapeayün tikambaj.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Cuando ya lleguemos al pueblo.
+# labels = complete
 "<Wüx>"
-	"wüx" cnjsub
-	"wüx" pr
+	"wüx" cnjsub @mark #1->2
 "<lasapeayün>"
-	"peay" v iv punt pl1 ex
+	"peay" v iv punt pl1 ex @root #2->0
 "<tikambaj>"
-	"kambaj" n
-		"tiül" pr
+	"tiül" pr @case #3->4
+		"kambaj" n @obl #4->2
 "<.>"
-	"." sent
+	"." sent @punct #5->2
 
 # sent_id = tesis:3:79:37d
 # text = Sanandeow sanataxey.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Me moriré cuando envejezca.
+# labels = complete
 "<Sanandeow>"
-	"ndeow" v iv irre dep sg1
-	"nandeow" n px1sg
+	"ndeow" v iv irre dep sg1 @root #1->0
 "<sanataxey>"
-	"taxey" v iv irre dep sg1
+	"taxey" v iv irre dep sg1 @advcl #2->1
 "<.>"
-	"." sent
+	"." sent @punct #3->1
 
 # sent_id = tesis:3:81:38a
 # text = Xinangalan pow pa che ximüm.
@@ -1910,7 +1895,7 @@
 "<ximüm>"
 	"müm" n px1sg
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:3:81:38b
 # text = Pues kyaj xenütyün.
@@ -1923,7 +1908,7 @@
 "<xenütyün>"
 	"*xenütyün"
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:3:81:38c
 # text = Ximiünan kyaj.
@@ -1934,34 +1919,32 @@
 "<kyaj>"
 	"kiaj" adv
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:3:81:38d
-# text = Teanarang nine tirip para xexelen.
-# text[spa] = 
-# labels = incomplete
+# text = Teanarang nine tirip para xexelen te pow.
+# text[spa] = Estoy haciendo planitas para que metamos al horno.
+# labels = complete
 "<Teanarang>"
-	"rang" v tv prog sg1
+	"rang" v tv prog sg1 @root #1->0
 "<nine>"
-	"nine" adj
-	"nine" n
-	"a" qst
-		"nin" n
+	"nine" adj @amod #2->3
 "<tirip>"
-	"tirip" adj
+	"tirip" n @obj #3->1
 "<para>"
-	"para" cnjsub
-	"para" pr
-	"a" qst
-		"par" n
+	"para" cnjsub @mark #4->5
 "<xexelen>"
-	"*xexelen"
+	"xel" v tv pres pl1 ex @advcl #5->1
+"<te>"
+	"tiül" pr @case #6->7
+"<pow>"
+	"pow" n @obl #7->5
 "<.>"
-	"." sent
+	"." sent @punct #8->1
 
 # sent_id = tesis:3:82:40b
 # text = Pues kyaj tanawan kyaj nakieb xikompadre Samuel.
-# text[spa] = 
+# text[spa] = Pues salimos de ahí con mi compadre Samuel.
 # labels = incomplete
 "<Pues>"
 	"pues" adv
@@ -1974,11 +1957,11 @@
 "<nakieb>"
 	"*nakieb"
 "<xikompadre>"
-	"*xikompadre"
+	"kompadre" n px1sg
 "<Samuel>"
 	"Samuel" np ant m
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:83:41a
 # text = Lanandok wüx nasoyky chinchmalinch.
@@ -1995,7 +1978,7 @@
 "<chinchmalinch>"
 	"chinchmalinch" n
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:83:41b
 # text = Pues ngana joyaj lanayak te pow.
@@ -2015,7 +1998,7 @@
 "<pow>"
 	"pow" n
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:83:42a
 # text = Tanangalan nop nine sow.
@@ -2033,7 +2016,7 @@
 "<sow>"
 	"sow" n
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:83:42b
 # text = Wityetos.
@@ -2042,7 +2025,7 @@
 "<Wityetos>"
 	"*Wityetos"
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:84:42c
 # text = Tim tambasan juchitan nakyep xikompadre Samuel.
@@ -2061,7 +2044,7 @@
 "<Samuel>"
 	"Samuel" np ant m
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:84:43
 # text = Xikona wityejason.
@@ -2072,57 +2055,50 @@
 "<wityejason>"
 	"*wityejason"
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:86:1a
 # text = Xike saxayng.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Me levanto.
+# labels = complete
 "<Xike>"
-	"xik" prn pers sg1 emph
+	"xik" prn pers sg1 emph @nsubj #1->2
 "<saxayng>"
-	"xaing" v iv pres sg1
-	"xaing" v tv pres sg1
+	"xaing" v iv pres sg1 @root #2->0
 "<.>"
-	"." sent
+	"." sent @punct #3->2
 
 # sent_id = tesis:4:86:1b
 # text = Xike saxayng a nine.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Levanto al niño.
+# labels = complete
 "<Xike>"
-	"xik" prn pers sg1 emph
+	"xik" prn pers sg1 emph @nsubj #1->2
 "<saxayng>"
-	"xaing" v iv pres sg1
-	"xaing" v tv pres sg1
+	"xaing" v tv pres sg1 @root #2->0
 "<a>"
-	"aaga" det @det
+	"aaga" det @det #3->4
 "<nine>"
-	"nine" adj
-	"nine" n
-	"a" qst
-		"nin" n
+	"nine" n @obj #4->2
 "<.>"
-	"." sent
+	"." sent @punct #5->2
 
 # sent_id = tesis:4:86:2a
 # text = Aaga pet atsamb a miüs.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = El perro muerde al gato.
+# labels = complete
 "<Aaga>"
-	"aaga" det @det
+	"aaga" det @det #1->2
 "<pet>"
-	"pet" n
+	"pet" n @nsubj #2->3
 "<atsamb>"
-	"tsamb" v tv pres sg3
+	"tsamb" v tv pres sg3 @root #3->0
 "<a>"
-	"aaga" det @det
+	"aaga" det @det #4->5
 "<miüs>"
-	"miüs" n
-	"üs" n px2sg
-	"üs" n px3sg
+	"miüs" n @obj #5->3
 "<.>"
-	"." sent
+	"." sent @punct #6->3
 
 # sent_id = tesis:4:86:2b
 # text = Teatsaramb a miüs.
@@ -2137,20 +2113,20 @@
 	"üs" n px2sg
 	"üs" n px3sg
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:86:2c
 # text = Aaga pet teatsambüy.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = El perro se muerde.
+# labels = complete
 "<Aaga>"
-	"aaga" det @det
+	"aaga" det @det #1->2
 "<pet>"
-	"pet" n
+	"pet" n @nsubj #2->3
 "<teatsambüy>"
-	"tsamb" v tv refl prog sg3
+	"tsamb" v tv refl prog sg3 @root #3->0
 "<.>"
-	"." sent
+	"." sent @punct #4->3
 
 # sent_id = tesis:4:87:3a
 # text = Lasatang xike.
@@ -2161,7 +2137,7 @@
 "<xike>"
 	"xik" prn pers sg1 emph
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:87:3b
 # text = Xike satangüüch xixiik.
@@ -2174,7 +2150,7 @@
 "<xixiik>"
 	"chiig" n px1sg
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:88:4a
 # text = Teon tambiy xikwal.
@@ -2188,7 +2164,7 @@
 	"kwal" n px1sg
 	"kwál" n px1sg
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:88:4b
 # text = Tajmbiy xikwal.
@@ -2200,7 +2176,7 @@
 	"kwal" n px1sg
 	"kwál" n px1sg
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:89:5a
 # text = Aaga pet atsamb a miüs.
@@ -2219,7 +2195,7 @@
 	"üs" n px2sg
 	"üs" n px3sg
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:89:5b
 # text = Tatsaramb a miüs.
@@ -2234,7 +2210,7 @@
 	"üs" n px2sg
 	"üs" n px3sg
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:90:6a
 # text = Teon tambiy xikwal.
@@ -2248,7 +2224,7 @@
 	"kwal" n px1sg
 	"kwál" n px1sg
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:90:6b
 # text = Tajmbiy xikwal ambiy nej Teon.
@@ -2266,7 +2242,7 @@
 "<Teon>"
 	"Teon" np ant m
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:91:7a
 # text = Teon takül xik ti kambaj
@@ -2286,7 +2262,7 @@
 "<kambaj>"
 	"kambaj" n
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:91:7c
 # text = Aloxiw ik te tiüt.
@@ -2302,7 +2278,7 @@
 "<tiüt>"
 	"tiüt" adv
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:91:7d
 # text = Tijlos te tiüt.
@@ -2315,7 +2291,7 @@
 "<tiüt>"
 	"tiüt" adv
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:92:8a
 # text = Aaga pet teatsamb a miüs.
@@ -2334,7 +2310,7 @@
 	"üs" n px2sg
 	"üs" n px3sg
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:92:8b
 # text = Teatsaramb a miüs.
@@ -2349,7 +2325,7 @@
 	"üs" n px2sg
 	"üs" n px3sg
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:92:8c
 # text = Teatsambaran a miüs.
@@ -2364,7 +2340,7 @@
 	"üs" n px2sg
 	"üs" n px3sg
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:92:9
 # text = Tatsambaranüw akas pet.
@@ -2377,7 +2353,7 @@
 "<pet>"
 	"pet" n
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:93:10a
 # text = Teasamelicheran ti pow.
@@ -2390,7 +2366,7 @@
 "<pow>"
 	"pow" n
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:93:10b
 # text = Teasameay.
@@ -2399,7 +2375,7 @@
 "<Teasameay>"
 	"meay" v iv prog sg1
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:93:10c
 # text = Teasaleam peats.
@@ -2410,7 +2386,7 @@
 "<peats>"
 	"peats" n
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:93:11
 # text = Teajmel ti pow a peats.
@@ -2427,7 +2403,7 @@
 "<peats>"
 	"peats" n
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:93:12a
 # text = Tangalaran nop sap.
@@ -2440,7 +2416,7 @@
 "<sap>"
 	"sap" n
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:94:12b
 # text = Tambiyeranüw xikwal.
@@ -2452,7 +2428,7 @@
 	"kwal" n px1sg
 	"kwál" n px1sg
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:95:14a
 # text = Aaga pet atsamb a miüs.
@@ -2471,7 +2447,7 @@
 	"üs" n px2sg
 	"üs" n px3sg
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:95:14b
 # text = Aaga pet teatsambüy.
@@ -2499,7 +2475,7 @@
 	"ik" n
 	"ik" prn pers sg2
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:96:15b
 # text = Teasajawüy.
@@ -2508,7 +2484,7 @@
 "<Teasajawüy>"
 	"*Teasajawüy"
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:96:16a
 # text = Ike ijaw xik.
@@ -2525,7 +2501,7 @@
 "<xik>"
 	"xik" prn pers sg1
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:96:16b
 # text = Lamijawüy.
@@ -2534,7 +2510,7 @@
 "<Lamijawüy>"
 	"*Lamijawüy"
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:96:17a
 # text = Teon taxot xikamix.
@@ -2547,7 +2523,7 @@
 "<xikamix>"
 	"kamix" n px1sg
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:96:17b
 # text = Laxotüy Karmelita.
@@ -2558,7 +2534,7 @@
 "<Karmelita>"
 	"Karmelita" np ant f
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:97:18a
 # text = Teasajansüy.
@@ -2567,7 +2543,7 @@
 "<Teasajansüy>"
 	"*Teasajansüy"
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:97:18b
 # text = Teasajansayon.
@@ -2576,7 +2552,7 @@
 "<Teasajansayon>"
 	"*Teasajansayon"
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:97:18c
 # text = Ike teaijansüy.
@@ -2589,7 +2565,7 @@
 "<teaijansüy>"
 	"*teaijansüy"
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:97:18d
 # text = Ikona teaijansayon.
@@ -2600,7 +2576,7 @@
 "<teaijansayon>"
 	"*teaijansayon"
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:98:19a
 # text = Teajansüw karro.
@@ -2611,7 +2587,7 @@
 "<karro>"
 	"karro" n
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:98:19b
 # text = Teandokoj.
@@ -2620,7 +2596,7 @@
 "<Teandokoj>"
 	"ndok" v tv prog pl3
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:98:20a
 # text = Teajansayej.
@@ -2629,7 +2605,7 @@
 "<Teajansayej>"
 	"*Teajansayej"
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:100:21a
 # text = Monxey tambiy ikor.
@@ -2642,7 +2618,7 @@
 "<ikor>"
 	"ikor" prn pers du1
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:100:21b
 # text = Teon tambiyay.
@@ -2653,7 +2629,7 @@
 "<tambiyay>"
 	"mbiy" v tv refl past sg3
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:100:21c
 # text = Tealeambayej.
@@ -2662,7 +2638,7 @@
 "<Tealeambayej>"
 	"leamb" v iv refl prog pl3
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:101:22
 # text = Teamatsün akiep nej.
@@ -2675,7 +2651,7 @@
 "<nej>"
 	"nej" prn pers sg3
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:101:23
 # text = Teamapekiw.
@@ -2684,7 +2660,7 @@
 "<Teamapekiw>"
 	"*Teamapekiw"
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:101:24
 # text = Teapekeyej.
@@ -2693,7 +2669,7 @@
 "<Teapekeyej>"
 	"*Teapekeyej"
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:102:25
 # text = Akasüw nejiw laxomeyej.
@@ -2706,7 +2682,7 @@
 "<laxomeyej>"
 	"xom" v tv refl punt pl3
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:103:26
 # text = Tealeambayej.
@@ -2715,7 +2691,7 @@
 "<Tealeambayej>"
 	"leamb" v iv refl prog pl3
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:104:27
 # text = Mijpüw monüüx lapekeyej ndoj lamapekiüw palwüx akieep.
@@ -2736,7 +2712,7 @@
 "<akieep>"
 	"*akieep"
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:105:28
 # text = Teawarrwarrayej omalüw nejiw.
@@ -2750,7 +2726,7 @@
 "<nejiw>"
 	"nejiw" prn pers pl3
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:105:29
 # text = Teaxolxolayej.
@@ -2759,7 +2735,7 @@
 "<Teaxolxolayej>"
 	"*Teaxolxolayej"
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:107:30a
 # text = Naxip.
@@ -2770,7 +2746,7 @@
 	"xip" adj stat sg3
 	"xip" v iv subj sg1
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:107:30b
 # text = Tanaxepiich a nine sow.
@@ -2788,7 +2764,7 @@
 "<sow>"
 	"sow" n
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:107:31a
 # text = Takwyerr a nüx.
@@ -2801,7 +2777,7 @@
 "<nüx>"
 	"nüx" n
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:107:31b
 # text = Takwyerreech.
@@ -2810,7 +2786,7 @@
 "<Takwyerreech>"
 	"*Takwyerreech"
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:108:32a
 # text = Atangüw arojpwej.
@@ -2821,7 +2797,7 @@
 "<arojpwej>"
 	"*arojpwej"
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:108:32b
 # text = Satangüüch.
@@ -2830,7 +2806,7 @@
 "<Satangüüch>"
 	"tang" v iv caus pres sg1
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:108:33
 # text = Üüch noyky besito miteat tempots.
@@ -2849,7 +2825,7 @@
 "<tempots>"
 	"*tempots"
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:109:34
 # text = Süüch üs müüt.
@@ -2863,7 +2839,7 @@
 	"üüt" n px2sg
 	"üüt" n px3sg
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:109:35
 # text = Tüüch matsam küt mimüm nej.
@@ -2882,7 +2858,7 @@
 "<nej>"
 	"nej" prn pers sg3
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:109:36
 # text = Tüüch xik natepich nej kawüx.
@@ -2901,7 +2877,7 @@
 "<kawüx>"
 	"kawüx" adv
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:110:37
 # text = Juan tasaj xik najrrok.
@@ -2917,7 +2893,7 @@
 	"jrrok" v iv rel
 	"jrrok" v iv subj sg1
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:110:38
 # text = Isaj miteaats miün müüch xik nangaj.
@@ -2938,7 +2914,7 @@
 "<nangaj>"
 	"nangaj" n
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:111:39
 # text = Aaga naxey kyaj tüüch xik najüy.
@@ -2960,7 +2936,7 @@
 	"jüy" v tv rel
 	"jüy" v tv subj sg1
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:111:40a
 # text = Sanajiün.
@@ -2969,7 +2945,7 @@
 "<Sanajiün>"
 	"jiün" v iv irre dep sg1
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:112:40b
 # text = Tijchan xik najiün.
@@ -2984,7 +2960,7 @@
 	"jiün" v iv rel
 	"jiün" v iv subj sg1
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:112:41
 # text = Tüjchiür majchikyaw.
@@ -2995,7 +2971,7 @@
 "<majchikyaw>"
 	"jchiky" v iv subj pl3
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:112:42a
 # text = Tüjchyüs majküy.
@@ -3006,7 +2982,7 @@
 "<majküy>"
 	"jküy" v iv subj sg3
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:112:42b
 # text = Tüüch xik najküy.
@@ -3021,7 +2997,7 @@
 	"jküy" v iv rel
 	"jküy" v iv subj sg1
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:113:43
 # text = Tüüch xik najiün aaga monson kyaj.
@@ -3043,7 +3019,7 @@
 "<kyaj>"
 	"kiaj" adv
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:113:44
 # text = Tüüch ikor majchikyar.
@@ -3057,7 +3033,7 @@
 "<majchikyar>"
 	"jchiky" v iv subj du1
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:114:45a
 # text = Tajmbajas a pow.
@@ -3070,7 +3046,7 @@
 "<pow>"
 	"pow" n
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:114:45b
 # text = Tüüch xik najmbaj a pow a Juan.
@@ -3093,7 +3069,7 @@
 "<Juan>"
 	"Juan" np ant m
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:115:46
 # text = Tüjchyüs majmbaj a pow a Juan.
@@ -3112,7 +3088,7 @@
 "<Juan>"
 	"Juan" np ant m
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = tesis:4:115:47
 # text = Sanajchyün ikon mijmbajan a pow.
@@ -3129,4 +3105,4 @@
 "<pow>"
 	"pow" n
 "<.>"
-	"." sent
+	"." sent @punct
