@@ -1420,7 +1420,7 @@
 # text = Teatsaramb a miüs.
 # text[spa] = 
 # labels = incomplete
-^Teatsaramb/*Teatsaramb$
+^Teatsaramb/Tea>tsa>ra>mb$
 ^a/a$
 ^miüs/miüs$
 ^./.$
@@ -1446,9 +1446,9 @@
 # text = Xike satangüüch xixiik.
 # text[spa] = 
 # labels = incomplete
-^Xike/xik$
-^satangüüch/tang$
-^xixiik/chiig$
+^Xike/Xik>e$
+^satangüüch/sa>tang>üüch$
+^xixiik/xi>xiik$
 ^./.$
 
 # sent_id = tesis:4:88:4a
@@ -1456,25 +1456,25 @@
 # text[spa] = 
 # labels = incomplete
 ^Teon/Teon$
-^tambiy/mbiy$
-^xikwal/kwal$
+^tambiy/t>a>mbiy$
+^xikwal/xi>kwal$
 ^./.$
 
 # sent_id = tesis:4:88:4b
 # text = Tajmbiy xikwal.
 # text[spa] = 
 # labels = incomplete
-^Tajmbiy/*Tajmbiy$
-^xikwal/kwal$
+^Tajmbiy/T>a>j>mbiy$
+^xikwal/xi>kwal$
 ^./.$
 
 # sent_id = tesis:4:89:5a
 # text = Aaga pet atsamb a miüs.
 # text[spa] = 
 # labels = incomplete
-^Aaga/aaga$
+^Aaga/Aaga$
 ^pet/pet$
-^atsamb/tsamb$
+^atsamb/a>tsamb$
 ^a/a$
 ^miüs/miüs$
 ^./.$
@@ -1483,7 +1483,7 @@
 # text = Tatsaramb a miüs.
 # text[spa] = 
 # labels = incomplete
-^Tatsaramb/*Tatsaramb$
+^Tatsaramb/T>a>tsa>ra>mb$
 ^a/a$
 ^miüs/miüs$
 ^./.$
@@ -1493,17 +1493,17 @@
 # text[spa] = 
 # labels = incomplete
 ^Teon/Teon$
-^tambiy/mbiy$
-^xikwal/kwal$
+^tambiy/t>a>mbiy$
+^xikwal/xi>kwal$
 ^./.$
 
 # sent_id = tesis:4:90:6b
 # text = Tajmbiy xikwal ambiy nej Teon.
 # text[spa] = 
 # labels = incomplete
-^Tajmbiy/*Tajmbiy$
-^xikwal/kwal$
-^ambiy/mbiy$
+^Tajmbiy/T>a>j>mbiy$
+^xikwal/xi>kwal$
+^ambiy/a>mbiy$
 ^nej/nej$
 ^Teon/Teon$
 ^./.$
@@ -1557,7 +1557,7 @@
 # text = Teatsaramb a miüs.
 # text[spa] = 
 # labels = incomplete
-^Teatsaramb/*Teatsaramb$
+^Teatsaramb/Tea>tsa>ra>mb$
 ^a/a$
 ^miüs/miüs$
 ^./.$

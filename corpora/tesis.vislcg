@@ -2850,44 +2850,41 @@
 
 # sent_id = tesis:4:110:37
 # text = Juan tasaj xik najrrok.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Juan me dijo que nadara.
+# labels = complete check-arguments
 "<Juan>"
-	"Juan" np ant m
+	"Juan" np ant m @nsubj #1->2
 "<tasaj>"
-	"saj" v tv past sg3
+	"saj" v tv past sg3 @root #2->0
 "<xik>"
-	"xik" prn pers sg1
+	"xik" prn pers sg1 @obj #3->2
 "<najrrok>"
-	"jrrok" v iv rel
-	"jrrok" v iv subj sg1
+	"jrrok" v iv subj sg1 @xcomp #4->2
 "<.>"
-	"." sent @punct
+	"." sent @punct #5->2
 
 # sent_id = tesis:4:110:38
 # text = Isaj miteaats miün müüch xik nangaj.
-# text[spa] = 
+# text[spa] = Dile al sacerdote que venga que me dé la bendición.
 # labels = incomplete
 "<Isaj>"
 	"saj" v tv pres sg2
 "<miteaats>"
 	"miteaats" n
-	"teaats" n px2sg
-	"teaats" n px3sg
 "<miün>"
-	"miün" adv
+	"iün" v iv subj sg3 
 "<müüch>"
 	"üüch" v tv subj sg3
 "<xik>"
-	"xik" prn pers sg1
+	"xik" prn pers sg1 @obj
 "<nangaj>"
-	"nangaj" n
+	"nangaj" n @iobj
 "<.>"
 	"." sent @punct
 
 # sent_id = tesis:4:111:39
 # text = Aaga naxey kyaj tüüch xik najüy.
-# text[spa] = 
+# text[spa] = Este señor me hizo caminar.
 # labels = incomplete
 "<Aaga>"
 	"aaga" det @det
@@ -2909,12 +2906,12 @@
 
 # sent_id = tesis:4:111:40a
 # text = Sanajiün.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Voy a bailar.
+# labels = complete
 "<Sanajiün>"
-	"jiün" v iv irre dep sg1
+	"jiün" v iv irre dep sg1 @root #1->0
 "<.>"
-	"." sent @punct
+	"." sent @punct #2->1
 
 # sent_id = tesis:4:112:40b
 # text = Tijchan xik najiün.
@@ -2955,16 +2952,14 @@
 
 # sent_id = tesis:4:112:42b
 # text = Tüüch xik najküy.
-# text[spa] = 
+# text[spa] = Me hizo enojar.
 # labels = incomplete
 "<Tüüch>"
-	"üüch" v tv past sg2
-	"üüch" v tv past sg3
+	"üüch" v tv past sg3 @root
 "<xik>"
-	"xik" prn pers sg1
+	"xik" prn pers sg1 @obj
 "<najküy>"
-	"jküy" v iv rel
-	"jküy" v iv subj sg1
+	"jküy" v iv subj sg1 @xcomp
 "<.>"
 	"." sent @punct
 
@@ -2973,7 +2968,6 @@
 # text[spa] = 
 # labels = incomplete
 "<Tüüch>"
-	"üüch" v tv past sg2
 	"üüch" v tv past sg3
 "<xik>"
 	"xik" prn pers sg1
@@ -3006,16 +3000,16 @@
 
 # sent_id = tesis:4:114:45a
 # text = Tajmbajas a pow.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Rompí el horno.
+# labels = complete
 "<Tajmbajas>"
-	"jmbaj" v tv past sg1
+	"jmbaj" v tv past sg1 @root #1->0
 "<a>"
-	"aaga" det @det
+	"aaga" det @det #2->3
 "<pow>"
-	"pow" n
+	"pow" n @obj #3->1
 "<.>"
-	"." sent @punct
+	"." sent @punct #4->1
 
 # sent_id = tesis:4:114:45b
 # text = Tüüch xik najmbaj a pow a Juan.
@@ -3075,3 +3069,4 @@
 	"pow" n
 "<.>"
 	"." sent @punct
+
