@@ -97,7 +97,7 @@
 # sent_id = tesis:1:26:6c
 # text = Tandeow nop pet.
 # text[spa] = Un perro se murió.
-# labels = incomplete
+# labels = complete
 1	Tandeow	ndeow	VERB	_	Number=Sing|Person=3|Subcat=Intr|Tense=Past|VerbForm=Fin	0	root	_	_
 2	nop	no	NUM	_	NumType=Clf	3	nummod	_	_
 3	pet	pet	NOUN	_	_	1	nsubj	_	_
@@ -119,7 +119,7 @@
 # sent_id = tesis:1:26:7b
 # text = Ni aag nine xichiik ngonayam üüt nej.
 # text[spa] = Ni a mi hermanito le busqué su comida.
-# labels = incomplete
+# labels = complete
 1	Ni	ni	CCONJ	_	_	4	cc	_	_
 2	aag	aaga	DET	_	_	4	det	_	_
 3	nine	nine	ADJ	_	_	4	amod	_	_
@@ -333,7 +333,7 @@
 # sent_id = tesis:1:38:22b
 # text = Tandeow aaga lapat pet.
 # text[spa] = El perro que ya estaba bravo se murió.
-# labels = incomplete
+# labels = complete
 1	Tandeow	ndeow	VERB	_	Number=Sing|Person=3|Subcat=Intr|Tense=Past|VerbForm=Fin	0	root	_	_
 2	aaga	aaga	DET	_	_	4	det	_	_
 3	lapat	pat	ADJ	_	Aspect=Punt|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	acl	_	_
@@ -374,7 +374,7 @@
 # sent_id = tesis:2:45:5
 # text = Tambiy nej.
 # text[spa] = Le pegó.
-# labels = incomplete
+# labels = complete
 1	Tambiy	mbiy	VERB	_	Number=Sing|Person=3|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
 2	nej	nej	PRON	_	Number=Sing|Person=3|PronType=Prs	1	obj	_	_
 3	.	.	PUNCT	_	_	1	punct	_	_
@@ -666,7 +666,7 @@
 # sent_id = tesis:3:61:6
 # text = Amokmoküy ti üt.
 # text[spa] = Él se arrastra y se arrastra en el suelo.
-# labels = incomplete
+# labels = complete
 1	Amokmoküy	mokmok	VERB	_	Number=Sing|Person=3|Reflexive=Yes|Subcat=Tran|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	ti	tiül	ADP	_	_	3	case	_	_
 3	üt	üt	NOUN	_	_	1	obj	_	_
@@ -791,7 +791,7 @@
 # sent_id = tesis:3:69:19
 # text = Ngom axomüw.
 # text[spa] = No la encuentran.
-# labels = incomplete
+# labels = complete
 1	Ngom	ngom	ADV	_	_	2	advmod	_	_
 2	axomüw	xom	VERB	_	Number=Plur|Person=3|Subcat=Tran|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	.	.	PUNCT	_	_	2	punct	_	_
@@ -999,7 +999,7 @@
 # sent_id = tesis:4:89:5b
 # text = Tatsaramb a miüs.
 # text[spa] = El gato fue mordido.
-# labels = incomplete
+# labels = complete
 1	Tatsaramb	tsamb	VERB	_	Number=Sing|Person=3|Subcat=Tran|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 2	a	aaga	DET	_	_	3	det	_	_
 3	miüs	miüs	NOUN	_	_	1	nsubj	_	_
@@ -1017,7 +1017,7 @@
 # sent_id = tesis:4:90:6b
 # text = Tajmbiy xikwal ambiy nej Teon.
 # text[spa] = Mi hijo fue golpeado, lo golpeó Antonio.
-# labels = incomplete
+# labels = complete
 1	Tajmbiy	mbiy	VERB	_	Number=Sing|Person=3|Subcat=Tran|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 2	xikwal	kwal	NOUN	_	Number[psor]=Sing|Person[psor]=1	1	nsubj	_	_
 3	ambiy	mbiy	VERB	_	Number=Sing|Person=3|Subcat=Tran|Tense=Pres|VerbForm=Fin	1	conj	_	_
@@ -1049,7 +1049,7 @@
 # sent_id = tesis:4:92:8b
 # text = Teatsaramb a miüs.
 # text[spa] = El gato está siendo mordido.
-# labels = incomplete
+# labels = complete
 1	Teatsaramb	tsamb	VERB	_	Aspect=Prog|Number=Sing|Person=3|Subcat=Tran|VerbForm=Fin|Voice=Pass	0	root	_	_
 2	a	aaga	DET	_	_	3	det	_	_
 3	miüs	miüs	NOUN	_	_	1	nsubj	_	_
@@ -1105,7 +1105,7 @@
 # sent_id = tesis:4:95:14b
 # text = Aaga pet teatsambüy.
 # text[spa] = 
-# labels = incomplete
+# labels = complete
 1	Aaga	aaga	DET	_	_	2	det	_	_
 2	pet	pet	NOUN	_	_	3	nsubj	_	_
 3	teatsambüy	tsamb	VERB	_	Aspect=Prog|Number=Sing|Person=3|Reflexive=Yes|Subcat=Tran|VerbForm=Fin	0	root	_	_
@@ -1114,7 +1114,7 @@
 # sent_id = tesis:4:96:15a
 # text = Xike sajaw ik.
 # text[spa] = Yo te veo a ti.
-# labels = incomplete
+# labels = complete
 1	Xike	xik	PART	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	sajaw	jaw	VERB	_	Number=Sing|Person=1|Subcat=Tran|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	ik	ik	PRON	_	Number=Sing|Person=2|PronType=Prs	2	obj	_	_
@@ -1132,7 +1132,7 @@
 # sent_id = tesis:4:96:17a
 # text = Teon taxot xikamix.
 # text[spa] = Antonio escondió mi camisa.
-# labels = incomplete
+# labels = complete
 1	Teon	Teon	PROPN	_	Gender=Masc	2	nsubj	_	_
 2	taxot	xot	VERB	_	Number=Sing|Person=3|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
 3	xikamix	kamix	NOUN	_	Number[psor]=Sing|Person[psor]=1	2	obj	_	_

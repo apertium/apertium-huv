@@ -148,7 +148,7 @@
 # sent_id = tesis:1:26:6c
 # text = Tandeow nop pet.
 # text[spa] = Un perro se murió.
-# labels = incomplete
+# labels = complete
 "<Tandeow>"
 	"ndeow" v iv past sg3 @root #1->0
 "<nop>"
@@ -182,7 +182,7 @@
 # sent_id = tesis:1:26:7b
 # text = Ni aag nine xichiik ngonayam üüt nej.
 # text[spa] = Ni a mi hermanito le busqué su comida.
-# labels = incomplete
+# labels = complete
 "<Ni>"
 	"ni" cnjcoo @cc #1->4
 "<aag>"
@@ -597,7 +597,7 @@
 # sent_id = tesis:1:38:22b
 # text = Tandeow aaga lapat pet.
 # text[spa] = El perro que ya estaba bravo se murió.
-# labels = incomplete
+# labels = complete
 "<Tandeow>"
 	"ndeow" v iv past sg3 @root #1->0
 "<aaga>"
@@ -708,7 +708,7 @@
 # sent_id = tesis:2:45:5
 # text = Tambiy nej.
 # text[spa] = Le pegó.
-# labels = incomplete
+# labels = complete
 "<Tambiy>"
 	"mbiy" v tv past sg3 @root #1->0
 "<nej>"
@@ -1161,7 +1161,7 @@
 # sent_id = tesis:3:61:6
 # text = Amokmoküy ti üt.
 # text[spa] = Él se arrastra y se arrastra en el suelo.
-# labels = incomplete
+# labels = complete
 "<Amokmoküy>"
 	"mokmok" v tv refl pres sg3 @root #1->0
 "<ti>"
@@ -1417,7 +1417,7 @@
 # sent_id = tesis:3:69:19
 # text = Ngom axomüw.
 # text[spa] = No la encuentran.
-# labels = incomplete
+# labels = complete
 "<Ngom>"
 	"ngom" adv @advmod #1->2
 "<axomüw>"
@@ -2196,7 +2196,7 @@
 # sent_id = tesis:4:89:5b
 # text = Tatsaramb a miüs.
 # text[spa] = El gato fue mordido.
-# labels = incomplete
+# labels = complete
 "<Tatsaramb>"
 	"tsamb" v tv pass past sg3 @root #1->0
 "<a>"
@@ -2222,7 +2222,7 @@
 # sent_id = tesis:4:90:6b
 # text = Tajmbiy xikwal ambiy nej Teon.
 # text[spa] = Mi hijo fue golpeado, lo golpeó Antonio.
-# labels = incomplete
+# labels = complete
 "<Tajmbiy>"
 	"mbiy" v tv pass past sg3 @root #1->0
 "<xikwal>"
@@ -2304,7 +2304,7 @@
 # sent_id = tesis:4:92:8b
 # text = Teatsaramb a miüs.
 # text[spa] = El gato está siendo mordido.
-# labels = incomplete
+# labels = complete
 "<Teatsaramb>"
 	"tsamb" v tv pass prog sg3 @root #1->0
 "<a>"
@@ -2435,7 +2435,7 @@
 # sent_id = tesis:4:95:14b
 # text = Aaga pet teatsambüy.
 # text[spa] = 
-# labels = incomplete
+# labels = complete
 "<Aaga>"
 	"aaga" det @det #1->2
 "<pet>"
@@ -2448,7 +2448,7 @@
 # sent_id = tesis:4:96:15a
 # text = Xike sajaw ik.
 # text[spa] = Yo te veo a ti.
-# labels = incomplete
+# labels = complete
 "<Xike>"
 	"xik" prn pers sg1 emph @nsubj #1->2
 "<sajaw>"
@@ -2492,7 +2492,7 @@
 # sent_id = tesis:4:96:17a
 # text = Teon taxot xikamix.
 # text[spa] = Antonio escondió mi camisa.
-# labels = incomplete
+# labels = complete
 "<Teon>"
 	"Teon" np ant m @nsubj #1->2
 "<taxot>"
