@@ -206,6 +206,18 @@
 5	küy	küy	ADV	_	_	4	advmod	_	_
 6	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = tesis:1:28:11a
+# text = Latsambaran xaweleat, aaga nüx kyaj
+# text[spa] = Ya mordieron a xaweleat, esa muchacha.
+# labels = complete
+1	Latsambaran	tsamb	VERB	_	Aspect=Punt|Definite=Ind|Number=Sing|Person=3|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
+2	xaweleat	xaweleat	NOUN	_	_	1	obj	_	_
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	aaga	aaga	DET	_	_	5	det	_	_
+5	nüx	nüx	NOUN	_	_	2	appos	_	_
+6	kyaj	kiaj	ADV	_	_	5	advmod	_	_
+7	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = tesis:1:28:11b
 # text = Teandeow aaga sow kiün.
 # text[spa] = Aquel puerco se está muriendo.
@@ -269,6 +281,18 @@
 7	peats	peats	NOUN	_	_	5	obj	_	_
 8	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = tesis:1:33:15b
+# text = Kos sanayak te pow ndoj apmeperex.
+# text[spa] = Porque voy a ponerla en el horno después se va a dorar.
+# labels = incomplete check-predicate
+1	Kos	kos	SCONJ	_	_	2	mark	_	_
+2	sanayak	yak	VERB	_	Mood=Irr|Number=Sing|Person=1|Subcat=Tran	6	advcl	_	_
+3	te	tiül	ADP	_	_	4	case	_	_
+4	pow	pow	NOUN	_	_	2	obl	_	_
+5	ndoj	ndoj	ADV	_	_	6	advmod	_	_
+6	apmeperex	perex	ADJ	_	Mood=Irr	0	root	_	_
+7	.	.	PUNCT	_	_	6	punct	_	_
+
 # sent_id = tesis:1:34:16a
 # text = Sambiy aaga naxip sap.
 # text[spa] = Le pegué al borrego gordo.
@@ -321,6 +345,16 @@
 2	nadamüw	dam	ADJ	_	Number=Plur|Person=3	0	root	_	_
 3	.	.	PUNCT	_	_	2	punct	_	_
 
+# sent_id = tesis:1:36:20
+# text = Ladam nine nüx netriste.
+# text[spa] = Ya creció la hembrita que está triste.
+# labels = complete check-relative
+1	Ladam	dam	ADJ	_	Aspect=Punt|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	nine	nine	ADJ	_	_	3	amod	_	_
+3	nüx	nüx	NOUN	_	_	1	nsubj	_	_
+4	netriste	triste	ADJ	_	_	3	acl	_	_
+5	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = tesis:1:38:22a
 # text = Tandeow aaga pet.
 # text[spa] = El perro se murió.
@@ -338,6 +372,26 @@
 2	aaga	aaga	DET	_	_	4	det	_	_
 3	lapat	pat	ADJ	_	Aspect=Punt|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	acl	_	_
 4	pet	pet	NOUN	_	_	1	nsubj	_	_
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:1:39:24a
+# text = Lanandok wüx nasoyky chinchmalinch.
+# text[spa] = Ya pesqué con lo que le llaman chinchorro.
+# labels = complete
+1	Lanandok	ndok	VERB	_	Aspect=Punt|Number=Sing|Person=1|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
+2	wüx	wüx	ADP	_	_	4	case	_	_
+3	nasoyky	soyky	VERB	_	Subcat=Tran	4	acl	_	_
+4	chinchmalinch	chinchmalinch	NOUN	_	_	1	obl	_	_
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:1:41:25b
+# text = Teameyng tíüt mikwal xikoj.
+# text[spa] = Está gateando mi sobrina.
+# labels = complete
+1	Teameyng	meyng	VERB	_	Aspect=Prog|Number=Sing|Person=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
+2	tíüt	tiüt	ADV	_	_	1	advmod	_	_
+3	mikwal	kwal	NOUN	_	Number[psor]=Sing|Person[psor]=3	1	nsubj	_	_
+4	xikoj	koj	NOUN	_	Number[psor]=Sing|Person[psor]=1	3	nmod	_	_
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = tesis:2:44:1
@@ -435,6 +489,17 @@
 4	noiky	no	NUM	_	NumType=Clf	5	nummod	_	_
 5	buelta	vuelta	NOUN	_	_	3	obl	_	_
 6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = tesis:2:48:9b
+# text = Masey, nej ajiür müx.
+# text[spa] = No le importa, él tiene cayuco.
+# labels = complete
+1	Masey	masey	INTJ	_	_	4	discourse	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	nej	nej	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	ajiür	jiür	VERB	_	Number=Sing|Person=3|Subcat=Tran|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	müx	müx	NOUN	_	_	4	obj	_	_
+6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = tesis:2:48:9c
 # text = Majaw nej.
@@ -647,6 +712,17 @@
 1	Aáj	áj	VERB	_	Number=Sing|Person=3|Subcat=Tran|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = tesis:3:60:4b
+# text = Al wüx mes a tas.
+# text[spa] = La taza está sobre la mesa.
+# labels = complete copula locative
+1	Al	al	AUX	_	_	0	root	_	_
+2	wüx	wüx	ADP	_	_	3	case	_	_
+3	mes	mes	NOUN	_	_	1	obl	_	_
+4	a	aaga	DET	_	_	5	det	_	_
+5	tas	tas	NOUN	_	_	1	nsubj	_	_
+6	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = tesis:3:61:5a
 # text = Lajlüy kyaj comida.
 # text[spa] = Ya hay comida.
@@ -768,6 +844,40 @@
 9	che	che	PART	_	Evident=Nfh	8	discourse	_	_
 10	najngow	najngow	NOUN	_	_	8	obj	_	_
 11	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = tesis:3:66:11
+# text = Aaga pet al chetem tiüt.
+# text[spa] = Ese perro está sentado.
+# labels = complete check-tam
+1	Aaga	aaga	DET	_	_	2	det	_	_
+2	pet	pet	NOUN	_	_	4	nsubj	_	_
+3	al	al	AUX	_	_	4	aux	_	_
+4	chetem	chet	VERB	_	Mood=Irr|Number=Sing|Person=3|Subcat=Intr	0	root	_	_
+5	tiüt	tiüt	ADV	_	_	4	advmod	_	_
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = tesis:3:67:12a
+# text = Apwantsam
+# text[spa] = Se va a voltear.
+# labels = complete check-tam
+1	Apwantsam	wants	VERB	_	Mood=Irr|Number=Sing|Person=3|Possessive=Yes|Subcat=Intr	0	root	_	_
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:3:67:12b
+# text = Teawantsaw.
+# text[spa] = Él se está volteando.
+# labels = complete check-tam
+1	Teawantsaw	wants	VERB	_	Aspect=Prog|Number=Sing|Person=3|Possessive=Yes|Subcat=Intr|VerbForm=Fin	0	root	_	_
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:3:67:12c
+# text = Wantsat a karro.
+# text[spa] = El carro se volteó.
+# labels = complete check-tam
+1	Wantsat	wants	VERB	_	Number=Sing|Person=3|Possessive=Yes|Subcat=Intr|Tense=Past|VerbForm=Fin	0	root	_	_
+2	a	aaga	DET	_	_	3	det	_	_
+3	karro	karro	NOUN	_	_	1	nsubj	_	_
+4	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = tesis:3:68:15
 # text = Ngineay tasaparan mi koj nej nwa.
