@@ -1175,6 +1175,17 @@
 2	lermbiyon	mbiy	VERB	_	Aspect=Punt|Number=Plur|Person=2|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
 3	.	.	PUNCT	_	_	2	punct	_	_
 
+# sent_id = tesis:3:79:36c
+# text = ¿Indieman miütün peats a?
+# text[spa] = ¿Quieren comer tortilla?
+# labels = complete check-complement
+1	¿	¿	PUNCT	_	_	2	punct	_	_
+2	Indieman	ndiem	VERB	_	Number=Plur|Person=2|Subcat=Tran|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	miütün	üt	VERB	_	Mood=Sub|Number=Plur|Person=2|Subcat=Tran	2	xcomp	_	_
+4	peats	peats	NOUN	_	_	3	obj	_	_
+5	a	a	PART	_	PronType=Int	2	discourse	_	_
+6	?	?	PUNCT	_	_	2	punct	_	_
+
 # sent_id = tesis:3:79:36d
 # text = Ikona nerdamiün.
 # text[spa] = Ustedes están grandes.
@@ -1229,14 +1240,14 @@
 # labels = complete
 1	Pues	pues	INTJ	_	_	3	discourse	_	_
 2	kyaj	kiaj	ADV	_	_	3	advmod	_	_
-3	xenütyün	üt	VERB	_	Clusivity=In|Mood=Irr|Number=Plur|Person=1|Subcat=Tran	0	root	_	_
+3	xenütyün	üt	VERB	_	Clusivity=Ex|Mood=Irr|Number=Plur|Person=1|Subcat=Tran	0	root	_	_
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = tesis:3:81:38c
 # text = Ximiünan kyaj.
 # text[spa] = Venimos de ahí.
 # labels = complete
-1	Ximiünan	miün	VERB	_	Clusivity=In|Number=Plur|Person=1|Subcat=Intr|Tense=Pres|VerbForm=Fin	0	root	_	_
+1	Ximiünan	miün	VERB	_	Clusivity=Ex|Number=Plur|Person=1|Subcat=Intr|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	kyaj	kiaj	ADV	_	_	1	advmod	_	_
 3	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -1252,6 +1263,42 @@
 6	te	tiül	ADP	_	_	7	case	_	_
 7	pow	pow	NOUN	_	_	5	obl	_	_
 8	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:3:82:40b
+# text = Pues kyaj tanawan kyaj nakieb xikompadre Samuel.
+# text[spa] = Pues salimos de ahí con mi compadre Samuel.
+# labels = incomplete check-preposition
+# note = nakieb < KIEJP "acompañar"
+1	Pues	pues	INTJ	_	_	3	discourse	_	_
+2	kyaj	kiaj	ADV	_	_	3	advmod	_	_
+3	tanawan	naw	VERB	_	Clusivity=Ex|Number=Plur|Person=1|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
+4	kyaj	kiaj	ADV	_	_	3	advmod	_	_
+5	nakieb	nakieb	ADP	_	_	6	case	_	_
+6	xikompadre	kompadre	NOUN	_	Number[psor]=Sing|Person[psor]=1	3	obl	_	_
+7	Samuel	Samuel	PROPN	_	Gender=Masc	6	appos	_	_
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = tesis:4:83:41a
+# text = Lanandok wüx nasoyky chinchmalinch.
+# text[spa] = Ya pesqué con lo que le llaman chinchorro.
+# labels = complete
+1	Lanandok	ndok	VERB	_	Aspect=Punt|Number=Sing|Person=1|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
+2	wüx	wüx	ADP	_	_	4	case	_	_
+3	nasoyky	soyky	VERB	_	Subcat=Tran	4	acl	_	_
+4	chinchmalinch	chinchmalinch	NOUN	_	_	1	obl	_	_
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:4:83:41b
+# text = Pues ngana joyaj lanayak te pow.
+# text[spa] = Pues ahora ahí ya la meto al horno.
+# labels = complete
+1	Pues	pues	INTJ	_	_	4	discourse	_	_
+2	ngana	ngana	ADV	_	_	4	advmod	_	_
+3	joyaj	joyaj	ADV	_	_	4	advmod	_	_
+4	lanayak	yak	VERB	_	Aspect=Punt|Number=Sing|Person=1|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
+5	te	tiül	ADP	_	_	6	case	_	_
+6	pow	pow	NOUN	_	_	4	obl	_	_
+7	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = tesis:4:86:1a
 # text = Xike saxayng.

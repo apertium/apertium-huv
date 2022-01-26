@@ -1218,16 +1218,15 @@
 ^./.$
 
 # sent_id = tesis:3:79:36c
-# text = ¿Indieman miütün peats a?.
+# text = ¿Indieman miütün peats a?
 # text[spa] = 
 # labels = incomplete
 ^¿/¿$
-^Indieman/ndiem$
-^miütün/*miütün$
+^Indieman/I>ndiem>an$
+^miütün/m>iüt>ün$
 ^peats/peats$
 ^a/a$
 ^?/?$
-^./.$
 
 # sent_id = tesis:3:79:36d
 # text = Ikona nerdamiün.
