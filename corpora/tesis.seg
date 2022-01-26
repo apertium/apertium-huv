@@ -1512,7 +1512,12 @@
 # text = Teon takül xik ti kambaj
 # text[spa] = 
 # labels = incomplete
-^7a/*7a$
+^Teon/Teon$
+^takül/t>a>kül$
+^xik/xik$
+^ti/ti$
+^kambaj/kambaj$
+^./.$
 
 # sent_id = tesis:4:91:7b
 # text = Teasajkal ti kambaj.
