@@ -974,10 +974,11 @@
 ^./.$
 
 # sent_id = tesis:3:70:22a
-# text = Awar
+# text = Awar.
 # text[spa] = 
 # labels = incomplete
-^22a/*22a$
+^Awar/A>w>ar$
+^./.$
 
 # sent_id = tesis:3:70:22b
 # text = Tapantsiere.

@@ -891,6 +891,16 @@
 6	nwa	nwa	INTJ	_	_	2	discourse	_	_
 7	.	.	PUNCT	_	_	2	punct	_	_
 
+# sent_id = tesis:3:68:17a
+# text = Nimixkich teakwerrüw andüyiw kyaj.
+# text[spa] = Los niños andan corriendo por ahí.
+# labels = complete check-adverbial
+1	Nimixkich	nimixkich	NOUN	_	_	2	nsubj	_	_
+2	teakwerrüw	kwerr	VERB	_	Aspect=Prog|Number=Plur|Person=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
+3	andüyiw	ndüy	VERB	_	Number=Plur|Person=3|Subcat=Tran|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+4	kyaj	kiaj	ADV	_	_	3	advmod	_	_
+5	.	.	PUNCT	_	_	2	punct	_	_
+
 # sent_id = tesis:3:68:17b
 # text = Andokoj.
 # text[spa] = Ellos pescan.
@@ -898,12 +908,29 @@
 1	Andokoj	ndok	VERB	_	Number=Plur|Person=3|Subcat=Tran|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = tesis:3:69:18
+# text = Teatsojow mijpüw nimixkich.
+# text[spa] = Están jugando sus dos niños.
+# labels = complete
+1	Teatsojow	tsoj	VERB	_	Aspect=Prog|Number=Plur|Person=3|Subcat=Intr|VerbForm=Fin	0	root	_	_
+2	mijpüw	ij	INTJ	_	Number=Plur|Number[psor]=Sing|Person[psor]=3	3	nummod	_	_
+3	nimixkich	nimixkich	NOUN	_	_	1	nsubj	_	_
+4	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = tesis:3:69:19
 # text = Ngom axomüw.
 # text[spa] = No la encuentran.
 # labels = complete
 1	Ngom	ngom	ADV	_	_	2	advmod	_	_
 2	axomüw	xom	VERB	_	Number=Plur|Person=3|Subcat=Tran|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = tesis:3:69:20
+# text = Nejiw apmambiyeranüw.
+# text[spa] = Les van a pegar.
+# labels = complete check-verb
+1	Nejiw	nejiw	PRON	_	Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	apmambiyeranüw	mbiy	VERB	_	Definite=Ind|Mood=Irr|Number=Sing|Number[obj]=Plur|Person=3|Person[obj]=3|Subcat=Tran	0	root	_	_
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = tesis:3:69:21
@@ -915,6 +942,86 @@
 3	miteatiw	teat	NOUN	_	Number[psor]=Plur|Person[psor]=3	2	obj	_	_
 4	nejiw	nejiw	PRON	_	Number=Plur|Person=3|PronType=Prs	3	nmod	_	_
 5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = tesis:3:70:22a
+# text = Awar.
+# text[spa] = Nosostros (dos) salimos.
+# labels = complete
+1	Awar	w	VERB	_	Number=Dual|Person=1|Subcat=Intr|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:3:70:22b
+# text = Tapantsiere.
+# text[spa] = Nosostros (dos) freímos.
+# labels = complete
+1	Tapantsiere	pants	VERB	_	Number=Dual|Person=1|Subcat=Tran|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:3:70:22c
+# text = Apmangalare.
+# text[spa] = Nosostros (dos) vamos a comprar.
+# labels = complete
+1	Apmangalare	ngal	VERB	_	Number=Dual|Person=1|Subcat=Tran|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:3:70:22d
+# text = Teapowiere.
+# text[spa] = Nosostros (dos) estamos horneando.
+# labels = complete
+1	Teapowiere	pow	VERB	_	Aspect=Prog|Number=Dual|Person=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:3:70:22e
+# text = Langalare.
+# text[spa] = Nosostros (dos) ya compramos.
+# labels = complete
+1	Langalare	ngal	VERB	_	Aspect=Punt|Number=Dual|Person=1|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:3:70:22f
+# text = Nadamar.
+# text[spa] = Nosostros (dos) estamos grandes.
+# labels = complete
+1	Nadamar	dam	ADJ	_	Number=Dual|Person=1	0	root	_	_
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:3:70:22g
+# text = Ngochay oxep apmambar andokor.
+# text[spa] = Mañana iremos a pescar puntualmente.
+# labels = complete check-adverbials
+1	Ngochay	ngochay	ADV	_	_	3	advmod	_	_
+2	oxep	oxep	ADV	_	_	3	advmod	_	_
+3	apmambar	mb	VERB	_	Mood=Irr|Number=Dual|Person=1|Subcat=Intr	0	root	_	_
+4	andokor	ndok	VERB	_	Number=Dual|Person=1|Subcat=Tran|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = tesis:3:71:23
+# text = Wantsator.
+# text[spa] = Tú y yo estábamos volteados.
+# labels = complete
+1	Wantsator	wants	VERB	_	Number=Dual|Person=1|Possessive=Yes|Subcat=Intr|Tense=Past|VerbForm=Fin	0	root	_	_
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:3:72:24a
+# text = Teawantsamor.
+# text[spa] = Estamos volteados.
+# labels = complete
+1	Teawantsamor	wants	VERB	_	Aspect=Prog|Number=Dual|Person=1|Possessive=Yes|Subcat=Intr|VerbForm=Fin	0	root	_	_
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:3:72:24b
+# text = Apwantsamor.
+# text[spa] = Vamos a voltearnos.
+# labels = complete
+1	Apwantsamor	wants	VERB	_	Mood=Irr|Number=Dual|Person=1|Possessive=Yes|Subcat=Intr	0	root	_	_
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:3:72:25
+# text = Akoochayor.
+# text[spa] = Nos cortamos.
+# labels = complete
+1	Akoochayor	kooch	VERB	_	Number=Dual|Person=1|Reflexive=Yes|Subcat=Tran|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = tesis:3:73:26
 # text = Awaats.
@@ -944,6 +1051,13 @@
 1	Teapowüüts	pow	VERB	_	Aspect=Prog|Clusivity=In|Number=Plur|Person=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
 2	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = tesis:3:74:28d
+# text = Langalaats.
+# text[spa] = Nosostros (todos) ya compramos.
+# labels = complete
+1	Langalaats	ngal	VERB	_	Aspect=Punt|Clusivity=In|Number=Plur|Person=1|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
+2	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = tesis:3:74:28e
 # text = Apmangalaats.
 # text[spa] = Nosostros (todos) vamos a comprar.
@@ -958,6 +1072,14 @@
 1	Nadamaats	dam	ADJ	_	Clusivity=In|Number=Plur|Person=1	0	root	_	_
 2	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = tesis:3:74:28g
+# text = Teaümíüts majawaats.
+# text[spa] = Soñamos.
+# labels = complete
+1	Teaümíüts	üm	VERB	_	Aspect=Prog|Clusivity=In|Number=Plur|Person=1|Subcat=Intr|VerbForm=Fin	0	root	_	_
+2	majawaats	jaw	VERB	_	Clusivity=In|Mood=Sub|Number=Plur|Person=1|Subcat=Tran	1	advcl	_	_
+3	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = tesis:3:75:29
 # text = Inganyowan noyky tas chaw.
 # text[spa] = ¡Tomen una taza de atole!
@@ -967,6 +1089,56 @@
 3	tas	tas	NOUN	_	_	1	obj	_	_
 4	chaw	chaw	NOUN	_	_	3	nmod	_	_
 5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:3:76:30
+# text = Karryer ingal xikweaj te mplas.
+# text[spa] = ¡Corre y compra lo mío en el mercado!
+# labels = complete check-adverbial
+1	Karryer	karry	VERB	_	Number=Sing|Person=2|Subcat=Intr|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	ingal	ngal	VERB	_	Number=Sing|Person=2|Subcat=Tran|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+3	xikweaj	okweaj	PRON	_	Number[psor]=Sing|Person[psor]=1|Possessive=Yes	2	obj	_	_
+4	te	tiül	ADP	_	_	5	case	_	_
+5	mplas	plas	NOUN	_	_	2	obl	_	_
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:3:76:31
+# text = Cheter.
+# text[spa] = ¡Siéntate!
+# labels = complete
+1	Cheter	chet	VERB	_	Number=Sing|Person=2|Possessive=Yes|Subcat=Intr|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:3:77:32b
+# text = ¿Apmiüt peats a?.
+# text[spa] = ¿Vas a comer tortillas?
+# labels = complete
+1	¿	¿	PUNCT	_	_	2	punct	_	_
+2	Apmiüt	üt	VERB	_	Mood=Irr|Number=Sing|Person=2|Subcat=Tran	0	root	_	_
+3	peats	peats	NOUN	_	_	2	obj	_	_
+4	a	a	PART	_	PronType=Int	2	discourse	_	_
+5	?	?	PUNCT	_	_	2	punct	_	_
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = tesis:3:77:33
+# text = Indiem mirang para nakats peats pues nakats peats.
+# text[spa] = ¿Quieres hacer tortillas suaves?, pues tortillas suaves.
+# labels = complete check-complement check-parataxis
+1	Indiem	ndiem	VERB	_	Number=Sing|Person=2|Subcat=Tran|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	mirang	rang	VERB	_	Mood=Sub|Number=Sing|Person=2|Subcat=Tran	1	ccomp	_	_
+3	para	para	ADP	_	_	5	case	_	_
+4	nakats	nakats	ADJ	_	_	5	amod	_	_
+5	peats	peats	NOUN	_	_	2	obl	_	_
+6	pues	pues	ADV	_	_	8	discourse	_	_
+7	nakats	nakats	ADJ	_	_	8	amod	_	_
+8	peats	peats	NOUN	_	_	1	parataxis	_	_
+9	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:3:77:34a
+# text = Terndyak.
+# text[spa] = Estás hablando.
+# labels = complete
+1	Terndyak	ndyak	VERB	_	Aspect=Prog|Number=Sing|Person=2|Subcat=Tran|VerbForm=Fin	0	root	_	_
+2	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = tesis:3:77:34b
 # text = Lerndyak.
@@ -983,6 +1155,18 @@
 2	nerdam	dam	ADJ	_	Number=Sing|Person=2	0	root	_	_
 3	.	.	PUNCT	_	_	2	punct	_	_
 
+# sent_id = tesis:3:78:36a
+# text = Nwa apinganyowan noyky tas chaw.
+# text[orig] = Nwa apinganyow noyky tas chaw.
+# text[spa] = ¿Verdad van a tomar una taza de atole?
+# labels = complete check-compound
+1	Nwa	nwa	INTJ	_	_	2	discourse	_	_
+2	apinganyowan	ngan	VERB	_	Mood=Irr|Number=Plur|Person=2|Subcat=Tran	0	root	_	_
+3	noyky	no	NUM	_	NumType=Clf	4	nummod	_	_
+4	tas	tas	NOUN	_	_	2	obj	_	_
+5	chaw	chaw	NOUN	_	_	4	nmod	_	_
+6	.	.	PUNCT	_	_	2	punct	_	_
+
 # sent_id = tesis:3:78:36b
 # text = Ikona lermbiyon.
 # text[spa] = Ustedes ya se golpearon.
@@ -998,6 +1182,27 @@
 1	Ikona	ikon	PART	_	Number=Plur|Person=2|PronType=Prs	2	nsubj	_	_
 2	nerdamiün	dam	ADJ	_	Number=Plur|Person=2	0	root	_	_
 3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = tesis:3:79:37a
+# text = Sayaak atne mbayan tiül ndeanche karro kyaj.
+# text[spa] = Ahí siento como temor en el pinche carro.
+# labels = complete check-oblique
+1	Sayaak	yak	VERB	_	Number=Sing|Person=1|Subcat=Intr|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	atne	atne	ADP	_	_	3	case	_	_
+3	mbayan	mbayan	NOUN	_	_	1	obl	_	_
+4	tiül	tiül	ADP	_	_	6	case	_	_
+5	ndeanche	ndeanche	ADJ	_	_	6	amod	_	_
+6	karro	karro	NOUN	_	_	1	obl	_	_
+7	kyaj	kiaj	ADV	_	_	1	advmod	_	_
+8	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:3:79:37b
+# text = Teasaleam peats.
+# text[spa] = Estoy haciendo tortillas.
+# labels = complete
+1	Teasaleam	leam	VERB	_	Aspect=Prog|Number=Sing|Person=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
+2	peats	peats	NOUN	_	_	1	obj	_	_
+3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = tesis:3:79:37c
 # text = Wüx lasapeayün tikambaj.
@@ -1016,6 +1221,23 @@
 # labels = complete
 1	Sanandeow	ndeow	VERB	_	Mood=Irr|Number=Sing|Person=1|Subcat=Intr	0	root	_	_
 2	sanataxey	taxey	VERB	_	Mood=Irr|Number=Sing|Person=1|Subcat=Intr	1	advcl	_	_
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:3:81:38b
+# text = Pues kyaj xenütyün.
+# text[spa] = Pues ahí vamos a comer.
+# labels = complete
+1	Pues	pues	INTJ	_	_	3	discourse	_	_
+2	kyaj	kiaj	ADV	_	_	3	advmod	_	_
+3	xenütyün	üt	VERB	_	Clusivity=In|Mood=Irr|Number=Plur|Person=1|Subcat=Tran	0	root	_	_
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = tesis:3:81:38c
+# text = Ximiünan kyaj.
+# text[spa] = Venimos de ahí.
+# labels = complete
+1	Ximiünan	miün	VERB	_	Clusivity=In|Number=Plur|Person=1|Subcat=Intr|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	kyaj	kiaj	ADV	_	_	1	advmod	_	_
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = tesis:3:81:38d
