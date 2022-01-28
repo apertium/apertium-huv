@@ -1838,8 +1838,8 @@
 # text = Teawarrwarrayej omalüw nejiw.
 # text[spa] = 
 # labels = incomplete
-^Teawarrwarrayej/*Teawarrwarrayej$
-^omalüw/omal/mal$
+^Teawarrwarrayej/Tea>warr>warr>ay>ej$
+^omalüw/o>mal>üw$
 ^nejiw/nejiw$
 ^./.$
 

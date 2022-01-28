@@ -1784,6 +1784,22 @@
 7	akieep	akieep	NOUN	_	_	5	obj	_	_
 8	.	.	PUNCT	_	_	3	punct	_	_
 
+# sent_id = tesis:4:105:28
+# text = Teawarrwarrayej omalüw nejiw.
+# text[spa] = Se están rascando su cabeza.
+# labels = complete check-subject
+1	Teawarrwarrayej	warrwarr	VERB	_	Aspect=Prog|Number=Plur|Person=3|Reflexive=Yes|Subcat=Tran|VerbForm=Fin	0	root	_	_
+2	omalüw	mal	NOUN	_	Number[psor]=Plur|Person[psor]=3	1	nsubj	_	_
+3	nejiw	nejiw	PRON	_	Number=Plur|Person=3|PronType=Prs	2	nmod	_	_
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:4:105:29
+# text = Teaxolxolayej.
+# text[spa] = Se están molestando entre ellos.
+# labels = complete
+1	Teaxolxolayej	xolxol	VERB	_	Aspect=Prog|Number=Plur|Person=3|Reflexive=Yes|Subcat=Tran|VerbForm=Fin	0	root	_	_
+2	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = tesis:4:107:30a
 # text = Naxip.
 # text[spa] = Él está gordo.
@@ -1791,12 +1807,77 @@
 1	Naxip	xip	ADJ	_	Number=Sing|Person=3	0	root	_	_
 2	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = tesis:4:107:30b
+# text = Tanaxepiich a nine sow.
+# text[spa] = Engordé al marranito.
+# labels = incomplete
+1	Tanaxepiich	xepiich	VERB	_	Number=Sing|Person=1|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
+2	a	aaga	DET	_	_	4	det	_	_
+3	nine	nine	ADJ	_	_	4	amod	_	_
+4	sow	sow	NOUN	_	_	1	obj	_	_
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:4:107:31a
+# text = Takwyerr a nüx.
+# text[spa] = La muchacha corrió.
+# labels = complete
+1	Takwyerr	kwyerr	VERB	_	Number=Sing|Person=3|Subcat=Intr|Tense=Past|VerbForm=Fin	0	root	_	_
+2	a	aaga	DET	_	_	3	det	_	_
+3	nüx	nüx	NOUN	_	_	1	nsubj	_	_
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:4:107:31b
+# text = Takwyerreech.
+# text[spa] = La hizo correr (la mamá a la muchacha).
+# labels = complete
+1	Takwyerreech	kwyerreech	VERB	_	Number=Sing|Person=3|Subcat=Intr|Subcat=Tran|Voice=Caus	0	root	_	_
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:4:108:32a
+# text = Atangüw arojpwej.
+# text[spa] = Los tres crecen.
+# labels = complete
+1	Atangüw	tang	VERB	_	Number=Plur|Person=3|Subcat=Intr|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	arojpwej	aroj	NUM	_	NumType=Clf|Number=Plur	1	nsubj	_	_
+3	.	.	PUNCT	_	_	1	punct	_	_
+
 # sent_id = tesis:4:108:32b
 # text = Satangüüch.
 # text[spa] = Hago que crezca (mi hermano).
 # labels = complete
 1	Satangüüch	tang	VERB	_	Number=Sing|Person=1|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Caus	0	root	_	_
 2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:4:108:33
+# text = Üüch noyky besito miteat tempots.
+# text[spa] = Dale un besito a tu padrino.
+# labels = complete check-compound
+1	Üüch	üüch	VERB	_	Number=Sing|Person=2|Subcat=Tran|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	noyky	no	NUM	_	NumType=Clf	3	nummod	_	_
+3	besito	besito	NOUN	_	_	1	obj	_	_
+4	miteat	teat	NOUN	_	Number[psor]=Sing|Person[psor]=2	1	obl	_	_
+5	tempots	tempots	NOUN	_	_	4	compound	_	_
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:4:109:34
+# text = Süüch üs müüt.
+# text[spa] = Le doy maiz para que coma (el puerco).
+# labels = complete
+1	Süüch	üüch	VERB	_	Number=Sing|Person=1|Subcat=Tran|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	üs	üs	NOUN	_	_	1	obj	_	_
+3	müüt	üüt	VERB	_	Mood=Sub|Number=Sing|Person=3|Subcat=Tran	1	advcl	_	_
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:4:109:35
+# text = Tüüch matsam küt mimüm nej.
+# text[spa] = Su mamá lo hizo comer pescado.
+# labels = complete check-adverbial
+1	Tüüch	üüch	VERB	_	Number=Sing|Person=3|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
+2	matsam	tsam	VERB	_	Mood=Sub|Number=Sing|Person=3|Subcat=Tran	1	advcl	_	_
+3	küt	küet	NOUN	_	_	2	obj	_	_
+4	mimüm	müm	NOUN	_	Number[psor]=Sing|Person[psor]=3	1	nsubj	_	_
+5	nej	nej	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nmod	_	_
+6	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = tesis:4:109:36
 # text = Tüüch xik natepich nej kawüx.

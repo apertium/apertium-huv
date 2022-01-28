@@ -2685,26 +2685,25 @@
 
 # sent_id = tesis:4:105:28
 # text = Teawarrwarrayej omalüw nejiw.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Se están rascando su cabeza.
+# labels = complete check-subject
 "<Teawarrwarrayej>"
-	"*Teawarrwarrayej"
+	"warrwarr" v tv refl prog pl3 @root #1->0
 "<omalüw>"
-	"omal" n
-	"mal" n px3pl
+	"mal" n px3pl @nsubj #2->1
 "<nejiw>"
-	"nejiw" prn pers pl3
+	"nejiw" prn pers pl3 @nmod #3->2
 "<.>"
-	"." sent @punct
+	"." sent @punct #4->1
 
 # sent_id = tesis:4:105:29
 # text = Teaxolxolayej.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Se están molestando entre ellos.
+# labels = complete
 "<Teaxolxolayej>"
-	"*Teaxolxolayej"
+	"xolxol" v tv refl prog pl3 @root #1->0
 "<.>"
-	"." sent @punct
+	"." sent @punct #2->1
 
 # sent_id = tesis:4:107:30a
 # text = Naxip.
@@ -2717,54 +2716,51 @@
 
 # sent_id = tesis:4:107:30b
 # text = Tanaxepiich a nine sow.
-# text[spa] = 
+# text[spa] = Engordé al marranito.
 # labels = incomplete
 "<Tanaxepiich>"
-	"*Tanaxepiich"
+	"xepiich" v tv past sg1 @root #1->0
 "<a>"
-	"aaga" det @det
+	"aaga" det @det #2->4
 "<nine>"
-	"nine" adj
-	"nine" n
-	"a" qst
-		"nin" n
+	"nine" adj @amod #3->4
 "<sow>"
-	"sow" n
+	"sow" n @obj #4->1
 "<.>"
-	"." sent @punct
+	"." sent @punct #5->1
 
 # sent_id = tesis:4:107:31a
 # text = Takwyerr a nüx.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = La muchacha corrió.
+# labels = complete
 "<Takwyerr>"
-	"*Takwyerr"
+	"kwyerr" v iv past sg3 @root #1->0
 "<a>"
-	"aaga" det @det
+	"aaga" det @det #2->3
 "<nüx>"
-	"nüx" n
+	"nüx" n @nsubj #3->1
 "<.>"
-	"." sent @punct
+	"." sent @punct #4->1
 
 # sent_id = tesis:4:107:31b
 # text = Takwyerreech.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = La hizo correr (la mamá a la muchacha).
+# labels = complete
 "<Takwyerreech>"
-	"*Takwyerreech"
+	"kwyerreech" v tv iv caus sg3 @root #1->0
 "<.>"
-	"." sent @punct
+	"." sent @punct #2->1
 
 # sent_id = tesis:4:108:32a
 # text = Atangüw arojpwej.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Los tres crecen.
+# labels = complete
 "<Atangüw>"
-	"tang" v iv pres pl3
+	"tang" v iv pres pl3 @root #1->0
 "<arojpwej>"
-	"*arojpwej"
+	"aroj" num c2 pl @nsubj #2->1
 "<.>"
-	"." sent @punct
+	"." sent @punct #3->1
 
 # sent_id = tesis:4:108:32b
 # text = Satangüüch.
@@ -2778,52 +2774,49 @@
 # sent_id = tesis:4:108:33
 # text = Üüch noyky besito miteat tempots.
 # text[spa] = Dale un besito a tu padrino.
-# labels = incomplete
+# labels = complete check-compound
 "<Üüch>"
-	"üüch" v tv pres sg2
+	"üüch" v tv pres sg2 @root #1->0
 "<noyky>"
-	"no" num c1
+	"no" num c1 @nummod #2->3
 "<besito>"
-	"besito" n
+	"besito" n @obj #3->1
 "<miteat>"
-	"teat" n px2sg
+	"teat" n px2sg @obl #4->1
 "<tempots>"
-	"*tempots"
+	"tempots" n @compound #5->4
 "<.>"
-	"." sent @punct
+	"." sent @punct #6->1
 
 # sent_id = tesis:4:109:34
 # text = Süüch üs müüt.
 # text[spa] = Le doy maiz para que coma (el puerco).
-# labels = incomplete
+# labels = complete
 "<Süüch>"
-	"üüch" v tv pres sg1
+	"üüch" v tv pres sg1 @root #1->0
 "<üs>"
-	"üs" n
+	"üs" n @obj #2->1
 "<müüt>"
-	"üüt" n px2sg
-	"üüt" n px3sg
+	"üüt" v tv subj sg3 @advcl #3->1
 "<.>"
-	"." sent @punct
+	"." sent @punct #4->1
 
 # sent_id = tesis:4:109:35
 # text = Tüüch matsam küt mimüm nej.
-# text[spa] = 
-# labels = incomplete
+# text[spa] = Su mamá lo hizo comer pescado.
+# labels = complete check-adverbial
 "<Tüüch>"
-	"üüch" v tv past sg2
-	"üüch" v tv past sg3
+	"üüch" v tv past sg3 @root #1->0
 "<matsam>"
-	"*matsam"
+	"tsam" v tv subj sg3 @advcl #2->1
 "<küt>"
-	"küet" n
+	"küet" n @obj #3->2
 "<mimüm>"
-	"müm" n px2sg
-	"müm" n px3sg
+	"müm" n px3sg @nsubj #4->1
 "<nej>"
-	"nej" prn pers sg3
+	"nej" prn pers sg3 @nmod #5->4
 "<.>"
-	"." sent @punct
+	"." sent @punct #6->1
 
 # sent_id = tesis:4:109:36
 # text = Tüüch xik natepich nej kawüx.
