@@ -284,7 +284,7 @@
 # sent_id = tesis:1:33:15b
 # text = Kos sanayak te pow ndoj apmeperex.
 # text[spa] = Porque voy a ponerla en el horno después se va a dorar.
-# labels = incomplete check-predicate
+# labels = complete check-predicate
 1	Kos	kos	SCONJ	_	_	2	mark	_	_
 2	sanayak	yak	VERB	_	Mood=Irr|Number=Sing|Person=1|Subcat=Tran	6	advcl	_	_
 3	te	tiül	ADP	_	_	4	case	_	_
@@ -1267,7 +1267,7 @@
 # sent_id = tesis:3:82:40b
 # text = Pues kyaj tanawan kyaj nakieb xikompadre Samuel.
 # text[spa] = Pues salimos de ahí con mi compadre Samuel.
-# labels = incomplete check-preposition
+# labels = complete check-preposition
 # note = nakieb < KIEJP "acompañar"
 1	Pues	pues	INTJ	_	_	3	discourse	_	_
 2	kyaj	kiaj	ADV	_	_	3	advmod	_	_
@@ -1810,7 +1810,7 @@
 # sent_id = tesis:4:107:30b
 # text = Tanaxepiich a nine sow.
 # text[spa] = Engordé al marranito.
-# labels = incomplete
+# labels = complete
 1	Tanaxepiich	xepiich	VERB	_	Number=Sing|Person=1|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
 2	a	aaga	DET	_	_	4	det	_	_
 3	nine	nine	ADJ	_	_	4	amod	_	_
@@ -1900,12 +1900,91 @@
 4	najrrok	jrrok	VERB	_	Mood=Sub|Number=Sing|Person=1|Subcat=Intr	2	xcomp	_	_
 5	.	.	PUNCT	_	_	2	punct	_	_
 
+# sent_id = tesis:4:110:38
+# text = Isaj miteaats miün müüch xik nangaj.
+# text[spa] = Dile al sacerdote que venga que me dé la bendición.
+# labels = complete check-complement check-objects
+1	Isaj	saj	VERB	_	Number=Sing|Person=2|Subcat=Tran|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	miteaats	miteaats	NOUN	_	_	1	obl	_	_
+3	miün	iün	VERB	_	Mood=Sub|Number=Sing|Person=3|Subcat=Intr	1	ccomp	_	_
+4	müüch	üüch	VERB	_	Mood=Sub|Number=Sing|Person=3|Subcat=Tran	3	advcl	_	_
+5	xik	xik	PRON	_	Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+6	nangaj	nangaj	NOUN	_	_	4	iobj	_	_
+7	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:4:111:39
+# text = Aaga naxey kyaj tüüch xik najüy.
+# text[spa] = Este señor me hizo caminar.
+# labels = complete check-complement check-objects
+1	Aaga	aaga	DET	_	_	2	det	_	_
+2	naxey	naxey	NOUN	_	_	4	nsubj	_	_
+3	kyaj	kiaj	ADV	_	_	2	advmod	_	_
+4	tüüch	üüch	VERB	_	Number=Sing|Person=3|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
+5	xik	xik	PRON	_	Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+6	najüy	jüy	VERB	_	Mood=Sub|Number=Sing|Person=1|Subcat=Tran	4	xcomp	_	_
+7	.	.	PUNCT	_	_	4	punct	_	_
+
 # sent_id = tesis:4:111:40a
 # text = Sanajiün.
 # text[spa] = Voy a bailar.
 # labels = complete
 1	Sanajiün	jiün	VERB	_	Mood=Irr|Number=Sing|Person=1|Subcat=Intr	0	root	_	_
 2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:4:112:40b
+# text = Tijchan xik najiün.
+# text[spa] = Ustedes hicieron que bailara.
+# labels = complete check-complement check-objects
+1	Tijchan	üüch	VERB	_	Number=Plur|Person=2|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
+2	xik	xik	PRON	_	Number=Sing|Person=1|PronType=Prs	1	obj	_	_
+3	najiün	jiün	VERB	_	Mood=Sub|Number=Sing|Person=1|Subcat=Intr	1	xcomp	_	_
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:4:112:41
+# text = Tüjchiür majchikyaw.
+# text[spa] = Tú y yo hicimos que saltaran.
+# labels = complete check-complement
+1	Tüjchiür	üüch	VERB	_	Number=Dual|Person=1|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
+2	majchikyaw	jchiky	VERB	_	Mood=Sub|Number=Plur|Person=3|Subcat=Intr	1	xcomp	_	_
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:4:112:42a
+# text = Tüjchyüs majküy.
+# text[spa] = Lo hice enojar.
+# labels = complete check-complement
+1	Tüjchyüs	üüch	VERB	_	Number=Sing|Person=1|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
+2	majküy	jküy	VERB	_	Mood=Sub|Number=Sing|Person=3|Subcat=Intr	1	xcomp	_	_
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:4:112:42b
+# text = Tüüch xik najküy.
+# text[spa] = Me hizo enojar.
+# labels = complete check-complement check-objects
+1	Tüüch	üüch	VERB	_	Number=Sing|Person=3|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
+2	xik	xik	PRON	_	Number=Sing|Person=1|PronType=Prs	1	obj	_	_
+3	najküy	jküy	VERB	_	Mood=Sub|Number=Sing|Person=1|Subcat=Intr	1	xcomp	_	_
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:4:113:43
+# text = Tüüch xik najiün aaga monson kyaj.
+# text[spa] = Esta música me hizo bailar.
+# labels = complete check-complement check-objects
+1	Tüüch	üüch	VERB	_	Number=Sing|Person=3|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
+2	xik	xik	PRON	_	Number=Sing|Person=1|PronType=Prs	1	obj	_	_
+3	najiün	jiün	VERB	_	Mood=Sub|Number=Sing|Person=1|Subcat=Intr	1	xcomp	_	_
+4	aaga	aaga	DET	_	_	5	det	_	_
+5	monson	monson	NOUN	_	_	1	nsubj	_	_
+6	kyaj	kiaj	ADV	_	_	5	advmod	_	_
+7	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:4:113:44
+# text = Tüüch ikor majchikyar.
+# text[spa] = Hizo que saltaramos.
+# labels = complete check-complement check-objects
+1	Tüüch	üüch	VERB	_	Number=Sing|Person=3|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
+2	ikor	ikor	PRON	_	Number=Dual|Person=1|PronType=Prs	1	obj	_	_
+3	majchikyar	jchiky	VERB	_	Mood=Sub|Number=Dual|Person=1|Subcat=Intr	1	xcomp	_	_
+4	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = tesis:4:114:45a
 # text = Tajmbajas a pow.
@@ -1915,4 +1994,40 @@
 2	a	aaga	DET	_	_	3	det	_	_
 3	pow	pow	NOUN	_	_	1	obj	_	_
 4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:4:114:45b
+# text = Tüüch xik najmbaj a pow a Juan.
+# text[spa] = Juan hizo que yo rompiera el horno.
+# labels = complete check-complement check-objects
+1	Tüüch	üüch	VERB	_	Number=Sing|Person=3|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
+2	xik	xik	PRON	_	Number=Sing|Person=1|PronType=Prs	1	obj	_	_
+3	najmbaj	jmbaj	VERB	_	Mood=Sub|Number=Sing|Person=1|Subcat=Tran	1	xcomp	_	_
+4	a	aaga	DET	_	_	5	det	_	_
+5	pow	pow	NOUN	_	_	3	obj	_	_
+6	a	aaga	DET	_	_	7	det	_	_
+7	Juan	Juan	PROPN	_	Gender=Masc	1	nsubj	_	_
+8	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:4:115:46
+# text = Tüjchyüs majmbaj a pow a Juan.
+# text[spa] = Hice que Juan rompiera la horno.
+# labels = complete check-complement check-objects check-structure
+1	Tüjchyüs	üüch	VERB	_	Number=Sing|Person=1|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
+2	majmbaj	jmbaj	VERB	_	Mood=Sub|Number=Sing|Person=3|Subcat=Tran	1	xcomp	_	_
+3	a	aaga	DET	_	_	4	det	_	_
+4	pow	pow	NOUN	_	_	2	obj	_	_
+5	a	aaga	DET	_	_	6	det	_	_
+6	Juan	Juan	PROPN	_	Gender=Masc	1	obj	_	_
+7	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tesis:4:115:47
+# text = Sanajchyün ikon mijmbajan a pow.
+# text[spa] = Vamos hacer que rompan el horno.
+# labels = complete check-complement check-objects
+1	Sanajchyün	üüch	VERB	_	Clusivity=In|Mood=Irr|Number=Plur|Person=1|Subcat=Tran	0	root	_	_
+2	ikon	ikon	PRON	_	Number=Plur|Person=2|PronType=Prs	1	obj	_	_
+3	mijmbajan	jmbaj	VERB	_	Mood=Sub|Number=Plur|Person=2|Subcat=Tran	1	xcomp	_	_
+4	a	aaga	DET	_	_	5	det	_	_
+5	pow	pow	NOUN	_	_	3	obj	_	_
+6	.	.	PUNCT	_	_	1	punct	_	_
 

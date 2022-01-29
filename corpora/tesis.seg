@@ -302,7 +302,7 @@
 # text = Aaga nakants jal saneay.
 # text[spa] = 
 # labels = incomplete
-^Aaga/aaga$
+^Aaga/Aaga$
 ^nakants/kants$
 ^jal/jal$
 ^saneay/aneay$
@@ -879,7 +879,7 @@
 # text = Aaga pet al chetem tiüt.
 # text[spa] = 
 # labels = incomplete
-^Aaga/aaga$
+^Aaga/Aaga$
 ^pet/pet$
 ^al/al$
 ^chetem/chet$
@@ -1409,7 +1409,7 @@
 # text = Aaga pet atsamb a miüs.
 # text[spa] = 
 # labels = incomplete
-^Aaga/aaga$
+^Aaga/Aaga$
 ^pet/pet$
 ^atsamb/tsamb$
 ^a/a$
@@ -1429,7 +1429,7 @@
 # text = Aaga pet teatsambüy.
 # text[spa] = 
 # labels = incomplete
-^Aaga/aaga$
+^Aaga/Aaga$
 ^pet/pet$
 ^teatsambüy/tsamb$
 ^./.$
@@ -1551,7 +1551,7 @@
 # text = Aaga pet teatsamb a miüs.
 # text[spa] = 
 # labels = incomplete
-^Aaga/aaga$
+^Aaga/Aaga$
 ^pet/pet$
 ^teatsamb/tsamb$
 ^a/a$
@@ -1641,7 +1641,7 @@
 # text = Aaga pet atsamb a miüs.
 # text[spa] = 
 # labels = incomplete
-^Aaga/aaga$
+^Aaga/Aaga$
 ^pet/pet$
 ^atsamb/tsamb$
 ^a/a$
@@ -1652,7 +1652,7 @@
 # text = Aaga pet teatsambüy.
 # text[spa] = 
 # labels = incomplete
-^Aaga/aaga$
+^Aaga/Aaga$
 ^pet/pet$
 ^teatsambüy/tsamb$
 ^./.$
@@ -1922,7 +1922,7 @@
 # text = Tüüch matsam küt mimüm nej.
 # text[spa] = 
 # labels = incomplete
-^Tüüch/üüch$
+^Tüüch/T>üüch$
 ^matsam/*matsam$
 ^küt/küet$
 ^mimüm/müm$
@@ -1933,7 +1933,7 @@
 # text = Tüüch xik natepich nej kawüx.
 # text[spa] = 
 # labels = incomplete
-^Tüüch/üüch$
+^Tüüch/T>üüch$
 ^xik/xik$
 ^natepich/tepich$
 ^nej/nej$
@@ -1954,10 +1954,10 @@
 # text = Isaj miteaats miün müüch xik nangaj.
 # text[spa] = 
 # labels = incomplete
-^Isaj/saj$
-^miteaats/miteaats/teaats$
+^Isaj/I>saj$
+^miteaats/miteaats$
 ^miün/miün$
-^müüch/üüch$
+^müüch/m>üüch$
 ^xik/xik$
 ^nangaj/nangaj$
 ^./.$
@@ -1966,28 +1966,28 @@
 # text = Aaga naxey kyaj tüüch xik najüy.
 # text[spa] = 
 # labels = incomplete
-^Aaga/aaga$
+^Aaga/Aaga$
 ^naxey/naxey$
 ^kyaj/kiaj$
 ^tüüch/üüch$
 ^xik/xik$
-^najüy/najüy/jüy$
+^najüy/na>jüy$
 ^./.$
 
 # sent_id = tesis:4:111:40a
 # text = Sanajiün.
 # text[spa] = 
 # labels = incomplete
-^Sanajiün/jiün$
+^Sanajiün/Sa>na>jiün$
 ^./.$
 
 # sent_id = tesis:4:112:40b
 # text = Tijchan xik najiün.
 # text[spa] = 
 # labels = incomplete
-^Tijchan/*Tijchan$
+^Tijchan/T>i>jchan$
 ^xik/xik$
-^najiün/naj/jiün$
+^najiün/na>jiün$
 ^./.$
 
 # sent_id = tesis:4:112:41
@@ -2010,7 +2010,7 @@
 # text = Tüüch xik najküy.
 # text[spa] = 
 # labels = incomplete
-^Tüüch/üüch$
+^Tüüch/T>üüch$
 ^xik/xik$
 ^najküy/jküy$
 ^./.$
@@ -2019,9 +2019,9 @@
 # text = Tüüch xik najiün aaga monson kyaj.
 # text[spa] = 
 # labels = incomplete
-^Tüüch/üüch$
+^Tüüch/T>üüch$
 ^xik/xik$
-^najiün/naj/jiün$
+^najiün/na>jiün$
 ^aaga/aaga$
 ^monson/monson$
 ^kyaj/kiaj$
@@ -2031,7 +2031,7 @@
 # text = Tüüch ikor majchikyar.
 # text[spa] = 
 # labels = incomplete
-^Tüüch/üüch$
+^Tüüch/T>üüch$
 ^ikor/ikor$
 ^majchikyar/jchiky$
 ^./.$
@@ -2049,7 +2049,7 @@
 # text = Tüüch xik najmbaj a pow a Juan.
 # text[spa] = 
 # labels = incomplete
-^Tüüch/üüch$
+^Tüüch/T>üüch$
 ^xik/xik$
 ^najmbaj/jmbaj$
 ^a/a$
