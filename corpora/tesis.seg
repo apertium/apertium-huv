@@ -76,7 +76,7 @@
 # text = Tasaj che mikwal nej aaga nüx.
 # text[spa] = 
 # labels = incomplete
-^Tasaj/saj$
+^Tasaj/T>a>saj$
 ^che/che$
 ^mikwal/mi>kwal$
 ^nej/nej$
@@ -88,7 +88,7 @@
 # text = Lanayamban aaga nine küünch.
 # text[spa] = 
 # labels = incomplete
-^Lanayamban/yamb$
+^Lanayamban/La>na>yamb$
 ^aaga/aaga$
 ^nine/nine$
 ^küünch/küünch$
@@ -98,8 +98,8 @@
 # text = Tandeow nop pet.
 # text[spa] = 
 # labels = incomplete
-^Tandeow/ndeow$
-^nop/no$
+^Tandeow/T>a>ndeow$
+^nop/no>p$
 ^pet/pet$
 ^./.$
 
@@ -133,9 +133,9 @@
 # text = Ngana majün e üs.
 # text[spa] = 
 # labels = incomplete
-^Ngana/ngan+a$
-^majün/jün$
-^e/aaga$
+^Ngana/Ngana$
+^majün/m>a>jün$
+^e/e$
 ^üs/üs$
 ^./.$
 
@@ -172,7 +172,7 @@
 # text[spa] = 
 # labels = incomplete
 ^Ngana/Ngana$
-^ikona/ikon$
+^ikona/ikon>a$
 ^indieman/ndiem$
 ^mitiün/m>i>ti>ün$
 ^aaga/aaga$
@@ -197,7 +197,7 @@
 # text = Sanaxelxel ajküw nimixnine küt küy.
 # text[spa] = 
 # labels = incomplete
-^Sanaxelxel/xelxel$
+^Sanaxelxel/Sa>na>xelxel$
 ^ajküw/ajküw$
 ^nimixnine/nimixnine$
 ^küt/küet$
@@ -220,7 +220,7 @@
 # text = Teandeow aaga sow kiün.
 # text[spa] = 
 # labels = incomplete
-^Teandeow/ndeow$
+^Teandeow/Te>a>ndeow$
 ^aaga/aaga$
 ^sow/sow$
 ^kiün/kiün$
@@ -230,9 +230,9 @@
 # text = Tandeow aaga napat pet.
 # text[spa] = 
 # labels = incomplete
-^Tandeow/ndeow$
+^Tandeow/T>a>ndeow$
 ^aaga/aaga$
-^napat/pat$
+^napat/na>pat$
 ^pet/pet$
 ^./.$
 
@@ -240,13 +240,13 @@
 # text = Mikamix a naxey kyaj raan wüx angal.
 # text[spa] = 
 # labels = incomplete
-^Mikamix/kamix$
+^Mikamix/Mi>kamix$
 ^a/a$
 ^naxey/naxey$
-^kyaj/kiaj$
-^raan/rran$
+^kyaj/kyaj$
+^raan/raan$
 ^wüx/wüx$
-^angal/ngal$
+^angal/a>ngal$
 ^./.$
 
 # sent_id = tesis:1:32:14b
