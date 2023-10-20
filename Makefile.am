@@ -37,10 +37,10 @@ huv.autoseg.hfst: huv.seg.hfst
 	hfst-fst2fst -w $< -o $@
 
 huv.mor.hfst: huv.gen.hfst huv.mor.twol.hfst
-	hfst-compose-intersect -1 huv.gen.hfst -2 huv.mor.twol.hfst | hfst-realign | hfst-invert -o $@
+	hfst-compose-intersect -1 huv.gen.hfst -2 huv.mor.twol.hfst | hfst-minimise | hfst-realign | hfst-invert -o $@
 
 huv.gen.hfst: huv.lexc.hfst huv.twol.hfst
-	hfst-compose-intersect -1 huv.lexc.hfst -2 huv.twol.hfst | hfst-realign -o $@
+	hfst-compose-intersect -1 huv.lexc.hfst -2 huv.twol.hfst | hfst-minimise | hfst-realign -o $@
 
 huv.twol.hfst: apertium-huv.huv.twol
 	hfst-twolc $< -o $@
@@ -73,7 +73,7 @@ $(LANG1).autogen.att.gz: $(LANG1).gen.hfst
 
 #hfst-invert $< | hfst-invert | hfst-fst2txt | gzip -9 -c > $@
 $(LANG1).automorf.att.gz: $(LANG1).mor.hfst huv.spellrelax.hfst
-	hfst-invert $< |  hfst-compose -F -1 - -2 huv.spellrelax.hfst  | hfst-invert | hfst-fst2txt | gzip -9 -c > $@
+	hfst-invert $< |  hfst-compose -F -1 - -2 huv.spellrelax.hfst  | hfst-invert | hfst-eliminate-flags | hfst-fst2txt | gzip -9 -c > $@
 
 $(LANG1).autoseg.att.gz: $(LANG1).seg.hfst
 	hfst-fst2txt $< | gzip -9 -c > $@

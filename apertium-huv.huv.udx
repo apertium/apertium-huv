@@ -56,7 +56,6 @@
 1	_	cnjsub	_	_	_	SCONJ	_	_
 1	_	cop	_	_	_	AUX	_	_
 1	_	det	_	_	_	DET	_	_
-1	_	emph	_	_	_	PART	_	_
 1	_	evid	_	_	_	PART	Evident=Nfh	_
 1	_	guio	_	_	_	PUNCT	_	_
 1	_	ij	_	_	_	INTJ	_	_

@@ -134,6 +134,8 @@ Interyecciones ;
 Posicionales ;
 Símbolos ;
 Miscellanea ;
+Irregulares ; 
+Infinitivos ;
 Digits ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -393,6 +395,10 @@ LEXICON V-IV
 LEXICON V-POS 
 
 %<v%>%<iv%>: # ;
+
+LEXICON V-INF-SPA 
+
+%<v%>%<inf%>: # ; 
 
 LEXICON POSS 
 
@@ -688,6 +694,7 @@ aaga:e DET ; ! ""
 
 ngün:ngün DET ; ! "cuál"
 
+cada:cada DET ; ! ""
 
 LEXICON Numeros 
 
@@ -716,6 +723,9 @@ gajpokiy:gajpokiy NUM ; ! "diecinueve"
 
 nimiow:nimiow NUM ; ! "veinte"
 miow:miow NUM ; ! "veinte"
+
+doce:doce NUM ; ! "doce"
+ochenta:ochenta NUM ; ! "ochenta"
 
 LEXICON Sustantivos 
 
@@ -972,6 +982,7 @@ mira:mira N1 ; ! "mira"
 mirra:mirra N1 ; ! "mirra"
 molino:molino N1 ; ! "molino"
 mol:mol N1 ; ! "mol"
+mole:mole N1 ; ! "mole"
 morada:morada N1 ; ! "morada"
 morral:morral N1 ; ! "morral"
 mostaza:mostaza N1 ; ! "mostaza"
@@ -1209,6 +1220,7 @@ nembiy:nembiy N1 ; ! "que mata"
 nembolooch:nembolooch N1 ; ! "aparición, visión; duende"
 nenajiüt:nenajiüt N1 ; ! "que tiene autoridad"
 nench:nench N1 ; ! "muchacho, jóven"
+kich:kich N1 ; ! "muchacho"
 nendeak:nendeak N1 ; ! "voz, que habla"
 nendüy:nendüy N1 ; ! "curandero, sabio"
 neneay:neneay N1 ; ! "dueño"
@@ -1273,6 +1285,7 @@ op:op N1 ; ! "zacate; hoja; roble"
 opang:opang N1 ; ! "cáscara"
 os:os N1 ; ! "maíz"
 osaab:osa%{ː%}b N1 ; ! "semilla"
+otüeng:otüeng N1 ; ! "pared" ! FIXME: Check
 otüengeran:otüengeran N1 ; ! "abdomen, vientre, barriga"
 owixeran:owixeran N1 ; ! "brazo"
 oxet:oxet N1 ; ! "ancho"
@@ -1404,6 +1417,10 @@ wüy:wüy N1 ; ! "el tlacuache, la zarigüeya (mamífero: Didelphis marsupialis)
 xide:xide N1 ; ! "el tipo, el amigo (sin respeto)"
 xiig:xi%{ː%}g N1 ; ! "el cigarro"
 
+eskwel:eskwel N1 ; ! "escuela"
+eskwel:escuel N1 ; ! "escuela"
+kamiong:kamiong N1 ; ! "camión"
+kamiong:camión N1 ; ! "camión"
 
 bíümb:bíümb N1 ; ! "fuego"
 chép:chép N1 ; ! "muela"
@@ -1444,6 +1461,57 @@ chinchmalinch:chinchmalinch N1 ; ! "chinchorro"
 najngow:najngow N1 ; ! "caldo"
 plas:plas N1 ; ! "plaza"
 moch:moch N1 ; ! "miedo"
+
+yong:yong N1 ; ! "sarna"
+yax:yax N1 ; ! "aguacate"
+mango:mango N1 ; ! ""
+boy:boy N1 ; ! ""
+carro:carro N1 ; ! ""
+sauda:sauda N1 ; ! ""
+calle:calle N1 ; ! ""
+bur:bur N1 ; ! ""
+radio:radio N1 ; ! ""
+fuerza:fuerza N1 ; ! ""
+
+zapoteco:zapoteco N1 ; ! ""
+alambre:alambre N1 ; ! ""
+piedra:piedra N1 ; ! ""
+sombrer:sombrer N1 ; ! "sombrero"
+xabon:xabon N1 ; ! "jabón"
+carreta:carret N1 ; ! ""
+carreta:karet N1 ; ! ""
+carreta:carreta N1 ; ! ""
+xak:xak N1 ; ! "tortuga caray"
+xoob:xoob N1 ; ! "sonaja"
+war:war N1 ; ! "rata"
+vak:vak N1 ; ! "vaca"
+
+pep:pep N1 ; ! "vejiga"
+mend:mend N1 ; ! "último hijo"
+mbalsong:mbalsong N1 ; ! "sobeo"
+billete:billete N1 ; ! ""
+valor:valor N1 ; ! ""
+vidre:vidre N1 ; ! ""
+vestida:vestida N1 ; ! ""
+veladora:veladora N1 ; ! ""
+vak:vak N1 ; ! ""
+harin:harin N1 ; ! ""
+gas:gas N1 ; ! ""
+doming:doming N1 ; ! ""
+carbonato:carbonato N1 ; ! ""
+café:café N1 ; ! ""
+bolsa:bolsa N1 ; ! ""
+bas:bas N1 ; ! ""
+bander:bander N1 ; ! ""
+balón:balón N1 ; ! ""
+
+comandante:comandante N1 ; ! ""
+
+lasta:lasta N1 ; ! "lástima"
+
+sarral:sarral N1 ; ! "pantalones"
+monjiüng:monjiüng N1 ; ! "baile"
+xikwüw:xikwüw N1 ; ! "venado"
 
 LEXICON Propios 
 
@@ -1848,6 +1916,10 @@ ndeak:ndeak V-TV ; ! "hablar"
 ndeak:ndyak V-TV ; ! "hablar" 
 tsamb:ts%{R%}amb V-TV ; ! "soltar"
 
+jndek:jndek V-IV ; ! "saler humo"
+jndok:jndok V-IV ; ! "saler humo"
+jndoik:jndoik V-IV ; ! "tener hipo"
+
 jmbaj:jmbaj V-TV ; ! "romper"
 
 ndiem:ndiem V-TV ; ! "querer"
@@ -2007,7 +2079,7 @@ tsoriich:tsoriich V-TV ; ! "lo devuelve"
 tsünd:tsünd V-TV ; ! "lo toca "
 tüch:tüch V-TV ; ! "lo alcanza"
 tün:tün V-TV ; ! "lo pide"
-üet:üet V-TV ; ! "lo come"
+üet:üet V-TV ; ! "lo come" ! FIXME: p.382 paradigma 45. 3sg.pres = üet
 wichwich:wichwich V-TV ; ! "lo mece; lo menea"
 wiig:wi%{ː%}g V-TV ; ! "lo desgrana "
 wikiach:wikiach V-TV ; ! "da a luz"
@@ -2237,6 +2309,19 @@ ngwaj:ngwaj INTJ ; ! "¿verdad?"
 ngwa:ngwa INTJ ; ! "¿verdad?"
 nwa:nwa INTJ ; ! "¿verdad?"
 wül:wül INTJ ; ! "¿dónde está?"
+
+LEXICON Irregulares
+
+%<pres%>%<sg3%>üet%<v%>%<tv%>:üet # ;
+%<pres%>%<sg3%>üet%<v%>%<iv%>:üet # ;
+%<pres%>%<sg3%>üet%<v%>%<tv%>:it # ;
+%<pres%>%<sg3%>üet%<v%>%<iv%>:iret # ;
+
+LEXICON Infinitivos
+
+rogar:rogar V-INF-SPA ; 
+cumplir:cumplir V-INF-SPA ; 
+respectar:respectar V-INF-SPA ; 
 
 LEXICON Símbolos
 
